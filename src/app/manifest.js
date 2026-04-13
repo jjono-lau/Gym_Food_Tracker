@@ -1,0 +1,18 @@
+export default function manifest() {
+  return {
+    name: "GlowUp Gym & Food Tracker",
+    short_name: "GlowUp",
+    start_url: "/",
+    display: "standalone",
+    background_color: "#fff8f0",
+    theme_color: "#ffb7a2",
+    orientation: "portrait-primary",
+    icons: [
+      {
+        src: "/favicon.ico",
+        sizes: "any",
+        type: "image/x-icon",
+      },
+    ],
+  };
+}

@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+:root {
+  --pink: #fadadd;
+  --lavender: #e6d6ff;
+  --cream: #fff8f0;
+  --sage: #ddeedb;
+  --peach: #ffb7a2;
+  --ink: #2b1b2d;
+  --muted: #6b5b6e;
+}
+
+@theme inline {
+  --color-pink: var(--pink);
+  --color-lavender: var(--lavender);
+  --color-cream: var(--cream);
+  --color-sage: var(--sage);
+  --color-peach: var(--peach);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --font-sans: var(--font-body);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cream);
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(250, 218, 221, 0.5), transparent 35%),
+    radial-gradient(circle at 82% 8%, rgba(230, 214, 255, 0.45), transparent 34%),
+    radial-gradient(circle at 20% 82%, rgba(221, 238, 219, 0.45), transparent 32%),
+    linear-gradient(90deg, rgba(43, 27, 45, 0.04) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(43, 27, 45, 0.04) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 120px 120px, 120px 120px;
+  color: var(--ink);
+  font-family: var(--font-body), system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(12px);
+}
+
+.card-shadow {
+  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.06);
+}
+
+.soft-shadow {
+  box-shadow: 0 10px 30px rgba(244, 196, 215, 0.4);
+}
+
+.bg-grid {
+  position: relative;
+  isolation: isolate;
+}
+
+.bg-grid::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 160px 160px;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.blob {
+  position: absolute;
+  filter: blur(60px);
+  opacity: 0.55;
+  z-index: -1;
+}
+
+.blob-peach {
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle at 30% 30%, rgba(255, 183, 162, 0.9), rgba(255, 183, 162, 0));
+}
+
+.blob-lavender {
+  width: 280px;
+  height: 280px;
+  background: radial-gradient(circle at 60% 40%, rgba(230, 214, 255, 0.9), rgba(230, 214, 255, 0));
+}
+
+@media (max-width: 640px) {
+  body {
+    background-size: 140% 140%, 140% 140%, 140% 140%, 100px 100px, 100px 100px;
+  }
+
+  .card-shadow {
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.05);
+  }
+
+  .glass {
+    border-radius: 24px;
+  }
+}
+
+.halo {
+  box-shadow: 0 0 0 18px rgba(255, 255, 255, 0.35), 0 20px 60px rgba(0, 0, 0, 0.08);
+}
