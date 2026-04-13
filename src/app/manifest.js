@@ -1,8 +1,11 @@
+export const dynamic = "force-static";
+
 export default function manifest() {
   return {
     name: "GlowUp Gym & Food Tracker",
     short_name: "GlowUp",
-    start_url: "/",
+    start_url: ".",
+    scope: ".",
     display: "standalone",
     background_color: "#fff8f0",
     theme_color: "#ffb7a2",
