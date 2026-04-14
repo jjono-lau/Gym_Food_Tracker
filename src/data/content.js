@@ -20,8 +20,8 @@ export const workoutPlans = {
         machine: "Treadmill",
         sets: "10-12 min",
         rest: "N/A steady",
-        tips: "1% incline, brisk pace you can talk at.",
-        how: ["Start 2 min easy, then brisk.", "Keep cadence even; slight forward lean from ankles."],
+        tips: "Incline 4.0–6.0, speed 5.0–6.5; brisk pace you can still talk at.",
+        how: ["Start 2 min at incline 2.0, then lift to 4.0–6.0.", "Keep cadence even; slight forward lean from ankles."],
         watch: ["Don’t hold the rails.", "Avoid overstriding."],
       },
       {
@@ -36,7 +36,7 @@ export const workoutPlans = {
         name: "Incline Walk Intervals",
         machine: "Treadmill",
         sets: "6 x 1 min on / 1 min off",
-        tips: "On: incline 6-8%, steady arms; Off: flat stroll.",
+        tips: "On: incline 6.0–8.0, speed 4.5–5.5; Off: incline 0.0–1.0, speed 3.5–4.5.",
       },
       {
         name: "Cycling Spin",
@@ -170,7 +170,7 @@ export const workoutPlans = {
         name: "Treadmill Incline Waves",
         machine: "Treadmill",
         sets: "10 x 1 min @ 6-10% / 1 min flat",
-        tips: "Short steps, steady arms.",
+        tips: "Incline 8.0–12.0 for the on minutes; short steps, steady arms. Keep flat or incline 0.0–1.0 on the easy minutes.",
       },
     ],
     weightloss: [
@@ -178,7 +178,7 @@ export const workoutPlans = {
         name: "Treadmill Hills",
         machine: "Treadmill",
         sets: "10 x 45s @ 8-10% / 60s flat",
-        tips: "Short steps, slight forward lean from ankles.",
+        tips: "Incline 8.0–10.0 for the work reps; short steps, slight forward lean from ankles.",
       },
       {
         name: "Circuit Finisher",

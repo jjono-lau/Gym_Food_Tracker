@@ -67,9 +67,9 @@ export default function WorkoutsPage() {
             Warm the joints, raise heart rate gently, and groove the first movement so work sets feel smooth.
           </p>
           <ul className="list-disc list-inside text-sm text-ink space-y-1">
-            <li>5 min treadmill walk at 1% incline, RPE 5/10 (tall posture, loose arms).</li>
+            <li>Treadmill: 5 min at incline 1.0–2.0, speed 4.5–6.0 (tall posture, loose arms).</li>
             <li>Mobility: 10 leg swings each side (front/back + side/side) and 10 slow arm circles each way.</li>
-            <li>Activation: 2 light sets on your first machine (12 reps, ~50–60% of work weight) with 2s lowers.</li>
+            <li>Activation: 2 light sets on your first machine (12 reps, ~50-60% of work weight) with 2s lowers.</li>
           </ul>
         </div>
 
@@ -132,8 +132,8 @@ export default function WorkoutsPage() {
             Flush the legs, steady the heart rate, and downshift your nervous system so you recover faster.
           </p>
           <ul className="list-disc list-inside text-sm text-ink space-y-1">
-            <li>8–12 min brisk walk or easy bike at RPE 6/10 (1–2% incline if walking); breathe through the nose if you can.</li>
-            <li>Mobility reset: 10 ankle circles/side, 5 cat–cow, 5 thoracic openers per side.</li>
+            <li>Treadmill: 8-12 min walk at incline 1.0–2.5, speed 4.8–6.5; or Bike: level 3-5, easy cadence. Nose-breathe if you can.</li>
+            <li>Mobility reset: 10 ankle circles/side, 5 cat-cow, 5 thoracic openers per side.</li>
             <li>Downshift: 2 min slow nasal breathing, hands on ribs, exhale longer than inhale.</li>
           </ul>
         </div>
@@ -189,3 +189,4 @@ export default function WorkoutsPage() {
     </div>
   );
 }
+
