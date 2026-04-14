@@ -9,16 +9,19 @@ import useLocalStorageState from "@/hooks/useLocalStorageState";
 import { Flame, Sparkles } from "@/components/icons";
 
 export default function TransformationsPage() {
-  const [images, setImages] = useLocalStorageState("gft-transformations", []);
+  const [images, setImages, storageHydrated] = useLocalStorageState("gft-transformations", []);
   const [index, setIndex] = useState(0);
+  const [mounted, setMounted] = useState(false);
   const lastInteractionRef = useRef(0);
   const timerRef = useRef(null);
 
   useEffect(() => {
     lastInteractionRef.current = Date.now();
+    setMounted(true);
   }, []);
 
   useEffect(() => {
+    if (!mounted || !storageHydrated) return undefined;
     if (timerRef.current) clearInterval(timerRef.current);
     timerRef.current = setInterval(() => {
       const now = Date.now();
@@ -26,9 +29,10 @@ export default function TransformationsPage() {
       setIndex((i) => (images.length ? (i + 1) % images.length : 0));
     }, 4000);
     return () => clearInterval(timerRef.current);
-  }, [images.length]);
+  }, [images.length, mounted, storageHydrated]);
 
-  const currentImage = images[index] ?? images[0];
+  const displayImages = mounted && storageHydrated ? images : [];
+  const currentImage = displayImages[index] ?? displayImages[0];
 
   const onUpload = async (event) => {
     const files = Array.from(event.target.files ?? []);
@@ -64,9 +68,27 @@ export default function TransformationsPage() {
   const editDate = (id) => {
     const img = images.find((i) => i.id === id);
     if (!img) return;
-    const input = window.prompt("Enter date (e.g., Jan 12, 2026)", img.date || "");
+    const input = window.prompt("Enter date (e.g., 15/04/2026)", img.date || "");
     if (!input) return;
     setImages((prev) => prev.map((i) => (i.id === id ? { ...i, date: input } : i)));
+    lastInteractionRef.current = Date.now();
+  };
+
+  const removeImage = (id) => {
+    const img = images.find((i) => i.id === id);
+    if (!img) return;
+    const ok = window.confirm(`Remove "${img.name || "this photo"}" from your carousel?`);
+    if (!ok) return;
+    setImages((prev) => {
+      const next = prev.filter((i) => i.id !== id);
+      // keep index in range
+      if (next.length === 0) {
+        setIndex(0);
+      } else {
+        setIndex((idx) => Math.min(idx, next.length - 1));
+      }
+      return next;
+    });
     lastInteractionRef.current = Date.now();
   };
 
@@ -98,9 +120,9 @@ export default function TransformationsPage() {
             </label>
           </div>
 
-          <div className="mt-6 relative aspect-[4/5] w-full rounded-3xl overflow-hidden bg-cream border border-white/70">
+          <div className="mt-6 relative aspect-[3/4] w-full max-w-2xl max-h-[50vh] rounded-3xl overflow-hidden bg-cream border border-white/70 mx-auto">
             <AnimatePresence mode="wait">
-              {images.length > 0 && currentImage ? (
+              {displayImages.length > 0 && currentImage ? (
                 <motion.img
                   key={currentImage.id}
                   src={currentImage.src}
@@ -122,32 +144,39 @@ export default function TransformationsPage() {
                 </motion.div>
               )}
             </AnimatePresence>
-            {images.length > 0 && currentImage && (
-              <div className="absolute inset-x-3 bottom-3 flex items-center justify-between">
+            {displayImages.length > 0 && currentImage && (
+              <>
+                <div className="absolute inset-x-3 bottom-3 flex items-center justify-between">
+                  <button
+                    onClick={prev}
+                    className="rounded-full bg-white/90 px-3 py-2 text-sm font-semibold text-ink shadow-inner"
+                  >
+                    Prev
+                  </button>
+                  <button
+                    onClick={next}
+                    className="rounded-full bg-white/90 px-3 py-2 text-sm font-semibold text-ink shadow-inner"
+                  >
+                    Next
+                  </button>
+                </div>
+                <div className="absolute left-3 top-3 rounded-full bg-black/60 text-white text-s px-2 py-1 flex items-center gap-2">
+                  <button
+                    onClick={() => editDate(currentImage.id)}
+                    className="underline decoration-dotted underline-offset-2"
+                    title="Edit date"
+                  >
+                    {currentImage.date || "Date not set"} ✏️
+                  </button>
+                </div>
                 <button
-                  onClick={prev}
-                  className="rounded-full bg-white/90 px-3 py-2 text-sm font-semibold text-ink shadow-inner"
+                  onClick={() => removeImage(currentImage.id)}
+                  className="absolute right-3 top-3 rounded-full bg-black/60 text-white text-s px-2 py-1 hover:bg-black/70"
+                  title="Delete photo"
                 >
-                  Prev
+                  🗑️
                 </button>
-                <button
-                  onClick={() => editDate(currentImage.id)}
-                  className="rounded-full bg-white/90 px-3 py-2 text-sm font-semibold text-ink shadow-inner"
-                >
-                  Edit date
-                </button>
-                <button
-                  onClick={next}
-                  className="rounded-full bg-white/90 px-3 py-2 text-sm font-semibold text-ink shadow-inner"
-                >
-                  Next
-                </button>
-              </div>
-            )}
-            {images.length > 0 && currentImage && (
-              <div className="absolute left-3 top-3 rounded-full bg-black/60 text-white text-xs px-3 py-1">
-                {currentImage.date || "Date not set"}
-              </div>
+              </>
             )}
           </div>
         </div>
@@ -160,7 +189,7 @@ export default function TransformationsPage() {
             <p className="text-xs uppercase tracking-[0.14em] text-muted">Tap to set as current</p>
           </div>
           <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-            {images.map((img, idx) => (
+            {displayImages.map((img, idx) => (
               <button
                 key={img.id}
                 onClick={() => {

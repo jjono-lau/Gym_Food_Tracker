@@ -1,21 +1,28 @@
 import { useEffect, useState } from "react";
 
 export default function useLocalStorageState(key, defaultValue) {
-  const [value, setValue] = useState(() => {
-    if (typeof window === "undefined") return defaultValue;
-    const stored = window.localStorage.getItem(key);
-    if (!stored) return defaultValue;
-    try {
-      return JSON.parse(stored);
-    } catch {
-      return defaultValue;
-    }
-  });
+  const [value, setValue] = useState(defaultValue);
+  const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    window.localStorage.setItem(key, JSON.stringify(value));
-  }, [key, value]);
+    try {
+      const stored = window.localStorage.getItem(key);
+      if (stored) {
+        setValue(JSON.parse(stored));
+      }
+    } catch {
+      // ignore parse errors and keep default
+    } finally {
+      setHydrated(true);
+    }
+  }, [key]);
 
-  return [value, setValue];
+  useEffect(() => {
+    if (!hydrated) return;
+    if (typeof window === "undefined") return;
+    window.localStorage.setItem(key, JSON.stringify(value));
+  }, [key, value, hydrated]);
+
+  return [value, setValue, hydrated];
 }
