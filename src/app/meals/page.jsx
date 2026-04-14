@@ -81,7 +81,10 @@ export default function MealsPage() {
                   </h3>
                 </div>
                 <button
-                  onClick={() => swapItem(cat)}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    swapItem(cat);
+                  }}
                   className="rounded-full border border-ink/10 bg-sage/70 px-4 py-2 text-xs font-semibold text-ink hover:border-peach"
                 >
                   Swap
