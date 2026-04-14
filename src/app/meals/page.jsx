@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import SectionHeader from "@/components/SectionHeader";
 import { meals } from "@/data/content";
 import useLocalStorageState from "@/hooks/useLocalStorageState";
+import useBodyScrollLock from "@/hooks/useBodyScrollLock";
 import { motion } from "framer-motion";
 
 const categories = ["breakfast", "lunch", "dinner", "snacks"];
@@ -42,6 +43,8 @@ export default function MealsPage() {
     // run once on mount
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mounted]);
+
+  useBodyScrollLock(!!show);
 
   return (
     <div className="min-h-screen flex flex-col">

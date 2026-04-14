@@ -6,6 +6,7 @@ import SectionHeader from "@/components/SectionHeader";
 import TogglePills from "@/components/TogglePills";
 import { workoutPlans } from "@/data/content";
 import useLocalStorageState from "@/hooks/useLocalStorageState";
+import useBodyScrollLock from "@/hooks/useBodyScrollLock";
 import { motion, AnimatePresence } from "framer-motion";
 import { Dumbbell, HeartPulse, Flame, Gauge } from "@/components/icons";
 
@@ -38,6 +39,8 @@ export default function WorkoutsPage() {
     });
   };
 
+  useBodyScrollLock(!!openExercise);
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
@@ -61,13 +64,13 @@ export default function WorkoutsPage() {
             <Gauge size={18} /> Pre-workout primer
           </h4>
           <p className="text-sm text-muted">
-            Prime joints and core before you hop on the machines so every rep feels smooth.
+            Warm the joints, raise heart rate gently, and groove the first movement so work sets feel smooth.
           </p>
-          <div className="flex flex-wrap gap-3 text-sm">
-            <span className="rounded-full bg-white/80 px-3 py-2">5 min brisk walk</span>
-            <span className="rounded-full bg-white/80 px-3 py-2">Leg swings + arm circles (10/side)</span>
-            <span className="rounded-full bg-white/80 px-3 py-2">2 light sets on first machine</span>
-          </div>
+          <ul className="list-disc list-inside text-sm text-ink space-y-1">
+            <li>5 min treadmill walk at 1% incline, RPE 5/10 (tall posture, loose arms).</li>
+            <li>Mobility: 10 leg swings each side (front/back + side/side) and 10 slow arm circles each way.</li>
+            <li>Activation: 2 light sets on your first machine (12 reps, ~50–60% of work weight) with 2s lowers.</li>
+          </ul>
         </div>
 
         <div className="mt-8 grid gap-5 sm:grid-cols-2">
@@ -75,6 +78,7 @@ export default function WorkoutsPage() {
             {plan.map((item) => {
               const key = `${difficulty}-${focus}-${item.name}`;
               const done = !!progress[key];
+              
               return (
                 <motion.div
                   key={key}
@@ -122,23 +126,17 @@ export default function WorkoutsPage() {
 
         <div className="mt-10 rounded-3xl bg-gradient-to-r from-lavender/80 via-white to-sage/60 border border-white/70 p-6 space-y-3">
           <h4 className="text-lg font-semibold text-ink flex items-center gap-2">
-            <HeartPulse size={18} /> Post-lift finisher
+            <HeartPulse size="18" /> Post-lift finisher
           </h4>
           <p className="text-sm text-muted">
-            Stack 8–12 minutes of brisk walking after strength work. It helps clear triglycerides faster and keeps the
-            heart happy.
+            Flush the legs, steady the heart rate, and downshift your nervous system so you recover faster.
           </p>
-          <div className="flex flex-wrap gap-3 text-sm">
-            <span className="rounded-full bg-white/80 px-3 py-2 flex items-center gap-2">
-              <Gauge size={16} /> Warm-up: ankle circles + cat-cow x 5
-            </span>
-            <span className="rounded-full bg-white/80 px-3 py-2 flex items-center gap-2">
-              <Flame size={16} /> Cool-down: 2 min nasal breathing
-            </span>
-          </div>
+          <ul className="list-disc list-inside text-sm text-ink space-y-1">
+            <li>8–12 min brisk walk or easy bike at RPE 6/10 (1–2% incline if walking); breathe through the nose if you can.</li>
+            <li>Mobility reset: 10 ankle circles/side, 5 cat–cow, 5 thoracic openers per side.</li>
+            <li>Downshift: 2 min slow nasal breathing, hands on ribs, exhale longer than inhale.</li>
+          </ul>
         </div>
-
-
       </main>
 
       {openExercise && (
