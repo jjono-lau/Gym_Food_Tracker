@@ -184,11 +184,13 @@ export default function Home() {
               className="absolute -left-10 -bottom-12 w-52 h-52 rounded-full bg-pink/70 blur-3xl"
               aria-hidden
             />
-            <SectionHeader
-              eyebrow="Daily dashboard"
-              title="Your glow-up snapshot"
-              subtitle="Quick hits to stay on track"
-            />
+            <div className="relative z-10">
+              <SectionHeader
+                eyebrow="Daily dashboard"
+                title="Your glow-up snapshot"
+                subtitle="Quick hits to stay on track"
+              />
+            </div>
             {!hydrated ? (
               <DashboardSkeleton />
             ) : (
@@ -209,14 +211,14 @@ export default function Home() {
                   </p>
                   <p className="text-xs text-muted mt-1">Low sugar & high fibre</p>
                 </div>
-                <div className="rounded-2xl bg-sage/80 p-4 border border-white/70">
-                  <p className="text-xs uppercase tracking-[0.12em] font-semibold">
+                <div className="relative rounded-2xl bg-sage/80 p-4 border border-white/70">
+                  <p className="relative z-10 text-xs uppercase tracking-[0.12em] font-semibold">
                     Streak
                   </p>
-                  <p className="mt-2 text-xl font-bold flex items-center gap-2">
+                  <p className="relative z-10 mt-2 text-xl font-bold flex items-center gap-2">
                     {streak} days
                   </p>
-                  <p className="text-xs text-muted">Keep the glow going</p>
+                  <p className="relative z-10 text-xs text-muted">Keep the glow going</p>
                 </div>
               </div>
             )}
