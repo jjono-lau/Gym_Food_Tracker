@@ -8,7 +8,7 @@ import { workoutPlans } from "@/data/content";
 import useLocalStorageState from "@/hooks/useLocalStorageState";
 import useBodyScrollLock from "@/hooks/useBodyScrollLock";
 import { motion, AnimatePresence } from "framer-motion";
-import { Dumbbell, HeartPulse, Flame, Gauge } from "@/components/icons";
+import { Dumbbell, HeartPulse, Gauge } from "@/components/icons";
 
 const difficulties = [
   { value: "easy", label: "Easy" },
