@@ -8,6 +8,30 @@ import LineChart from "@/components/LineChart";
 import useIndexedDBProgress from "@/hooks/useIndexedDBProgress";
 
 const makeId = () => `${Date.now()}-${Math.round(Math.random() * 1e6)}`;
+const WORKOUT_DIFFICULTIES = ["easy", "medium", "hard"];
+const DIFFICULTY_TO_VALUE = {
+  easy: 1,
+  medium: 2,
+  hard: 3,
+};
+
+const getDifficultyFromValue = (value) => {
+  if (value >= DIFFICULTY_TO_VALUE.hard) return "hard";
+  if (value >= DIFFICULTY_TO_VALUE.medium) return "medium";
+  return "easy";
+};
+
+const normalizeWorkoutEntry = (item) => {
+  const difficulty = WORKOUT_DIFFICULTIES.includes(item.difficulty)
+    ? item.difficulty
+    : getDifficultyFromValue(item.value ?? 1);
+
+  return {
+    ...item,
+    difficulty,
+    value: DIFFICULTY_TO_VALUE[difficulty],
+  };
+};
 
 const withIds = (arr, addDayKey = false) =>
   arr.map((item) => ({
@@ -19,16 +43,16 @@ const withIds = (arr, addDayKey = false) =>
 const defaultProgress = {
   workouts: withIds(
     [
-      { label: "Apr 6", value: 2 },
-      { label: "Apr 7", value: 3 },
-      { label: "Apr 8", value: 3 },
-      { label: "Apr 9", value: 4 },
-      { label: "Apr 10", value: 3 },
-      { label: "Apr 11", value: 4 },
-      { label: "Apr 12", value: 5 },
+      { label: "Apr 6", difficulty: "easy" },
+      { label: "Apr 7", difficulty: "medium" },
+      { label: "Apr 8", difficulty: "medium" },
+      { label: "Apr 9", difficulty: "hard" },
+      { label: "Apr 10", difficulty: "medium" },
+      { label: "Apr 11", difficulty: "hard" },
+      { label: "Apr 12", difficulty: "hard" },
     ],
     true
-  ),
+  ).map(normalizeWorkoutEntry),
   weight: withIds(
     [
       { label: "Apr 6", value: 62 },
@@ -65,7 +89,7 @@ export default function ProgressPage() {
     if (!hydrated) return;
 
     setProgress((prev) => ({
-      workouts: withIds(prev.workouts ?? [], true),
+      workouts: withIds(prev.workouts ?? [], true).map(normalizeWorkoutEntry),
       weight: withIds(prev.weight ?? [], true),
       habits: withIds(prev.habits ?? [], true),
     }));
@@ -82,14 +106,18 @@ export default function ProgressPage() {
     });
 
     setProgress((prev) => {
-      const existing = prev.workouts.find((d) => d.dayKey === todayKey);
+      const existing = prev.workouts.find((entry) => entry.dayKey === todayKey);
       if (existing) {
         return {
           ...prev,
-          workouts: prev.workouts.map((d) =>
-            d.dayKey === todayKey
-              ? { ...d, value: 1, difficulty: workoutDifficulty }
-              : d
+          workouts: prev.workouts.map((entry) =>
+            entry.dayKey === todayKey
+              ? {
+                  ...entry,
+                  difficulty: workoutDifficulty,
+                  value: DIFFICULTY_TO_VALUE[workoutDifficulty],
+                }
+              : entry
           ),
         };
       }
@@ -102,8 +130,8 @@ export default function ProgressPage() {
             id: makeId(),
             dayKey: todayKey,
             label: todayLabel,
-            value: 1,
             difficulty: workoutDifficulty,
+            value: DIFFICULTY_TO_VALUE[workoutDifficulty],
           },
         ],
       };
@@ -123,14 +151,14 @@ export default function ProgressPage() {
     });
 
     setProgress((prev) => {
-      const exists = prev.habits.find((h) => h.dayKey === todayKey);
+      const exists = prev.habits.find((entry) => entry.dayKey === todayKey);
       if (exists) {
         return {
           ...prev,
-          habits: prev.habits.map((h) =>
-            h.dayKey === todayKey
-              ? { ...h, value: parseFloat((h.value + amount).toFixed(2)) }
-              : h
+          habits: prev.habits.map((entry) =>
+            entry.dayKey === todayKey
+              ? { ...entry, value: parseFloat((entry.value + amount).toFixed(2)) }
+              : entry
           ),
         };
       }
@@ -159,10 +187,10 @@ export default function ProgressPage() {
     setProgress((prev) => ({
       ...prev,
       weight: (() => {
-        const existing = prev.weight.find((w) => w.dayKey === dayKey);
+        const existing = prev.weight.find((entry) => entry.dayKey === dayKey);
         if (existing) {
-          return prev.weight.map((w) =>
-            w.dayKey === dayKey ? { ...w, label, value } : w
+          return prev.weight.map((entry) =>
+            entry.dayKey === dayKey ? { ...entry, label, value } : entry
           );
         }
 
@@ -176,6 +204,30 @@ export default function ProgressPage() {
   const editEntry = (key, id) => {
     const item = safeProgress[key].find((entry) => entry.id === id);
     if (!item) return;
+
+    if (key === "workouts") {
+      const nextDifficulty = window
+        .prompt("Update difficulty: easy, medium, or hard", item.difficulty ?? "easy")
+        ?.trim()
+        .toLowerCase();
+
+      if (!nextDifficulty) return;
+      if (!WORKOUT_DIFFICULTIES.includes(nextDifficulty)) return;
+
+      setProgress((prev) => ({
+        ...prev,
+        workouts: prev.workouts.map((entry) =>
+          entry.id === id
+            ? {
+                ...entry,
+                difficulty: nextDifficulty,
+                value: DIFFICULTY_TO_VALUE[nextDifficulty],
+              }
+            : entry
+        ),
+      }));
+      return;
+    }
 
     const nextVal = window.prompt("Update value", item.value);
     if (nextVal === null) return;
@@ -265,9 +317,7 @@ export default function ProgressPage() {
                       {entry.label} • {entry.difficulty ?? "easy"}
                     </span>
                     <div className="flex items-center gap-2">
-                      <span className="text-muted">
-                        {entry.value ? "Completed" : "Skip"}
-                      </span>
+                      <span className="text-muted">Completed</span>
                       <button
                         onClick={() => editEntry("workouts", entry.id)}
                         className="text-xs font-semibold text-ink/80 underline"

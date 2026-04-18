@@ -103,9 +103,9 @@ export default function Home() {
   const dashStreak = streak;
 
   return (
-    <div className="min-h-screen flex flex-col bg-grid">
+    <div className="min-h-screen flex flex-col bg-grid overflow-x-hidden">
       <Navbar />
-      <main className="relative mx-auto flex-1 w-full max-w-6xl px-4 sm:px-6 lg:px-8 pb-16">
+      <main className="relative mx-auto flex-1 w-full max-w-6xl overflow-x-hidden px-4 sm:px-6 lg:px-8 pb-16">
         <div className="blob blob-peach top-12 left-[-80px]" aria-hidden />
         <div className="blob blob-lavender top-64 right-[-60px]" aria-hidden />
 
