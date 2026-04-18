@@ -1,5 +1,7 @@
 "use client";
 
+/* eslint-disable @next/next/no-img-element */
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -24,8 +26,12 @@ export default function Navbar() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 pt-5">
         <div className="glass card-shadow flex items-center justify-between rounded-full px-5 py-3 border border-white/60">
           <div className="flex items-center gap-2">
-            <span className="h-10 w-10 rounded-2xl bg-gradient-to-br from-pink to-peach flex items-center justify-center text-lg font-semibold text-ink soft-shadow">
-              ✺
+            <span className="h-10 w-10 rounded-2xl bg-gradient-to-br from-pink to-peach flex items-center justify-center soft-shadow overflow-hidden p-1">
+              <img
+                src="/bench_press.svg"
+                alt="Bench press icon"
+                className="h-full w-full object-contain"
+              />
             </span>
             <div className="leading-tight">
               <p className="font-semibold text-ink">Girlypops Girlboss Tracker</p>
