@@ -13,16 +13,39 @@ const IMAGE_EXT = /\.(jpe?g|png|webp|heic|heif|gif|avif)$/i;
 const INTERVAL = 4000;
 const INTRO_DURATION = 4000;
 
+function decodeImageSource(src) {
+  return new Promise((resolve) => {
+    const image = new Image();
+    image.onload = async () => {
+      try {
+        if (typeof image.decode === "function") {
+          await image.decode();
+        }
+      } catch {
+        // Some mobile browsers can reject decode() after a successful load.
+      } finally {
+        resolve();
+      }
+    };
+    image.onerror = () => resolve();
+    image.src = src;
+  });
+}
+
 function readFile(file) {
   return new Promise((resolve) => {
     const reader = new FileReader();
-    reader.onload = () =>
+    reader.onload = async () => {
+      const src = reader.result;
+      await decodeImageSource(src);
+
       resolve({
-        src: reader.result,
+        src,
         name: file.name,
         id: `${Date.now()}-${Math.random().toString(36).slice(2)}-${file.name}`,
         date: new Date(file.lastModified || Date.now()).toLocaleDateString(),
       });
+    };
     reader.readAsDataURL(file);
   });
 }
@@ -58,12 +81,16 @@ export default function TransformationsPage() {
   const [importing, setImporting] = useState(false);
   const [progress, setProgress] = useState(0);
   const [showIntro, setShowIntro] = useState(true);
+  const [initialImagesReady, setInitialImagesReady] = useState(false);
+  const [allowEntranceAnimations, setAllowEntranceAnimations] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   const timerRef = useRef(null);
   const progressRafRef = useRef(null);
   const progressStartRef = useRef(null);
   const touchStartX = useRef(null);
   const touchStartY = useRef(null);
+  const initialPrepDoneRef = useRef(false);
 
   useEffect(() => {
     const introTimer = setTimeout(() => {
@@ -74,6 +101,43 @@ export default function TransformationsPage() {
       clearTimeout(introTimer);
     };
   }, []);
+
+  useEffect(() => {
+    if (!hydrated) {
+      setInitialImagesReady(false);
+      initialPrepDoneRef.current = false;
+      return undefined;
+    }
+
+    if (initialPrepDoneRef.current) return undefined;
+
+    let cancelled = false;
+
+    const prepareInitialImages = async () => {
+      if (!images.length) {
+        initialPrepDoneRef.current = true;
+        if (!cancelled) {
+          setInitialImagesReady(true);
+        }
+        return;
+      }
+
+      try {
+        await Promise.all(images.map((image) => decodeImageSource(image.src)));
+      } finally {
+        initialPrepDoneRef.current = true;
+        if (!cancelled) {
+          setInitialImagesReady(true);
+        }
+      }
+    };
+
+    prepareInitialImages();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [hydrated, images]);
 
   const startProgress = useCallback(() => {
     setProgress((current) => (current === 0 ? current : 0));
@@ -102,7 +166,7 @@ export default function TransformationsPage() {
 
   useEffect(() => {
     if (!hydrated) return undefined;
-    if (images.length <= 1) {
+    if (images.length <= 1 || !isPlaying) {
       stopProgress();
       return undefined;
     }
@@ -116,7 +180,7 @@ export default function TransformationsPage() {
       clearTimeout(timerRef.current);
       stopProgress();
     };
-  }, [hydrated, images.length, index, startProgress, stopProgress]);
+  }, [hydrated, images.length, index, isPlaying, startProgress, stopProgress]);
 
   useEffect(() => {
     setIndex((current) => {
@@ -221,17 +285,28 @@ export default function TransformationsPage() {
     removeImage(id);
   };
 
-  return (
-    <div className="min-h-screen flex flex-col">
+  const showBlockingLoader = showIntro || importing || !hydrated || !initialImagesReady;
+
+  if (showBlockingLoader) {
+    return (
       <PageLoader
-        show={showIntro}
+        show
         duration={INTRO_DURATION}
-        eyebrow="Glow Up Loading"
-        title="Serving girlypops gains..."
-        subtitle="fluffing the carousel, glossing the gallery, and lining up your gym era."
+        eyebrow={importing ? "Importing Photos" : "Glow Up Loading"}
+        title={importing ? "Curating your progress pics..." : "Serving girlypops gains..."}
+        subtitle={
+          importing
+            ? "pulling in your folder, dressing the gallery, and hiding the chaos."
+            : "fluffing the carousel, glossing the gallery, and lining up your gym era."
+        }
         iconSrc="/bench_press.svg"
         iconAlt="Bench press"
       />
+    );
+  }
+
+  return (
+    <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="mx-auto flex-1 w-full max-w-6xl px-4 sm:px-6 lg:px-8 pb-16">
         <div className="pt-10">
@@ -239,6 +314,7 @@ export default function TransformationsPage() {
             eyebrow="Glow Up"
             title="Progress carousel + gallery"
             subtitle="Log each gym session with a snapshot. Swipe through wins and keep receipts of your effort."
+            disableAnimation={!allowEntranceAnimations}
           />
         </div>
 
@@ -294,9 +370,9 @@ export default function TransformationsPage() {
                       src={currentImage.src}
                       alt={currentImage.name || "progress photo"}
                       className="h-full w-full object-cover"
-                      initial={{ opacity: 0.4, x: 30 }}
+                      initial={allowEntranceAnimations ? { opacity: 0.4, x: 30 } : false}
                       animate={{ opacity: 1, x: 0 }}
-                      exit={{ opacity: 0, x: -30 }}
+                      exit={allowEntranceAnimations ? { opacity: 0, x: -30 } : undefined}
                       transition={{ duration: 0.25 }}
                     />
                   ) : (
@@ -328,6 +404,15 @@ export default function TransformationsPage() {
                       className="rounded-full bg-white/90 px-3 py-2 text-sm font-semibold text-ink shadow-inner"
                     >
                       Prev
+                    </button>
+                    <button
+                      onClick={() => {
+                        setAllowEntranceAnimations(true);
+                        setIsPlaying((current) => !current);
+                      }}
+                      className="rounded-full bg-white/90 px-4 py-2 text-sm font-semibold text-ink shadow-inner"
+                    >
+                      {isPlaying ? "Pause" : "Play"}
                     </button>
                     <button
                       onClick={goNext}

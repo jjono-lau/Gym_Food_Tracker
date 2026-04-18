@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "@/components/icons";
+import assetPath from "@/lib/assetPath";
 
 const links = [
   { href: "/", label: "Home" },
@@ -28,7 +29,7 @@ export default function Navbar() {
           <div className="flex items-center gap-2">
             <span className="h-10 w-10 rounded-2xl bg-gradient-to-br from-pink to-peach flex items-center justify-center soft-shadow overflow-hidden p-1">
               <img
-                src="/bench_press.svg"
+                src={assetPath("/bench_press.svg")}
                 alt="Bench press icon"
                 className="h-full w-full object-contain"
               />

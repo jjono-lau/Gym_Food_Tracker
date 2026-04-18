@@ -2,7 +2,9 @@
 
 /* eslint-disable @next/next/no-img-element */
 
+import { useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import assetPath from "@/lib/assetPath";
 
 export default function PageLoader({
   show,
@@ -21,18 +23,29 @@ export default function PageLoader({
     { left: "50%", top: "18%", delay: 1.4 },
   ];
 
+  useEffect(() => {
+    if (!show) return undefined;
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [show]);
+
   return (
     <AnimatePresence>
       {show && (
         <motion.div
-          className="fixed inset-0 z-50 overflow-hidden bg-[radial-gradient(circle_at_top,_rgba(250,218,221,0.95),_rgba(255,248,240,0.98)_36%,_rgba(230,214,255,0.92)_100%)]"
+          className="fixed inset-0 z-50 overflow-hidden bg-[radial-gradient(circle_at_top,_rgb(250,218,221),_rgb(255,248,240)_36%,_rgb(230,214,255)_100%)]"
           initial={{ opacity: 1 }}
           exit={{ opacity: 0, transition: { duration: 0.45, ease: "easeOut" } }}
         >
-          <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(255,255,255,0.22)_1px,transparent_1px),linear-gradient(0deg,rgba(255,255,255,0.22)_1px,transparent_1px)] bg-[length:72px_72px]" />
-          <div className="absolute -left-10 top-10 h-52 w-52 rounded-full bg-pink/60 blur-3xl" />
-          <div className="absolute right-0 top-0 h-64 w-64 rounded-full bg-lavender/70 blur-3xl" />
-          <div className="absolute bottom-0 left-1/2 h-56 w-56 -translate-x-1/2 rounded-full bg-peach/50 blur-3xl" />
+          <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(255,255,255,0.26)_1px,transparent_1px),linear-gradient(0deg,rgba(255,255,255,0.26)_1px,transparent_1px)] bg-[length:72px_72px]" />
+          <div className="absolute -left-10 top-10 h-52 w-52 rounded-full bg-pink blur-3xl" />
+          <div className="absolute right-0 top-0 h-64 w-64 rounded-full bg-lavender blur-3xl" />
+          <div className="absolute bottom-0 left-1/2 h-56 w-56 -translate-x-1/2 rounded-full bg-peach blur-3xl" />
 
           {petals.map((petal, index) => (
             <motion.div
@@ -52,14 +65,14 @@ export default function PageLoader({
           ))}
 
           <div className="relative z-10 flex min-h-screen items-center justify-center px-6">
-            <div className="w-full max-w-md rounded-[36px] border border-white/70 bg-white/60 p-8 text-center shadow-[0_30px_80px_rgba(255,183,162,0.2)] backdrop-blur-xl">
+            <div className="w-full max-w-md rounded-[36px] border border-white/85 bg-white/92 p-8 text-center shadow-[0_30px_80px_rgba(255,183,162,0.22)]">
               <motion.div
                 className="mx-auto flex h-24 w-24 items-center justify-center rounded-[28px] bg-gradient-to-br from-pink via-peach to-lavender p-3 shadow-[0_18px_40px_rgba(244,196,215,0.45)]"
                 animate={{ y: [0, -8, 0], rotate: [0, 2, -2, 0] }}
                 transition={{ duration: 2.4, repeat: Infinity, ease: "easeInOut" }}
               >
                 <motion.img
-                  src={iconSrc}
+                  src={assetPath(iconSrc)}
                   alt={iconAlt}
                   className="h-full w-full object-contain"
                   animate={{ scale: [0.96, 1.04, 0.96] }}
