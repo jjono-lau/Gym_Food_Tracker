@@ -33,7 +33,7 @@ const featureCards = [
   {
     title: "Progress vibes",
     desc: "Log streaks, habits, and see pastel line charts glow up.",
-    badge: "Glow",
+    badge: "Slay",
     icon: Sparkles,
     link: "/progress",
   },
@@ -242,7 +242,7 @@ export default function Home() {
                       {card.badge}
                     </span>
                     <span className="rounded-full bg-pink/50 px-3 py-1 text-[11px] font-semibold text-ink">
-                      Glow vibe
+                      Click Me
                     </span>
                   </div>
                   <div className="flex items-center gap-3">

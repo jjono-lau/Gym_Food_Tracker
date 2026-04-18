@@ -48,9 +48,9 @@ export default function WorkoutsPage() {
         <div className="flex flex-col gap-4 pt-10">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <SectionHeader
-              eyebrow="City Fitness floor guide"
+              eyebrow="Workouts Made Just For You"
               title="Pick your difficulty, then pick the focus area"
-              subtitle="Built for the machines you’ll actually find at City Fitness. Tick off sets as you finish."
+              subtitle="Built for the machines you’ll actually use. Tick off sets as you finish."
             />
             <TogglePills options={difficulties} value={difficulty} onChange={setDifficulty} />
           </div>

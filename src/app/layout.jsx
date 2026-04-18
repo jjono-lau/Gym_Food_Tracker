@@ -20,6 +20,11 @@ export const metadata = {
   description:
     "Beginner-friendly workouts, triglyceride-conscious South Indian meals, and playful progress tracking.",
   manifest: "/manifest.webmanifest",
+  icons: {
+    icon: [{ url: "/gym_girl.svg", type: "image/svg+xml", sizes: "any" }],
+    apple: [{ url: "/gym_girl.svg", type: "image/svg+xml" }],
+    shortcut: ["/gym_girl.svg"],
+  },
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
