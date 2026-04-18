@@ -1,6 +1,22 @@
 import { motion } from "framer-motion";
 
 export default function LineChart({ data, color = "#ffb7a2", height = 140, label }) {
+  if (!data.length) {
+    return (
+      <div className="w-full">
+        <div className="flex items-center justify-between mb-2">
+          <p className="text-sm font-semibold text-ink">{label}</p>
+        </div>
+        <div
+          className="flex items-center justify-center rounded-2xl border border-dashed border-ink/10 bg-cream/60 text-sm text-muted"
+          style={{ height }}
+        >
+          No data yet
+        </div>
+      </div>
+    );
+  }
+
   const max = Math.max(...data.map((d) => d.value)) || 1;
   const min = Math.min(...data.map((d) => d.value)) || 0;
   const range = max - min || 1;

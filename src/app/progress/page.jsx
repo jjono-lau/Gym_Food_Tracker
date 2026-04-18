@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useEffect } from "react";
+import { useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import SectionHeader from "@/components/SectionHeader";
@@ -15,88 +15,80 @@ const DIFFICULTY_TO_VALUE = {
   hard: 3,
 };
 
-const getDifficultyFromValue = (value) => {
-  if (value >= DIFFICULTY_TO_VALUE.hard) return "hard";
-  if (value >= DIFFICULTY_TO_VALUE.medium) return "medium";
-  return "easy";
+const emptyProgress = {
+  workouts: [],
+  weight: [],
+  habits: [],
 };
 
-const normalizeWorkoutEntry = (item) => {
-  const difficulty = WORKOUT_DIFFICULTIES.includes(item.difficulty)
-    ? item.difficulty
-    : getDifficultyFromValue(item.value ?? 1);
+function LoadingCard() {
+  return (
+    <div className="rounded-3xl bg-white/90 border border-white/70 card-shadow p-5 space-y-4 animate-pulse">
+      <div className="space-y-2">
+        <div className="h-3 w-24 rounded-full bg-cream" />
+        <div className="h-9 w-28 rounded-2xl bg-cream" />
+        <div className="h-3 w-40 rounded-full bg-cream" />
+      </div>
+      <div className="h-36 rounded-3xl bg-cream/80" />
+      <div className="space-y-2">
+        <div className="h-10 rounded-2xl bg-cream/80" />
+        <div className="h-10 rounded-2xl bg-cream/80" />
+        <div className="h-10 rounded-2xl bg-cream/80" />
+      </div>
+    </div>
+  );
+}
 
-  return {
-    ...item,
-    difficulty,
-    value: DIFFICULTY_TO_VALUE[difficulty],
-  };
-};
-
-const withIds = (arr, addDayKey = false) =>
-  arr.map((item) => ({
-    id: item.id ?? makeId(),
-    ...(addDayKey ? { dayKey: item.dayKey ?? item.label ?? makeId() } : {}),
-    ...item,
-  }));
-
-const defaultProgress = {
-  workouts: withIds(
-    [
-      { label: "Apr 6", difficulty: "easy" },
-      { label: "Apr 7", difficulty: "medium" },
-      { label: "Apr 8", difficulty: "medium" },
-      { label: "Apr 9", difficulty: "hard" },
-      { label: "Apr 10", difficulty: "medium" },
-      { label: "Apr 11", difficulty: "hard" },
-      { label: "Apr 12", difficulty: "hard" },
-    ],
-    true
-  ).map(normalizeWorkoutEntry),
-  weight: withIds(
-    [
-      { label: "Apr 6", value: 62 },
-      { label: "Apr 7", value: 63 },
-      { label: "Apr 8", value: 63 },
-      { label: "Apr 9", value: 64 },
-      { label: "Apr 10", value: 63 },
-      { label: "Apr 11", value: 64 },
-      { label: "Apr 12", value: 65 },
-    ],
-    true
-  ),
-  habits: withIds(
-    [
-      { label: "Apr 6", value: 2 },
-      { label: "Apr 7", value: 3 },
-      { label: "Apr 8", value: 3 },
-      { label: "Apr 9", value: 4 },
-      { label: "Apr 10", value: 3 },
-      { label: "Apr 11", value: 4 },
-      { label: "Apr 12", value: 5 },
-    ],
-    true
-  ),
-};
+function LogList({ entries, unit, emptyText, onEdit, onRemove, showDifficulty = false }) {
+  return (
+    <div className="space-y-2 max-h-40 overflow-auto pr-1">
+      {entries.length === 0 ? (
+        <div className="rounded-xl bg-cream px-3 py-4 text-muted">{emptyText}</div>
+      ) : (
+        entries
+          .slice()
+          .reverse()
+          .map((entry) => (
+            <div
+              key={entry.id}
+              className="flex items-center justify-between rounded-xl bg-cream px-3 py-2"
+            >
+              <span className="text-ink font-semibold">
+                {showDifficulty
+                  ? `${entry.label} - ${entry.difficulty ?? "easy"}`
+                  : entry.label}
+              </span>
+              <div className="flex items-center gap-2">
+                <span className="text-muted">
+                  {showDifficulty ? "Completed" : `${entry.value} ${unit}`}
+                </span>
+                <button
+                  onClick={() => onEdit(entry.id)}
+                  className="text-xs font-semibold text-ink/80 underline"
+                >
+                  Edit
+                </button>
+                <button
+                  onClick={() => onRemove(entry.id)}
+                  className="text-xs font-semibold text-peach underline"
+                >
+                  Remove
+                </button>
+              </div>
+            </div>
+          ))
+      )}
+    </div>
+  );
+}
 
 export default function ProgressPage() {
-  const [progress, setProgress, hydrated] = useIndexedDBProgress(defaultProgress);
+  const [progress, setProgress, hydrated] = useIndexedDBProgress(emptyProgress);
   const [weightInput, setWeightInput] = useState("");
   const [waterInput, setWaterInput] = useState("");
   const [workoutDifficulty, setWorkoutDifficulty] = useState("easy");
 
-  useEffect(() => {
-    if (!hydrated) return;
-
-    setProgress((prev) => ({
-      workouts: withIds(prev.workouts ?? [], true).map(normalizeWorkoutEntry),
-      weight: withIds(prev.weight ?? [], true),
-      habits: withIds(prev.habits ?? [], true),
-    }));
-  }, [hydrated, setProgress]);
-
-  const safeProgress = hydrated ? progress : defaultProgress;
-  const streak = useMemo(() => safeProgress.workouts.length, [safeProgress.workouts]);
+  const streak = useMemo(() => progress.workouts.length, [progress.workouts]);
 
   const addWorkoutDay = () => {
     const todayKey = new Date().toDateString();
@@ -202,7 +194,7 @@ export default function ProgressPage() {
   };
 
   const editEntry = (key, id) => {
-    const item = safeProgress[key].find((entry) => entry.id === id);
+    const item = progress[key].find((entry) => entry.id === id);
     if (!item) return;
 
     if (key === "workouts") {
@@ -263,221 +255,175 @@ export default function ProgressPage() {
         </div>
 
         <div className="mt-8 grid gap-6 lg:grid-cols-3">
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="rounded-3xl bg-white/90 border border-white/70 card-shadow p-5 space-y-4"
-          >
-            <div className="flex items-center justify-between gap-3 flex-wrap">
-              <div>
-                <p className="text-xs uppercase tracking-[0.12em] font-semibold text-muted">
-                  Workout streak
-                </p>
-                <p className="text-3xl font-bold text-ink">{streak} days</p>
-                <p className="text-sm text-muted">
-                  One completion per day with a difficulty tag.
-                </p>
-              </div>
-              <div className="flex items-center gap-2">
-                <select
-                  value={workoutDifficulty}
-                  onChange={(e) => setWorkoutDifficulty(e.target.value)}
-                  className="rounded-xl border border-ink/10 bg-white/80 px-3 py-2 text-sm focus:border-peach focus:outline-none"
-                >
-                  <option value="easy">Easy</option>
-                  <option value="medium">Medium</option>
-                  <option value="hard">Hard</option>
-                </select>
-                <button
-                  onClick={addWorkoutDay}
-                  className="rounded-full bg-peach px-4 py-2 text-sm font-semibold text-ink shadow soft-shadow"
-                >
-                  Log today
-                </button>
-              </div>
-            </div>
-            <div className="pt-2">
-              <LineChart
-                data={safeProgress.workouts}
-                label="Days moved this week"
-                color="#ffb7a2"
-              />
-            </div>
-            <div className="space-y-2 text-sm">
-              <p className="text-xs uppercase tracking-[0.12em] font-semibold text-muted">
-                All-time log
-              </p>
-              <div className="space-y-2 max-h-40 overflow-auto pr-1">
-                {safeProgress.workouts.slice().reverse().map((entry) => (
-                  <div
-                    key={entry.id}
-                    className="flex items-center justify-between rounded-xl bg-cream px-3 py-2"
-                  >
-                    <span className="text-ink font-semibold">
-                      {entry.label} • {entry.difficulty ?? "easy"}
-                    </span>
-                    <div className="flex items-center gap-2">
-                      <span className="text-muted">Completed</span>
-                      <button
-                        onClick={() => editEntry("workouts", entry.id)}
-                        className="text-xs font-semibold text-ink/80 underline"
-                      >
-                        Edit
-                      </button>
-                      <button
-                        onClick={() => removeEntry("workouts", entry.id)}
-                        className="text-xs font-semibold text-peach underline"
-                      >
-                        Remove
-                      </button>
-                    </div>
+          {!hydrated ? (
+            <>
+              <LoadingCard />
+              <LoadingCard />
+              <LoadingCard />
+            </>
+          ) : (
+            <>
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="rounded-3xl bg-white/90 border border-white/70 card-shadow p-5 space-y-4"
+              >
+                <div className="flex items-center justify-between gap-3 flex-wrap">
+                  <div>
+                    <p className="text-xs uppercase tracking-[0.12em] font-semibold text-muted">
+                      Workout streak
+                    </p>
+                    <p className="text-3xl font-bold text-ink">{streak} days</p>
+                    <p className="text-sm text-muted">
+                      One completion per day with a difficulty tag.
+                    </p>
                   </div>
-                ))}
-              </div>
-            </div>
-          </motion.div>
+                  <div className="flex items-center gap-2">
+                    <select
+                      value={workoutDifficulty}
+                      onChange={(e) => setWorkoutDifficulty(e.target.value)}
+                      className="rounded-xl border border-ink/10 bg-white/80 px-3 py-2 text-sm focus:border-peach focus:outline-none"
+                    >
+                      <option value="easy">Easy</option>
+                      <option value="medium">Medium</option>
+                      <option value="hard">Hard</option>
+                    </select>
+                    <button
+                      onClick={addWorkoutDay}
+                      className="rounded-full bg-peach px-4 py-2 text-sm font-semibold text-ink shadow soft-shadow"
+                    >
+                      Log today
+                    </button>
+                  </div>
+                </div>
+                <div className="pt-2">
+                  <LineChart
+                    data={progress.workouts}
+                    label="Days moved this week"
+                    color="#ffb7a2"
+                  />
+                </div>
+                <div className="space-y-2 text-sm">
+                  <p className="text-xs uppercase tracking-[0.12em] font-semibold text-muted">
+                    All-time log
+                  </p>
+                  <LogList
+                    entries={progress.workouts}
+                    emptyText="No workouts logged yet."
+                    onEdit={(id) => editEntry("workouts", id)}
+                    onRemove={(id) => removeEntry("workouts", id)}
+                    showDifficulty
+                  />
+                </div>
+              </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="rounded-3xl bg-white/90 border border-white/70 card-shadow p-5 space-y-4"
-          >
-            <div className="flex items-center justify-between gap-3 flex-wrap">
-              <div>
-                <p className="text-xs uppercase tracking-[0.12em] font-semibold text-muted">
-                  Water glow
-                </p>
-                <p className="text-3xl font-bold text-ink">
-                  {safeProgress.habits.at(-1)?.value ?? 0} cups
-                </p>
-                <p className="text-sm text-muted">Adds to the same day total.</p>
-              </div>
-              <div className="flex items-center gap-2">
-                <input
-                  type="number"
-                  min="0"
-                  step="0.5"
-                  placeholder="cups"
-                  value={waterInput}
-                  onChange={(e) => setWaterInput(e.target.value)}
-                  className="w-24 rounded-xl border border-ink/10 bg-white/80 px-3 py-2 text-sm focus:border-peach focus:outline-none"
-                />
-                <button
-                  onClick={addHydration}
-                  className="rounded-full bg-sage px-4 py-2 text-sm font-semibold text-ink border border-white/60"
-                >
-                  Add water
-                </button>
-              </div>
-            </div>
-            <div className="pt-2">
-              <LineChart
-                data={safeProgress.habits}
-                label="Hydration trend"
-                color="#ddeedb"
-              />
-            </div>
-            <div className="space-y-2 text-sm">
-              <p className="text-xs uppercase tracking-[0.12em] font-semibold text-muted">
-                All-time log
-              </p>
-              <div className="space-y-2 max-h-40 overflow-auto pr-1">
-                {safeProgress.habits.slice().reverse().map((entry) => (
-                  <div
-                    key={entry.id}
-                    className="flex items-center justify-between rounded-xl bg-cream px-3 py-2"
-                  >
-                    <span className="text-ink font-semibold">{entry.label}</span>
-                    <div className="flex items-center gap-2">
-                      <span className="text-muted">{entry.value} cups</span>
-                      <button
-                        onClick={() => editEntry("habits", entry.id)}
-                        className="text-xs font-semibold text-ink/80 underline"
-                      >
-                        Edit
-                      </button>
-                      <button
-                        onClick={() => removeEntry("habits", entry.id)}
-                        className="text-xs font-semibold text-peach underline"
-                      >
-                        Remove
-                      </button>
-                    </div>
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="rounded-3xl bg-white/90 border border-white/70 card-shadow p-5 space-y-4"
+              >
+                <div className="flex items-center justify-between gap-3 flex-wrap">
+                  <div>
+                    <p className="text-xs uppercase tracking-[0.12em] font-semibold text-muted">
+                      Water glow
+                    </p>
+                    <p className="text-3xl font-bold text-ink">
+                      {progress.habits.at(-1)?.value ?? 0} cups
+                    </p>
+                    <p className="text-sm text-muted">Adds to the same day total.</p>
                   </div>
-                ))}
-              </div>
-            </div>
-          </motion.div>
+                  <div className="flex items-center gap-2">
+                    <input
+                      type="number"
+                      min="0"
+                      step="0.5"
+                      placeholder="cups"
+                      value={waterInput}
+                      onChange={(e) => setWaterInput(e.target.value)}
+                      className="w-24 rounded-xl border border-ink/10 bg-white/80 px-3 py-2 text-sm focus:border-peach focus:outline-none"
+                    />
+                    <button
+                      onClick={addHydration}
+                      className="rounded-full bg-sage px-4 py-2 text-sm font-semibold text-ink border border-white/60"
+                    >
+                      Add water
+                    </button>
+                  </div>
+                </div>
+                <div className="pt-2">
+                  <LineChart
+                    data={progress.habits}
+                    label="Hydration trend"
+                    color="#ddeedb"
+                  />
+                </div>
+                <div className="space-y-2 text-sm">
+                  <p className="text-xs uppercase tracking-[0.12em] font-semibold text-muted">
+                    All-time log
+                  </p>
+                  <LogList
+                    entries={progress.habits}
+                    unit="cups"
+                    emptyText="No hydration entries yet."
+                    onEdit={(id) => editEntry("habits", id)}
+                    onRemove={(id) => removeEntry("habits", id)}
+                  />
+                </div>
+              </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="rounded-3xl bg-white/90 border border-white/70 card-shadow p-5 space-y-4"
-          >
-            <div className="flex items-center justify-between gap-3">
-              <div>
-                <p className="text-xs uppercase tracking-[0.12em] font-semibold text-muted">
-                  Weight check-in
-                </p>
-                <p className="text-3xl font-bold text-ink">
-                  {safeProgress.weight.at(-1)?.value ?? "-"} kg
-                </p>
-              </div>
-              <div className="flex items-center gap-2">
-                <input
-                  type="number"
-                  step="0.1"
-                  placeholder="kg"
-                  value={weightInput}
-                  onChange={(e) => setWeightInput(e.target.value)}
-                  className="w-20 rounded-xl border border-ink/10 bg-white/80 px-3 py-2 text-sm focus:border-peach focus:outline-none"
-                />
-                <button
-                  onClick={addWeight}
-                  className="rounded-full bg-lavender px-4 py-2 text-sm font-semibold text-ink border border-white/60"
-                >
-                  Add
-                </button>
-              </div>
-            </div>
-            <div className="pt-2">
-              <LineChart
-                data={safeProgress.weight}
-                label="Weight trendline"
-                color="#e6d6ff"
-              />
-            </div>
-            <div className="space-y-2 text-sm">
-              <p className="text-xs uppercase tracking-[0.12em] font-semibold text-muted">
-                All-time log
-              </p>
-              <div className="space-y-2 max-h-40 overflow-auto pr-1">
-                {safeProgress.weight.slice().reverse().map((entry) => (
-                  <div
-                    key={entry.id}
-                    className="flex items-center justify-between rounded-xl bg-cream px-3 py-2"
-                  >
-                    <span className="text-ink font-semibold">{entry.label}</span>
-                    <div className="flex items-center gap-2">
-                      <span className="text-muted">{entry.value} kg</span>
-                      <button
-                        onClick={() => editEntry("weight", entry.id)}
-                        className="text-xs font-semibold text-ink/80 underline"
-                      >
-                        Edit
-                      </button>
-                      <button
-                        onClick={() => removeEntry("weight", entry.id)}
-                        className="text-xs font-semibold text-peach underline"
-                      >
-                        Remove
-                      </button>
-                    </div>
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="rounded-3xl bg-white/90 border border-white/70 card-shadow p-5 space-y-4"
+              >
+                <div className="flex items-center justify-between gap-3">
+                  <div>
+                    <p className="text-xs uppercase tracking-[0.12em] font-semibold text-muted">
+                      Weight check-in
+                    </p>
+                    <p className="text-3xl font-bold text-ink">
+                      {progress.weight.at(-1)?.value ?? "-"} kg
+                    </p>
                   </div>
-                ))}
-              </div>
-            </div>
-          </motion.div>
+                  <div className="flex items-center gap-2">
+                    <input
+                      type="number"
+                      step="0.1"
+                      placeholder="kg"
+                      value={weightInput}
+                      onChange={(e) => setWeightInput(e.target.value)}
+                      className="w-20 rounded-xl border border-ink/10 bg-white/80 px-3 py-2 text-sm focus:border-peach focus:outline-none"
+                    />
+                    <button
+                      onClick={addWeight}
+                      className="rounded-full bg-lavender px-4 py-2 text-sm font-semibold text-ink border border-white/60"
+                    >
+                      Add
+                    </button>
+                  </div>
+                </div>
+                <div className="pt-2">
+                  <LineChart
+                    data={progress.weight}
+                    label="Weight trendline"
+                    color="#e6d6ff"
+                  />
+                </div>
+                <div className="space-y-2 text-sm">
+                  <p className="text-xs uppercase tracking-[0.12em] font-semibold text-muted">
+                    All-time log
+                  </p>
+                  <LogList
+                    entries={progress.weight}
+                    unit="kg"
+                    emptyText="No weight check-ins yet."
+                    onEdit={(id) => editEntry("weight", id)}
+                    onRemove={(id) => removeEntry("weight", id)}
+                  />
+                </div>
+              </motion.div>
+            </>
+          )}
         </div>
 
         <div className="mt-10 grid gap-5 md:grid-cols-3">

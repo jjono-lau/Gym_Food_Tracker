@@ -5,6 +5,50 @@ const DB_VERSION = 2;
 const STORE = "progress";
 const RECORD_ID = "gft-progress";
 const LEGACY_KEY = "gft-progress";
+const WORKOUT_DIFFICULTIES = ["easy", "medium", "hard"];
+const DIFFICULTY_TO_VALUE = {
+  easy: 1,
+  medium: 2,
+  hard: 3,
+};
+
+const makeId = () => `${Date.now()}-${Math.round(Math.random() * 1e6)}`;
+
+function getDifficultyFromValue(value) {
+  if (value >= DIFFICULTY_TO_VALUE.hard) return "hard";
+  if (value >= DIFFICULTY_TO_VALUE.medium) return "medium";
+  return "easy";
+}
+
+function normalizeWorkoutEntry(item) {
+  const difficulty = WORKOUT_DIFFICULTIES.includes(item?.difficulty)
+    ? item.difficulty
+    : getDifficultyFromValue(item?.value ?? 1);
+
+  return {
+    ...item,
+    id: item?.id ?? makeId(),
+    dayKey: item?.dayKey ?? item?.label ?? makeId(),
+    difficulty,
+    value: DIFFICULTY_TO_VALUE[difficulty],
+  };
+}
+
+function normalizeSeries(entries = []) {
+  return entries.map((item) => ({
+    ...item,
+    id: item?.id ?? makeId(),
+    dayKey: item?.dayKey ?? item?.label ?? makeId(),
+  }));
+}
+
+function normalizeProgress(value) {
+  return {
+    workouts: normalizeSeries(value?.workouts ?? []).map(normalizeWorkoutEntry),
+    weight: normalizeSeries(value?.weight ?? []),
+    habits: normalizeSeries(value?.habits ?? []),
+  };
+}
 
 function openDB() {
   return new Promise((resolve, reject) => {
@@ -51,7 +95,7 @@ async function putProgressRecord(value) {
 }
 
 export default function useIndexedDBProgress(defaultValue) {
-  const [value, setValue] = useState(defaultValue);
+  const [value, setValue] = useState(() => normalizeProgress(defaultValue));
   const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
@@ -65,7 +109,7 @@ export default function useIndexedDBProgress(defaultValue) {
         if (cancelled) return;
 
         if (stored !== null) {
-          setValue(stored);
+          setValue(normalizeProgress(stored));
           return;
         }
 
@@ -75,8 +119,9 @@ export default function useIndexedDBProgress(defaultValue) {
         const legacyValue = JSON.parse(legacyRaw);
         if (cancelled) return;
 
-        setValue(legacyValue);
-        await putProgressRecord(legacyValue);
+        const normalizedLegacyValue = normalizeProgress(legacyValue);
+        setValue(normalizedLegacyValue);
+        await putProgressRecord(normalizedLegacyValue);
         window.localStorage.removeItem(LEGACY_KEY);
       } catch {
         // Keep default value on failure.
@@ -98,9 +143,10 @@ export default function useIndexedDBProgress(defaultValue) {
     setValue((prev) => {
       const resolvedValue =
         typeof nextValue === "function" ? nextValue(prev) : nextValue;
+      const normalizedValue = normalizeProgress(resolvedValue);
 
-      putProgressRecord(resolvedValue).catch(() => {});
-      return resolvedValue;
+      putProgressRecord(normalizedValue).catch(() => {});
+      return normalizedValue;
     });
   }, []);
 

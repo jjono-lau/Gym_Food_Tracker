@@ -122,6 +122,10 @@ export function useIndexedDBImages() {
       const existingNames = new Set(prev.map((img) => img.name));
       const toAdd = newImgs.filter((img) => !existingNames.has(img.name));
 
+      if (toAdd.length === 0) {
+        return prev;
+      }
+
       toAdd.forEach((img) => {
         putImage(img).catch(console.error);
       });
@@ -131,25 +135,34 @@ export function useIndexedDBImages() {
   }, []);
 
   const updateImage = useCallback((id, patch) => {
-    setImagesState((prev) =>
-      prev.map((img) => {
+    setImagesState((prev) => {
+      let changed = false;
+
+      const next = prev.map((img) => {
         if (img.id !== id) return img;
 
+        changed = true;
         const updated = { ...img, ...patch };
         putImage(updated).catch(console.error);
         return updated;
-      })
-    );
+      });
+
+      return changed ? next : prev;
+    });
   }, []);
 
   const removeImage = useCallback((id) => {
     deleteImage(id).catch(console.error);
-    setImagesState((prev) => prev.filter((img) => img.id !== id));
+
+    setImagesState((prev) => {
+      const next = prev.filter((img) => img.id !== id);
+      return next.length === prev.length ? prev : next;
+    });
   }, []);
 
   const clearImages = useCallback(() => {
     clearAllImages().catch(console.error);
-    setImagesState([]);
+    setImagesState((prev) => (prev.length ? [] : prev));
   }, []);
 
   return { images, hydrated, addImages, updateImage, removeImage, clearImages };

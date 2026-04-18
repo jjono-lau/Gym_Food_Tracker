@@ -53,7 +53,6 @@ const supportsDirectoryPicker =
 export default function TransformationsPage() {
   const { images, hydrated, addImages, updateImage, removeImage } = useIndexedDBImages();
   const [index, setIndex] = useState(0);
-  const [mounted, setMounted] = useState(false);
   const [importing, setImporting] = useState(false);
   const [progress, setProgress] = useState(0);
 
@@ -63,12 +62,8 @@ export default function TransformationsPage() {
   const touchStartX = useRef(null);
   const touchStartY = useRef(null);
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
   const startProgress = useCallback(() => {
-    setProgress(0);
+    setProgress((current) => (current === 0 ? current : 0));
     progressStartRef.current = performance.now();
 
     const tick = (now) => {
@@ -83,19 +78,20 @@ export default function TransformationsPage() {
   const stopProgress = useCallback(() => {
     if (progressRafRef.current) {
       cancelAnimationFrame(progressRafRef.current);
+      progressRafRef.current = null;
     }
-    setProgress(0);
+    if (timerRef.current) {
+      clearTimeout(timerRef.current);
+      timerRef.current = null;
+    }
+    setProgress((current) => (current === 0 ? current : 0));
   }, []);
 
   useEffect(() => {
-    if (!mounted || !hydrated) return undefined;
+    if (!hydrated) return undefined;
     if (images.length <= 1) {
       stopProgress();
       return undefined;
-    }
-
-    if (timerRef.current) {
-      clearTimeout(timerRef.current);
     }
 
     startProgress();
@@ -107,24 +103,20 @@ export default function TransformationsPage() {
       clearTimeout(timerRef.current);
       stopProgress();
     };
-  }, [hydrated, images.length, index, mounted, startProgress, stopProgress]);
+  }, [hydrated, images.length, index, startProgress, stopProgress]);
 
   useEffect(() => {
     setIndex((current) => {
-      if (!images.length) return 0;
-      return Math.min(current, images.length - 1);
+      const nextIndex = !images.length ? 0 : Math.min(current, images.length - 1);
+      return nextIndex === current ? current : nextIndex;
     });
   }, [images.length]);
 
-  const displayImages = mounted && hydrated ? images : [];
+  const displayImages = hydrated ? images : [];
   const currentImage = displayImages[index] ?? displayImages[0];
 
   const resetAutoAdvance = useCallback(() => {
-    if (timerRef.current) {
-      clearTimeout(timerRef.current);
-    }
     stopProgress();
-    startProgress();
   }, [startProgress, stopProgress]);
 
   const goNext = useCallback(() => {
@@ -270,8 +262,11 @@ export default function TransformationsPage() {
               onTouchStart={onTouchStart}
               onTouchEnd={onTouchEnd}
             >
-              <AnimatePresence mode="wait">
-                {displayImages.length > 0 && currentImage ? (
+              {!hydrated ? (
+                <div className="h-full w-full animate-pulse bg-gradient-to-br from-cream via-white to-cream/80" />
+              ) : (
+                <AnimatePresence initial={false} mode="wait">
+                  {displayImages.length > 0 && currentImage ? (
                   <motion.img
                     key={currentImage.id}
                     src={currentImage.src}
@@ -282,30 +277,26 @@ export default function TransformationsPage() {
                     exit={{ opacity: 0, x: -30 }}
                     transition={{ duration: 0.25 }}
                   />
-                ) : (
-                  <motion.div
-                    key="placeholder"
-                    className="h-full w-full flex flex-col items-center justify-center gap-2 text-muted text-sm px-8 text-center"
-                    initial={{ opacity: 0.3 }}
-                    animate={{ opacity: 1 }}
-                  >
-                    {supportsDirectoryPicker ? (
-                      <>
-                        <span className="text-lg font-semibold text-ink">Folder import</span>
-                        <span>
-                          Tap <strong>Select folder</strong> to import your gym photo folder
-                          all at once.
-                        </span>
-                      </>
-                    ) : (
-                      <>
-                        <span className="text-lg font-semibold text-ink">Add your first photo</span>
-                        <span>Upload a session photo to start the carousel.</span>
-                      </>
-                    )}
-                  </motion.div>
-                )}
-              </AnimatePresence>
+                  ) : (
+                    <div className="h-full w-full flex flex-col items-center justify-center gap-2 text-muted text-sm px-8 text-center">
+                      {supportsDirectoryPicker ? (
+                        <>
+                          <span className="text-lg font-semibold text-ink">Folder import</span>
+                          <span>
+                            Tap <strong>Select folder</strong> to import your gym photo folder
+                            all at once.
+                          </span>
+                        </>
+                      ) : (
+                        <>
+                          <span className="text-lg font-semibold text-ink">Add your first photo</span>
+                          <span>Upload a session photo to start the carousel.</span>
+                        </>
+                      )}
+                    </div>
+                  )}
+                </AnimatePresence>
+              )}
 
               {displayImages.length > 0 && currentImage && (
                 <>
@@ -415,13 +406,21 @@ export default function TransformationsPage() {
                 )}
               </button>
             ))}
-            {images.length === 0 && (
+            {hydrated && images.length === 0 && (
               <div className="col-span-full rounded-2xl border border-dashed border-ink/15 bg-white/70 p-6 text-sm text-muted">
                 No photos yet.{" "}
                 {supportsDirectoryPicker
                   ? 'Use "Select folder" to import your gym photos folder.'
                   : "Upload from your camera roll to see your glow up."}
               </div>
+            )}
+            {!hydrated && (
+              <>
+                <div className="h-40 rounded-2xl animate-pulse bg-white/70" />
+                <div className="h-40 rounded-2xl animate-pulse bg-white/70" />
+                <div className="h-40 rounded-2xl animate-pulse bg-white/70" />
+                <div className="h-40 rounded-2xl animate-pulse bg-white/70" />
+              </>
             )}
           </div>
         </div>

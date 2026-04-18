@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Navbar from "@/components/Navbar";
 import SectionHeader from "@/components/SectionHeader";
 import { Dumbbell, Salad, BookOpen, Sparkles } from "@/components/icons";
@@ -39,13 +39,34 @@ const featureCards = [
   },
 ];
 
+const emptyProgress = { workouts: [], weight: [], habits: [] };
+
+function DashboardSkeleton() {
+  return (
+    <div className="mt-6 space-y-4 text-sm animate-pulse">
+      <div className="rounded-2xl bg-gradient-to-br from-pink/60 to-lavender/60 p-4 soft-shadow">
+        <div className="h-3 w-20 rounded-full bg-white/60" />
+        <div className="mt-3 h-8 w-40 rounded-2xl bg-white/60" />
+        <div className="mt-2 h-3 w-28 rounded-full bg-white/60" />
+      </div>
+      <div className="rounded-2xl bg-white p-4 border border-white/70 shadow-inner shadow-peach/20">
+        <div className="h-3 w-16 rounded-full bg-cream" />
+        <div className="mt-3 h-7 w-48 rounded-2xl bg-cream" />
+        <div className="mt-2 h-3 w-24 rounded-full bg-cream" />
+      </div>
+      <div className="rounded-2xl bg-sage/60 p-4 border border-white/70">
+        <div className="h-3 w-16 rounded-full bg-white/60" />
+        <div className="mt-3 h-7 w-24 rounded-2xl bg-white/60" />
+        <div className="mt-2 h-3 w-24 rounded-full bg-white/60" />
+      </div>
+    </div>
+  );
+}
+
 export default function Home() {
-  const [progress] = useIndexedDBProgress({ workouts: [], weight: [], habits: [] });
-  const [dashData, setDashData] = useState({
-    streak: 0,
-    lastWorkout: null,
-    mealSuggestion: "Plan a meal",
-  });
+  const [progress, , hydrated] = useIndexedDBProgress(emptyProgress);
+  const [mealSuggestion, setMealSuggestion] = useState("Plan a meal");
+  const [mealReady, setMealReady] = useState(false);
 
   const pickMeal = (date) => {
     const hour = date.getHours();
@@ -64,11 +85,10 @@ export default function Home() {
   };
 
   useEffect(() => {
-    if (typeof window === "undefined") return;
+    if (!hydrated || typeof window === "undefined") return;
 
-    const workouts = progress.workouts ?? [];
-    const streak = workouts.length;
-    const lastWorkout = workouts.at(-1) ?? null;
+    let cancelled = false;
+    setMealReady(false);
 
     const loadTime = async () => {
       let nextMealLabel = "Plan a meal";
@@ -82,25 +102,28 @@ export default function Home() {
       } catch {
         nextMealLabel = pickMeal(new Date());
       } finally {
-        setDashData({ streak, lastWorkout, mealSuggestion: nextMealLabel });
+        if (!cancelled) {
+          setMealSuggestion(nextMealLabel);
+          setMealReady(true);
+        }
       }
     };
 
     loadTime();
-  }, [progress]);
 
-  const streak = dashData.streak;
-  const lastWorkout = dashData.lastWorkout;
-  const mealSuggestion = dashData.mealSuggestion;
+    return () => {
+      cancelled = true;
+    };
+  }, [hydrated]);
 
+  const streak = progress.workouts.length;
+  const lastWorkout = useMemo(() => progress.workouts.at(-1) ?? null, [progress.workouts]);
   const dashWorkout = lastWorkout
     ? `${lastWorkout.difficulty ?? "easy"} day`
     : "No workout logged yet";
   const dashWorkoutSub = lastWorkout
     ? `Last done: ${lastWorkout.label}`
     : "Log a workout to start your streak";
-  const dashMeal = mealSuggestion;
-  const dashStreak = streak;
 
   return (
     <div className="min-h-screen flex flex-col bg-grid overflow-x-hidden">
@@ -166,31 +189,37 @@ export default function Home() {
               title="Your glow-up snapshot"
               subtitle="Quick hits to stay on track"
             />
-            <div className="mt-6 space-y-4 text-sm">
-              <div className="rounded-2xl bg-gradient-to-br from-pink/80 to-lavender/80 p-4 text-ink soft-shadow">
-                <p className="text-xs uppercase tracking-[0.12em] font-semibold">
-                  Workout
-                </p>
-                <p className="mt-2 text-2xl font-bold">{dashWorkout}</p>
-                <p className="text-xs mt-1">{dashWorkoutSub}</p>
+            {!hydrated ? (
+              <DashboardSkeleton />
+            ) : (
+              <div className="mt-6 space-y-4 text-sm">
+                <div className="rounded-2xl bg-gradient-to-br from-pink/80 to-lavender/80 p-4 text-ink soft-shadow">
+                  <p className="text-xs uppercase tracking-[0.12em] font-semibold">
+                    Workout
+                  </p>
+                  <p className="mt-2 text-2xl font-bold">{dashWorkout}</p>
+                  <p className="text-xs mt-1">{dashWorkoutSub}</p>
+                </div>
+                <div className="rounded-2xl bg-white p-4 text-ink border border-white/70 shadow-inner shadow-peach/20">
+                  <p className="text-xs uppercase tracking-[0.12em] font-semibold">
+                    Meal
+                  </p>
+                  <p className="mt-2 text-lg font-bold">
+                    {mealReady ? mealSuggestion : "Loading meal cue..."}
+                  </p>
+                  <p className="text-xs text-muted mt-1">Low sugar & high fibre</p>
+                </div>
+                <div className="rounded-2xl bg-sage/80 p-4 border border-white/70">
+                  <p className="text-xs uppercase tracking-[0.12em] font-semibold">
+                    Streak
+                  </p>
+                  <p className="mt-2 text-xl font-bold flex items-center gap-2">
+                    {streak} days
+                  </p>
+                  <p className="text-xs text-muted">Keep the glow going</p>
+                </div>
               </div>
-              <div className="rounded-2xl bg-white p-4 text-ink border border-white/70 shadow-inner shadow-peach/20">
-                <p className="text-xs uppercase tracking-[0.12em] font-semibold">
-                  Meal
-                </p>
-                <p className="mt-2 text-lg font-bold">{dashMeal}</p>
-                <p className="text-xs text-muted mt-1">Low sugar & high fibre</p>
-              </div>
-              <div className="rounded-2xl bg-sage/80 p-4 border border-white/70">
-                <p className="text-xs uppercase tracking-[0.12em] font-semibold">
-                  Streak
-                </p>
-                <p className="mt-2 text-xl font-bold flex items-center gap-2">
-                  {dashStreak} days
-                </p>
-                <p className="text-xs text-muted">Keep the glow going</p>
-              </div>
-            </div>
+            )}
           </motion.div>
         </section>
 
