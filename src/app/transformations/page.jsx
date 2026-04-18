@@ -12,6 +12,7 @@ import { Flame, Sparkles } from "@/components/icons";
 const IMAGE_EXT = /\.(jpe?g|png|webp|heic|heif|gif|avif)$/i;
 const INTERVAL = 4000;
 const INTRO_DURATION = 4000;
+const MAX_IMAGE_DIMENSION = 1600;
 
 function decodeImageSource(src) {
   return new Promise((resolve) => {
@@ -32,11 +33,74 @@ function decodeImageSource(src) {
   });
 }
 
+function blobToDataUrl(blob) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(reader.result);
+    reader.onerror = reject;
+    reader.readAsDataURL(blob);
+  });
+}
+
+async function resizeImageFile(file) {
+  const objectUrl = URL.createObjectURL(file);
+
+  try {
+    const image = new Image();
+
+    await new Promise((resolve, reject) => {
+      image.onload = resolve;
+      image.onerror = reject;
+      image.src = objectUrl;
+    });
+
+    try {
+      if (typeof image.decode === "function") {
+        await image.decode();
+      }
+    } catch {
+      // Some browsers reject decode() even after a successful load.
+    }
+
+    const longestSide = Math.max(image.naturalWidth, image.naturalHeight);
+    if (!longestSide || longestSide <= MAX_IMAGE_DIMENSION) {
+      return await blobToDataUrl(file);
+    }
+
+    const scale = MAX_IMAGE_DIMENSION / longestSide;
+    const width = Math.max(1, Math.round(image.naturalWidth * scale));
+    const height = Math.max(1, Math.round(image.naturalHeight * scale));
+    const canvas = document.createElement("canvas");
+    canvas.width = width;
+    canvas.height = height;
+
+    const context = canvas.getContext("2d");
+    if (!context) {
+      return await blobToDataUrl(file);
+    }
+
+    context.drawImage(image, 0, 0, width, height);
+
+    const outputType =
+      file.type === "image/png" || file.type === "image/webp" ? file.type : "image/jpeg";
+    const blob = await new Promise((resolve) => {
+      canvas.toBlob((result) => resolve(result), outputType, 0.86);
+    });
+
+    if (!blob) {
+      return await blobToDataUrl(file);
+    }
+
+    return await blobToDataUrl(blob);
+  } finally {
+    URL.revokeObjectURL(objectUrl);
+  }
+}
+
 function readFile(file) {
   return new Promise((resolve) => {
-    const reader = new FileReader();
-    reader.onload = async () => {
-      const src = reader.result;
+    (async () => {
+      const src = await resizeImageFile(file);
       await decodeImageSource(src);
 
       resolve({
@@ -45,8 +109,14 @@ function readFile(file) {
         id: `${Date.now()}-${Math.random().toString(36).slice(2)}-${file.name}`,
         date: new Date(file.lastModified || Date.now()).toLocaleDateString(),
       });
-    };
-    reader.readAsDataURL(file);
+    })().catch(() => {
+      resolve({
+        src: "",
+        name: file.name,
+        id: `${Date.now()}-${Math.random().toString(36).slice(2)}-${file.name}`,
+        date: new Date(file.lastModified || Date.now()).toLocaleDateString(),
+      });
+    });
   });
 }
 
@@ -84,6 +154,7 @@ export default function TransformationsPage() {
   const [initialImagesReady, setInitialImagesReady] = useState(false);
   const [allowEntranceAnimations, setAllowEntranceAnimations] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [galleryReady, setGalleryReady] = useState(false);
 
   const timerRef = useRef(null);
   const progressRafRef = useRef(null);
@@ -235,7 +306,7 @@ export default function TransformationsPage() {
     const files = Array.from(event.target.files ?? []);
     if (!files.length) return;
 
-    const uploadedImages = await Promise.all(files.map(readFile));
+    const uploadedImages = (await Promise.all(files.map(readFile))).filter((image) => image.src);
     addImages(uploadedImages);
     event.target.value = "";
   };
@@ -247,7 +318,7 @@ export default function TransformationsPage() {
       const files = await pickFolder();
       if (!files?.length) return;
 
-      const uploadedImages = await Promise.all(files.map(readFile));
+      const uploadedImages = (await Promise.all(files.map(readFile))).filter((image) => image.src);
       uploadedImages.sort((a, b) => {
         const ta = parseInt(a.id.split("-")[0], 10);
         const tb = parseInt(b.id.split("-")[0], 10);
@@ -287,6 +358,27 @@ export default function TransformationsPage() {
 
   const showBlockingLoader = showIntro || importing || !hydrated || !initialImagesReady;
 
+  useEffect(() => {
+    if (showBlockingLoader) {
+      setGalleryReady(false);
+      return undefined;
+    }
+
+    let frameOne = null;
+    let frameTwo = null;
+
+    frameOne = requestAnimationFrame(() => {
+      frameTwo = requestAnimationFrame(() => {
+        setGalleryReady(true);
+      });
+    });
+
+    return () => {
+      if (frameOne) cancelAnimationFrame(frameOne);
+      if (frameTwo) cancelAnimationFrame(frameTwo);
+    };
+  }, [showBlockingLoader]);
+
   if (showBlockingLoader) {
     return (
       <PageLoader
@@ -304,6 +396,8 @@ export default function TransformationsPage() {
       />
     );
   }
+
+  const galleryImages = galleryReady ? displayImages : [];
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -487,7 +581,7 @@ export default function TransformationsPage() {
             </p>
           </div>
           <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-            {displayImages.map((image, imageIndex) => (
+            {galleryImages.map((image, imageIndex) => (
               <button
                 key={image.id}
                 onClick={() => {
@@ -513,7 +607,15 @@ export default function TransformationsPage() {
                 )}
               </button>
             ))}
-            {hydrated && images.length === 0 && (
+            {!galleryReady && images.length > 0 && (
+              <>
+                <div className="h-40 rounded-2xl animate-pulse bg-white/70" />
+                <div className="h-40 rounded-2xl animate-pulse bg-white/70" />
+                <div className="h-40 rounded-2xl animate-pulse bg-white/70" />
+                <div className="h-40 rounded-2xl animate-pulse bg-white/70" />
+              </>
+            )}
+            {hydrated && galleryReady && images.length === 0 && (
               <div className="col-span-full rounded-2xl border border-dashed border-ink/15 bg-white/70 p-6 text-sm text-muted">
                 No photos yet.{" "}
                 {supportsDirectoryPicker
