@@ -4,12 +4,14 @@
 import { useEffect, useState, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Navbar from "@/components/Navbar";
+import PageLoader from "@/components/PageLoader";
 import SectionHeader from "@/components/SectionHeader";
 import { useIndexedDBImages } from "@/hooks/useIndexedDBImages";
 import { Flame, Sparkles } from "@/components/icons";
 
 const IMAGE_EXT = /\.(jpe?g|png|webp|heic|heif|gif|avif)$/i;
 const INTERVAL = 4000;
+const INTRO_DURATION = 4000;
 
 function readFile(file) {
   return new Promise((resolve) => {
@@ -55,12 +57,23 @@ export default function TransformationsPage() {
   const [index, setIndex] = useState(0);
   const [importing, setImporting] = useState(false);
   const [progress, setProgress] = useState(0);
+  const [showIntro, setShowIntro] = useState(true);
 
   const timerRef = useRef(null);
   const progressRafRef = useRef(null);
   const progressStartRef = useRef(null);
   const touchStartX = useRef(null);
   const touchStartY = useRef(null);
+
+  useEffect(() => {
+    const introTimer = setTimeout(() => {
+      setShowIntro(false);
+    }, INTRO_DURATION);
+
+    return () => {
+      clearTimeout(introTimer);
+    };
+  }, []);
 
   const startProgress = useCallback(() => {
     setProgress((current) => (current === 0 ? current : 0));
@@ -117,7 +130,7 @@ export default function TransformationsPage() {
 
   const resetAutoAdvance = useCallback(() => {
     stopProgress();
-  }, [startProgress, stopProgress]);
+  }, [stopProgress]);
 
   const goNext = useCallback(() => {
     resetAutoAdvance();
@@ -210,6 +223,15 @@ export default function TransformationsPage() {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <PageLoader
+        show={showIntro}
+        duration={INTRO_DURATION}
+        eyebrow="Glow Up Loading"
+        title="Serving girlypops gains..."
+        subtitle="fluffing the carousel, glossing the gallery, and lining up your gym era."
+        iconSrc="/bench_press.svg"
+        iconAlt="Bench press"
+      />
       <Navbar />
       <main className="mx-auto flex-1 w-full max-w-6xl px-4 sm:px-6 lg:px-8 pb-16">
         <div className="pt-10">
@@ -267,16 +289,16 @@ export default function TransformationsPage() {
               ) : (
                 <AnimatePresence initial={false} mode="wait">
                   {displayImages.length > 0 && currentImage ? (
-                  <motion.img
-                    key={currentImage.id}
-                    src={currentImage.src}
-                    alt={currentImage.name || "progress photo"}
-                    className="h-full w-full object-cover"
-                    initial={{ opacity: 0.4, x: 30 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    exit={{ opacity: 0, x: -30 }}
-                    transition={{ duration: 0.25 }}
-                  />
+                    <motion.img
+                      key={currentImage.id}
+                      src={currentImage.src}
+                      alt={currentImage.name || "progress photo"}
+                      className="h-full w-full object-cover"
+                      initial={{ opacity: 0.4, x: 30 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      exit={{ opacity: 0, x: -30 }}
+                      transition={{ duration: 0.25 }}
+                    />
                   ) : (
                     <div className="h-full w-full flex flex-col items-center justify-center gap-2 text-muted text-sm px-8 text-center">
                       {supportsDirectoryPicker ? (
