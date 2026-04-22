@@ -1,0 +1,20 @@
+# Recumbent Bike for PCOS and High Triglycerides Training
+
+## Summary
+This note explains how to use [[Recumbent Bike]] for combined PCOS and high triglycerides training with a focus on aerobic base work, strength training, and repeatable weekly structure.
+
+## Key Points
+- Main context: [[Recumbent Bike]] sits inside [[Cardio Equipment Hub]] and should be used within the broader guidance in [[PCOS Exercise Guidance]].
+- Priority: Use this equipment to support both metabolic health and gym adherence rather than chasing extreme intensity.
+- Priority: A balanced mix of cardio, resistance training, and day-to-day movement is usually more useful than specializing too early.
+- Priority: Build a plan you can repeat for months, because combined metabolic goals respond best to steady habits.
+- Best use: treat [[Recumbent Bike]] as a steady cardio option for building weekly training minutes.
+- Good pattern: use intervals only after you can already sustain moderate, repeatable sessions comfortably.
+- Avoid: turning every session into maximal effort, because missed sessions reduce the long-term benefit.
+
+## Related
+- [[PCOS and High Triglycerides Machine Training Hub]]
+- [[Recumbent Bike]]
+- [[PCOS Exercise Guidance]]
+- [[Cardio Equipment Hub]]
+- [[High Triglycerides Exercise Guidance]]

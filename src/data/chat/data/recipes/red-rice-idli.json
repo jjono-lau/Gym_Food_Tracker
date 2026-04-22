@@ -1,0 +1,124 @@
+{
+  "id": "red-rice-idli",
+  "name": "Red Rice Idli",
+  "category": "breakfast",
+  "category_note_path": "Resources/Hubs/Breakfast Hub",
+  "source_note": "Resources/Recipes/Breakfast/Red Rice Idli.md",
+  "tags": [
+    "breakfast"
+  ],
+  "ingredient_tags": [
+    "ingredient/red-rice",
+    "ingredient/urad-dal",
+    "ingredient/fenugreek-seeds",
+    "ingredient/carrot",
+    "ingredient/ginger",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "red-rice",
+    "urad-dal",
+    "fenugreek-seeds",
+    "carrot",
+    "ginger",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "red rice",
+      "slug": "red-rice",
+      "quantity": 130,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 55,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "fenugreek seeds",
+      "slug": "fenugreek-seeds",
+      "quantity": 0.8,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "carrot",
+      "slug": "carrot",
+      "quantity": 90,
+      "unit": "g",
+      "note": "finely grated"
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 8,
+      "unit": "g",
+      "note": "finely grated"
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": "minced"
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 4,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 360,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Red Rice Idli brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Grease the idli moulds very lightly with oil and fill each cavity to three-quarters full.",
+    "Steam over medium heat for 10 to 12 minutes until the tops look dry and a skewer comes out clean.",
+    "Rest the moulds off heat for 2 minutes so the crumb firms up, then unmould with a wet spoon.",
+    "Serve hot with tomato chutney; if holding for later, cool on a rack so steam does not make the idlis gummy."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 15,
+    "cook_time_min": 14,
+    "total_time_min": 29
+  },
+  "nutrition_per_serving": {
+    "calories": 369,
+    "protein_g": 12,
+    "carbs_g": 71,
+    "fat_g": 4
+  },
+  "meal_prep_notes": "Idlis keep 3 days chilled and freeze well for 1 month. Reheat by steaming for 4 minutes or microwaving covered for 30 seconds. Extra idlis can be cubed and turned into idli upma without added oil.",
+  "serves": 2,
+  "related_links": [
+    "Breakfast Hub",
+    "Red Rice",
+    "Urad Dal"
+  ]
+}

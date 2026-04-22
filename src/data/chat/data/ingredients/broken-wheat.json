@@ -1,0 +1,37 @@
+{
+  "slug": "broken-wheat",
+  "name": "broken wheat",
+  "count": 2,
+  "recipes": [
+    {
+      "id": "broken-wheat-ven-pongal",
+      "name": "Broken Wheat Ven Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Broken Wheat Ven Pongal.md"
+    },
+    {
+      "id": "broken-wheat-vegetable-pongal",
+      "name": "Broken Wheat Vegetable Pongal",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Broken Wheat Vegetable Pongal.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "broken-wheat-ven-pongal",
+        "name": "Broken Wheat Ven Pongal",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Broken Wheat Ven Pongal.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "broken-wheat-vegetable-pongal",
+        "name": "Broken Wheat Vegetable Pongal",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Broken Wheat Vegetable Pongal.md"
+      }
+    ]
+  }
+}

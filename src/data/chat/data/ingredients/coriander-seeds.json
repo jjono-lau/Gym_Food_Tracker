@@ -1,0 +1,23 @@
+{
+  "slug": "coriander-seeds",
+  "name": "coriander seeds",
+  "count": 1,
+  "recipes": [
+    {
+      "id": "bitter-gourd-pitlai-with-little-millet",
+      "name": "Bitter Gourd Pitlai with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Bitter Gourd Pitlai with Little Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "lunch": [
+      {
+        "id": "bitter-gourd-pitlai-with-little-millet",
+        "name": "Bitter Gourd Pitlai with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Bitter Gourd Pitlai with Little Millet.md"
+      }
+    ]
+  }
+}

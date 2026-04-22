@@ -1,0 +1,160 @@
+{
+  "id": "kollu-rasam-with-millet-rice",
+  "name": "Kollu Rasam with Millet Rice",
+  "category": "lunch",
+  "category_note_path": "Resources/Hubs/Lunch Hub",
+  "source_note": "Resources/Recipes/Lunch/Kollu Rasam with Millet Rice.md",
+  "tags": [
+    "lunch"
+  ],
+  "ingredient_tags": [
+    "ingredient/kodo-millet",
+    "ingredient/horse-gram",
+    "ingredient/tomato",
+    "ingredient/tomato",
+    "ingredient/tamarind",
+    "ingredient/black-pepper",
+    "ingredient/cumin-seeds",
+    "ingredient/garlic",
+    "ingredient/mustard-seeds",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "kodo-millet",
+    "horse-gram",
+    "tomato",
+    "tomato",
+    "tamarind",
+    "black-pepper",
+    "cumin-seeds",
+    "garlic",
+    "mustard-seeds",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "kodo millet",
+      "slug": "kodo-millet",
+      "quantity": 160,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "horse gram",
+      "slug": "horse-gram",
+      "quantity": 50,
+      "unit": "g",
+      "note": "cooked soft"
+    },
+    {
+      "name": "tomato",
+      "slug": "tomato",
+      "quantity": 120,
+      "unit": "g",
+      "note": "chopped or crushed"
+    },
+    {
+      "name": "tomato",
+      "slug": "tomato",
+      "quantity": 100,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "tamarind",
+      "slug": "tamarind",
+      "quantity": 10,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "black pepper",
+      "slug": "black-pepper",
+      "quantity": 0.8,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "garlic",
+      "slug": "garlic",
+      "quantity": 12,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "mustard seeds",
+      "slug": "mustard-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 6,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 900,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Kollu Rasam with Millet Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Combine tamarind water, tomato, vegetable element, salt, and 500 ml water in a pot and simmer on medium heat for 8 minutes.",
+    "Add the cooked pulse and the crushed pepper-cumin-garlic mixture and simmer 4 minutes more until the raw garlic smell disappears.",
+    "Temper mustard and curry leaves in oil over medium heat and pour over the rasam. Switch off the heat as soon as the rasam foams lightly at the edges.",
+    "Rest 2 minutes, then ladle over the cooked grain."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 15,
+    "cook_time_min": 18,
+    "total_time_min": 33
+  },
+  "nutrition_per_serving": {
+    "calories": 420,
+    "protein_g": 14,
+    "carbs_g": 74,
+    "fat_g": 6
+  },
+  "meal_prep_notes": "Rasam keeps 2 days refrigerated. Reheat only until steaming, not boiling. Batch-cook the grain separately and make the rasam fresh if possible because its top-note aromas fade faster than heavier gravies.",
+  "serves": 2,
+  "related_links": [
+    "Lunch Hub",
+    "Kodo Millet",
+    "Horse Gram"
+  ]
+}

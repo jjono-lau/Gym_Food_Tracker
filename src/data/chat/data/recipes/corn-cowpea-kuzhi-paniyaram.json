@@ -1,0 +1,115 @@
+{
+  "id": "corn-cowpea-kuzhi-paniyaram",
+  "name": "Corn Cowpea Kuzhi Paniyaram",
+  "category": "breakfast",
+  "category_note_path": "Resources/Hubs/Breakfast Hub",
+  "source_note": "Resources/Recipes/Breakfast/Corn Cowpea Kuzhi Paniyaram.md",
+  "tags": [
+    "breakfast"
+  ],
+  "ingredient_tags": [
+    "ingredient/cowpea",
+    "ingredient/corn",
+    "ingredient/onion",
+    "ingredient/ginger",
+    "ingredient/green-chilli",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt"
+  ],
+  "ingredient_slugs": [
+    "cowpea",
+    "corn",
+    "onion",
+    "ginger",
+    "green-chilli",
+    "curry-leaves",
+    "sesame-oil",
+    "salt"
+  ],
+  "ingredients": [
+    {
+      "name": "cowpea",
+      "slug": "cowpea",
+      "quantity": 220,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "corn",
+      "slug": "corn",
+      "quantity": 100,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 70,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 10,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "green chilli",
+      "slug": "green-chilli",
+      "quantity": 2,
+      "unit": "tsp",
+      "note": "finely chopped"
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 8,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 0.8,
+      "unit": "tsp",
+      "note": null
+    }
+  ],
+  "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Corn Cowpea Kuzhi Paniyaram brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat the paniyaram pan over medium heat for 2 minutes and brush each cavity lightly with oil.",
+    "Mix onion, vegetable, ginger, chilli, curry leaves, and salt into the batter. Fill each cavity three-quarters full.",
+    "Cook covered on medium-low heat for 3 minutes until the edges set and the bottom turns deep golden.",
+    "Turn each paniyaram with a skewer, cook 2 more minutes until evenly browned and springy, then serve hot."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 10,
+    "cook_time_min": 16,
+    "total_time_min": 26
+  },
+  "nutrition_per_serving": {
+    "calories": 468,
+    "protein_g": 29,
+    "carbs_g": 80,
+    "fat_g": 6
+  },
+  "meal_prep_notes": "Paniyaram keeps 2 days in the fridge. Reheat in the same mould pan over low heat for 3 minutes or steam briefly. For batch prep, ferment the batter earlier and mix in vegetables only just before cooking.",
+  "serves": 2,
+  "related_links": [
+    "Breakfast Hub",
+    "Cowpea",
+    "Corn"
+  ]
+}

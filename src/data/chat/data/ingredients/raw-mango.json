@@ -1,0 +1,23 @@
+{
+  "slug": "raw-mango",
+  "name": "raw mango",
+  "count": 1,
+  "recipes": [
+    {
+      "id": "raw-mango-kuzhambu-with-little-millet",
+      "name": "Raw Mango Kuzhambu with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Raw Mango Kuzhambu with Little Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "lunch": [
+      {
+        "id": "raw-mango-kuzhambu-with-little-millet",
+        "name": "Raw Mango Kuzhambu with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Raw Mango Kuzhambu with Little Millet.md"
+      }
+    ]
+  }
+}

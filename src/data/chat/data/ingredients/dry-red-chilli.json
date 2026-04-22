@@ -1,0 +1,195 @@
+{
+  "slug": "dry-red-chilli",
+  "name": "dry red chilli",
+  "count": 15,
+  "recipes": [
+    {
+      "id": "beetroot-kambu-adai",
+      "name": "Beetroot Kambu Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Beetroot Kambu Adai.md"
+    },
+    {
+      "id": "cabbage-moong-dal-adai",
+      "name": "Cabbage Moong Dal Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Cabbage Moong Dal Adai.md"
+    },
+    {
+      "id": "drumstick-leaf-adai",
+      "name": "Drumstick Leaf Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Drumstick Leaf Adai.md"
+    },
+    {
+      "id": "kollu-adai",
+      "name": "Kollu Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kollu Adai.md"
+    },
+    {
+      "id": "multi-millet-adai",
+      "name": "Multi Millet Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Multi Millet Adai.md"
+    },
+    {
+      "id": "ridge-gourd-adai",
+      "name": "Ridge Gourd Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ridge Gourd Adai.md"
+    },
+    {
+      "id": "adai-with-avial",
+      "name": "Adai with Avial",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Adai with Avial.md"
+    },
+    {
+      "id": "cabbage-kothamalli-adai",
+      "name": "Cabbage Kothamalli Adai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Cabbage Kothamalli Adai.md"
+    },
+    {
+      "id": "horse-gram-adai-with-beetroot-chutney",
+      "name": "Horse Gram Adai with Beetroot Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Horse Gram Adai with Beetroot Chutney.md"
+    },
+    {
+      "id": "keerai-adai-with-garlic-chutney",
+      "name": "Keerai Adai with Garlic Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Keerai Adai with Garlic Chutney.md"
+    },
+    {
+      "id": "raw-banana-adai-with-curd-dip",
+      "name": "Raw Banana Adai with Curd Dip",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Raw Banana Adai with Curd Dip.md"
+    },
+    {
+      "id": "sweet-corn-adai-with-curry-leaf-chutney",
+      "name": "Sweet Corn Adai with Curry Leaf Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Sweet Corn Adai with Curry Leaf Chutney.md"
+    },
+    {
+      "id": "avarakkai-paruppu-usili-with-red-rice",
+      "name": "Avarakkai Paruppu Usili with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Avarakkai Paruppu Usili with Red Rice.md"
+    },
+    {
+      "id": "bitter-gourd-pitlai-with-little-millet",
+      "name": "Bitter Gourd Pitlai with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Bitter Gourd Pitlai with Little Millet.md"
+    },
+    {
+      "id": "curry-leaf-thuvaiyal-rice-bowl",
+      "name": "Curry Leaf Thuvaiyal Rice Bowl",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Curry Leaf Thuvaiyal Rice Bowl.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "beetroot-kambu-adai",
+        "name": "Beetroot Kambu Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Beetroot Kambu Adai.md"
+      },
+      {
+        "id": "cabbage-moong-dal-adai",
+        "name": "Cabbage Moong Dal Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Cabbage Moong Dal Adai.md"
+      },
+      {
+        "id": "drumstick-leaf-adai",
+        "name": "Drumstick Leaf Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Drumstick Leaf Adai.md"
+      },
+      {
+        "id": "kollu-adai",
+        "name": "Kollu Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Kollu Adai.md"
+      },
+      {
+        "id": "multi-millet-adai",
+        "name": "Multi Millet Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Multi Millet Adai.md"
+      },
+      {
+        "id": "ridge-gourd-adai",
+        "name": "Ridge Gourd Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ridge Gourd Adai.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "adai-with-avial",
+        "name": "Adai with Avial",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Adai with Avial.md"
+      },
+      {
+        "id": "cabbage-kothamalli-adai",
+        "name": "Cabbage Kothamalli Adai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Cabbage Kothamalli Adai.md"
+      },
+      {
+        "id": "horse-gram-adai-with-beetroot-chutney",
+        "name": "Horse Gram Adai with Beetroot Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Horse Gram Adai with Beetroot Chutney.md"
+      },
+      {
+        "id": "keerai-adai-with-garlic-chutney",
+        "name": "Keerai Adai with Garlic Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Keerai Adai with Garlic Chutney.md"
+      },
+      {
+        "id": "raw-banana-adai-with-curd-dip",
+        "name": "Raw Banana Adai with Curd Dip",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Raw Banana Adai with Curd Dip.md"
+      },
+      {
+        "id": "sweet-corn-adai-with-curry-leaf-chutney",
+        "name": "Sweet Corn Adai with Curry Leaf Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Sweet Corn Adai with Curry Leaf Chutney.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "avarakkai-paruppu-usili-with-red-rice",
+        "name": "Avarakkai Paruppu Usili with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Avarakkai Paruppu Usili with Red Rice.md"
+      },
+      {
+        "id": "bitter-gourd-pitlai-with-little-millet",
+        "name": "Bitter Gourd Pitlai with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Bitter Gourd Pitlai with Little Millet.md"
+      },
+      {
+        "id": "curry-leaf-thuvaiyal-rice-bowl",
+        "name": "Curry Leaf Thuvaiyal Rice Bowl",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Curry Leaf Thuvaiyal Rice Bowl.md"
+      }
+    ]
+  }
+}

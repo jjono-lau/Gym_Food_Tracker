@@ -1,0 +1,1666 @@
+{
+  "category": "lunch",
+  "count": 50,
+  "recipes": [
+    {
+      "id": "amaranth-dal-with-brown-rice",
+      "name": "Amaranth Dal with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Amaranth Dal with Brown Rice.md",
+      "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Amaranth Dal with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "toor-dal",
+        "amaranth-leaves",
+        "onion",
+        "tomato",
+        "garlic",
+        "cumin-seeds",
+        "turmeric",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 24,
+        "total_time_min": 39
+      },
+      "nutrition_per_serving": {
+        "calories": 530,
+        "protein_g": 20,
+        "carbs_g": 100,
+        "fat_g": 7
+      }
+    },
+    {
+      "id": "ash-gourd-mor-kuzhambu-with-red-rice",
+      "name": "Ash Gourd Mor Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Ash Gourd Mor Kuzhambu with Red Rice.md",
+      "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Ash Gourd Mor Kuzhambu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "red-rice",
+        "ash-gourd",
+        "low-fat-curd",
+        "coconut",
+        "toor-dal",
+        "cumin-seeds",
+        "green-chilli",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 20,
+        "total_time_min": 38
+      },
+      "nutrition_per_serving": {
+        "calories": 463,
+        "protein_g": 12,
+        "carbs_g": 76,
+        "fat_g": 11
+      }
+    },
+    {
+      "id": "avarakkai-paruppu-usili-with-red-rice",
+      "name": "Avarakkai Paruppu Usili with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Avarakkai Paruppu Usili with Red Rice.md",
+      "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Avarakkai Paruppu Usili with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "red-rice",
+        "chana-dal",
+        "toor-dal",
+        "beans",
+        "dry-red-chilli",
+        "asafoetida",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 24,
+        "total_time_min": 42
+      },
+      "nutrition_per_serving": {
+        "calories": 537,
+        "protein_g": 19,
+        "carbs_g": 99,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "banana-stem-mor-kootu-with-kodo-millet",
+      "name": "Banana Stem Mor Kootu with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Banana Stem Mor Kootu with Kodo Millet.md",
+      "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Banana Stem Mor Kootu with Kodo Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "kodo-millet",
+        "banana-stem",
+        "low-fat-curd",
+        "coconut",
+        "toor-dal",
+        "cumin-seeds",
+        "green-chilli",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 20,
+        "total_time_min": 38
+      },
+      "nutrition_per_serving": {
+        "calories": 472,
+        "protein_g": 14,
+        "carbs_g": 72,
+        "fat_g": 12
+      }
+    },
+    {
+      "id": "beans-paruppu-curry-with-red-rice",
+      "name": "Beans Paruppu Curry with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Beans Paruppu Curry with Red Rice.md",
+      "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Beans Paruppu Curry with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "red-rice",
+        "moong-dal",
+        "beans",
+        "onion",
+        "tomato",
+        "garlic",
+        "cumin-seeds",
+        "turmeric",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 24,
+        "total_time_min": 39
+      },
+      "nutrition_per_serving": {
+        "calories": 531,
+        "protein_g": 19,
+        "carbs_g": 102,
+        "fat_g": 6
+      }
+    },
+    {
+      "id": "beetroot-kootu-with-little-millet",
+      "name": "Beetroot Kootu with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Beetroot Kootu with Little Millet.md",
+      "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Beetroot Kootu with Little Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "little-millet",
+        "chana-dal",
+        "beetroot",
+        "coconut",
+        "cumin-seeds",
+        "green-chilli",
+        "mustard-seeds",
+        "urad-dal",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 16,
+        "cook_time_min": 22,
+        "total_time_min": 38
+      },
+      "nutrition_per_serving": {
+        "calories": 560,
+        "protein_g": 20,
+        "carbs_g": 94,
+        "fat_g": 14
+      }
+    },
+    {
+      "id": "bitter-gourd-pitlai-with-little-millet",
+      "name": "Bitter Gourd Pitlai with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Bitter Gourd Pitlai with Little Millet.md",
+      "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Bitter Gourd Pitlai with Little Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "little-millet",
+        "black-chana",
+        "okra",
+        "toor-dal",
+        "coconut",
+        "coriander-seeds",
+        "chana-dal",
+        "dry-red-chilli",
+        "tamarind",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 20,
+        "cook_time_min": 24,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 608,
+        "protein_g": 24,
+        "carbs_g": 103,
+        "fat_g": 14
+      }
+    },
+    {
+      "id": "black-chana-sundal-kuzhambu-with-brown-rice",
+      "name": "Black Chana Sundal Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Black Chana Sundal Kuzhambu with Brown Rice.md",
+      "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Black Chana Sundal Kuzhambu with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "tomato",
+        "onion",
+        "tomato",
+        "tamarind",
+        "black-chana",
+        "coriander-powder",
+        "chilli-powder",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 26,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 452,
+        "protein_g": 12,
+        "carbs_g": 83,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "brinjal-gothsu-with-foxtail-millet",
+      "name": "Brinjal Gothsu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Brinjal Gothsu with Foxtail Millet.md",
+      "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Brinjal Gothsu with Foxtail Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "foxtail-millet",
+        "brinjal",
+        "onion",
+        "tomato",
+        "tamarind",
+        "green-gram",
+        "coriander-powder",
+        "chilli-powder",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 26,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 441,
+        "protein_g": 17,
+        "carbs_g": 75,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "cabbage-kadalai-kootu-with-red-rice",
+      "name": "Cabbage Kadalai Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Cabbage Kadalai Kootu with Red Rice.md",
+      "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Cabbage Kadalai Kootu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "red-rice",
+        "chana-dal",
+        "cabbage",
+        "coconut",
+        "cumin-seeds",
+        "green-chilli",
+        "mustard-seeds",
+        "urad-dal",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 16,
+        "cook_time_min": 22,
+        "total_time_min": 38
+      },
+      "nutrition_per_serving": {
+        "calories": 554,
+        "protein_g": 18,
+        "carbs_g": 97,
+        "fat_g": 12
+      }
+    },
+    {
+      "id": "capsicum-kollu-kuzhambu-with-red-rice",
+      "name": "Capsicum Kollu Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Capsicum Kollu Kuzhambu with Red Rice.md",
+      "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Capsicum Kollu Kuzhambu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "red-rice",
+        "capsicum",
+        "onion",
+        "tomato",
+        "tamarind",
+        "horse-gram",
+        "coriander-powder",
+        "chilli-powder",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 26,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 449,
+        "protein_g": 12,
+        "carbs_g": 84,
+        "fat_g": 7
+      }
+    },
+    {
+      "id": "carrot-peas-sambar-with-barnyard-millet",
+      "name": "Carrot Peas Sambar with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Carrot Peas Sambar with Barnyard Millet.md",
+      "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Carrot Peas Sambar with Barnyard Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "barnyard-millet",
+        "toor-dal",
+        "carrot",
+        "onion",
+        "tomato",
+        "tamarind",
+        "sambar-powder",
+        "turmeric",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 28,
+        "total_time_min": 46
+      },
+      "nutrition_per_serving": {
+        "calories": 501,
+        "protein_g": 21,
+        "carbs_g": 88,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "cauliflower-milagu-kootu-with-foxtail-millet",
+      "name": "Cauliflower Milagu Kootu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Cauliflower Milagu Kootu with Foxtail Millet.md",
+      "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Cauliflower Milagu Kootu with Foxtail Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "foxtail-millet",
+        "moong-dal",
+        "cauliflower",
+        "coconut",
+        "cumin-seeds",
+        "green-chilli",
+        "mustard-seeds",
+        "urad-dal",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 16,
+        "cook_time_min": 22,
+        "total_time_min": 38
+      },
+      "nutrition_per_serving": {
+        "calories": 540,
+        "protein_g": 23,
+        "carbs_g": 87,
+        "fat_g": 12
+      }
+    },
+    {
+      "id": "chayote-coconut-stew-with-red-rice",
+      "name": "Chayote Coconut Stew with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Chayote Coconut Stew with Red Rice.md",
+      "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Chayote Coconut Stew with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "red-rice",
+        "chayote",
+        "cowpea",
+        "onion",
+        "light-coconut-milk",
+        "ginger",
+        "green-chilli",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 18,
+        "total_time_min": 33
+      },
+      "nutrition_per_serving": {
+        "calories": 561,
+        "protein_g": 17,
+        "carbs_g": 95,
+        "fat_g": 13
+      }
+    },
+    {
+      "id": "chow-chow-kootu-with-foxtail-millet",
+      "name": "Chow Chow Kootu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Chow Chow Kootu with Foxtail Millet.md",
+      "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Chow Chow Kootu with Foxtail Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "foxtail-millet",
+        "chana-dal",
+        "chayote",
+        "coconut",
+        "cumin-seeds",
+        "green-chilli",
+        "mustard-seeds",
+        "urad-dal",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 16,
+        "cook_time_min": 22,
+        "total_time_min": 38
+      },
+      "nutrition_per_serving": {
+        "calories": 539,
+        "protein_g": 21,
+        "carbs_g": 85,
+        "fat_g": 13
+      }
+    },
+    {
+      "id": "curry-leaf-kuzhambu-with-red-rice",
+      "name": "Curry Leaf Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Curry Leaf Kuzhambu with Red Rice.md",
+      "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Curry Leaf Kuzhambu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "red-rice",
+        "curry-leaves",
+        "onion",
+        "tomato",
+        "tamarind",
+        "black-chana",
+        "coriander-powder",
+        "chilli-powder",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 26,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 543,
+        "protein_g": 18,
+        "carbs_g": 99,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "curry-leaf-pepper-rasam-with-red-rice",
+      "name": "Curry Leaf Pepper Rasam with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Curry Leaf Pepper Rasam with Red Rice.md",
+      "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Curry Leaf Pepper Rasam with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "red-rice",
+        "toor-dal",
+        "curry-leaves",
+        "tomato",
+        "tamarind",
+        "black-pepper",
+        "cumin-seeds",
+        "garlic",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 18,
+        "total_time_min": 33
+      },
+      "nutrition_per_serving": {
+        "calories": 485,
+        "protein_g": 16,
+        "carbs_g": 92,
+        "fat_g": 6
+      }
+    },
+    {
+      "id": "curry-leaf-thuvaiyal-rice-bowl",
+      "name": "Curry Leaf Thuvaiyal Rice Bowl",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Curry Leaf Thuvaiyal Rice Bowl.md",
+      "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Curry Leaf Thuvaiyal Rice Bowl brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "curry-leaves",
+        "urad-dal",
+        "coconut",
+        "tamarind",
+        "dry-red-chilli",
+        "urad-dal",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 14,
+        "cook_time_min": 16,
+        "total_time_min": 30
+      },
+      "nutrition_per_serving": {
+        "calories": 526,
+        "protein_g": 18,
+        "carbs_g": 93,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "drumstick-leaves-sambar-with-kodo-millet",
+      "name": "Drumstick Leaves Sambar with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Drumstick Leaves Sambar with Kodo Millet.md",
+      "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Drumstick Leaves Sambar with Kodo Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "kodo-millet",
+        "toor-dal",
+        "drumstick-leaves",
+        "onion",
+        "tomato",
+        "tamarind",
+        "sambar-powder",
+        "turmeric",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 28,
+        "total_time_min": 46
+      },
+      "nutrition_per_serving": {
+        "calories": 561,
+        "protein_g": 27,
+        "carbs_g": 95,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "field-bean-kuzhambu-with-brown-rice",
+      "name": "Field Bean Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Field Bean Kuzhambu with Brown Rice.md",
+      "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Field Bean Kuzhambu with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "pumpkin",
+        "onion",
+        "tomato",
+        "tamarind",
+        "field-beans",
+        "coriander-powder",
+        "chilli-powder",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 26,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 456,
+        "protein_g": 12,
+        "carbs_g": 86,
+        "fat_g": 7
+      }
+    },
+    {
+      "id": "kathirikai-mochai-kuzhambu-with-brown-rice",
+      "name": "Kathirikai Mochai Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Kathirikai Mochai Kuzhambu with Brown Rice.md",
+      "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Kathirikai Mochai Kuzhambu with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "brinjal",
+        "onion",
+        "tomato",
+        "tamarind",
+        "mochai",
+        "coriander-powder",
+        "chilli-powder",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 26,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 455,
+        "protein_g": 12,
+        "carbs_g": 85,
+        "fat_g": 7
+      }
+    },
+    {
+      "id": "keerai-kootu-with-red-rice",
+      "name": "Keerai Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Keerai Kootu with Red Rice.md",
+      "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Keerai Kootu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "red-rice",
+        "moong-dal",
+        "spinach",
+        "coconut",
+        "cumin-seeds",
+        "green-chilli",
+        "mustard-seeds",
+        "urad-dal",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 16,
+        "cook_time_min": 22,
+        "total_time_min": 38
+      },
+      "nutrition_per_serving": {
+        "calories": 544,
+        "protein_g": 21,
+        "carbs_g": 95,
+        "fat_g": 10
+      }
+    },
+    {
+      "id": "keerai-kuzhambu-with-thinai",
+      "name": "Keerai Kuzhambu with Thinai",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Keerai Kuzhambu with Thinai.md",
+      "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Keerai Kuzhambu with Thinai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "thinai",
+        "amaranth-leaves",
+        "onion",
+        "tomato",
+        "tamarind",
+        "field-beans",
+        "coriander-powder",
+        "chilli-powder",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 26,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 437,
+        "protein_g": 18,
+        "carbs_g": 72,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "knol-khol-sambar-with-foxtail-millet",
+      "name": "Knol Khol Sambar with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Foxtail Millet.md",
+      "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Knol Khol Sambar with Foxtail Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "foxtail-millet",
+        "toor-dal",
+        "knol-khol",
+        "onion",
+        "tomato",
+        "tamarind",
+        "sambar-powder",
+        "turmeric",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 28,
+        "total_time_min": 46
+      },
+      "nutrition_per_serving": {
+        "calories": 523,
+        "protein_g": 23,
+        "carbs_g": 91,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "knol-khol-sambar-with-little-millet",
+      "name": "Knol Khol Sambar with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Little Millet.md",
+      "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Knol Khol Sambar with Little Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "little-millet",
+        "toor-dal",
+        "knol-khol",
+        "onion",
+        "tomato",
+        "tamarind",
+        "sambar-powder",
+        "turmeric",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 28,
+        "total_time_min": 46
+      },
+      "nutrition_per_serving": {
+        "calories": 515,
+        "protein_g": 20,
+        "carbs_g": 94,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "kollu-rasam-with-millet-rice",
+      "name": "Kollu Rasam with Millet Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Kollu Rasam with Millet Rice.md",
+      "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Kollu Rasam with Millet Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "kodo-millet",
+        "horse-gram",
+        "tomato",
+        "tomato",
+        "tamarind",
+        "black-pepper",
+        "cumin-seeds",
+        "garlic",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 18,
+        "total_time_min": 33
+      },
+      "nutrition_per_serving": {
+        "calories": 420,
+        "protein_g": 14,
+        "carbs_g": 74,
+        "fat_g": 6
+      }
+    },
+    {
+      "id": "kovakkai-peanut-kuzhambu-with-brown-rice",
+      "name": "Kovakkai Peanut Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Kovakkai Peanut Kuzhambu with Brown Rice.md",
+      "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Kovakkai Peanut Kuzhambu with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "kovakkai",
+        "onion",
+        "tomato",
+        "tamarind",
+        "peanuts",
+        "coriander-powder",
+        "chilli-powder",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 26,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 492,
+        "protein_g": 14,
+        "carbs_g": 74,
+        "fat_g": 17
+      }
+    },
+    {
+      "id": "manathakkali-style-kuzhambu-with-red-rice",
+      "name": "Manathakkali Style Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Manathakkali Style Kuzhambu with Red Rice.md",
+      "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Manathakkali Style Kuzhambu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "red-rice",
+        "tomato",
+        "onion",
+        "tomato",
+        "tamarind",
+        "field-beans",
+        "coriander-powder",
+        "chilli-powder",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 26,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 439,
+        "protein_g": 12,
+        "carbs_g": 82,
+        "fat_g": 7
+      }
+    },
+    {
+      "id": "methi-kuzhambu-with-brown-rice",
+      "name": "Methi Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Methi Kuzhambu with Brown Rice.md",
+      "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Methi Kuzhambu with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "methi-leaves",
+        "onion",
+        "tomato",
+        "tamarind",
+        "black-chana",
+        "coriander-powder",
+        "chilli-powder",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 26,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 486,
+        "protein_g": 16,
+        "carbs_g": 86,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "mixed-vegetable-sambar-sadam",
+      "name": "Mixed Vegetable Sambar Sadam",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Mixed Vegetable Sambar Sadam.md",
+      "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Mixed Vegetable Sambar Sadam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "foxtail-millet",
+        "toor-dal",
+        "carrot",
+        "onion",
+        "tomato",
+        "tamarind",
+        "sambar-powder",
+        "turmeric",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 28,
+        "total_time_min": 46
+      },
+      "nutrition_per_serving": {
+        "calories": 537,
+        "protein_g": 22,
+        "carbs_g": 94,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "moringa-leaf-dal-with-barnyard-millet",
+      "name": "Moringa Leaf Dal with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Moringa Leaf Dal with Barnyard Millet.md",
+      "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Moringa Leaf Dal with Barnyard Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "barnyard-millet",
+        "toor-dal",
+        "drumstick-leaves",
+        "onion",
+        "tomato",
+        "garlic",
+        "cumin-seeds",
+        "turmeric",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 24,
+        "total_time_min": 39
+      },
+      "nutrition_per_serving": {
+        "calories": 516,
+        "protein_g": 29,
+        "carbs_g": 86,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "murungakkai-sambar-with-brown-rice",
+      "name": "Murungakkai Sambar with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Murungakkai Sambar with Brown Rice.md",
+      "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Murungakkai Sambar with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "toor-dal",
+        "drumstick",
+        "onion",
+        "tomato",
+        "tamarind",
+        "sambar-powder",
+        "turmeric",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 28,
+        "total_time_min": 46
+      },
+      "nutrition_per_serving": {
+        "calories": 548,
+        "protein_g": 19,
+        "carbs_g": 104,
+        "fat_g": 7
+      }
+    },
+    {
+      "id": "mushroom-pepper-kuzhambu-with-foxtail-millet",
+      "name": "Mushroom Pepper Kuzhambu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Mushroom Pepper Kuzhambu with Foxtail Millet.md",
+      "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Mushroom Pepper Kuzhambu with Foxtail Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "foxtail-millet",
+        "mushroom",
+        "onion",
+        "tomato",
+        "tamarind",
+        "green-gram",
+        "coriander-powder",
+        "chilli-powder",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 26,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 438,
+        "protein_g": 19,
+        "carbs_g": 72,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "paruppu-rasam-with-red-rice",
+      "name": "Paruppu Rasam with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Paruppu Rasam with Red Rice.md",
+      "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Paruppu Rasam with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "red-rice",
+        "toor-dal",
+        "tomato",
+        "tomato",
+        "tamarind",
+        "black-pepper",
+        "cumin-seeds",
+        "garlic",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 18,
+        "total_time_min": 33
+      },
+      "nutrition_per_serving": {
+        "calories": 431,
+        "protein_g": 13,
+        "carbs_g": 83,
+        "fat_g": 6
+      }
+    },
+    {
+      "id": "poondu-kuzhambu-with-kodo-millet",
+      "name": "Poondu Kuzhambu with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Poondu Kuzhambu with Kodo Millet.md",
+      "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Poondu Kuzhambu with Kodo Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "kodo-millet",
+        "garlic",
+        "onion",
+        "tomato",
+        "tamarind",
+        "black-chana",
+        "coriander-powder",
+        "chilli-powder",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 26,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 582,
+        "protein_g": 19,
+        "carbs_g": 107,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "pudalangai-paal-kootu-with-red-rice",
+      "name": "Pudalangai Paal Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Pudalangai Paal Kootu with Red Rice.md",
+      "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Pudalangai Paal Kootu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "red-rice",
+        "moong-dal",
+        "snake-gourd",
+        "coconut",
+        "cumin-seeds",
+        "green-chilli",
+        "mustard-seeds",
+        "urad-dal",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 16,
+        "cook_time_min": 22,
+        "total_time_min": 38
+      },
+      "nutrition_per_serving": {
+        "calories": 538,
+        "protein_g": 18,
+        "carbs_g": 96,
+        "fat_g": 10
+      }
+    },
+    {
+      "id": "puli-milagai-kuzhambu-with-kodo-millet",
+      "name": "Puli Milagai Kuzhambu with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Puli Milagai Kuzhambu with Kodo Millet.md",
+      "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Puli Milagai Kuzhambu with Kodo Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "kodo-millet",
+        "capsicum",
+        "onion",
+        "tomato",
+        "tamarind",
+        "cowpea",
+        "coriander-powder",
+        "chilli-powder",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 26,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 447,
+        "protein_g": 13,
+        "carbs_g": 77,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "pumpkin-black-eyed-pea-kootu-with-brown-rice",
+      "name": "Pumpkin Black Eyed Pea Kootu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Pumpkin Black Eyed Pea Kootu with Brown Rice.md",
+      "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Pumpkin Black Eyed Pea Kootu with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "black-eyed-peas",
+        "pumpkin",
+        "coconut",
+        "cumin-seeds",
+        "green-chilli",
+        "mustard-seeds",
+        "urad-dal",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 16,
+        "cook_time_min": 22,
+        "total_time_min": 38
+      },
+      "nutrition_per_serving": {
+        "calories": 552,
+        "protein_g": 19,
+        "carbs_g": 98,
+        "fat_g": 10
+      }
+    },
+    {
+      "id": "pumpkin-more-kuzhambu-with-barnyard-millet",
+      "name": "Pumpkin More Kuzhambu with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Pumpkin More Kuzhambu with Barnyard Millet.md",
+      "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Pumpkin More Kuzhambu with Barnyard Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "barnyard-millet",
+        "pumpkin",
+        "low-fat-curd",
+        "coconut",
+        "toor-dal",
+        "cumin-seeds",
+        "green-chilli",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 20,
+        "total_time_min": 38
+      },
+      "nutrition_per_serving": {
+        "calories": 434,
+        "protein_g": 16,
+        "carbs_g": 63,
+        "fat_g": 12
+      }
+    },
+    {
+      "id": "raw-mango-kuzhambu-with-little-millet",
+      "name": "Raw Mango Kuzhambu with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Raw Mango Kuzhambu with Little Millet.md",
+      "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Raw Mango Kuzhambu with Little Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "little-millet",
+        "raw-mango",
+        "onion",
+        "tomato",
+        "tamarind",
+        "black-eyed-peas",
+        "coriander-powder",
+        "chilli-powder",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 26,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 469,
+        "protein_g": 14,
+        "carbs_g": 87,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "ridge-gourd-dal-kuzhambu-with-kodo-millet",
+      "name": "Ridge Gourd Dal Kuzhambu with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Ridge Gourd Dal Kuzhambu with Kodo Millet.md",
+      "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Ridge Gourd Dal Kuzhambu with Kodo Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "kodo-millet",
+        "toor-dal",
+        "ridge-gourd",
+        "onion",
+        "tomato",
+        "garlic",
+        "cumin-seeds",
+        "turmeric",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 24,
+        "total_time_min": 39
+      },
+      "nutrition_per_serving": {
+        "calories": 513,
+        "protein_g": 18,
+        "carbs_g": 92,
+        "fat_g": 7
+      }
+    },
+    {
+      "id": "snake-gourd-poricha-kootu-with-red-rice",
+      "name": "Snake Gourd Poricha Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Snake Gourd Poricha Kootu with Red Rice.md",
+      "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Snake Gourd Poricha Kootu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "red-rice",
+        "moong-dal",
+        "snake-gourd",
+        "coconut",
+        "cumin-seeds",
+        "green-chilli",
+        "mustard-seeds",
+        "urad-dal",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 16,
+        "cook_time_min": 22,
+        "total_time_min": 38
+      },
+      "nutrition_per_serving": {
+        "calories": 538,
+        "protein_g": 18,
+        "carbs_g": 96,
+        "fat_g": 10
+      }
+    },
+    {
+      "id": "sorakkai-kootu-with-brown-rice",
+      "name": "Sorakkai Kootu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Sorakkai Kootu with Brown Rice.md",
+      "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Sorakkai Kootu with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "moong-dal",
+        "bottle-gourd",
+        "coconut",
+        "cumin-seeds",
+        "green-chilli",
+        "mustard-seeds",
+        "urad-dal",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 16,
+        "cook_time_min": 22,
+        "total_time_min": 38
+      },
+      "nutrition_per_serving": {
+        "calories": 542,
+        "protein_g": 18,
+        "carbs_g": 96,
+        "fat_g": 10
+      }
+    },
+    {
+      "id": "sundakkai-style-kuzhambu-with-barnyard-millet",
+      "name": "Sundakkai Style Kuzhambu with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Sundakkai Style Kuzhambu with Barnyard Millet.md",
+      "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Sundakkai Style Kuzhambu with Barnyard Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "barnyard-millet",
+        "brinjal",
+        "onion",
+        "tomato",
+        "tamarind",
+        "black-eyed-peas",
+        "coriander-powder",
+        "chilli-powder",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 26,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 403,
+        "protein_g": 16,
+        "carbs_g": 68,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "sweet-potato-kara-kuzhambu-with-barnyard-millet",
+      "name": "Sweet Potato Kara Kuzhambu with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Sweet Potato Kara Kuzhambu with Barnyard Millet.md",
+      "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Sweet Potato Kara Kuzhambu with Barnyard Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "barnyard-millet",
+        "sweet-potato",
+        "onion",
+        "tomato",
+        "tamarind",
+        "cowpea",
+        "coriander-powder",
+        "chilli-powder",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 26,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 471,
+        "protein_g": 16,
+        "carbs_g": 83,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "thakkali-pappu-with-foxtail-millet",
+      "name": "Thakkali Pappu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Thakkali Pappu with Foxtail Millet.md",
+      "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Thakkali Pappu with Foxtail Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "foxtail-millet",
+        "toor-dal",
+        "tomato",
+        "onion",
+        "tomato",
+        "garlic",
+        "cumin-seeds",
+        "turmeric",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 24,
+        "total_time_min": 39
+      },
+      "nutrition_per_serving": {
+        "calories": 510,
+        "protein_g": 22,
+        "carbs_g": 88,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "tomato-pepper-rasam-with-horse-gram-rice",
+      "name": "Tomato Pepper Rasam with Horse Gram Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Tomato Pepper Rasam with Horse Gram Rice.md",
+      "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Tomato Pepper Rasam with Horse Gram Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "horse-gram",
+        "tomato",
+        "tomato",
+        "tamarind",
+        "black-pepper",
+        "cumin-seeds",
+        "garlic",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 18,
+        "total_time_min": 33
+      },
+      "nutrition_per_serving": {
+        "calories": 434,
+        "protein_g": 13,
+        "carbs_g": 82,
+        "fat_g": 6
+      }
+    },
+    {
+      "id": "vazhaithandu-kootu-with-brown-rice",
+      "name": "Vazhaithandu Kootu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Vazhaithandu Kootu with Brown Rice.md",
+      "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Vazhaithandu Kootu with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "moong-dal",
+        "banana-stem",
+        "coconut",
+        "cumin-seeds",
+        "green-chilli",
+        "mustard-seeds",
+        "urad-dal",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 16,
+        "cook_time_min": 22,
+        "total_time_min": 38
+      },
+      "nutrition_per_serving": {
+        "calories": 557,
+        "protein_g": 19,
+        "carbs_g": 99,
+        "fat_g": 10
+      }
+    },
+    {
+      "id": "vendakkai-kara-kuzhambu-with-little-millet",
+      "name": "Vendakkai Kara Kuzhambu with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Vendakkai Kara Kuzhambu with Little Millet.md",
+      "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Vendakkai Kara Kuzhambu with Little Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "little-millet",
+        "okra",
+        "onion",
+        "tomato",
+        "tamarind",
+        "cowpea",
+        "coriander-powder",
+        "chilli-powder",
+        "turmeric",
+        "mustard-seeds",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 18,
+        "cook_time_min": 26,
+        "total_time_min": 44
+      },
+      "nutrition_per_serving": {
+        "calories": 439,
+        "protein_g": 16,
+        "carbs_g": 79,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "white-pumpkin-kootu-with-red-rice",
+      "name": "White Pumpkin Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/White Pumpkin Kootu with Red Rice.md",
+      "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. White Pumpkin Kootu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "red-rice",
+        "moong-dal",
+        "ash-gourd",
+        "coconut",
+        "cumin-seeds",
+        "green-chilli",
+        "mustard-seeds",
+        "urad-dal",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 16,
+        "cook_time_min": 22,
+        "total_time_min": 38
+      },
+      "nutrition_per_serving": {
+        "calories": 532,
+        "protein_g": 18,
+        "carbs_g": 94,
+        "fat_g": 10
+      }
+    }
+  ]
+}

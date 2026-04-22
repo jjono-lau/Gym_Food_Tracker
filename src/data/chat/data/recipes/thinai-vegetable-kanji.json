@@ -1,0 +1,133 @@
+{
+  "id": "thinai-vegetable-kanji",
+  "name": "Thinai Vegetable Kanji",
+  "category": "dinner",
+  "category_note_path": "Resources/Hubs/Dinner Hub",
+  "source_note": "Resources/Recipes/Dinner/Thinai Vegetable Kanji.md",
+  "tags": [
+    "dinner"
+  ],
+  "ingredient_tags": [
+    "ingredient/thinai",
+    "ingredient/beans",
+    "ingredient/split-moong-dal",
+    "ingredient/ginger",
+    "ingredient/black-pepper",
+    "ingredient/cumin-seeds",
+    "ingredient/low-fat-buttermilk",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "thinai",
+    "beans",
+    "split-moong-dal",
+    "ginger",
+    "black-pepper",
+    "cumin-seeds",
+    "low-fat-buttermilk",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "thinai",
+      "slug": "thinai",
+      "quantity": 120,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "beans",
+      "slug": "beans",
+      "quantity": 120,
+      "unit": "g",
+      "note": "small dice"
+    },
+    {
+      "name": "split moong dal",
+      "slug": "split-moong-dal",
+      "quantity": 40,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 10,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "black pepper",
+      "slug": "black-pepper",
+      "quantity": 0.8,
+      "unit": "tsp",
+      "note": "crushed"
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "low fat buttermilk",
+      "slug": "low-fat-buttermilk",
+      "quantity": 180,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 6,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 720,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "This dinner keeps the palate warm and savory while leaning on vegetables and lentils more than fat. Thinai Vegetable Kanji brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Combine the grain, moong dal, vegetable, salt, and water in a pot and bring to a boil over high heat.",
+    "Reduce to low heat and cook covered for 18 to 20 minutes, stirring twice, until the mixture turns soft and porridge-like.",
+    "Heat oil in a small pan, add cumin, pepper, and ginger, and cook on medium heat for 30 seconds. Stir into the kanji.",
+    "Cool for 2 minutes, then fold in the buttermilk for a softer finish before serving."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 10,
+    "cook_time_min": 22,
+    "total_time_min": 32
+  },
+  "nutrition_per_serving": {
+    "calories": 365,
+    "protein_g": 16,
+    "carbs_g": 60,
+    "fat_g": 7
+  },
+  "meal_prep_notes": "Kanji keeps 2 days chilled and thickens substantially. Reheat with extra hot water over low heat, then adjust seasoning. For batch cooking, add buttermilk only to the portion being served.",
+  "serves": 2,
+  "related_links": [
+    "Dinner Hub",
+    "Thinai",
+    "Beans"
+  ]
+}

@@ -46,7 +46,7 @@ export function useChatbot() {
 }
 
 function FloatingChatbot() {
-  const { isOpen, openChat, closeChat, toggleChat } = useChatbot();
+  const { isOpen, openChat, closeChat } = useChatbot();
   const [draft, setDraft] = useState("");
 
   return (
@@ -130,10 +130,10 @@ function FloatingChatbot() {
                     </p>
                     <button
                       type="button"
-                      onClick={"placeholder"}
+                      onClick={closeChat}
                       className="rounded-full bg-ink px-4 py-2 text-xs font-semibold text-cream transition hover:scale-[1.02]"
                     >
-                      Enter
+                      Hide chat
                     </button>
                   </div>
                 </div>
@@ -184,7 +184,6 @@ export default function ChatbotProvider({ children }) {
       isOpen,
       openChat: () => setIsOpen(true),
       closeChat: () => setIsOpen(false),
-      toggleChat: () => setIsOpen((current) => !current),
     }),
     [isOpen],
   );

@@ -1,0 +1,142 @@
+{
+  "id": "thakkali-pappu-with-foxtail-millet",
+  "name": "Thakkali Pappu with Foxtail Millet",
+  "category": "lunch",
+  "category_note_path": "Resources/Hubs/Lunch Hub",
+  "source_note": "Resources/Recipes/Lunch/Thakkali Pappu with Foxtail Millet.md",
+  "tags": [
+    "lunch"
+  ],
+  "ingredient_tags": [
+    "ingredient/foxtail-millet",
+    "ingredient/toor-dal",
+    "ingredient/tomato",
+    "ingredient/onion",
+    "ingredient/tomato",
+    "ingredient/garlic",
+    "ingredient/cumin-seeds",
+    "ingredient/turmeric",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "foxtail-millet",
+    "toor-dal",
+    "tomato",
+    "onion",
+    "tomato",
+    "garlic",
+    "cumin-seeds",
+    "turmeric",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "foxtail millet",
+      "slug": "foxtail-millet",
+      "quantity": 160,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "toor dal",
+      "slug": "toor-dal",
+      "quantity": 90,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "tomato",
+      "slug": "tomato",
+      "quantity": 180,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 60,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "tomato",
+      "slug": "tomato",
+      "quantity": 90,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "garlic",
+      "slug": "garlic",
+      "quantity": 10,
+      "unit": "g",
+      "note": "sliced"
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "turmeric",
+      "slug": "turmeric",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 7,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 860,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Thakkali Pappu with Foxtail Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat oil in a pot over medium heat. Add cumin and garlic and cook 30 seconds until fragrant but not dark.",
+    "Add onion, tomato, turmeric, and vegetable and cook 4 minutes until the tomato softens.",
+    "Add the dal, salt, and 500 ml water. Pressure cook for 3 whistles or simmer covered on low heat for 25 minutes until the dal is soft and spoon-coating.",
+    "Whisk lightly to break some of the dal while keeping some texture, then serve with the cooked grain."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 15,
+    "cook_time_min": 24,
+    "total_time_min": 39
+  },
+  "nutrition_per_serving": {
+    "calories": 510,
+    "protein_g": 22,
+    "carbs_g": 88,
+    "fat_g": 8
+  },
+  "meal_prep_notes": "Dal keeps 3 days chilled and freezes well. Reheat over low heat with a splash of water. Cook the grain fresh if possible; if not, cool it quickly so it holds separate grains on reheating.",
+  "serves": 2,
+  "related_links": [
+    "Lunch Hub",
+    "Foxtail Millet",
+    "Toor Dal"
+  ]
+}

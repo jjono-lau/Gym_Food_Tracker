@@ -1,0 +1,123 @@
+{
+  "slug": "cabbage",
+  "name": "cabbage",
+  "count": 9,
+  "recipes": [
+    {
+      "id": "cabbage-moong-dal-adai",
+      "name": "Cabbage Moong Dal Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Cabbage Moong Dal Adai.md"
+    },
+    {
+      "id": "kuthiraivali-coconut-sevai",
+      "name": "Kuthiraivali Coconut Sevai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kuthiraivali Coconut Sevai.md"
+    },
+    {
+      "id": "oats-kuzhi-paniyaram",
+      "name": "Oats Kuzhi Paniyaram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Oats Kuzhi Paniyaram.md"
+    },
+    {
+      "id": "brown-rice-vegetable-sevai",
+      "name": "Brown Rice Vegetable Sevai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Brown Rice Vegetable Sevai.md"
+    },
+    {
+      "id": "cabbage-kothamalli-adai",
+      "name": "Cabbage Kothamalli Adai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Cabbage Kothamalli Adai.md"
+    },
+    {
+      "id": "foxtail-millet-pidi-kozhukattai-in-pepper-broth",
+      "name": "Foxtail Millet Pidi Kozhukattai in Pepper Broth",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Foxtail Millet Pidi Kozhukattai in Pepper Broth.md"
+    },
+    {
+      "id": "kollu-soup-with-cabbage-thoran",
+      "name": "Kollu Soup with Cabbage Thoran",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Kollu Soup with Cabbage Thoran.md"
+    },
+    {
+      "id": "millet-pidi-kozhukattai-with-lentil-stew",
+      "name": "Millet Pidi Kozhukattai with Lentil Stew",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Millet Pidi Kozhukattai with Lentil Stew.md"
+    },
+    {
+      "id": "cabbage-kadalai-kootu-with-red-rice",
+      "name": "Cabbage Kadalai Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Cabbage Kadalai Kootu with Red Rice.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "cabbage-moong-dal-adai",
+        "name": "Cabbage Moong Dal Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Cabbage Moong Dal Adai.md"
+      },
+      {
+        "id": "kuthiraivali-coconut-sevai",
+        "name": "Kuthiraivali Coconut Sevai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Kuthiraivali Coconut Sevai.md"
+      },
+      {
+        "id": "oats-kuzhi-paniyaram",
+        "name": "Oats Kuzhi Paniyaram",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Oats Kuzhi Paniyaram.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "brown-rice-vegetable-sevai",
+        "name": "Brown Rice Vegetable Sevai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Brown Rice Vegetable Sevai.md"
+      },
+      {
+        "id": "cabbage-kothamalli-adai",
+        "name": "Cabbage Kothamalli Adai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Cabbage Kothamalli Adai.md"
+      },
+      {
+        "id": "foxtail-millet-pidi-kozhukattai-in-pepper-broth",
+        "name": "Foxtail Millet Pidi Kozhukattai in Pepper Broth",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Foxtail Millet Pidi Kozhukattai in Pepper Broth.md"
+      },
+      {
+        "id": "kollu-soup-with-cabbage-thoran",
+        "name": "Kollu Soup with Cabbage Thoran",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Kollu Soup with Cabbage Thoran.md"
+      },
+      {
+        "id": "millet-pidi-kozhukattai-with-lentil-stew",
+        "name": "Millet Pidi Kozhukattai with Lentil Stew",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Millet Pidi Kozhukattai with Lentil Stew.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "cabbage-kadalai-kootu-with-red-rice",
+        "name": "Cabbage Kadalai Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Cabbage Kadalai Kootu with Red Rice.md"
+      }
+    ]
+  }
+}

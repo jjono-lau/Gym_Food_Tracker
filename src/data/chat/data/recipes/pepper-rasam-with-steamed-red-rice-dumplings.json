@@ -1,0 +1,133 @@
+{
+  "id": "pepper-rasam-with-steamed-red-rice-dumplings",
+  "name": "Pepper Rasam with Steamed Red Rice Dumplings",
+  "category": "dinner",
+  "category_note_path": "Resources/Hubs/Dinner Hub",
+  "source_note": "Resources/Recipes/Dinner/Pepper Rasam with Steamed Red Rice Dumplings.md",
+  "tags": [
+    "dinner"
+  ],
+  "ingredient_tags": [
+    "ingredient/red-rice-flour",
+    "ingredient/tomato",
+    "ingredient/ginger",
+    "ingredient/green-chilli",
+    "ingredient/curry-leaves",
+    "ingredient/light-coconut-milk",
+    "ingredient/moong-dal",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "red-rice-flour",
+    "tomato",
+    "ginger",
+    "green-chilli",
+    "curry-leaves",
+    "light-coconut-milk",
+    "moong-dal",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "red rice flour",
+      "slug": "red-rice-flour",
+      "quantity": 150,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "tomato",
+      "slug": "tomato",
+      "quantity": 100,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 10,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "green chilli",
+      "slug": "green-chilli",
+      "quantity": 2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "light coconut milk",
+      "slug": "light-coconut-milk",
+      "quantity": 220,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "moong dal",
+      "slug": "moong-dal",
+      "quantity": 60,
+      "unit": "g",
+      "note": "cooked soft"
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 7,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 520,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "This dinner keeps the palate warm and savory while leaning on vegetables and lentils more than fat. Pepper Rasam with Steamed Red Rice Dumplings brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Steam the shaped dumplings on medium heat for 10 minutes until firm and matte.",
+    "In a pot, warm oil and saute ginger, chilli, curry leaves, and the vegetable for 2 minutes on medium heat.",
+    "Add cooked moong dal, water, coconut milk, and salt and simmer on low heat for 5 minutes.",
+    "Slide in the steamed dumplings and cook 2 minutes more so they absorb some broth before serving."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 16,
+    "cook_time_min": 18,
+    "total_time_min": 34
+  },
+  "nutrition_per_serving": {
+    "calories": 508,
+    "protein_g": 15,
+    "carbs_g": 82,
+    "fat_g": 14
+  },
+  "meal_prep_notes": "Store dumplings and broth separately for up to 2 days. Reheat the broth first, then add the dumplings for 1 to 2 minutes. This prevents them from swelling and losing shape.",
+  "serves": 2,
+  "related_links": [
+    "Dinner Hub",
+    "Red Rice Flour",
+    "Tomato"
+  ]
+}

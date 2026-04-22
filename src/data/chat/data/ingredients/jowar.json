@@ -1,0 +1,23 @@
+{
+  "slug": "jowar",
+  "name": "jowar",
+  "count": 1,
+  "recipes": [
+    {
+      "id": "jowar-vegetable-kanji",
+      "name": "Jowar Vegetable Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Jowar Vegetable Kanji.md"
+    }
+  ],
+  "recipes_by_category": {
+    "dinner": [
+      {
+        "id": "jowar-vegetable-kanji",
+        "name": "Jowar Vegetable Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Jowar Vegetable Kanji.md"
+      }
+    ]
+  }
+}

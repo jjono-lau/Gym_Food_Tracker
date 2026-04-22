@@ -1,0 +1,35 @@
+{
+  "slug": "banana-stem",
+  "name": "banana stem",
+  "count": 2,
+  "recipes": [
+    {
+      "id": "banana-stem-mor-kootu-with-kodo-millet",
+      "name": "Banana Stem Mor Kootu with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Banana Stem Mor Kootu with Kodo Millet.md"
+    },
+    {
+      "id": "vazhaithandu-kootu-with-brown-rice",
+      "name": "Vazhaithandu Kootu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Vazhaithandu Kootu with Brown Rice.md"
+    }
+  ],
+  "recipes_by_category": {
+    "lunch": [
+      {
+        "id": "banana-stem-mor-kootu-with-kodo-millet",
+        "name": "Banana Stem Mor Kootu with Kodo Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Banana Stem Mor Kootu with Kodo Millet.md"
+      },
+      {
+        "id": "vazhaithandu-kootu-with-brown-rice",
+        "name": "Vazhaithandu Kootu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Vazhaithandu Kootu with Brown Rice.md"
+      }
+    ]
+  }
+}

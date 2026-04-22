@@ -1,0 +1,183 @@
+{
+  "slug": "foxtail-millet",
+  "name": "foxtail millet",
+  "count": 14,
+  "recipes": [
+    {
+      "id": "foxtail-millet-kanchipuram-idli",
+      "name": "Foxtail Millet Kanchipuram Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Foxtail Millet Kanchipuram Idli.md"
+    },
+    {
+      "id": "multi-millet-adai",
+      "name": "Multi Millet Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Multi Millet Adai.md"
+    },
+    {
+      "id": "tomato-millet-bath",
+      "name": "Tomato Millet Bath",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Tomato Millet Bath.md"
+    },
+    {
+      "id": "cucumber-buttermilk-kichadi-with-foxtail-millet",
+      "name": "Cucumber Buttermilk Kichadi with Foxtail Millet",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Cucumber Buttermilk Kichadi with Foxtail Millet.md"
+    },
+    {
+      "id": "foxtail-millet-pidi-kozhukattai-in-pepper-broth",
+      "name": "Foxtail Millet Pidi Kozhukattai in Pepper Broth",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Foxtail Millet Pidi Kozhukattai in Pepper Broth.md"
+    },
+    {
+      "id": "pumpkin-soup-with-foxtail-millet-dumplings",
+      "name": "Pumpkin Soup with Foxtail Millet Dumplings",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pumpkin Soup with Foxtail Millet Dumplings.md"
+    },
+    {
+      "id": "tomato-millet-sevai",
+      "name": "Tomato Millet Sevai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Tomato Millet Sevai.md"
+    },
+    {
+      "id": "brinjal-gothsu-with-foxtail-millet",
+      "name": "Brinjal Gothsu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Brinjal Gothsu with Foxtail Millet.md"
+    },
+    {
+      "id": "cauliflower-milagu-kootu-with-foxtail-millet",
+      "name": "Cauliflower Milagu Kootu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Cauliflower Milagu Kootu with Foxtail Millet.md"
+    },
+    {
+      "id": "chow-chow-kootu-with-foxtail-millet",
+      "name": "Chow Chow Kootu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Chow Chow Kootu with Foxtail Millet.md"
+    },
+    {
+      "id": "knol-khol-sambar-with-foxtail-millet",
+      "name": "Knol Khol Sambar with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Foxtail Millet.md"
+    },
+    {
+      "id": "mixed-vegetable-sambar-sadam",
+      "name": "Mixed Vegetable Sambar Sadam",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Mixed Vegetable Sambar Sadam.md"
+    },
+    {
+      "id": "mushroom-pepper-kuzhambu-with-foxtail-millet",
+      "name": "Mushroom Pepper Kuzhambu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Mushroom Pepper Kuzhambu with Foxtail Millet.md"
+    },
+    {
+      "id": "thakkali-pappu-with-foxtail-millet",
+      "name": "Thakkali Pappu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Thakkali Pappu with Foxtail Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "foxtail-millet-kanchipuram-idli",
+        "name": "Foxtail Millet Kanchipuram Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Foxtail Millet Kanchipuram Idli.md"
+      },
+      {
+        "id": "multi-millet-adai",
+        "name": "Multi Millet Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Multi Millet Adai.md"
+      },
+      {
+        "id": "tomato-millet-bath",
+        "name": "Tomato Millet Bath",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Tomato Millet Bath.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "cucumber-buttermilk-kichadi-with-foxtail-millet",
+        "name": "Cucumber Buttermilk Kichadi with Foxtail Millet",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Cucumber Buttermilk Kichadi with Foxtail Millet.md"
+      },
+      {
+        "id": "foxtail-millet-pidi-kozhukattai-in-pepper-broth",
+        "name": "Foxtail Millet Pidi Kozhukattai in Pepper Broth",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Foxtail Millet Pidi Kozhukattai in Pepper Broth.md"
+      },
+      {
+        "id": "pumpkin-soup-with-foxtail-millet-dumplings",
+        "name": "Pumpkin Soup with Foxtail Millet Dumplings",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pumpkin Soup with Foxtail Millet Dumplings.md"
+      },
+      {
+        "id": "tomato-millet-sevai",
+        "name": "Tomato Millet Sevai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Tomato Millet Sevai.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "brinjal-gothsu-with-foxtail-millet",
+        "name": "Brinjal Gothsu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Brinjal Gothsu with Foxtail Millet.md"
+      },
+      {
+        "id": "cauliflower-milagu-kootu-with-foxtail-millet",
+        "name": "Cauliflower Milagu Kootu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Cauliflower Milagu Kootu with Foxtail Millet.md"
+      },
+      {
+        "id": "chow-chow-kootu-with-foxtail-millet",
+        "name": "Chow Chow Kootu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Chow Chow Kootu with Foxtail Millet.md"
+      },
+      {
+        "id": "knol-khol-sambar-with-foxtail-millet",
+        "name": "Knol Khol Sambar with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Foxtail Millet.md"
+      },
+      {
+        "id": "mixed-vegetable-sambar-sadam",
+        "name": "Mixed Vegetable Sambar Sadam",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Mixed Vegetable Sambar Sadam.md"
+      },
+      {
+        "id": "mushroom-pepper-kuzhambu-with-foxtail-millet",
+        "name": "Mushroom Pepper Kuzhambu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Mushroom Pepper Kuzhambu with Foxtail Millet.md"
+      },
+      {
+        "id": "thakkali-pappu-with-foxtail-millet",
+        "name": "Thakkali Pappu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Thakkali Pappu with Foxtail Millet.md"
+      }
+    ]
+  }
+}

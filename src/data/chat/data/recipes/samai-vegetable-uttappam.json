@@ -1,0 +1,133 @@
+{
+  "id": "samai-vegetable-uttappam",
+  "name": "Samai Vegetable Uttappam",
+  "category": "dinner",
+  "category_note_path": "Resources/Hubs/Dinner Hub",
+  "source_note": "Resources/Recipes/Dinner/Samai Vegetable Uttappam.md",
+  "tags": [
+    "dinner"
+  ],
+  "ingredient_tags": [
+    "ingredient/samai",
+    "ingredient/urad-dal",
+    "ingredient/capsicum",
+    "ingredient/onion",
+    "ingredient/tomato",
+    "ingredient/curry-leaves",
+    "ingredient/black-pepper",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "samai",
+    "urad-dal",
+    "capsicum",
+    "onion",
+    "tomato",
+    "curry-leaves",
+    "black-pepper",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "samai",
+      "slug": "samai",
+      "quantity": 150,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 55,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "capsicum",
+      "slug": "capsicum",
+      "quantity": 100,
+      "unit": "g",
+      "note": "small dice"
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 70,
+      "unit": "g",
+      "note": "small dice"
+    },
+    {
+      "name": "tomato",
+      "slug": "tomato",
+      "quantity": 70,
+      "unit": "g",
+      "note": "small dice"
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "black pepper",
+      "slug": "black-pepper",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 8,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 430,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "The dish uses South Indian evening-tiffin logic: quick-cooking grains, legumes, and aromatic tempering for depth without richness. Samai Vegetable Uttappam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat a tawa on medium heat and grease lightly.",
+    "Pour a ladle of batter into a thick round, scatter the vegetables over the top, and press gently.",
+    "Cook 3 minutes on medium-low heat until the bottom turns golden and the top starts to set.",
+    "Flip and cook 1 minute on low heat, then serve with tomato chutney."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 12,
+    "cook_time_min": 16,
+    "total_time_min": 28
+  },
+  "nutrition_per_serving": {
+    "calories": 423,
+    "protein_g": 16,
+    "carbs_g": 74,
+    "fat_g": 8
+  },
+  "meal_prep_notes": "Batter keeps up to 3 days chilled. Reheat cooked uttappam covered on low heat for 2 minutes. Chop toppings fresh for each session so they do not release excess moisture.",
+  "serves": 2,
+  "related_links": [
+    "Dinner Hub",
+    "Samai",
+    "Urad Dal"
+  ]
+}

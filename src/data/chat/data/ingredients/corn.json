@@ -1,0 +1,37 @@
+{
+  "slug": "corn",
+  "name": "corn",
+  "count": 2,
+  "recipes": [
+    {
+      "id": "corn-cowpea-kuzhi-paniyaram",
+      "name": "Corn Cowpea Kuzhi Paniyaram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Corn Cowpea Kuzhi Paniyaram.md"
+    },
+    {
+      "id": "sweet-corn-adai-with-curry-leaf-chutney",
+      "name": "Sweet Corn Adai with Curry Leaf Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Sweet Corn Adai with Curry Leaf Chutney.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "corn-cowpea-kuzhi-paniyaram",
+        "name": "Corn Cowpea Kuzhi Paniyaram",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Corn Cowpea Kuzhi Paniyaram.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "sweet-corn-adai-with-curry-leaf-chutney",
+        "name": "Sweet Corn Adai with Curry Leaf Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Sweet Corn Adai with Curry Leaf Chutney.md"
+      }
+    ]
+  }
+}

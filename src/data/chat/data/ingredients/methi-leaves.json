@@ -1,0 +1,63 @@
+{
+  "slug": "methi-leaves",
+  "name": "methi leaves",
+  "count": 4,
+  "recipes": [
+    {
+      "id": "methi-ragi-uthappam",
+      "name": "Methi Ragi Uthappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Methi Ragi Uthappam.md"
+    },
+    {
+      "id": "methi-oats-dosa-with-capsicum-chutney",
+      "name": "Methi Oats Dosa with Capsicum Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Methi Oats Dosa with Capsicum Chutney.md"
+    },
+    {
+      "id": "vendhaya-dosa-with-mixed-vegetable-sagu",
+      "name": "Vendhaya Dosa with Mixed Vegetable Sagu",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vendhaya Dosa with Mixed Vegetable Sagu.md"
+    },
+    {
+      "id": "methi-kuzhambu-with-brown-rice",
+      "name": "Methi Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Methi Kuzhambu with Brown Rice.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "methi-ragi-uthappam",
+        "name": "Methi Ragi Uthappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Methi Ragi Uthappam.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "methi-oats-dosa-with-capsicum-chutney",
+        "name": "Methi Oats Dosa with Capsicum Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Methi Oats Dosa with Capsicum Chutney.md"
+      },
+      {
+        "id": "vendhaya-dosa-with-mixed-vegetable-sagu",
+        "name": "Vendhaya Dosa with Mixed Vegetable Sagu",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vendhaya Dosa with Mixed Vegetable Sagu.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "methi-kuzhambu-with-brown-rice",
+        "name": "Methi Kuzhambu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Methi Kuzhambu with Brown Rice.md"
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "sambar-powder",
+  "name": "sambar powder",
+  "count": 6,
+  "recipes": [
+    {
+      "id": "carrot-peas-sambar-with-barnyard-millet",
+      "name": "Carrot Peas Sambar with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Carrot Peas Sambar with Barnyard Millet.md"
+    },
+    {
+      "id": "drumstick-leaves-sambar-with-kodo-millet",
+      "name": "Drumstick Leaves Sambar with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Drumstick Leaves Sambar with Kodo Millet.md"
+    },
+    {
+      "id": "knol-khol-sambar-with-foxtail-millet",
+      "name": "Knol Khol Sambar with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Foxtail Millet.md"
+    },
+    {
+      "id": "knol-khol-sambar-with-little-millet",
+      "name": "Knol Khol Sambar with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Little Millet.md"
+    },
+    {
+      "id": "mixed-vegetable-sambar-sadam",
+      "name": "Mixed Vegetable Sambar Sadam",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Mixed Vegetable Sambar Sadam.md"
+    },
+    {
+      "id": "murungakkai-sambar-with-brown-rice",
+      "name": "Murungakkai Sambar with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Murungakkai Sambar with Brown Rice.md"
+    }
+  ],
+  "recipes_by_category": {
+    "lunch": [
+      {
+        "id": "carrot-peas-sambar-with-barnyard-millet",
+        "name": "Carrot Peas Sambar with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Carrot Peas Sambar with Barnyard Millet.md"
+      },
+      {
+        "id": "drumstick-leaves-sambar-with-kodo-millet",
+        "name": "Drumstick Leaves Sambar with Kodo Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Drumstick Leaves Sambar with Kodo Millet.md"
+      },
+      {
+        "id": "knol-khol-sambar-with-foxtail-millet",
+        "name": "Knol Khol Sambar with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Foxtail Millet.md"
+      },
+      {
+        "id": "knol-khol-sambar-with-little-millet",
+        "name": "Knol Khol Sambar with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Little Millet.md"
+      },
+      {
+        "id": "mixed-vegetable-sambar-sadam",
+        "name": "Mixed Vegetable Sambar Sadam",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Mixed Vegetable Sambar Sadam.md"
+      },
+      {
+        "id": "murungakkai-sambar-with-brown-rice",
+        "name": "Murungakkai Sambar with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Murungakkai Sambar with Brown Rice.md"
+      }
+    ]
+  }
+}

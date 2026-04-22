@@ -1,0 +1,35 @@
+{
+  "slug": "kuthiraivali",
+  "name": "kuthiraivali",
+  "count": 2,
+  "recipes": [
+    {
+      "id": "kuthiraivali-coconut-sevai",
+      "name": "Kuthiraivali Coconut Sevai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kuthiraivali Coconut Sevai.md"
+    },
+    {
+      "id": "onion-tomato-kuthiraivali-uthappam",
+      "name": "Onion Tomato Kuthiraivali Uthappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Onion Tomato Kuthiraivali Uthappam.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "kuthiraivali-coconut-sevai",
+        "name": "Kuthiraivali Coconut Sevai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Kuthiraivali Coconut Sevai.md"
+      },
+      {
+        "id": "onion-tomato-kuthiraivali-uthappam",
+        "name": "Onion Tomato Kuthiraivali Uthappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Onion Tomato Kuthiraivali Uthappam.md"
+      }
+    ]
+  }
+}

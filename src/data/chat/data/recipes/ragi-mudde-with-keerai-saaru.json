@@ -1,0 +1,133 @@
+{
+  "id": "ragi-mudde-with-keerai-saaru",
+  "name": "Ragi Mudde with Keerai Saaru",
+  "category": "dinner",
+  "category_note_path": "Resources/Hubs/Dinner Hub",
+  "source_note": "Resources/Recipes/Dinner/Ragi Mudde with Keerai Saaru.md",
+  "tags": [
+    "dinner"
+  ],
+  "ingredient_tags": [
+    "ingredient/ragi-flour",
+    "ingredient/water",
+    "ingredient/salt",
+    "ingredient/spinach",
+    "ingredient/toor-dal",
+    "ingredient/tomato",
+    "ingredient/garlic",
+    "ingredient/cumin-seeds",
+    "ingredient/black-pepper",
+    "ingredient/sesame-oil"
+  ],
+  "ingredient_slugs": [
+    "ragi-flour",
+    "water",
+    "salt",
+    "spinach",
+    "toor-dal",
+    "tomato",
+    "garlic",
+    "cumin-seeds",
+    "black-pepper",
+    "sesame-oil"
+  ],
+  "ingredients": [
+    {
+      "name": "ragi flour",
+      "slug": "ragi-flour",
+      "quantity": 160,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 620,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "spinach",
+      "slug": "spinach",
+      "quantity": 180,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "toor dal",
+      "slug": "toor-dal",
+      "quantity": 70,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "tomato",
+      "slug": "tomato",
+      "quantity": 90,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "garlic",
+      "slug": "garlic",
+      "quantity": 10,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "black pepper",
+      "slug": "black-pepper",
+      "quantity": 0.8,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 6,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "The dish uses South Indian evening-tiffin logic: quick-cooking grains, legumes, and aromatic tempering for depth without richness. Ragi Mudde with Keerai Saaru brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Bring 360 ml water with salt to a rolling boil over high heat. Rain in the flour while stirring briskly; lower to medium-low and beat for 5 to 6 minutes until thick and glossy.",
+    "With wet hands, shape the hot cooked dough into 4 compact balls once cool enough to handle.",
+    "For the saaru, simmer dal, vegetable, tomato, garlic, cumin, pepper, and 260 ml water for 10 minutes on medium heat until lightly broth-like.",
+    "Serve the mudde hot with the saaru poured alongside or over torn pieces."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 12,
+    "cook_time_min": 20,
+    "total_time_min": 32
+  },
+  "nutrition_per_serving": {
+    "calories": 452,
+    "protein_g": 17,
+    "carbs_g": 86,
+    "fat_g": 5
+  },
+  "meal_prep_notes": "Mudde is best fresh but can be held 1 day chilled. Steam or microwave covered to reheat. Saaru keeps 2 days refrigerated and should be reheated separately so the mudde does not become waterlogged.",
+  "serves": 2,
+  "related_links": [
+    "Dinner Hub",
+    "Ragi Flour",
+    "Water"
+  ]
+}

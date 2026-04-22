@@ -1,0 +1,87 @@
+{
+  "slug": "cowpea",
+  "name": "cowpea",
+  "count": 6,
+  "recipes": [
+    {
+      "id": "corn-cowpea-kuzhi-paniyaram",
+      "name": "Corn Cowpea Kuzhi Paniyaram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Corn Cowpea Kuzhi Paniyaram.md"
+    },
+    {
+      "id": "sweet-corn-adai-with-curry-leaf-chutney",
+      "name": "Sweet Corn Adai with Curry Leaf Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Sweet Corn Adai with Curry Leaf Chutney.md"
+    },
+    {
+      "id": "chayote-coconut-stew-with-red-rice",
+      "name": "Chayote Coconut Stew with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Chayote Coconut Stew with Red Rice.md"
+    },
+    {
+      "id": "puli-milagai-kuzhambu-with-kodo-millet",
+      "name": "Puli Milagai Kuzhambu with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Puli Milagai Kuzhambu with Kodo Millet.md"
+    },
+    {
+      "id": "sweet-potato-kara-kuzhambu-with-barnyard-millet",
+      "name": "Sweet Potato Kara Kuzhambu with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Sweet Potato Kara Kuzhambu with Barnyard Millet.md"
+    },
+    {
+      "id": "vendakkai-kara-kuzhambu-with-little-millet",
+      "name": "Vendakkai Kara Kuzhambu with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Vendakkai Kara Kuzhambu with Little Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "corn-cowpea-kuzhi-paniyaram",
+        "name": "Corn Cowpea Kuzhi Paniyaram",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Corn Cowpea Kuzhi Paniyaram.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "sweet-corn-adai-with-curry-leaf-chutney",
+        "name": "Sweet Corn Adai with Curry Leaf Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Sweet Corn Adai with Curry Leaf Chutney.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "chayote-coconut-stew-with-red-rice",
+        "name": "Chayote Coconut Stew with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Chayote Coconut Stew with Red Rice.md"
+      },
+      {
+        "id": "puli-milagai-kuzhambu-with-kodo-millet",
+        "name": "Puli Milagai Kuzhambu with Kodo Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Puli Milagai Kuzhambu with Kodo Millet.md"
+      },
+      {
+        "id": "sweet-potato-kara-kuzhambu-with-barnyard-millet",
+        "name": "Sweet Potato Kara Kuzhambu with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Sweet Potato Kara Kuzhambu with Barnyard Millet.md"
+      },
+      {
+        "id": "vendakkai-kara-kuzhambu-with-little-millet",
+        "name": "Vendakkai Kara Kuzhambu with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Vendakkai Kara Kuzhambu with Little Millet.md"
+      }
+    ]
+  }
+}

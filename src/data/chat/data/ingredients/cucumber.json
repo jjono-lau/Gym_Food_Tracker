@@ -1,0 +1,61 @@
+{
+  "slug": "cucumber",
+  "name": "cucumber",
+  "count": 4,
+  "recipes": [
+    {
+      "id": "cucumber-millet-kichadi",
+      "name": "Cucumber Millet Kichadi",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Cucumber Millet Kichadi.md"
+    },
+    {
+      "id": "barnyard-millet-curd-sevai",
+      "name": "Barnyard Millet Curd Sevai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Barnyard Millet Curd Sevai.md"
+    },
+    {
+      "id": "cucumber-buttermilk-kichadi-with-foxtail-millet",
+      "name": "Cucumber Buttermilk Kichadi with Foxtail Millet",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Cucumber Buttermilk Kichadi with Foxtail Millet.md"
+    },
+    {
+      "id": "south-indian-sundal-salad-bowl",
+      "name": "South Indian Sundal Salad Bowl",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/South Indian Sundal Salad Bowl.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "cucumber-millet-kichadi",
+        "name": "Cucumber Millet Kichadi",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Cucumber Millet Kichadi.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "barnyard-millet-curd-sevai",
+        "name": "Barnyard Millet Curd Sevai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Barnyard Millet Curd Sevai.md"
+      },
+      {
+        "id": "cucumber-buttermilk-kichadi-with-foxtail-millet",
+        "name": "Cucumber Buttermilk Kichadi with Foxtail Millet",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Cucumber Buttermilk Kichadi with Foxtail Millet.md"
+      },
+      {
+        "id": "south-indian-sundal-salad-bowl",
+        "name": "South Indian Sundal Salad Bowl",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/South Indian Sundal Salad Bowl.md"
+      }
+    ]
+  }
+}

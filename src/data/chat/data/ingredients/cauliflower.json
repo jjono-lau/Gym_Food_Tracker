@@ -1,0 +1,37 @@
+{
+  "slug": "cauliflower",
+  "name": "cauliflower",
+  "count": 2,
+  "recipes": [
+    {
+      "id": "vegetable-kurma-with-ragi-idiyappam",
+      "name": "Vegetable Kurma with Ragi Idiyappam",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Kurma with Ragi Idiyappam.md"
+    },
+    {
+      "id": "cauliflower-milagu-kootu-with-foxtail-millet",
+      "name": "Cauliflower Milagu Kootu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Cauliflower Milagu Kootu with Foxtail Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "dinner": [
+      {
+        "id": "vegetable-kurma-with-ragi-idiyappam",
+        "name": "Vegetable Kurma with Ragi Idiyappam",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Kurma with Ragi Idiyappam.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "cauliflower-milagu-kootu-with-foxtail-millet",
+        "name": "Cauliflower Milagu Kootu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Cauliflower Milagu Kootu with Foxtail Millet.md"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "raw-banana",
+  "name": "raw banana",
+  "count": 1,
+  "recipes": [
+    {
+      "id": "raw-banana-adai-with-curd-dip",
+      "name": "Raw Banana Adai with Curd Dip",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Raw Banana Adai with Curd Dip.md"
+    }
+  ],
+  "recipes_by_category": {
+    "dinner": [
+      {
+        "id": "raw-banana-adai-with-curd-dip",
+        "name": "Raw Banana Adai with Curd Dip",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Raw Banana Adai with Curd Dip.md"
+      }
+    ]
+  }
+}

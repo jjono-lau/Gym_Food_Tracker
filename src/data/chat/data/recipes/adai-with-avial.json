@@ -1,0 +1,150 @@
+{
+  "id": "adai-with-avial",
+  "name": "Adai with Avial",
+  "category": "dinner",
+  "category_note_path": "Resources/Hubs/Dinner Hub",
+  "source_note": "Resources/Recipes/Dinner/Adai with Avial.md",
+  "tags": [
+    "dinner"
+  ],
+  "ingredient_tags": [
+    "ingredient/chana-dal",
+    "ingredient/chana-dal",
+    "ingredient/toor-dal",
+    "ingredient/urad-dal",
+    "ingredient/carrot",
+    "ingredient/onion",
+    "ingredient/ginger",
+    "ingredient/dry-red-chilli",
+    "ingredient/cumin-seeds",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "chana-dal",
+    "chana-dal",
+    "toor-dal",
+    "urad-dal",
+    "carrot",
+    "onion",
+    "ginger",
+    "dry-red-chilli",
+    "cumin-seeds",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "chana dal",
+      "slug": "chana-dal",
+      "quantity": 70,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "chana dal",
+      "slug": "chana-dal",
+      "quantity": 40,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "toor dal",
+      "slug": "toor-dal",
+      "quantity": 35,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 20,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "carrot",
+      "slug": "carrot",
+      "quantity": 100,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 60,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 10,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "dry red chilli",
+      "slug": "dry-red-chilli",
+      "quantity": 3,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 9,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 380,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "A lighter evening recipe designed to feel comforting without becoming heavy or starch-dense. Adai with Avial brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat a tawa on medium heat and spread 130 ml batter into a thick round.",
+    "Drizzle oil around the edge and cook 3 minutes until the underside browns and the top loses its raw sheen.",
+    "Flip and cook 2 more minutes on medium-low heat until the center is cooked through.",
+    "Serve hot with light avial."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 12,
+    "cook_time_min": 16,
+    "total_time_min": 28
+  },
+  "nutrition_per_serving": {
+    "calories": 371,
+    "protein_g": 19,
+    "carbs_g": 59,
+    "fat_g": 8
+  },
+  "meal_prep_notes": "The batter keeps 2 days chilled. Reheat cooked adai in a dry skillet over low heat for 1 minute per side. Make the side dish ahead and cook adai to order for the best texture.",
+  "serves": 2,
+  "related_links": [
+    "Dinner Hub",
+    "Chana Dal"
+  ]
+}

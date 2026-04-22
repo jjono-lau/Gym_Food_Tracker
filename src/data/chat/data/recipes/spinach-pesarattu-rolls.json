@@ -1,0 +1,124 @@
+{
+  "id": "spinach-pesarattu-rolls",
+  "name": "Spinach Pesarattu Rolls",
+  "category": "dinner",
+  "category_note_path": "Resources/Hubs/Dinner Hub",
+  "source_note": "Resources/Recipes/Dinner/Spinach Pesarattu Rolls.md",
+  "tags": [
+    "dinner"
+  ],
+  "ingredient_tags": [
+    "ingredient/green-gram",
+    "ingredient/urad-dal",
+    "ingredient/spinach",
+    "ingredient/onion",
+    "ingredient/ginger",
+    "ingredient/cumin-seeds",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "green-gram",
+    "urad-dal",
+    "spinach",
+    "onion",
+    "ginger",
+    "cumin-seeds",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "green gram",
+      "slug": "green-gram",
+      "quantity": 150,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 50,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "spinach",
+      "slug": "spinach",
+      "quantity": 90,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 60,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 10,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 8,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 420,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Spinach Pesarattu Rolls brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat a seasoned tawa on medium-high heat for 2 minutes.",
+    "Pour 120 ml batter and spread thinly. Scatter the vegetable and onion if using, then drizzle a little oil around the edge.",
+    "Cook 2 to 3 minutes on medium heat until the base is speckled brown and the top is dry.",
+    "Flip briefly if needed and serve immediately with ginger chutney."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 12,
+    "cook_time_min": 15,
+    "total_time_min": 27
+  },
+  "nutrition_per_serving": {
+    "calories": 407,
+    "protein_g": 26,
+    "carbs_g": 67,
+    "fat_g": 6
+  },
+  "meal_prep_notes": "Batter holds 1 to 3 days depending on the base. Reheat cooked dosas only on a dry tawa for 30 to 45 seconds per side. Store chutney separately and bring it to room temperature before serving.",
+  "serves": 2,
+  "related_links": [
+    "Dinner Hub",
+    "Green Gram",
+    "Urad Dal"
+  ]
+}

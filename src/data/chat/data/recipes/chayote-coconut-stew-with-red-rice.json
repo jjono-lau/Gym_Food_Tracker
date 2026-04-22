@@ -1,0 +1,142 @@
+{
+  "id": "chayote-coconut-stew-with-red-rice",
+  "name": "Chayote Coconut Stew with Red Rice",
+  "category": "lunch",
+  "category_note_path": "Resources/Hubs/Lunch Hub",
+  "source_note": "Resources/Recipes/Lunch/Chayote Coconut Stew with Red Rice.md",
+  "tags": [
+    "lunch"
+  ],
+  "ingredient_tags": [
+    "ingredient/red-rice",
+    "ingredient/chayote",
+    "ingredient/cowpea",
+    "ingredient/onion",
+    "ingredient/light-coconut-milk",
+    "ingredient/ginger",
+    "ingredient/green-chilli",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "red-rice",
+    "chayote",
+    "cowpea",
+    "onion",
+    "light-coconut-milk",
+    "ginger",
+    "green-chilli",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "red rice",
+      "slug": "red-rice",
+      "quantity": 160,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "chayote",
+      "slug": "chayote",
+      "quantity": 240,
+      "unit": "g",
+      "note": "medium cubes"
+    },
+    {
+      "name": "cowpea",
+      "slug": "cowpea",
+      "quantity": 70,
+      "unit": "g",
+      "note": "cooked tender"
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 60,
+      "unit": "g",
+      "note": "sliced"
+    },
+    {
+      "name": "light coconut milk",
+      "slug": "light-coconut-milk",
+      "quantity": 220,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 10,
+      "unit": "g",
+      "note": "julienned"
+    },
+    {
+      "name": "green chilli",
+      "slug": "green-chilli",
+      "quantity": 2,
+      "unit": "tsp",
+      "note": "slit"
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 6,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 680,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Chayote Coconut Stew with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat oil in a pot on medium heat and soften onion, ginger, chilli, and curry leaves for 3 minutes without browning.",
+    "Add the vegetable and 250 ml water, cover, and cook on medium-low heat for 8 minutes until almost tender.",
+    "Add the cooked pulse accent, coconut milk, and salt and simmer gently on low heat for 5 minutes until the broth lightly coats the spoon.",
+    "Serve the stew over or beside the cooked grain."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 15,
+    "cook_time_min": 18,
+    "total_time_min": 33
+  },
+  "nutrition_per_serving": {
+    "calories": 561,
+    "protein_g": 17,
+    "carbs_g": 95,
+    "fat_g": 13
+  },
+  "meal_prep_notes": "Stew keeps 2 days chilled. Reheat only on low heat so the coconut milk stays smooth. Batch-cook the grain and pulse separately; finish the coconut-milk phase shortly before serving.",
+  "serves": 2,
+  "related_links": [
+    "Lunch Hub",
+    "Red Rice",
+    "Chayote"
+  ]
+}

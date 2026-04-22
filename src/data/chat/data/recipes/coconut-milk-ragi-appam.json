@@ -1,0 +1,124 @@
+{
+  "id": "coconut-milk-ragi-appam",
+  "name": "Coconut Milk Ragi Appam",
+  "category": "breakfast",
+  "category_note_path": "Resources/Hubs/Breakfast Hub",
+  "source_note": "Resources/Recipes/Breakfast/Coconut Milk Ragi Appam.md",
+  "tags": [
+    "breakfast"
+  ],
+  "ingredient_tags": [
+    "ingredient/ragi",
+    "ingredient/urad-dal",
+    "ingredient/coconut",
+    "ingredient/light-coconut-milk",
+    "ingredient/green-peas",
+    "ingredient/fenugreek-seeds",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "ragi",
+    "urad-dal",
+    "coconut",
+    "light-coconut-milk",
+    "green-peas",
+    "fenugreek-seeds",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "ragi",
+      "slug": "ragi",
+      "quantity": 120,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 20,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "coconut",
+      "slug": "coconut",
+      "quantity": 25,
+      "unit": "g",
+      "note": "grated"
+    },
+    {
+      "name": "light coconut milk",
+      "slug": "light-coconut-milk",
+      "quantity": 120,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "green peas",
+      "slug": "green-peas",
+      "quantity": 80,
+      "unit": "g",
+      "note": "small dice"
+    },
+    {
+      "name": "fenugreek seeds",
+      "slug": "fenugreek-seeds",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 6,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 320,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Coconut Milk Ragi Appam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat an appachatti over medium heat and grease it with a few drops of oil.",
+    "Pour 120 ml batter into the center, lift the pan immediately, and swirl so the batter coats the sides thinly while a thicker pool remains in the middle.",
+    "Scatter the vegetable into the center only, cover, and cook on medium-low heat for 2.5 to 3 minutes until the edges lace and the middle looks set but springy.",
+    "Do not flip. Remove with a flat spatula and serve hot with tomato chutney."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 15,
+    "cook_time_min": 15,
+    "total_time_min": 30
+  },
+  "nutrition_per_serving": {
+    "calories": 387,
+    "protein_g": 10,
+    "carbs_g": 58,
+    "fat_g": 12
+  },
+  "meal_prep_notes": "Appam batter keeps 2 days chilled after fermentation. Cooked appam is best the same day, but it can be reheated in a covered pan for 1 minute over low heat. Ferment the batter overnight and cook fresh for the best edge texture.",
+  "serves": 2,
+  "related_links": [
+    "Breakfast Hub",
+    "Ragi",
+    "Urad Dal"
+  ]
+}

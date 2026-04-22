@@ -1,0 +1,97 @@
+{
+  "slug": "low-fat-buttermilk",
+  "name": "low fat buttermilk",
+  "count": 7,
+  "recipes": [
+    {
+      "id": "ulundhu-kali-with-buttermilk",
+      "name": "Ulundhu Kali with Buttermilk",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ulundhu Kali with Buttermilk.md"
+    },
+    {
+      "id": "cucumber-buttermilk-kichadi-with-foxtail-millet",
+      "name": "Cucumber Buttermilk Kichadi with Foxtail Millet",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Cucumber Buttermilk Kichadi with Foxtail Millet.md"
+    },
+    {
+      "id": "jowar-vegetable-kanji",
+      "name": "Jowar Vegetable Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Jowar Vegetable Kanji.md"
+    },
+    {
+      "id": "pepper-jeera-thinai-kanji",
+      "name": "Pepper Jeera Thinai Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pepper Jeera Thinai Kanji.md"
+    },
+    {
+      "id": "quinoa-tomato-kanji",
+      "name": "Quinoa Tomato Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Quinoa Tomato Kanji.md"
+    },
+    {
+      "id": "thinai-vegetable-kanji",
+      "name": "Thinai Vegetable Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Thinai Vegetable Kanji.md"
+    },
+    {
+      "id": "vegetable-oats-kanji",
+      "name": "Vegetable Oats Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Oats Kanji.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "ulundhu-kali-with-buttermilk",
+        "name": "Ulundhu Kali with Buttermilk",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ulundhu Kali with Buttermilk.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "cucumber-buttermilk-kichadi-with-foxtail-millet",
+        "name": "Cucumber Buttermilk Kichadi with Foxtail Millet",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Cucumber Buttermilk Kichadi with Foxtail Millet.md"
+      },
+      {
+        "id": "jowar-vegetable-kanji",
+        "name": "Jowar Vegetable Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Jowar Vegetable Kanji.md"
+      },
+      {
+        "id": "pepper-jeera-thinai-kanji",
+        "name": "Pepper Jeera Thinai Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pepper Jeera Thinai Kanji.md"
+      },
+      {
+        "id": "quinoa-tomato-kanji",
+        "name": "Quinoa Tomato Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Quinoa Tomato Kanji.md"
+      },
+      {
+        "id": "thinai-vegetable-kanji",
+        "name": "Thinai Vegetable Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Thinai Vegetable Kanji.md"
+      },
+      {
+        "id": "vegetable-oats-kanji",
+        "name": "Vegetable Oats Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Oats Kanji.md"
+      }
+    ]
+  }
+}

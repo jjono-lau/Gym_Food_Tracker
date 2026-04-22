@@ -1,0 +1,133 @@
+{
+  "id": "kambu-roti-with-ridge-gourd-kootu",
+  "name": "Kambu Roti with Ridge Gourd Kootu",
+  "category": "dinner",
+  "category_note_path": "Resources/Hubs/Dinner Hub",
+  "source_note": "Resources/Recipes/Dinner/Kambu Roti with Ridge Gourd Kootu.md",
+  "tags": [
+    "dinner"
+  ],
+  "ingredient_tags": [
+    "ingredient/kambu-flour",
+    "ingredient/water",
+    "ingredient/salt",
+    "ingredient/ridge-gourd",
+    "ingredient/moong-dal",
+    "ingredient/coconut",
+    "ingredient/cumin-seeds",
+    "ingredient/green-chilli",
+    "ingredient/sesame-oil",
+    "ingredient/curry-leaves"
+  ],
+  "ingredient_slugs": [
+    "kambu-flour",
+    "water",
+    "salt",
+    "ridge-gourd",
+    "moong-dal",
+    "coconut",
+    "cumin-seeds",
+    "green-chilli",
+    "sesame-oil",
+    "curry-leaves"
+  ],
+  "ingredients": [
+    {
+      "name": "kambu flour",
+      "slug": "kambu-flour",
+      "quantity": 160,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 220,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "ridge gourd",
+      "slug": "ridge-gourd",
+      "quantity": 220,
+      "unit": "g",
+      "note": "medium dice"
+    },
+    {
+      "name": "moong dal",
+      "slug": "moong-dal",
+      "quantity": 70,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "coconut",
+      "slug": "coconut",
+      "quantity": 18,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "green chilli",
+      "slug": "green-chilli",
+      "quantity": 2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 7,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    }
+  ],
+  "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Kambu Roti with Ridge Gourd Kootu brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Cook the vegetable with a splash of water on medium heat until just tender, then add the cooked dal and coconut paste and simmer 5 minutes on low heat.",
+    "Temper the kootu with oil and curry leaves.",
+    "Divide the dough into 4 balls, roll each into a thin roti, and cook on a hot tawa over medium-high heat for 1 minute per side until brown spots appear.",
+    "Serve the rotis hot with the soft kootu."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 18,
+    "cook_time_min": 20,
+    "total_time_min": 38
+  },
+  "nutrition_per_serving": {
+    "calories": 497,
+    "protein_g": 19,
+    "carbs_g": 83,
+    "fat_g": 11
+  },
+  "meal_prep_notes": "Roti dough keeps 24 hours chilled. Kootu keeps 3 days refrigerated. Reheat rotis wrapped in a cloth over gentle heat and warm the kootu separately with a splash of water.",
+  "serves": 2,
+  "related_links": [
+    "Dinner Hub",
+    "Kambu Flour",
+    "Water"
+  ]
+}

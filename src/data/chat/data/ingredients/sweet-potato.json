@@ -1,0 +1,23 @@
+{
+  "slug": "sweet-potato",
+  "name": "sweet potato",
+  "count": 1,
+  "recipes": [
+    {
+      "id": "sweet-potato-kara-kuzhambu-with-barnyard-millet",
+      "name": "Sweet Potato Kara Kuzhambu with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Sweet Potato Kara Kuzhambu with Barnyard Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "lunch": [
+      {
+        "id": "sweet-potato-kara-kuzhambu-with-barnyard-millet",
+        "name": "Sweet Potato Kara Kuzhambu with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Sweet Potato Kara Kuzhambu with Barnyard Millet.md"
+      }
+    ]
+  }
+}

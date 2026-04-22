@@ -1,0 +1,160 @@
+{
+  "id": "tomato-millet-bath",
+  "name": "Tomato Millet Bath",
+  "category": "breakfast",
+  "category_note_path": "Resources/Hubs/Breakfast Hub",
+  "source_note": "Resources/Recipes/Breakfast/Tomato Millet Bath.md",
+  "tags": [
+    "breakfast"
+  ],
+  "ingredient_tags": [
+    "ingredient/foxtail-millet",
+    "ingredient/tomato",
+    "ingredient/onion",
+    "ingredient/carrot",
+    "ingredient/ginger",
+    "ingredient/green-chilli",
+    "ingredient/chana-dal",
+    "ingredient/urad-dal",
+    "ingredient/mustard-seeds",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "foxtail-millet",
+    "tomato",
+    "onion",
+    "carrot",
+    "ginger",
+    "green-chilli",
+    "chana-dal",
+    "urad-dal",
+    "mustard-seeds",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "foxtail millet",
+      "slug": "foxtail-millet",
+      "quantity": 150,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "tomato",
+      "slug": "tomato",
+      "quantity": 120,
+      "unit": "g",
+      "note": "small dice"
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 70,
+      "unit": "g",
+      "note": "small dice"
+    },
+    {
+      "name": "carrot",
+      "slug": "carrot",
+      "quantity": 60,
+      "unit": "g",
+      "note": "small dice"
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 10,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "green chilli",
+      "slug": "green-chilli",
+      "quantity": 2,
+      "unit": "tsp",
+      "note": "finely chopped"
+    },
+    {
+      "name": "chana dal",
+      "slug": "chana-dal",
+      "quantity": 18,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 12,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "mustard seeds",
+      "slug": "mustard-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 8,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 420,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Tomato Millet Bath brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Set a kadai over medium heat and dry-roast the main grain for 3 to 4 minutes until nutty and no longer smells raw. Remove to a plate.",
+    "Add oil, mustard seeds, chana dal, and urad dal; cook on medium heat for 1 minute until the dals turn pale golden. Add curry leaves, ginger, chilli, onion, and vegetables and saute for 3 minutes until the onion turns translucent.",
+    "Pour in water, salt, and bring to a brisk boil over high heat. Rain in the roasted grain while stirring steadily to avoid lumps.",
+    "Reduce to low heat, cover, and cook 6 to 8 minutes until the liquid is absorbed and the grains are tender but separate. Rest 3 minutes before fluffing."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 12,
+    "cook_time_min": 18,
+    "total_time_min": 30
+  },
+  "nutrition_per_serving": {
+    "calories": 395,
+    "protein_g": 14,
+    "carbs_g": 66,
+    "fat_g": 8
+  },
+  "meal_prep_notes": "Upma keeps 2 days refrigerated. Reheat in a covered pan with 2 tbsp water over low heat for 3 minutes to restore softness. For batch cooking, roast the grain and portion the tempering ingredients ahead so breakfast comes together quickly.",
+  "serves": 2,
+  "related_links": [
+    "Breakfast Hub",
+    "Foxtail Millet",
+    "Tomato"
+  ]
+}

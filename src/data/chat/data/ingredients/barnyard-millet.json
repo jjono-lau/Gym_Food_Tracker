@@ -1,0 +1,123 @@
+{
+  "slug": "barnyard-millet",
+  "name": "barnyard millet",
+  "count": 9,
+  "recipes": [
+    {
+      "id": "barnyard-millet-kozhukattai",
+      "name": "Barnyard Millet Kozhukattai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Barnyard Millet Kozhukattai.md"
+    },
+    {
+      "id": "cucumber-millet-kichadi",
+      "name": "Cucumber Millet Kichadi",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Cucumber Millet Kichadi.md"
+    },
+    {
+      "id": "barnyard-millet-curd-sevai",
+      "name": "Barnyard Millet Curd Sevai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Barnyard Millet Curd Sevai.md"
+    },
+    {
+      "id": "lauki-coconut-milk-soup-with-barnyard-millet",
+      "name": "Lauki Coconut Milk Soup with Barnyard Millet",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Lauki Coconut Milk Soup with Barnyard Millet.md"
+    },
+    {
+      "id": "carrot-peas-sambar-with-barnyard-millet",
+      "name": "Carrot Peas Sambar with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Carrot Peas Sambar with Barnyard Millet.md"
+    },
+    {
+      "id": "moringa-leaf-dal-with-barnyard-millet",
+      "name": "Moringa Leaf Dal with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Moringa Leaf Dal with Barnyard Millet.md"
+    },
+    {
+      "id": "pumpkin-more-kuzhambu-with-barnyard-millet",
+      "name": "Pumpkin More Kuzhambu with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Pumpkin More Kuzhambu with Barnyard Millet.md"
+    },
+    {
+      "id": "sundakkai-style-kuzhambu-with-barnyard-millet",
+      "name": "Sundakkai Style Kuzhambu with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Sundakkai Style Kuzhambu with Barnyard Millet.md"
+    },
+    {
+      "id": "sweet-potato-kara-kuzhambu-with-barnyard-millet",
+      "name": "Sweet Potato Kara Kuzhambu with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Sweet Potato Kara Kuzhambu with Barnyard Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "barnyard-millet-kozhukattai",
+        "name": "Barnyard Millet Kozhukattai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Barnyard Millet Kozhukattai.md"
+      },
+      {
+        "id": "cucumber-millet-kichadi",
+        "name": "Cucumber Millet Kichadi",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Cucumber Millet Kichadi.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "barnyard-millet-curd-sevai",
+        "name": "Barnyard Millet Curd Sevai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Barnyard Millet Curd Sevai.md"
+      },
+      {
+        "id": "lauki-coconut-milk-soup-with-barnyard-millet",
+        "name": "Lauki Coconut Milk Soup with Barnyard Millet",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Lauki Coconut Milk Soup with Barnyard Millet.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "carrot-peas-sambar-with-barnyard-millet",
+        "name": "Carrot Peas Sambar with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Carrot Peas Sambar with Barnyard Millet.md"
+      },
+      {
+        "id": "moringa-leaf-dal-with-barnyard-millet",
+        "name": "Moringa Leaf Dal with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Moringa Leaf Dal with Barnyard Millet.md"
+      },
+      {
+        "id": "pumpkin-more-kuzhambu-with-barnyard-millet",
+        "name": "Pumpkin More Kuzhambu with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Pumpkin More Kuzhambu with Barnyard Millet.md"
+      },
+      {
+        "id": "sundakkai-style-kuzhambu-with-barnyard-millet",
+        "name": "Sundakkai Style Kuzhambu with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Sundakkai Style Kuzhambu with Barnyard Millet.md"
+      },
+      {
+        "id": "sweet-potato-kara-kuzhambu-with-barnyard-millet",
+        "name": "Sweet Potato Kara Kuzhambu with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Sweet Potato Kara Kuzhambu with Barnyard Millet.md"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "low-fat-curd",
+  "name": "low fat curd",
+  "count": 3,
+  "recipes": [
+    {
+      "id": "ash-gourd-mor-kuzhambu-with-red-rice",
+      "name": "Ash Gourd Mor Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Ash Gourd Mor Kuzhambu with Red Rice.md"
+    },
+    {
+      "id": "banana-stem-mor-kootu-with-kodo-millet",
+      "name": "Banana Stem Mor Kootu with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Banana Stem Mor Kootu with Kodo Millet.md"
+    },
+    {
+      "id": "pumpkin-more-kuzhambu-with-barnyard-millet",
+      "name": "Pumpkin More Kuzhambu with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Pumpkin More Kuzhambu with Barnyard Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "lunch": [
+      {
+        "id": "ash-gourd-mor-kuzhambu-with-red-rice",
+        "name": "Ash Gourd Mor Kuzhambu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Ash Gourd Mor Kuzhambu with Red Rice.md"
+      },
+      {
+        "id": "banana-stem-mor-kootu-with-kodo-millet",
+        "name": "Banana Stem Mor Kootu with Kodo Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Banana Stem Mor Kootu with Kodo Millet.md"
+      },
+      {
+        "id": "pumpkin-more-kuzhambu-with-barnyard-millet",
+        "name": "Pumpkin More Kuzhambu with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Pumpkin More Kuzhambu with Barnyard Millet.md"
+      }
+    ]
+  }
+}

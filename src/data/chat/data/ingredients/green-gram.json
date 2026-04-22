@@ -1,0 +1,147 @@
+{
+  "slug": "green-gram",
+  "name": "green gram",
+  "count": 11,
+  "recipes": [
+    {
+      "id": "brown-rice-puttu-with-green-gram",
+      "name": "Brown Rice Puttu with Green Gram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Brown Rice Puttu with Green Gram.md"
+    },
+    {
+      "id": "curry-leaf-pesarattu",
+      "name": "Curry Leaf Pesarattu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Curry Leaf Pesarattu.md"
+    },
+    {
+      "id": "green-gram-pesarattu",
+      "name": "Green Gram Pesarattu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Green Gram Pesarattu.md"
+    },
+    {
+      "id": "keerai-pesarattu",
+      "name": "Keerai Pesarattu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Keerai Pesarattu.md"
+    },
+    {
+      "id": "pearl-millet-puttu",
+      "name": "Pearl Millet Puttu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Pearl Millet Puttu.md"
+    },
+    {
+      "id": "thinai-coconut-puttu",
+      "name": "Thinai Coconut Puttu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Thinai Coconut Puttu.md"
+    },
+    {
+      "id": "moong-dal-dosa-with-tomato-chutney",
+      "name": "Moong Dal Dosa with Tomato Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Moong Dal Dosa with Tomato Chutney.md"
+    },
+    {
+      "id": "pesarattu-with-mint-chutney",
+      "name": "Pesarattu with Mint Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pesarattu with Mint Chutney.md"
+    },
+    {
+      "id": "spinach-pesarattu-rolls",
+      "name": "Spinach Pesarattu Rolls",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Spinach Pesarattu Rolls.md"
+    },
+    {
+      "id": "brinjal-gothsu-with-foxtail-millet",
+      "name": "Brinjal Gothsu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Brinjal Gothsu with Foxtail Millet.md"
+    },
+    {
+      "id": "mushroom-pepper-kuzhambu-with-foxtail-millet",
+      "name": "Mushroom Pepper Kuzhambu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Mushroom Pepper Kuzhambu with Foxtail Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "brown-rice-puttu-with-green-gram",
+        "name": "Brown Rice Puttu with Green Gram",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Brown Rice Puttu with Green Gram.md"
+      },
+      {
+        "id": "curry-leaf-pesarattu",
+        "name": "Curry Leaf Pesarattu",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Curry Leaf Pesarattu.md"
+      },
+      {
+        "id": "green-gram-pesarattu",
+        "name": "Green Gram Pesarattu",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Green Gram Pesarattu.md"
+      },
+      {
+        "id": "keerai-pesarattu",
+        "name": "Keerai Pesarattu",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Keerai Pesarattu.md"
+      },
+      {
+        "id": "pearl-millet-puttu",
+        "name": "Pearl Millet Puttu",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Pearl Millet Puttu.md"
+      },
+      {
+        "id": "thinai-coconut-puttu",
+        "name": "Thinai Coconut Puttu",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Thinai Coconut Puttu.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "moong-dal-dosa-with-tomato-chutney",
+        "name": "Moong Dal Dosa with Tomato Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Moong Dal Dosa with Tomato Chutney.md"
+      },
+      {
+        "id": "pesarattu-with-mint-chutney",
+        "name": "Pesarattu with Mint Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pesarattu with Mint Chutney.md"
+      },
+      {
+        "id": "spinach-pesarattu-rolls",
+        "name": "Spinach Pesarattu Rolls",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Spinach Pesarattu Rolls.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "brinjal-gothsu-with-foxtail-millet",
+        "name": "Brinjal Gothsu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Brinjal Gothsu with Foxtail Millet.md"
+      },
+      {
+        "id": "mushroom-pepper-kuzhambu-with-foxtail-millet",
+        "name": "Mushroom Pepper Kuzhambu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Mushroom Pepper Kuzhambu with Foxtail Millet.md"
+      }
+    ]
+  }
+}

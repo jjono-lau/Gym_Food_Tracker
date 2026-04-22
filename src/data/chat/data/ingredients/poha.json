@@ -1,0 +1,61 @@
+{
+  "slug": "poha",
+  "name": "poha",
+  "count": 4,
+  "recipes": [
+    {
+      "id": "aval-vegetable-upma",
+      "name": "Aval Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Aval Vegetable Upma.md"
+    },
+    {
+      "id": "red-aval-vegetable-upma",
+      "name": "Red Aval Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Aval Vegetable Upma.md"
+    },
+    {
+      "id": "red-rice-aval-upma",
+      "name": "Red Rice Aval Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Rice Aval Upma.md"
+    },
+    {
+      "id": "vegetable-thakkali-aval",
+      "name": "Vegetable Thakkali Aval",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Thakkali Aval.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "aval-vegetable-upma",
+        "name": "Aval Vegetable Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Aval Vegetable Upma.md"
+      },
+      {
+        "id": "red-aval-vegetable-upma",
+        "name": "Red Aval Vegetable Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Red Aval Vegetable Upma.md"
+      },
+      {
+        "id": "red-rice-aval-upma",
+        "name": "Red Rice Aval Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Red Rice Aval Upma.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "vegetable-thakkali-aval",
+        "name": "Vegetable Thakkali Aval",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Thakkali Aval.md"
+      }
+    ]
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "slug": "garlic",
+  "name": "garlic",
+  "count": 19,
+  "recipes": [
+    {
+      "id": "bottle-gourd-moong-stew-with-kodo-millet",
+      "name": "Bottle Gourd Moong Stew with Kodo Millet",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Bottle Gourd Moong Stew with Kodo Millet.md"
+    },
+    {
+      "id": "drumstick-leaf-soup-with-little-millet",
+      "name": "Drumstick Leaf Soup with Little Millet",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Drumstick Leaf Soup with Little Millet.md"
+    },
+    {
+      "id": "kollu-soup-with-cabbage-thoran",
+      "name": "Kollu Soup with Cabbage Thoran",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Kollu Soup with Cabbage Thoran.md"
+    },
+    {
+      "id": "lauki-coconut-milk-soup-with-barnyard-millet",
+      "name": "Lauki Coconut Milk Soup with Barnyard Millet",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Lauki Coconut Milk Soup with Barnyard Millet.md"
+    },
+    {
+      "id": "oats-and-red-rice-idli-with-sambar",
+      "name": "Oats and Red Rice Idli with Sambar",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Oats and Red Rice Idli with Sambar.md"
+    },
+    {
+      "id": "pearl-millet-idli-with-soppu-saaru",
+      "name": "Pearl Millet Idli with Soppu Saaru",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pearl Millet Idli with Soppu Saaru.md"
+    },
+    {
+      "id": "pumpkin-soup-with-foxtail-millet-dumplings",
+      "name": "Pumpkin Soup with Foxtail Millet Dumplings",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pumpkin Soup with Foxtail Millet Dumplings.md"
+    },
+    {
+      "id": "ragi-mudde-with-keerai-saaru",
+      "name": "Ragi Mudde with Keerai Saaru",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Ragi Mudde with Keerai Saaru.md"
+    },
+    {
+      "id": "south-indian-sundal-salad-bowl",
+      "name": "South Indian Sundal Salad Bowl",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/South Indian Sundal Salad Bowl.md"
+    },
+    {
+      "id": "amaranth-dal-with-brown-rice",
+      "name": "Amaranth Dal with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Amaranth Dal with Brown Rice.md"
+    },
+    {
+      "id": "beans-paruppu-curry-with-red-rice",
+      "name": "Beans Paruppu Curry with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Beans Paruppu Curry with Red Rice.md"
+    },
+    {
+      "id": "curry-leaf-pepper-rasam-with-red-rice",
+      "name": "Curry Leaf Pepper Rasam with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Curry Leaf Pepper Rasam with Red Rice.md"
+    },
+    {
+      "id": "kollu-rasam-with-millet-rice",
+      "name": "Kollu Rasam with Millet Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Kollu Rasam with Millet Rice.md"
+    },
+    {
+      "id": "moringa-leaf-dal-with-barnyard-millet",
+      "name": "Moringa Leaf Dal with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Moringa Leaf Dal with Barnyard Millet.md"
+    },
+    {
+      "id": "paruppu-rasam-with-red-rice",
+      "name": "Paruppu Rasam with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Paruppu Rasam with Red Rice.md"
+    },
+    {
+      "id": "poondu-kuzhambu-with-kodo-millet",
+      "name": "Poondu Kuzhambu with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Poondu Kuzhambu with Kodo Millet.md"
+    },
+    {
+      "id": "ridge-gourd-dal-kuzhambu-with-kodo-millet",
+      "name": "Ridge Gourd Dal Kuzhambu with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Ridge Gourd Dal Kuzhambu with Kodo Millet.md"
+    },
+    {
+      "id": "thakkali-pappu-with-foxtail-millet",
+      "name": "Thakkali Pappu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Thakkali Pappu with Foxtail Millet.md"
+    },
+    {
+      "id": "tomato-pepper-rasam-with-horse-gram-rice",
+      "name": "Tomato Pepper Rasam with Horse Gram Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Tomato Pepper Rasam with Horse Gram Rice.md"
+    }
+  ],
+  "recipes_by_category": {
+    "dinner": [
+      {
+        "id": "bottle-gourd-moong-stew-with-kodo-millet",
+        "name": "Bottle Gourd Moong Stew with Kodo Millet",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Bottle Gourd Moong Stew with Kodo Millet.md"
+      },
+      {
+        "id": "drumstick-leaf-soup-with-little-millet",
+        "name": "Drumstick Leaf Soup with Little Millet",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Drumstick Leaf Soup with Little Millet.md"
+      },
+      {
+        "id": "kollu-soup-with-cabbage-thoran",
+        "name": "Kollu Soup with Cabbage Thoran",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Kollu Soup with Cabbage Thoran.md"
+      },
+      {
+        "id": "lauki-coconut-milk-soup-with-barnyard-millet",
+        "name": "Lauki Coconut Milk Soup with Barnyard Millet",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Lauki Coconut Milk Soup with Barnyard Millet.md"
+      },
+      {
+        "id": "oats-and-red-rice-idli-with-sambar",
+        "name": "Oats and Red Rice Idli with Sambar",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Oats and Red Rice Idli with Sambar.md"
+      },
+      {
+        "id": "pearl-millet-idli-with-soppu-saaru",
+        "name": "Pearl Millet Idli with Soppu Saaru",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pearl Millet Idli with Soppu Saaru.md"
+      },
+      {
+        "id": "pumpkin-soup-with-foxtail-millet-dumplings",
+        "name": "Pumpkin Soup with Foxtail Millet Dumplings",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pumpkin Soup with Foxtail Millet Dumplings.md"
+      },
+      {
+        "id": "ragi-mudde-with-keerai-saaru",
+        "name": "Ragi Mudde with Keerai Saaru",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Ragi Mudde with Keerai Saaru.md"
+      },
+      {
+        "id": "south-indian-sundal-salad-bowl",
+        "name": "South Indian Sundal Salad Bowl",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/South Indian Sundal Salad Bowl.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "amaranth-dal-with-brown-rice",
+        "name": "Amaranth Dal with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Amaranth Dal with Brown Rice.md"
+      },
+      {
+        "id": "beans-paruppu-curry-with-red-rice",
+        "name": "Beans Paruppu Curry with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Beans Paruppu Curry with Red Rice.md"
+      },
+      {
+        "id": "curry-leaf-pepper-rasam-with-red-rice",
+        "name": "Curry Leaf Pepper Rasam with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Curry Leaf Pepper Rasam with Red Rice.md"
+      },
+      {
+        "id": "kollu-rasam-with-millet-rice",
+        "name": "Kollu Rasam with Millet Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Kollu Rasam with Millet Rice.md"
+      },
+      {
+        "id": "moringa-leaf-dal-with-barnyard-millet",
+        "name": "Moringa Leaf Dal with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Moringa Leaf Dal with Barnyard Millet.md"
+      },
+      {
+        "id": "paruppu-rasam-with-red-rice",
+        "name": "Paruppu Rasam with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Paruppu Rasam with Red Rice.md"
+      },
+      {
+        "id": "poondu-kuzhambu-with-kodo-millet",
+        "name": "Poondu Kuzhambu with Kodo Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Poondu Kuzhambu with Kodo Millet.md"
+      },
+      {
+        "id": "ridge-gourd-dal-kuzhambu-with-kodo-millet",
+        "name": "Ridge Gourd Dal Kuzhambu with Kodo Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Ridge Gourd Dal Kuzhambu with Kodo Millet.md"
+      },
+      {
+        "id": "thakkali-pappu-with-foxtail-millet",
+        "name": "Thakkali Pappu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Thakkali Pappu with Foxtail Millet.md"
+      },
+      {
+        "id": "tomato-pepper-rasam-with-horse-gram-rice",
+        "name": "Tomato Pepper Rasam with Horse Gram Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Tomato Pepper Rasam with Horse Gram Rice.md"
+      }
+    ]
+  }
+}

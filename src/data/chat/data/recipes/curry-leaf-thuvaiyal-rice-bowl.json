@@ -1,0 +1,133 @@
+{
+  "id": "curry-leaf-thuvaiyal-rice-bowl",
+  "name": "Curry Leaf Thuvaiyal Rice Bowl",
+  "category": "lunch",
+  "category_note_path": "Resources/Hubs/Lunch Hub",
+  "source_note": "Resources/Recipes/Lunch/Curry Leaf Thuvaiyal Rice Bowl.md",
+  "tags": [
+    "lunch"
+  ],
+  "ingredient_tags": [
+    "ingredient/brown-rice",
+    "ingredient/curry-leaves",
+    "ingredient/urad-dal",
+    "ingredient/coconut",
+    "ingredient/tamarind",
+    "ingredient/dry-red-chilli",
+    "ingredient/urad-dal",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "brown-rice",
+    "curry-leaves",
+    "urad-dal",
+    "coconut",
+    "tamarind",
+    "dry-red-chilli",
+    "urad-dal",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "brown rice",
+      "slug": "brown-rice",
+      "quantity": 160,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 140,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 45,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "coconut",
+      "slug": "coconut",
+      "quantity": 15,
+      "unit": "g",
+      "note": "grated"
+    },
+    {
+      "name": "tamarind",
+      "slug": "tamarind",
+      "quantity": 8,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "dry red chilli",
+      "slug": "dry-red-chilli",
+      "quantity": 3,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 12,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 7,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 520,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Curry Leaf Thuvaiyal Rice Bowl brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Roast the pulse accent and chillies in a small pan on medium-low heat until fragrant. Add the vegetable if it benefits from wilting or softening and cook until concentrated.",
+    "Grind with tamarind, coconut, salt, and a little water into a thick paste.",
+    "Warm the paste briefly in the pan with 1 tsp oil if you want a mellower flavor, then toss through the cooked grain or serve it in a thick layer over the grain bowl.",
+    "Let the bowl stand 2 minutes before eating so the paste seasons the grain evenly."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 14,
+    "cook_time_min": 16,
+    "total_time_min": 30
+  },
+  "nutrition_per_serving": {
+    "calories": 526,
+    "protein_g": 18,
+    "carbs_g": 93,
+    "fat_g": 9
+  },
+  "meal_prep_notes": "Thuvaiyal keeps 4 days chilled. Store separately from the grain and combine only at serving time. It also freezes well in small portions for quick lunches.",
+  "serves": 2,
+  "related_links": [
+    "Lunch Hub",
+    "Brown Rice",
+    "Curry Leaves"
+  ]
+}

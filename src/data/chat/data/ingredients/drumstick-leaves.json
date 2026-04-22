@@ -1,0 +1,87 @@
+{
+  "slug": "drumstick-leaves",
+  "name": "drumstick leaves",
+  "count": 6,
+  "recipes": [
+    {
+      "id": "drumstick-leaf-adai",
+      "name": "Drumstick Leaf Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Drumstick Leaf Adai.md"
+    },
+    {
+      "id": "moringa-leaf-dosa",
+      "name": "Moringa Leaf Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Moringa Leaf Dosa.md"
+    },
+    {
+      "id": "multi-millet-adai",
+      "name": "Multi Millet Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Multi Millet Adai.md"
+    },
+    {
+      "id": "drumstick-leaf-soup-with-little-millet",
+      "name": "Drumstick Leaf Soup with Little Millet",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Drumstick Leaf Soup with Little Millet.md"
+    },
+    {
+      "id": "drumstick-leaves-sambar-with-kodo-millet",
+      "name": "Drumstick Leaves Sambar with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Drumstick Leaves Sambar with Kodo Millet.md"
+    },
+    {
+      "id": "moringa-leaf-dal-with-barnyard-millet",
+      "name": "Moringa Leaf Dal with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Moringa Leaf Dal with Barnyard Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "drumstick-leaf-adai",
+        "name": "Drumstick Leaf Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Drumstick Leaf Adai.md"
+      },
+      {
+        "id": "moringa-leaf-dosa",
+        "name": "Moringa Leaf Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Moringa Leaf Dosa.md"
+      },
+      {
+        "id": "multi-millet-adai",
+        "name": "Multi Millet Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Multi Millet Adai.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "drumstick-leaf-soup-with-little-millet",
+        "name": "Drumstick Leaf Soup with Little Millet",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Drumstick Leaf Soup with Little Millet.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "drumstick-leaves-sambar-with-kodo-millet",
+        "name": "Drumstick Leaves Sambar with Kodo Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Drumstick Leaves Sambar with Kodo Millet.md"
+      },
+      {
+        "id": "moringa-leaf-dal-with-barnyard-millet",
+        "name": "Moringa Leaf Dal with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Moringa Leaf Dal with Barnyard Millet.md"
+      }
+    ]
+  }
+}

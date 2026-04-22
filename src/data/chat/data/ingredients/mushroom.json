@@ -1,0 +1,63 @@
+{
+  "slug": "mushroom",
+  "name": "mushroom",
+  "count": 4,
+  "recipes": [
+    {
+      "id": "mushroom-pepper-thinai-upma",
+      "name": "Mushroom Pepper Thinai Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Mushroom Pepper Thinai Upma.md"
+    },
+    {
+      "id": "millet-pongal-with-pepper-mushroom",
+      "name": "Millet Pongal with Pepper Mushroom",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Millet Pongal with Pepper Mushroom.md"
+    },
+    {
+      "id": "mushroom-paniyaram-with-onion-chutney",
+      "name": "Mushroom Paniyaram with Onion Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Mushroom Paniyaram with Onion Chutney.md"
+    },
+    {
+      "id": "mushroom-pepper-kuzhambu-with-foxtail-millet",
+      "name": "Mushroom Pepper Kuzhambu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Mushroom Pepper Kuzhambu with Foxtail Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "mushroom-pepper-thinai-upma",
+        "name": "Mushroom Pepper Thinai Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Mushroom Pepper Thinai Upma.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "millet-pongal-with-pepper-mushroom",
+        "name": "Millet Pongal with Pepper Mushroom",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Millet Pongal with Pepper Mushroom.md"
+      },
+      {
+        "id": "mushroom-paniyaram-with-onion-chutney",
+        "name": "Mushroom Paniyaram with Onion Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Mushroom Paniyaram with Onion Chutney.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "mushroom-pepper-kuzhambu-with-foxtail-millet",
+        "name": "Mushroom Pepper Kuzhambu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Mushroom Pepper Kuzhambu with Foxtail Millet.md"
+      }
+    ]
+  }
+}

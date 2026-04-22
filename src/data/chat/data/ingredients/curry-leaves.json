@@ -1,0 +1,1395 @@
+{
+  "slug": "curry-leaves",
+  "name": "curry leaves",
+  "count": 115,
+  "recipes": [
+    {
+      "id": "aval-vegetable-upma",
+      "name": "Aval Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Aval Vegetable Upma.md"
+    },
+    {
+      "id": "barnyard-millet-kozhukattai",
+      "name": "Barnyard Millet Kozhukattai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Barnyard Millet Kozhukattai.md"
+    },
+    {
+      "id": "beetroot-kambu-adai",
+      "name": "Beetroot Kambu Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Beetroot Kambu Adai.md"
+    },
+    {
+      "id": "bottle-gourd-oats-pongal",
+      "name": "Bottle Gourd Oats Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Bottle Gourd Oats Pongal.md"
+    },
+    {
+      "id": "broken-wheat-ven-pongal",
+      "name": "Broken Wheat Ven Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Broken Wheat Ven Pongal.md"
+    },
+    {
+      "id": "cabbage-moong-dal-adai",
+      "name": "Cabbage Moong Dal Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Cabbage Moong Dal Adai.md"
+    },
+    {
+      "id": "carrot-coconut-idli",
+      "name": "Carrot Coconut Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Carrot Coconut Idli.md"
+    },
+    {
+      "id": "corn-cowpea-kuzhi-paniyaram",
+      "name": "Corn Cowpea Kuzhi Paniyaram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Corn Cowpea Kuzhi Paniyaram.md"
+    },
+    {
+      "id": "cucumber-millet-kichadi",
+      "name": "Cucumber Millet Kichadi",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Cucumber Millet Kichadi.md"
+    },
+    {
+      "id": "curry-leaf-pesarattu",
+      "name": "Curry Leaf Pesarattu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Curry Leaf Pesarattu.md"
+    },
+    {
+      "id": "curry-leaf-podi-sevai",
+      "name": "Curry Leaf Podi Sevai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Curry Leaf Podi Sevai.md"
+    },
+    {
+      "id": "curry-leaf-podi-sevai",
+      "name": "Curry Leaf Podi Sevai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Curry Leaf Podi Sevai.md"
+    },
+    {
+      "id": "curry-leaf-thinai-dosa",
+      "name": "Curry Leaf Thinai Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Curry Leaf Thinai Dosa.md"
+    },
+    {
+      "id": "drumstick-leaf-adai",
+      "name": "Drumstick Leaf Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Drumstick Leaf Adai.md"
+    },
+    {
+      "id": "foxtail-millet-kanchipuram-idli",
+      "name": "Foxtail Millet Kanchipuram Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Foxtail Millet Kanchipuram Idli.md"
+    },
+    {
+      "id": "foxtail-millet-kanchipuram-idli",
+      "name": "Foxtail Millet Kanchipuram Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Foxtail Millet Kanchipuram Idli.md"
+    },
+    {
+      "id": "green-gram-pesarattu",
+      "name": "Green Gram Pesarattu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Green Gram Pesarattu.md"
+    },
+    {
+      "id": "horse-gram-idli",
+      "name": "Horse Gram Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Horse Gram Idli.md"
+    },
+    {
+      "id": "kambu-vegetable-dosa",
+      "name": "Kambu Vegetable Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kambu Vegetable Dosa.md"
+    },
+    {
+      "id": "keerai-pesarattu",
+      "name": "Keerai Pesarattu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Keerai Pesarattu.md"
+    },
+    {
+      "id": "kollu-adai",
+      "name": "Kollu Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kollu Adai.md"
+    },
+    {
+      "id": "kuthiraivali-coconut-sevai",
+      "name": "Kuthiraivali Coconut Sevai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kuthiraivali Coconut Sevai.md"
+    },
+    {
+      "id": "little-millet-vegetable-upma",
+      "name": "Little Millet Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Little Millet Vegetable Upma.md"
+    },
+    {
+      "id": "masala-vegetable-oats-uttappam",
+      "name": "Masala Vegetable Oats Uttappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Masala Vegetable Oats Uttappam.md"
+    },
+    {
+      "id": "methi-ragi-uthappam",
+      "name": "Methi Ragi Uthappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Methi Ragi Uthappam.md"
+    },
+    {
+      "id": "millet-idli-upma",
+      "name": "Millet Idli Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Millet Idli Upma.md"
+    },
+    {
+      "id": "moringa-leaf-dosa",
+      "name": "Moringa Leaf Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Moringa Leaf Dosa.md"
+    },
+    {
+      "id": "multi-millet-adai",
+      "name": "Multi Millet Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Multi Millet Adai.md"
+    },
+    {
+      "id": "mushroom-pepper-thinai-upma",
+      "name": "Mushroom Pepper Thinai Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Mushroom Pepper Thinai Upma.md"
+    },
+    {
+      "id": "oats-kuzhi-paniyaram",
+      "name": "Oats Kuzhi Paniyaram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Oats Kuzhi Paniyaram.md"
+    },
+    {
+      "id": "onion-tomato-kuthiraivali-uthappam",
+      "name": "Onion Tomato Kuthiraivali Uthappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Onion Tomato Kuthiraivali Uthappam.md"
+    },
+    {
+      "id": "pepper-kodo-millet-upma",
+      "name": "Pepper Kodo Millet Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Pepper Kodo Millet Upma.md"
+    },
+    {
+      "id": "pumpkin-idli",
+      "name": "Pumpkin Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Pumpkin Idli.md"
+    },
+    {
+      "id": "quinoa-ven-pongal",
+      "name": "Quinoa Ven Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Quinoa Ven Pongal.md"
+    },
+    {
+      "id": "ragi-dosa",
+      "name": "Ragi Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ragi Dosa.md"
+    },
+    {
+      "id": "ragi-idiyappam",
+      "name": "Ragi Idiyappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ragi Idiyappam.md"
+    },
+    {
+      "id": "red-aval-vegetable-upma",
+      "name": "Red Aval Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Aval Vegetable Upma.md"
+    },
+    {
+      "id": "red-rice-aval-upma",
+      "name": "Red Rice Aval Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Rice Aval Upma.md"
+    },
+    {
+      "id": "red-rice-idli",
+      "name": "Red Rice Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Rice Idli.md"
+    },
+    {
+      "id": "ridge-gourd-adai",
+      "name": "Ridge Gourd Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ridge Gourd Adai.md"
+    },
+    {
+      "id": "saamai-vegetable-kichadi",
+      "name": "Saamai Vegetable Kichadi",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Saamai Vegetable Kichadi.md"
+    },
+    {
+      "id": "samai-vegetable-pongal",
+      "name": "Samai Vegetable Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Samai Vegetable Pongal.md"
+    },
+    {
+      "id": "thinai-onion-uthappam",
+      "name": "Thinai Onion Uthappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Thinai Onion Uthappam.md"
+    },
+    {
+      "id": "tomato-millet-bath",
+      "name": "Tomato Millet Bath",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Tomato Millet Bath.md"
+    },
+    {
+      "id": "vegetable-kambu-kozhukattai",
+      "name": "Vegetable Kambu Kozhukattai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Vegetable Kambu Kozhukattai.md"
+    },
+    {
+      "id": "vegetable-quinoa-paniyaram",
+      "name": "Vegetable Quinoa Paniyaram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Vegetable Quinoa Paniyaram.md"
+    },
+    {
+      "id": "barnyard-millet-curd-sevai",
+      "name": "Barnyard Millet Curd Sevai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Barnyard Millet Curd Sevai.md"
+    },
+    {
+      "id": "broken-wheat-vegetable-pongal",
+      "name": "Broken Wheat Vegetable Pongal",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Broken Wheat Vegetable Pongal.md"
+    },
+    {
+      "id": "brown-rice-appam-with-tomato-kurma",
+      "name": "Brown Rice Appam with Tomato Kurma",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Brown Rice Appam with Tomato Kurma.md"
+    },
+    {
+      "id": "brown-rice-vegetable-sevai",
+      "name": "Brown Rice Vegetable Sevai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Brown Rice Vegetable Sevai.md"
+    },
+    {
+      "id": "coconut-vegetable-soup-with-ragi-string-hoppers",
+      "name": "Coconut Vegetable Soup with Ragi String Hoppers",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Coconut Vegetable Soup with Ragi String Hoppers.md"
+    },
+    {
+      "id": "foxtail-millet-pidi-kozhukattai-in-pepper-broth",
+      "name": "Foxtail Millet Pidi Kozhukattai in Pepper Broth",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Foxtail Millet Pidi Kozhukattai in Pepper Broth.md"
+    },
+    {
+      "id": "idiyappam-with-vegetable-ishtu",
+      "name": "Idiyappam with Vegetable Ishtu",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Idiyappam with Vegetable Ishtu.md"
+    },
+    {
+      "id": "kambu-roti-with-ridge-gourd-kootu",
+      "name": "Kambu Roti with Ridge Gourd Kootu",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Kambu Roti with Ridge Gourd Kootu.md"
+    },
+    {
+      "id": "little-millet-upma-kozhukattai",
+      "name": "Little Millet Upma Kozhukattai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Little Millet Upma Kozhukattai.md"
+    },
+    {
+      "id": "millet-pidi-kozhukattai-with-lentil-stew",
+      "name": "Millet Pidi Kozhukattai with Lentil Stew",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Millet Pidi Kozhukattai with Lentil Stew.md"
+    },
+    {
+      "id": "millet-pongal-with-pepper-mushroom",
+      "name": "Millet Pongal with Pepper Mushroom",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Millet Pongal with Pepper Mushroom.md"
+    },
+    {
+      "id": "mushroom-paniyaram-with-onion-chutney",
+      "name": "Mushroom Paniyaram with Onion Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Mushroom Paniyaram with Onion Chutney.md"
+    },
+    {
+      "id": "pepper-rasam-with-steamed-red-rice-dumplings",
+      "name": "Pepper Rasam with Steamed Red Rice Dumplings",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pepper Rasam with Steamed Red Rice Dumplings.md"
+    },
+    {
+      "id": "ragi-semiya-upma",
+      "name": "Ragi Semiya Upma",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Ragi Semiya Upma.md"
+    },
+    {
+      "id": "samai-vegetable-uttappam",
+      "name": "Samai Vegetable Uttappam",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Samai Vegetable Uttappam.md"
+    },
+    {
+      "id": "tomato-millet-sevai",
+      "name": "Tomato Millet Sevai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Tomato Millet Sevai.md"
+    },
+    {
+      "id": "tomato-oats-uttappam",
+      "name": "Tomato Oats Uttappam",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Tomato Oats Uttappam.md"
+    },
+    {
+      "id": "vegetable-appam-with-stew",
+      "name": "Vegetable Appam with Stew",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Appam with Stew.md"
+    },
+    {
+      "id": "vegetable-kozhukattai-in-coconut-broth",
+      "name": "Vegetable Kozhukattai in Coconut Broth",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Kozhukattai in Coconut Broth.md"
+    },
+    {
+      "id": "vegetable-kurma-with-ragi-idiyappam",
+      "name": "Vegetable Kurma with Ragi Idiyappam",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Kurma with Ragi Idiyappam.md"
+    },
+    {
+      "id": "vegetable-thakkali-aval",
+      "name": "Vegetable Thakkali Aval",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Thakkali Aval.md"
+    },
+    {
+      "id": "vegetable-uttappam-with-sambar",
+      "name": "Vegetable Uttappam with Sambar",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Uttappam with Sambar.md"
+    },
+    {
+      "id": "ash-gourd-mor-kuzhambu-with-red-rice",
+      "name": "Ash Gourd Mor Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Ash Gourd Mor Kuzhambu with Red Rice.md"
+    },
+    {
+      "id": "avarakkai-paruppu-usili-with-red-rice",
+      "name": "Avarakkai Paruppu Usili with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Avarakkai Paruppu Usili with Red Rice.md"
+    },
+    {
+      "id": "banana-stem-mor-kootu-with-kodo-millet",
+      "name": "Banana Stem Mor Kootu with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Banana Stem Mor Kootu with Kodo Millet.md"
+    },
+    {
+      "id": "beetroot-kootu-with-little-millet",
+      "name": "Beetroot Kootu with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Beetroot Kootu with Little Millet.md"
+    },
+    {
+      "id": "bitter-gourd-pitlai-with-little-millet",
+      "name": "Bitter Gourd Pitlai with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Bitter Gourd Pitlai with Little Millet.md"
+    },
+    {
+      "id": "black-chana-sundal-kuzhambu-with-brown-rice",
+      "name": "Black Chana Sundal Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Black Chana Sundal Kuzhambu with Brown Rice.md"
+    },
+    {
+      "id": "brinjal-gothsu-with-foxtail-millet",
+      "name": "Brinjal Gothsu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Brinjal Gothsu with Foxtail Millet.md"
+    },
+    {
+      "id": "cabbage-kadalai-kootu-with-red-rice",
+      "name": "Cabbage Kadalai Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Cabbage Kadalai Kootu with Red Rice.md"
+    },
+    {
+      "id": "capsicum-kollu-kuzhambu-with-red-rice",
+      "name": "Capsicum Kollu Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Capsicum Kollu Kuzhambu with Red Rice.md"
+    },
+    {
+      "id": "carrot-peas-sambar-with-barnyard-millet",
+      "name": "Carrot Peas Sambar with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Carrot Peas Sambar with Barnyard Millet.md"
+    },
+    {
+      "id": "cauliflower-milagu-kootu-with-foxtail-millet",
+      "name": "Cauliflower Milagu Kootu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Cauliflower Milagu Kootu with Foxtail Millet.md"
+    },
+    {
+      "id": "chayote-coconut-stew-with-red-rice",
+      "name": "Chayote Coconut Stew with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Chayote Coconut Stew with Red Rice.md"
+    },
+    {
+      "id": "chow-chow-kootu-with-foxtail-millet",
+      "name": "Chow Chow Kootu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Chow Chow Kootu with Foxtail Millet.md"
+    },
+    {
+      "id": "curry-leaf-kuzhambu-with-red-rice",
+      "name": "Curry Leaf Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Curry Leaf Kuzhambu with Red Rice.md"
+    },
+    {
+      "id": "curry-leaf-kuzhambu-with-red-rice",
+      "name": "Curry Leaf Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Curry Leaf Kuzhambu with Red Rice.md"
+    },
+    {
+      "id": "curry-leaf-pepper-rasam-with-red-rice",
+      "name": "Curry Leaf Pepper Rasam with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Curry Leaf Pepper Rasam with Red Rice.md"
+    },
+    {
+      "id": "curry-leaf-pepper-rasam-with-red-rice",
+      "name": "Curry Leaf Pepper Rasam with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Curry Leaf Pepper Rasam with Red Rice.md"
+    },
+    {
+      "id": "curry-leaf-thuvaiyal-rice-bowl",
+      "name": "Curry Leaf Thuvaiyal Rice Bowl",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Curry Leaf Thuvaiyal Rice Bowl.md"
+    },
+    {
+      "id": "drumstick-leaves-sambar-with-kodo-millet",
+      "name": "Drumstick Leaves Sambar with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Drumstick Leaves Sambar with Kodo Millet.md"
+    },
+    {
+      "id": "field-bean-kuzhambu-with-brown-rice",
+      "name": "Field Bean Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Field Bean Kuzhambu with Brown Rice.md"
+    },
+    {
+      "id": "kathirikai-mochai-kuzhambu-with-brown-rice",
+      "name": "Kathirikai Mochai Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Kathirikai Mochai Kuzhambu with Brown Rice.md"
+    },
+    {
+      "id": "keerai-kootu-with-red-rice",
+      "name": "Keerai Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Keerai Kootu with Red Rice.md"
+    },
+    {
+      "id": "keerai-kuzhambu-with-thinai",
+      "name": "Keerai Kuzhambu with Thinai",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Keerai Kuzhambu with Thinai.md"
+    },
+    {
+      "id": "knol-khol-sambar-with-foxtail-millet",
+      "name": "Knol Khol Sambar with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Foxtail Millet.md"
+    },
+    {
+      "id": "knol-khol-sambar-with-little-millet",
+      "name": "Knol Khol Sambar with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Little Millet.md"
+    },
+    {
+      "id": "kollu-rasam-with-millet-rice",
+      "name": "Kollu Rasam with Millet Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Kollu Rasam with Millet Rice.md"
+    },
+    {
+      "id": "kovakkai-peanut-kuzhambu-with-brown-rice",
+      "name": "Kovakkai Peanut Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Kovakkai Peanut Kuzhambu with Brown Rice.md"
+    },
+    {
+      "id": "manathakkali-style-kuzhambu-with-red-rice",
+      "name": "Manathakkali Style Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Manathakkali Style Kuzhambu with Red Rice.md"
+    },
+    {
+      "id": "methi-kuzhambu-with-brown-rice",
+      "name": "Methi Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Methi Kuzhambu with Brown Rice.md"
+    },
+    {
+      "id": "mixed-vegetable-sambar-sadam",
+      "name": "Mixed Vegetable Sambar Sadam",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Mixed Vegetable Sambar Sadam.md"
+    },
+    {
+      "id": "murungakkai-sambar-with-brown-rice",
+      "name": "Murungakkai Sambar with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Murungakkai Sambar with Brown Rice.md"
+    },
+    {
+      "id": "mushroom-pepper-kuzhambu-with-foxtail-millet",
+      "name": "Mushroom Pepper Kuzhambu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Mushroom Pepper Kuzhambu with Foxtail Millet.md"
+    },
+    {
+      "id": "paruppu-rasam-with-red-rice",
+      "name": "Paruppu Rasam with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Paruppu Rasam with Red Rice.md"
+    },
+    {
+      "id": "poondu-kuzhambu-with-kodo-millet",
+      "name": "Poondu Kuzhambu with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Poondu Kuzhambu with Kodo Millet.md"
+    },
+    {
+      "id": "pudalangai-paal-kootu-with-red-rice",
+      "name": "Pudalangai Paal Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Pudalangai Paal Kootu with Red Rice.md"
+    },
+    {
+      "id": "puli-milagai-kuzhambu-with-kodo-millet",
+      "name": "Puli Milagai Kuzhambu with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Puli Milagai Kuzhambu with Kodo Millet.md"
+    },
+    {
+      "id": "pumpkin-black-eyed-pea-kootu-with-brown-rice",
+      "name": "Pumpkin Black Eyed Pea Kootu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Pumpkin Black Eyed Pea Kootu with Brown Rice.md"
+    },
+    {
+      "id": "pumpkin-more-kuzhambu-with-barnyard-millet",
+      "name": "Pumpkin More Kuzhambu with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Pumpkin More Kuzhambu with Barnyard Millet.md"
+    },
+    {
+      "id": "raw-mango-kuzhambu-with-little-millet",
+      "name": "Raw Mango Kuzhambu with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Raw Mango Kuzhambu with Little Millet.md"
+    },
+    {
+      "id": "snake-gourd-poricha-kootu-with-red-rice",
+      "name": "Snake Gourd Poricha Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Snake Gourd Poricha Kootu with Red Rice.md"
+    },
+    {
+      "id": "sorakkai-kootu-with-brown-rice",
+      "name": "Sorakkai Kootu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Sorakkai Kootu with Brown Rice.md"
+    },
+    {
+      "id": "sundakkai-style-kuzhambu-with-barnyard-millet",
+      "name": "Sundakkai Style Kuzhambu with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Sundakkai Style Kuzhambu with Barnyard Millet.md"
+    },
+    {
+      "id": "sweet-potato-kara-kuzhambu-with-barnyard-millet",
+      "name": "Sweet Potato Kara Kuzhambu with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Sweet Potato Kara Kuzhambu with Barnyard Millet.md"
+    },
+    {
+      "id": "tomato-pepper-rasam-with-horse-gram-rice",
+      "name": "Tomato Pepper Rasam with Horse Gram Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Tomato Pepper Rasam with Horse Gram Rice.md"
+    },
+    {
+      "id": "vazhaithandu-kootu-with-brown-rice",
+      "name": "Vazhaithandu Kootu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Vazhaithandu Kootu with Brown Rice.md"
+    },
+    {
+      "id": "vendakkai-kara-kuzhambu-with-little-millet",
+      "name": "Vendakkai Kara Kuzhambu with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Vendakkai Kara Kuzhambu with Little Millet.md"
+    },
+    {
+      "id": "white-pumpkin-kootu-with-red-rice",
+      "name": "White Pumpkin Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/White Pumpkin Kootu with Red Rice.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "aval-vegetable-upma",
+        "name": "Aval Vegetable Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Aval Vegetable Upma.md"
+      },
+      {
+        "id": "barnyard-millet-kozhukattai",
+        "name": "Barnyard Millet Kozhukattai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Barnyard Millet Kozhukattai.md"
+      },
+      {
+        "id": "beetroot-kambu-adai",
+        "name": "Beetroot Kambu Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Beetroot Kambu Adai.md"
+      },
+      {
+        "id": "bottle-gourd-oats-pongal",
+        "name": "Bottle Gourd Oats Pongal",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Bottle Gourd Oats Pongal.md"
+      },
+      {
+        "id": "broken-wheat-ven-pongal",
+        "name": "Broken Wheat Ven Pongal",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Broken Wheat Ven Pongal.md"
+      },
+      {
+        "id": "cabbage-moong-dal-adai",
+        "name": "Cabbage Moong Dal Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Cabbage Moong Dal Adai.md"
+      },
+      {
+        "id": "carrot-coconut-idli",
+        "name": "Carrot Coconut Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Carrot Coconut Idli.md"
+      },
+      {
+        "id": "corn-cowpea-kuzhi-paniyaram",
+        "name": "Corn Cowpea Kuzhi Paniyaram",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Corn Cowpea Kuzhi Paniyaram.md"
+      },
+      {
+        "id": "cucumber-millet-kichadi",
+        "name": "Cucumber Millet Kichadi",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Cucumber Millet Kichadi.md"
+      },
+      {
+        "id": "curry-leaf-pesarattu",
+        "name": "Curry Leaf Pesarattu",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Curry Leaf Pesarattu.md"
+      },
+      {
+        "id": "curry-leaf-podi-sevai",
+        "name": "Curry Leaf Podi Sevai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Curry Leaf Podi Sevai.md"
+      },
+      {
+        "id": "curry-leaf-podi-sevai",
+        "name": "Curry Leaf Podi Sevai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Curry Leaf Podi Sevai.md"
+      },
+      {
+        "id": "curry-leaf-thinai-dosa",
+        "name": "Curry Leaf Thinai Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Curry Leaf Thinai Dosa.md"
+      },
+      {
+        "id": "drumstick-leaf-adai",
+        "name": "Drumstick Leaf Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Drumstick Leaf Adai.md"
+      },
+      {
+        "id": "foxtail-millet-kanchipuram-idli",
+        "name": "Foxtail Millet Kanchipuram Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Foxtail Millet Kanchipuram Idli.md"
+      },
+      {
+        "id": "foxtail-millet-kanchipuram-idli",
+        "name": "Foxtail Millet Kanchipuram Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Foxtail Millet Kanchipuram Idli.md"
+      },
+      {
+        "id": "green-gram-pesarattu",
+        "name": "Green Gram Pesarattu",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Green Gram Pesarattu.md"
+      },
+      {
+        "id": "horse-gram-idli",
+        "name": "Horse Gram Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Horse Gram Idli.md"
+      },
+      {
+        "id": "kambu-vegetable-dosa",
+        "name": "Kambu Vegetable Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Kambu Vegetable Dosa.md"
+      },
+      {
+        "id": "keerai-pesarattu",
+        "name": "Keerai Pesarattu",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Keerai Pesarattu.md"
+      },
+      {
+        "id": "kollu-adai",
+        "name": "Kollu Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Kollu Adai.md"
+      },
+      {
+        "id": "kuthiraivali-coconut-sevai",
+        "name": "Kuthiraivali Coconut Sevai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Kuthiraivali Coconut Sevai.md"
+      },
+      {
+        "id": "little-millet-vegetable-upma",
+        "name": "Little Millet Vegetable Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Little Millet Vegetable Upma.md"
+      },
+      {
+        "id": "masala-vegetable-oats-uttappam",
+        "name": "Masala Vegetable Oats Uttappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Masala Vegetable Oats Uttappam.md"
+      },
+      {
+        "id": "methi-ragi-uthappam",
+        "name": "Methi Ragi Uthappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Methi Ragi Uthappam.md"
+      },
+      {
+        "id": "millet-idli-upma",
+        "name": "Millet Idli Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Millet Idli Upma.md"
+      },
+      {
+        "id": "moringa-leaf-dosa",
+        "name": "Moringa Leaf Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Moringa Leaf Dosa.md"
+      },
+      {
+        "id": "multi-millet-adai",
+        "name": "Multi Millet Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Multi Millet Adai.md"
+      },
+      {
+        "id": "mushroom-pepper-thinai-upma",
+        "name": "Mushroom Pepper Thinai Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Mushroom Pepper Thinai Upma.md"
+      },
+      {
+        "id": "oats-kuzhi-paniyaram",
+        "name": "Oats Kuzhi Paniyaram",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Oats Kuzhi Paniyaram.md"
+      },
+      {
+        "id": "onion-tomato-kuthiraivali-uthappam",
+        "name": "Onion Tomato Kuthiraivali Uthappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Onion Tomato Kuthiraivali Uthappam.md"
+      },
+      {
+        "id": "pepper-kodo-millet-upma",
+        "name": "Pepper Kodo Millet Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Pepper Kodo Millet Upma.md"
+      },
+      {
+        "id": "pumpkin-idli",
+        "name": "Pumpkin Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Pumpkin Idli.md"
+      },
+      {
+        "id": "quinoa-ven-pongal",
+        "name": "Quinoa Ven Pongal",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Quinoa Ven Pongal.md"
+      },
+      {
+        "id": "ragi-dosa",
+        "name": "Ragi Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ragi Dosa.md"
+      },
+      {
+        "id": "ragi-idiyappam",
+        "name": "Ragi Idiyappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ragi Idiyappam.md"
+      },
+      {
+        "id": "red-aval-vegetable-upma",
+        "name": "Red Aval Vegetable Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Red Aval Vegetable Upma.md"
+      },
+      {
+        "id": "red-rice-aval-upma",
+        "name": "Red Rice Aval Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Red Rice Aval Upma.md"
+      },
+      {
+        "id": "red-rice-idli",
+        "name": "Red Rice Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Red Rice Idli.md"
+      },
+      {
+        "id": "ridge-gourd-adai",
+        "name": "Ridge Gourd Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ridge Gourd Adai.md"
+      },
+      {
+        "id": "saamai-vegetable-kichadi",
+        "name": "Saamai Vegetable Kichadi",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Saamai Vegetable Kichadi.md"
+      },
+      {
+        "id": "samai-vegetable-pongal",
+        "name": "Samai Vegetable Pongal",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Samai Vegetable Pongal.md"
+      },
+      {
+        "id": "thinai-onion-uthappam",
+        "name": "Thinai Onion Uthappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Thinai Onion Uthappam.md"
+      },
+      {
+        "id": "tomato-millet-bath",
+        "name": "Tomato Millet Bath",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Tomato Millet Bath.md"
+      },
+      {
+        "id": "vegetable-kambu-kozhukattai",
+        "name": "Vegetable Kambu Kozhukattai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Vegetable Kambu Kozhukattai.md"
+      },
+      {
+        "id": "vegetable-quinoa-paniyaram",
+        "name": "Vegetable Quinoa Paniyaram",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Vegetable Quinoa Paniyaram.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "barnyard-millet-curd-sevai",
+        "name": "Barnyard Millet Curd Sevai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Barnyard Millet Curd Sevai.md"
+      },
+      {
+        "id": "broken-wheat-vegetable-pongal",
+        "name": "Broken Wheat Vegetable Pongal",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Broken Wheat Vegetable Pongal.md"
+      },
+      {
+        "id": "brown-rice-appam-with-tomato-kurma",
+        "name": "Brown Rice Appam with Tomato Kurma",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Brown Rice Appam with Tomato Kurma.md"
+      },
+      {
+        "id": "brown-rice-vegetable-sevai",
+        "name": "Brown Rice Vegetable Sevai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Brown Rice Vegetable Sevai.md"
+      },
+      {
+        "id": "coconut-vegetable-soup-with-ragi-string-hoppers",
+        "name": "Coconut Vegetable Soup with Ragi String Hoppers",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Coconut Vegetable Soup with Ragi String Hoppers.md"
+      },
+      {
+        "id": "foxtail-millet-pidi-kozhukattai-in-pepper-broth",
+        "name": "Foxtail Millet Pidi Kozhukattai in Pepper Broth",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Foxtail Millet Pidi Kozhukattai in Pepper Broth.md"
+      },
+      {
+        "id": "idiyappam-with-vegetable-ishtu",
+        "name": "Idiyappam with Vegetable Ishtu",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Idiyappam with Vegetable Ishtu.md"
+      },
+      {
+        "id": "kambu-roti-with-ridge-gourd-kootu",
+        "name": "Kambu Roti with Ridge Gourd Kootu",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Kambu Roti with Ridge Gourd Kootu.md"
+      },
+      {
+        "id": "little-millet-upma-kozhukattai",
+        "name": "Little Millet Upma Kozhukattai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Little Millet Upma Kozhukattai.md"
+      },
+      {
+        "id": "millet-pidi-kozhukattai-with-lentil-stew",
+        "name": "Millet Pidi Kozhukattai with Lentil Stew",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Millet Pidi Kozhukattai with Lentil Stew.md"
+      },
+      {
+        "id": "millet-pongal-with-pepper-mushroom",
+        "name": "Millet Pongal with Pepper Mushroom",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Millet Pongal with Pepper Mushroom.md"
+      },
+      {
+        "id": "mushroom-paniyaram-with-onion-chutney",
+        "name": "Mushroom Paniyaram with Onion Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Mushroom Paniyaram with Onion Chutney.md"
+      },
+      {
+        "id": "pepper-rasam-with-steamed-red-rice-dumplings",
+        "name": "Pepper Rasam with Steamed Red Rice Dumplings",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pepper Rasam with Steamed Red Rice Dumplings.md"
+      },
+      {
+        "id": "ragi-semiya-upma",
+        "name": "Ragi Semiya Upma",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Ragi Semiya Upma.md"
+      },
+      {
+        "id": "samai-vegetable-uttappam",
+        "name": "Samai Vegetable Uttappam",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Samai Vegetable Uttappam.md"
+      },
+      {
+        "id": "tomato-millet-sevai",
+        "name": "Tomato Millet Sevai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Tomato Millet Sevai.md"
+      },
+      {
+        "id": "tomato-oats-uttappam",
+        "name": "Tomato Oats Uttappam",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Tomato Oats Uttappam.md"
+      },
+      {
+        "id": "vegetable-appam-with-stew",
+        "name": "Vegetable Appam with Stew",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Appam with Stew.md"
+      },
+      {
+        "id": "vegetable-kozhukattai-in-coconut-broth",
+        "name": "Vegetable Kozhukattai in Coconut Broth",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Kozhukattai in Coconut Broth.md"
+      },
+      {
+        "id": "vegetable-kurma-with-ragi-idiyappam",
+        "name": "Vegetable Kurma with Ragi Idiyappam",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Kurma with Ragi Idiyappam.md"
+      },
+      {
+        "id": "vegetable-thakkali-aval",
+        "name": "Vegetable Thakkali Aval",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Thakkali Aval.md"
+      },
+      {
+        "id": "vegetable-uttappam-with-sambar",
+        "name": "Vegetable Uttappam with Sambar",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Uttappam with Sambar.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "ash-gourd-mor-kuzhambu-with-red-rice",
+        "name": "Ash Gourd Mor Kuzhambu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Ash Gourd Mor Kuzhambu with Red Rice.md"
+      },
+      {
+        "id": "avarakkai-paruppu-usili-with-red-rice",
+        "name": "Avarakkai Paruppu Usili with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Avarakkai Paruppu Usili with Red Rice.md"
+      },
+      {
+        "id": "banana-stem-mor-kootu-with-kodo-millet",
+        "name": "Banana Stem Mor Kootu with Kodo Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Banana Stem Mor Kootu with Kodo Millet.md"
+      },
+      {
+        "id": "beetroot-kootu-with-little-millet",
+        "name": "Beetroot Kootu with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Beetroot Kootu with Little Millet.md"
+      },
+      {
+        "id": "bitter-gourd-pitlai-with-little-millet",
+        "name": "Bitter Gourd Pitlai with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Bitter Gourd Pitlai with Little Millet.md"
+      },
+      {
+        "id": "black-chana-sundal-kuzhambu-with-brown-rice",
+        "name": "Black Chana Sundal Kuzhambu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Black Chana Sundal Kuzhambu with Brown Rice.md"
+      },
+      {
+        "id": "brinjal-gothsu-with-foxtail-millet",
+        "name": "Brinjal Gothsu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Brinjal Gothsu with Foxtail Millet.md"
+      },
+      {
+        "id": "cabbage-kadalai-kootu-with-red-rice",
+        "name": "Cabbage Kadalai Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Cabbage Kadalai Kootu with Red Rice.md"
+      },
+      {
+        "id": "capsicum-kollu-kuzhambu-with-red-rice",
+        "name": "Capsicum Kollu Kuzhambu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Capsicum Kollu Kuzhambu with Red Rice.md"
+      },
+      {
+        "id": "carrot-peas-sambar-with-barnyard-millet",
+        "name": "Carrot Peas Sambar with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Carrot Peas Sambar with Barnyard Millet.md"
+      },
+      {
+        "id": "cauliflower-milagu-kootu-with-foxtail-millet",
+        "name": "Cauliflower Milagu Kootu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Cauliflower Milagu Kootu with Foxtail Millet.md"
+      },
+      {
+        "id": "chayote-coconut-stew-with-red-rice",
+        "name": "Chayote Coconut Stew with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Chayote Coconut Stew with Red Rice.md"
+      },
+      {
+        "id": "chow-chow-kootu-with-foxtail-millet",
+        "name": "Chow Chow Kootu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Chow Chow Kootu with Foxtail Millet.md"
+      },
+      {
+        "id": "curry-leaf-kuzhambu-with-red-rice",
+        "name": "Curry Leaf Kuzhambu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Curry Leaf Kuzhambu with Red Rice.md"
+      },
+      {
+        "id": "curry-leaf-kuzhambu-with-red-rice",
+        "name": "Curry Leaf Kuzhambu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Curry Leaf Kuzhambu with Red Rice.md"
+      },
+      {
+        "id": "curry-leaf-pepper-rasam-with-red-rice",
+        "name": "Curry Leaf Pepper Rasam with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Curry Leaf Pepper Rasam with Red Rice.md"
+      },
+      {
+        "id": "curry-leaf-pepper-rasam-with-red-rice",
+        "name": "Curry Leaf Pepper Rasam with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Curry Leaf Pepper Rasam with Red Rice.md"
+      },
+      {
+        "id": "curry-leaf-thuvaiyal-rice-bowl",
+        "name": "Curry Leaf Thuvaiyal Rice Bowl",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Curry Leaf Thuvaiyal Rice Bowl.md"
+      },
+      {
+        "id": "drumstick-leaves-sambar-with-kodo-millet",
+        "name": "Drumstick Leaves Sambar with Kodo Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Drumstick Leaves Sambar with Kodo Millet.md"
+      },
+      {
+        "id": "field-bean-kuzhambu-with-brown-rice",
+        "name": "Field Bean Kuzhambu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Field Bean Kuzhambu with Brown Rice.md"
+      },
+      {
+        "id": "kathirikai-mochai-kuzhambu-with-brown-rice",
+        "name": "Kathirikai Mochai Kuzhambu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Kathirikai Mochai Kuzhambu with Brown Rice.md"
+      },
+      {
+        "id": "keerai-kootu-with-red-rice",
+        "name": "Keerai Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Keerai Kootu with Red Rice.md"
+      },
+      {
+        "id": "keerai-kuzhambu-with-thinai",
+        "name": "Keerai Kuzhambu with Thinai",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Keerai Kuzhambu with Thinai.md"
+      },
+      {
+        "id": "knol-khol-sambar-with-foxtail-millet",
+        "name": "Knol Khol Sambar with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Foxtail Millet.md"
+      },
+      {
+        "id": "knol-khol-sambar-with-little-millet",
+        "name": "Knol Khol Sambar with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Little Millet.md"
+      },
+      {
+        "id": "kollu-rasam-with-millet-rice",
+        "name": "Kollu Rasam with Millet Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Kollu Rasam with Millet Rice.md"
+      },
+      {
+        "id": "kovakkai-peanut-kuzhambu-with-brown-rice",
+        "name": "Kovakkai Peanut Kuzhambu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Kovakkai Peanut Kuzhambu with Brown Rice.md"
+      },
+      {
+        "id": "manathakkali-style-kuzhambu-with-red-rice",
+        "name": "Manathakkali Style Kuzhambu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Manathakkali Style Kuzhambu with Red Rice.md"
+      },
+      {
+        "id": "methi-kuzhambu-with-brown-rice",
+        "name": "Methi Kuzhambu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Methi Kuzhambu with Brown Rice.md"
+      },
+      {
+        "id": "mixed-vegetable-sambar-sadam",
+        "name": "Mixed Vegetable Sambar Sadam",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Mixed Vegetable Sambar Sadam.md"
+      },
+      {
+        "id": "murungakkai-sambar-with-brown-rice",
+        "name": "Murungakkai Sambar with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Murungakkai Sambar with Brown Rice.md"
+      },
+      {
+        "id": "mushroom-pepper-kuzhambu-with-foxtail-millet",
+        "name": "Mushroom Pepper Kuzhambu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Mushroom Pepper Kuzhambu with Foxtail Millet.md"
+      },
+      {
+        "id": "paruppu-rasam-with-red-rice",
+        "name": "Paruppu Rasam with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Paruppu Rasam with Red Rice.md"
+      },
+      {
+        "id": "poondu-kuzhambu-with-kodo-millet",
+        "name": "Poondu Kuzhambu with Kodo Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Poondu Kuzhambu with Kodo Millet.md"
+      },
+      {
+        "id": "pudalangai-paal-kootu-with-red-rice",
+        "name": "Pudalangai Paal Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Pudalangai Paal Kootu with Red Rice.md"
+      },
+      {
+        "id": "puli-milagai-kuzhambu-with-kodo-millet",
+        "name": "Puli Milagai Kuzhambu with Kodo Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Puli Milagai Kuzhambu with Kodo Millet.md"
+      },
+      {
+        "id": "pumpkin-black-eyed-pea-kootu-with-brown-rice",
+        "name": "Pumpkin Black Eyed Pea Kootu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Pumpkin Black Eyed Pea Kootu with Brown Rice.md"
+      },
+      {
+        "id": "pumpkin-more-kuzhambu-with-barnyard-millet",
+        "name": "Pumpkin More Kuzhambu with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Pumpkin More Kuzhambu with Barnyard Millet.md"
+      },
+      {
+        "id": "raw-mango-kuzhambu-with-little-millet",
+        "name": "Raw Mango Kuzhambu with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Raw Mango Kuzhambu with Little Millet.md"
+      },
+      {
+        "id": "snake-gourd-poricha-kootu-with-red-rice",
+        "name": "Snake Gourd Poricha Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Snake Gourd Poricha Kootu with Red Rice.md"
+      },
+      {
+        "id": "sorakkai-kootu-with-brown-rice",
+        "name": "Sorakkai Kootu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Sorakkai Kootu with Brown Rice.md"
+      },
+      {
+        "id": "sundakkai-style-kuzhambu-with-barnyard-millet",
+        "name": "Sundakkai Style Kuzhambu with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Sundakkai Style Kuzhambu with Barnyard Millet.md"
+      },
+      {
+        "id": "sweet-potato-kara-kuzhambu-with-barnyard-millet",
+        "name": "Sweet Potato Kara Kuzhambu with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Sweet Potato Kara Kuzhambu with Barnyard Millet.md"
+      },
+      {
+        "id": "tomato-pepper-rasam-with-horse-gram-rice",
+        "name": "Tomato Pepper Rasam with Horse Gram Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Tomato Pepper Rasam with Horse Gram Rice.md"
+      },
+      {
+        "id": "vazhaithandu-kootu-with-brown-rice",
+        "name": "Vazhaithandu Kootu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Vazhaithandu Kootu with Brown Rice.md"
+      },
+      {
+        "id": "vendakkai-kara-kuzhambu-with-little-millet",
+        "name": "Vendakkai Kara Kuzhambu with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Vendakkai Kara Kuzhambu with Little Millet.md"
+      },
+      {
+        "id": "white-pumpkin-kootu-with-red-rice",
+        "name": "White Pumpkin Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/White Pumpkin Kootu with Red Rice.md"
+      }
+    ]
+  }
+}

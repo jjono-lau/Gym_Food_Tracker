@@ -1,0 +1,35 @@
+{
+  "slug": "knol-khol",
+  "name": "knol khol",
+  "count": 2,
+  "recipes": [
+    {
+      "id": "knol-khol-sambar-with-foxtail-millet",
+      "name": "Knol Khol Sambar with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Foxtail Millet.md"
+    },
+    {
+      "id": "knol-khol-sambar-with-little-millet",
+      "name": "Knol Khol Sambar with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Little Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "lunch": [
+      {
+        "id": "knol-khol-sambar-with-foxtail-millet",
+        "name": "Knol Khol Sambar with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Foxtail Millet.md"
+      },
+      {
+        "id": "knol-khol-sambar-with-little-millet",
+        "name": "Knol Khol Sambar with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Little Millet.md"
+      }
+    ]
+  }
+}

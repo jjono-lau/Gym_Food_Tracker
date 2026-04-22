@@ -1,0 +1,1544 @@
+{
+  "category": "breakfast",
+  "count": 50,
+  "recipes": [
+    {
+      "id": "aval-vegetable-upma",
+      "name": "Aval Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Aval Vegetable Upma.md",
+      "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Aval Vegetable Upma brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "poha",
+        "capsicum",
+        "onion",
+        "carrot",
+        "ginger",
+        "green-chilli",
+        "chana-dal",
+        "urad-dal",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 12,
+        "cook_time_min": 18,
+        "total_time_min": 30
+      },
+      "nutrition_per_serving": {
+        "calories": 402,
+        "protein_g": 10,
+        "carbs_g": 78,
+        "fat_g": 6
+      }
+    },
+    {
+      "id": "barnyard-millet-kozhukattai",
+      "name": "Barnyard Millet Kozhukattai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Barnyard Millet Kozhukattai.md",
+      "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Barnyard Millet Kozhukattai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "barnyard-millet",
+        "carrot",
+        "coconut",
+        "green-chilli",
+        "ginger",
+        "mustard-seeds",
+        "urad-dal",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 14,
+        "cook_time_min": 18,
+        "total_time_min": 32
+      },
+      "nutrition_per_serving": {
+        "calories": 345,
+        "protein_g": 11,
+        "carbs_g": 52,
+        "fat_g": 10
+      }
+    },
+    {
+      "id": "beetroot-kambu-adai",
+      "name": "Beetroot Kambu Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Beetroot Kambu Adai.md",
+      "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Beetroot Kambu Adai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "kambu",
+        "chana-dal",
+        "toor-dal",
+        "urad-dal",
+        "beetroot",
+        "onion",
+        "ginger",
+        "dry-red-chilli",
+        "cumin-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 18,
+        "total_time_min": 33
+      },
+      "nutrition_per_serving": {
+        "calories": 390,
+        "protein_g": 17,
+        "carbs_g": 64,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "bottle-gourd-oats-pongal",
+      "name": "Bottle Gourd Oats Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Bottle Gourd Oats Pongal.md",
+      "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Bottle Gourd Oats Pongal brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "rolled-oats",
+        "split-moong-dal",
+        "bottle-gourd",
+        "ginger",
+        "black-pepper",
+        "cumin-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 10,
+        "cook_time_min": 20,
+        "total_time_min": 30
+      },
+      "nutrition_per_serving": {
+        "calories": 387,
+        "protein_g": 18,
+        "carbs_g": 62,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "broken-wheat-ven-pongal",
+      "name": "Broken Wheat Ven Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Broken Wheat Ven Pongal.md",
+      "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Broken Wheat Ven Pongal brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "broken-wheat",
+        "split-moong-dal",
+        "bottle-gourd",
+        "ginger",
+        "black-pepper",
+        "cumin-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 10,
+        "cook_time_min": 20,
+        "total_time_min": 30
+      },
+      "nutrition_per_serving": {
+        "calories": 359,
+        "protein_g": 15,
+        "carbs_g": 68,
+        "fat_g": 5
+      }
+    },
+    {
+      "id": "brown-rice-appam",
+      "name": "Brown Rice Appam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Brown Rice Appam.md",
+      "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Brown Rice Appam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "urad-dal",
+        "coconut",
+        "light-coconut-milk",
+        "green-peas",
+        "fenugreek-seeds",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 15,
+        "total_time_min": 30
+      },
+      "nutrition_per_serving": {
+        "calories": 407,
+        "protein_g": 10,
+        "carbs_g": 61,
+        "fat_g": 13
+      }
+    },
+    {
+      "id": "brown-rice-puttu-with-green-gram",
+      "name": "Brown Rice Puttu with Green Gram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Brown Rice Puttu with Green Gram.md",
+      "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Brown Rice Puttu with Green Gram brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "red-rice-flour",
+        "coconut",
+        "green-gram",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 10,
+        "total_time_min": 25
+      },
+      "nutrition_per_serving": {
+        "calories": 436,
+        "protein_g": 14,
+        "carbs_g": 82,
+        "fat_g": 7
+      }
+    },
+    {
+      "id": "cabbage-moong-dal-adai",
+      "name": "Cabbage Moong Dal Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Cabbage Moong Dal Adai.md",
+      "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Cabbage Moong Dal Adai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "moong-dal",
+        "chana-dal",
+        "toor-dal",
+        "urad-dal",
+        "cabbage",
+        "onion",
+        "ginger",
+        "dry-red-chilli",
+        "cumin-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 18,
+        "total_time_min": 33
+      },
+      "nutrition_per_serving": {
+        "calories": 376,
+        "protein_g": 21,
+        "carbs_g": 60,
+        "fat_g": 7
+      }
+    },
+    {
+      "id": "carrot-coconut-idli",
+      "name": "Carrot Coconut Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Carrot Coconut Idli.md",
+      "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Carrot Coconut Idli brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "urad-dal",
+        "fenugreek-seeds",
+        "carrot",
+        "ginger",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 14,
+        "total_time_min": 29
+      },
+      "nutrition_per_serving": {
+        "calories": 376,
+        "protein_g": 13,
+        "carbs_g": 72,
+        "fat_g": 4
+      }
+    },
+    {
+      "id": "coconut-milk-ragi-appam",
+      "name": "Coconut Milk Ragi Appam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Coconut Milk Ragi Appam.md",
+      "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Coconut Milk Ragi Appam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "ragi",
+        "urad-dal",
+        "coconut",
+        "light-coconut-milk",
+        "green-peas",
+        "fenugreek-seeds",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 15,
+        "total_time_min": 30
+      },
+      "nutrition_per_serving": {
+        "calories": 387,
+        "protein_g": 10,
+        "carbs_g": 58,
+        "fat_g": 12
+      }
+    },
+    {
+      "id": "corn-cowpea-kuzhi-paniyaram",
+      "name": "Corn Cowpea Kuzhi Paniyaram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Corn Cowpea Kuzhi Paniyaram.md",
+      "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Corn Cowpea Kuzhi Paniyaram brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "cowpea",
+        "corn",
+        "onion",
+        "ginger",
+        "green-chilli",
+        "curry-leaves",
+        "sesame-oil",
+        "salt"
+      ],
+      "timing": {
+        "prep_time_min": 10,
+        "cook_time_min": 16,
+        "total_time_min": 26
+      },
+      "nutrition_per_serving": {
+        "calories": 468,
+        "protein_g": 29,
+        "carbs_g": 80,
+        "fat_g": 6
+      }
+    },
+    {
+      "id": "cucumber-millet-kichadi",
+      "name": "Cucumber Millet Kichadi",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Cucumber Millet Kichadi.md",
+      "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Cucumber Millet Kichadi brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "barnyard-millet",
+        "split-moong-dal",
+        "cucumber",
+        "onion",
+        "ginger",
+        "green-chilli",
+        "mustard-seeds",
+        "cumin-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 10,
+        "cook_time_min": 20,
+        "total_time_min": 30
+      },
+      "nutrition_per_serving": {
+        "calories": 342,
+        "protein_g": 14,
+        "carbs_g": 57,
+        "fat_g": 7
+      }
+    },
+    {
+      "id": "curry-leaf-pesarattu",
+      "name": "Curry Leaf Pesarattu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Curry Leaf Pesarattu.md",
+      "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Curry Leaf Pesarattu brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "green-gram",
+        "spinach",
+        "onion",
+        "ginger",
+        "green-chilli",
+        "cumin-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 10,
+        "cook_time_min": 15,
+        "total_time_min": 25
+      },
+      "nutrition_per_serving": {
+        "calories": 325,
+        "protein_g": 20,
+        "carbs_g": 53,
+        "fat_g": 5
+      }
+    },
+    {
+      "id": "curry-leaf-podi-sevai",
+      "name": "Curry Leaf Podi Sevai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Curry Leaf Podi Sevai.md",
+      "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Curry Leaf Podi Sevai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "red-rice",
+        "curry-leaves",
+        "onion",
+        "coconut",
+        "ginger",
+        "green-chilli",
+        "mustard-seeds",
+        "urad-dal",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 12,
+        "cook_time_min": 12,
+        "total_time_min": 24
+      },
+      "nutrition_per_serving": {
+        "calories": 446,
+        "protein_g": 11,
+        "carbs_g": 78,
+        "fat_g": 10
+      }
+    },
+    {
+      "id": "curry-leaf-thinai-dosa",
+      "name": "Curry Leaf Thinai Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Curry Leaf Thinai Dosa.md",
+      "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Curry Leaf Thinai Dosa brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "urad-dal",
+        "thinai",
+        "fenugreek-seeds",
+        "onion",
+        "spinach",
+        "ginger",
+        "green-chilli",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 18,
+        "total_time_min": 33
+      },
+      "nutrition_per_serving": {
+        "calories": 521,
+        "protein_g": 17,
+        "carbs_g": 93,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "drumstick-leaf-adai",
+      "name": "Drumstick Leaf Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Drumstick Leaf Adai.md",
+      "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Drumstick Leaf Adai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "toor-dal",
+        "chana-dal",
+        "toor-dal",
+        "urad-dal",
+        "drumstick-leaves",
+        "onion",
+        "ginger",
+        "dry-red-chilli",
+        "cumin-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 18,
+        "total_time_min": 33
+      },
+      "nutrition_per_serving": {
+        "calories": 394,
+        "protein_g": 24,
+        "carbs_g": 61,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "foxtail-millet-kanchipuram-idli",
+      "name": "Foxtail Millet Kanchipuram Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Foxtail Millet Kanchipuram Idli.md",
+      "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Foxtail Millet Kanchipuram Idli brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "foxtail-millet",
+        "urad-dal",
+        "fenugreek-seeds",
+        "curry-leaves",
+        "ginger",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 14,
+        "total_time_min": 29
+      },
+      "nutrition_per_serving": {
+        "calories": 394,
+        "protein_g": 18,
+        "carbs_g": 67,
+        "fat_g": 6
+      }
+    },
+    {
+      "id": "green-gram-pesarattu",
+      "name": "Green Gram Pesarattu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Green Gram Pesarattu.md",
+      "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Green Gram Pesarattu brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "green-gram",
+        "spinach",
+        "onion",
+        "ginger",
+        "green-chilli",
+        "cumin-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 10,
+        "cook_time_min": 15,
+        "total_time_min": 25
+      },
+      "nutrition_per_serving": {
+        "calories": 325,
+        "protein_g": 20,
+        "carbs_g": 53,
+        "fat_g": 5
+      }
+    },
+    {
+      "id": "horse-gram-idli",
+      "name": "Horse Gram Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Horse Gram Idli.md",
+      "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Horse Gram Idli brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "horse-gram",
+        "urad-dal",
+        "fenugreek-seeds",
+        "spinach",
+        "ginger",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 14,
+        "total_time_min": 29
+      },
+      "nutrition_per_serving": {
+        "calories": 336,
+        "protein_g": 23,
+        "carbs_g": 56,
+        "fat_g": 3
+      }
+    },
+    {
+      "id": "kambu-vegetable-dosa",
+      "name": "Kambu Vegetable Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kambu Vegetable Dosa.md",
+      "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Kambu Vegetable Dosa brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "urad-dal",
+        "kambu-flour",
+        "fenugreek-seeds",
+        "onion",
+        "capsicum",
+        "ginger",
+        "green-chilli",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 18,
+        "total_time_min": 33
+      },
+      "nutrition_per_serving": {
+        "calories": 527,
+        "protein_g": 16,
+        "carbs_g": 95,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "keerai-pesarattu",
+      "name": "Keerai Pesarattu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Keerai Pesarattu.md",
+      "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Keerai Pesarattu brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "green-gram",
+        "spinach",
+        "onion",
+        "ginger",
+        "green-chilli",
+        "cumin-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 10,
+        "cook_time_min": 15,
+        "total_time_min": 25
+      },
+      "nutrition_per_serving": {
+        "calories": 325,
+        "protein_g": 20,
+        "carbs_g": 53,
+        "fat_g": 5
+      }
+    },
+    {
+      "id": "kollu-adai",
+      "name": "Kollu Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kollu Adai.md",
+      "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Kollu Adai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "horse-gram",
+        "chana-dal",
+        "toor-dal",
+        "urad-dal",
+        "spinach",
+        "onion",
+        "ginger",
+        "dry-red-chilli",
+        "cumin-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 18,
+        "total_time_min": 33
+      },
+      "nutrition_per_serving": {
+        "calories": 366,
+        "protein_g": 21,
+        "carbs_g": 57,
+        "fat_g": 7
+      }
+    },
+    {
+      "id": "kuthiraivali-coconut-sevai",
+      "name": "Kuthiraivali Coconut Sevai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kuthiraivali Coconut Sevai.md",
+      "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Kuthiraivali Coconut Sevai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "kuthiraivali",
+        "cabbage",
+        "onion",
+        "coconut",
+        "ginger",
+        "green-chilli",
+        "mustard-seeds",
+        "urad-dal",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 12,
+        "cook_time_min": 12,
+        "total_time_min": 24
+      },
+      "nutrition_per_serving": {
+        "calories": 366,
+        "protein_g": 12,
+        "carbs_g": 56,
+        "fat_g": 11
+      }
+    },
+    {
+      "id": "little-millet-vegetable-upma",
+      "name": "Little Millet Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Little Millet Vegetable Upma.md",
+      "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Little Millet Vegetable Upma brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "little-millet",
+        "beans",
+        "onion",
+        "carrot",
+        "ginger",
+        "green-chilli",
+        "chana-dal",
+        "urad-dal",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 12,
+        "cook_time_min": 18,
+        "total_time_min": 30
+      },
+      "nutrition_per_serving": {
+        "calories": 395,
+        "protein_g": 13,
+        "carbs_g": 71,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "masala-vegetable-oats-uttappam",
+      "name": "Masala Vegetable Oats Uttappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Masala Vegetable Oats Uttappam.md",
+      "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Masala Vegetable Oats Uttappam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "urad-dal",
+        "rolled-oats",
+        "fenugreek-seeds",
+        "onion",
+        "capsicum",
+        "tomato",
+        "curry-leaves",
+        "black-pepper",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 20,
+        "total_time_min": 35
+      },
+      "nutrition_per_serving": {
+        "calories": 514,
+        "protein_g": 18,
+        "carbs_g": 91,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "methi-ragi-uthappam",
+      "name": "Methi Ragi Uthappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Methi Ragi Uthappam.md",
+      "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Methi Ragi Uthappam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "urad-dal",
+        "ragi-flour",
+        "fenugreek-seeds",
+        "onion",
+        "methi-leaves",
+        "tomato",
+        "curry-leaves",
+        "black-pepper",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 20,
+        "total_time_min": 35
+      },
+      "nutrition_per_serving": {
+        "calories": 509,
+        "protein_g": 17,
+        "carbs_g": 92,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "millet-idli-upma",
+      "name": "Millet Idli Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Millet Idli Upma.md",
+      "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Millet Idli Upma brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "little-millet",
+        "onion",
+        "onion",
+        "carrot",
+        "ginger",
+        "green-chilli",
+        "chana-dal",
+        "urad-dal",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 12,
+        "cook_time_min": 18,
+        "total_time_min": 30
+      },
+      "nutrition_per_serving": {
+        "calories": 401,
+        "protein_g": 12,
+        "carbs_g": 72,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "moringa-leaf-dosa",
+      "name": "Moringa Leaf Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Moringa Leaf Dosa.md",
+      "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Moringa Leaf Dosa brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "urad-dal",
+        "brown-rice",
+        "fenugreek-seeds",
+        "onion",
+        "drumstick-leaves",
+        "ginger",
+        "green-chilli",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 18,
+        "total_time_min": 33
+      },
+      "nutrition_per_serving": {
+        "calories": 543,
+        "protein_g": 18,
+        "carbs_g": 99,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "multi-millet-adai",
+      "name": "Multi Millet Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Multi Millet Adai.md",
+      "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Multi Millet Adai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "foxtail-millet",
+        "chana-dal",
+        "toor-dal",
+        "urad-dal",
+        "drumstick-leaves",
+        "onion",
+        "ginger",
+        "dry-red-chilli",
+        "cumin-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 18,
+        "total_time_min": 33
+      },
+      "nutrition_per_serving": {
+        "calories": 397,
+        "protein_g": 21,
+        "carbs_g": 61,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "mushroom-pepper-thinai-upma",
+      "name": "Mushroom Pepper Thinai Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Mushroom Pepper Thinai Upma.md",
+      "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Mushroom Pepper Thinai Upma brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "thinai",
+        "mushroom",
+        "onion",
+        "carrot",
+        "ginger",
+        "green-chilli",
+        "chana-dal",
+        "urad-dal",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 12,
+        "cook_time_min": 18,
+        "total_time_min": 30
+      },
+      "nutrition_per_serving": {
+        "calories": 397,
+        "protein_g": 15,
+        "carbs_g": 66,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "oats-kuzhi-paniyaram",
+      "name": "Oats Kuzhi Paniyaram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Oats Kuzhi Paniyaram.md",
+      "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Oats Kuzhi Paniyaram brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "rolled-oats",
+        "cabbage",
+        "onion",
+        "ginger",
+        "green-chilli",
+        "curry-leaves",
+        "sesame-oil",
+        "salt"
+      ],
+      "timing": {
+        "prep_time_min": 10,
+        "cook_time_min": 16,
+        "total_time_min": 26
+      },
+      "nutrition_per_serving": {
+        "calories": 496,
+        "protein_g": 20,
+        "carbs_g": 80,
+        "fat_g": 12
+      }
+    },
+    {
+      "id": "onion-tomato-kuthiraivali-uthappam",
+      "name": "Onion Tomato Kuthiraivali Uthappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Onion Tomato Kuthiraivali Uthappam.md",
+      "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Onion Tomato Kuthiraivali Uthappam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "urad-dal",
+        "kuthiraivali",
+        "fenugreek-seeds",
+        "onion",
+        "tomato",
+        "tomato",
+        "curry-leaves",
+        "black-pepper",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 20,
+        "total_time_min": 35
+      },
+      "nutrition_per_serving": {
+        "calories": 488,
+        "protein_g": 16,
+        "carbs_g": 87,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "pearl-millet-puttu",
+      "name": "Pearl Millet Puttu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Pearl Millet Puttu.md",
+      "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Pearl Millet Puttu brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "kambu-flour",
+        "coconut",
+        "green-gram",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 10,
+        "total_time_min": 25
+      },
+      "nutrition_per_serving": {
+        "calories": 437,
+        "protein_g": 17,
+        "carbs_g": 75,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "pepper-kodo-millet-upma",
+      "name": "Pepper Kodo Millet Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Pepper Kodo Millet Upma.md",
+      "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Pepper Kodo Millet Upma brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "kodo-millet",
+        "capsicum",
+        "onion",
+        "carrot",
+        "ginger",
+        "green-chilli",
+        "chana-dal",
+        "urad-dal",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 12,
+        "cook_time_min": 18,
+        "total_time_min": 30
+      },
+      "nutrition_per_serving": {
+        "calories": 404,
+        "protein_g": 11,
+        "carbs_g": 70,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "pumpkin-idli",
+      "name": "Pumpkin Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Pumpkin Idli.md",
+      "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Pumpkin Idli brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "little-millet",
+        "urad-dal",
+        "fenugreek-seeds",
+        "pumpkin",
+        "ginger",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 14,
+        "total_time_min": 29
+      },
+      "nutrition_per_serving": {
+        "calories": 350,
+        "protein_g": 14,
+        "carbs_g": 64,
+        "fat_g": 6
+      }
+    },
+    {
+      "id": "quinoa-ven-pongal",
+      "name": "Quinoa Ven Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Quinoa Ven Pongal.md",
+      "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Quinoa Ven Pongal brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "quinoa",
+        "split-moong-dal",
+        "bottle-gourd",
+        "ginger",
+        "black-pepper",
+        "cumin-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 10,
+        "cook_time_min": 20,
+        "total_time_min": 30
+      },
+      "nutrition_per_serving": {
+        "calories": 374,
+        "protein_g": 16,
+        "carbs_g": 61,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "ragi-dosa",
+      "name": "Ragi Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ragi Dosa.md",
+      "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Ragi Dosa brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "urad-dal",
+        "ragi-flour",
+        "fenugreek-seeds",
+        "onion",
+        "carrot",
+        "ginger",
+        "green-chilli",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 18,
+        "total_time_min": 33
+      },
+      "nutrition_per_serving": {
+        "calories": 524,
+        "protein_g": 15,
+        "carbs_g": 98,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "ragi-idiyappam",
+      "name": "Ragi Idiyappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ragi Idiyappam.md",
+      "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Ragi Idiyappam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "ragi",
+        "carrot",
+        "onion",
+        "coconut",
+        "ginger",
+        "green-chilli",
+        "mustard-seeds",
+        "urad-dal",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 12,
+        "cook_time_min": 12,
+        "total_time_min": 24
+      },
+      "nutrition_per_serving": {
+        "calories": 397,
+        "protein_g": 9,
+        "carbs_g": 71,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "red-aval-vegetable-upma",
+      "name": "Red Aval Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Aval Vegetable Upma.md",
+      "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Red Aval Vegetable Upma brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "poha",
+        "capsicum",
+        "onion",
+        "carrot",
+        "ginger",
+        "green-chilli",
+        "chana-dal",
+        "urad-dal",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 12,
+        "cook_time_min": 18,
+        "total_time_min": 30
+      },
+      "nutrition_per_serving": {
+        "calories": 402,
+        "protein_g": 10,
+        "carbs_g": 78,
+        "fat_g": 6
+      }
+    },
+    {
+      "id": "red-rice-aval-upma",
+      "name": "Red Rice Aval Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Rice Aval Upma.md",
+      "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Red Rice Aval Upma brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "poha",
+        "beetroot",
+        "onion",
+        "carrot",
+        "ginger",
+        "green-chilli",
+        "chana-dal",
+        "urad-dal",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 12,
+        "cook_time_min": 18,
+        "total_time_min": 30
+      },
+      "nutrition_per_serving": {
+        "calories": 409,
+        "protein_g": 10,
+        "carbs_g": 80,
+        "fat_g": 6
+      }
+    },
+    {
+      "id": "red-rice-idli",
+      "name": "Red Rice Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Rice Idli.md",
+      "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Red Rice Idli brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "red-rice",
+        "urad-dal",
+        "fenugreek-seeds",
+        "carrot",
+        "ginger",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 14,
+        "total_time_min": 29
+      },
+      "nutrition_per_serving": {
+        "calories": 369,
+        "protein_g": 12,
+        "carbs_g": 71,
+        "fat_g": 4
+      }
+    },
+    {
+      "id": "ridge-gourd-adai",
+      "name": "Ridge Gourd Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ridge Gourd Adai.md",
+      "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Ridge Gourd Adai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "chana-dal",
+        "chana-dal",
+        "toor-dal",
+        "urad-dal",
+        "ridge-gourd",
+        "onion",
+        "ginger",
+        "dry-red-chilli",
+        "cumin-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 18,
+        "total_time_min": 33
+      },
+      "nutrition_per_serving": {
+        "calories": 379,
+        "protein_g": 19,
+        "carbs_g": 58,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "saamai-vegetable-kichadi",
+      "name": "Saamai Vegetable Kichadi",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Saamai Vegetable Kichadi.md",
+      "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Saamai Vegetable Kichadi brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "samai",
+        "split-moong-dal",
+        "carrot",
+        "onion",
+        "ginger",
+        "green-chilli",
+        "mustard-seeds",
+        "cumin-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 10,
+        "cook_time_min": 20,
+        "total_time_min": 30
+      },
+      "nutrition_per_serving": {
+        "calories": 382,
+        "protein_g": 13,
+        "carbs_g": 69,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "samai-vegetable-pongal",
+      "name": "Samai Vegetable Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Samai Vegetable Pongal.md",
+      "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Samai Vegetable Pongal brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "samai",
+        "split-moong-dal",
+        "pumpkin",
+        "ginger",
+        "black-pepper",
+        "cumin-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 10,
+        "cook_time_min": 20,
+        "total_time_min": 30
+      },
+      "nutrition_per_serving": {
+        "calories": 364,
+        "protein_g": 14,
+        "carbs_g": 64,
+        "fat_g": 7
+      }
+    },
+    {
+      "id": "thinai-coconut-puttu",
+      "name": "Thinai Coconut Puttu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Thinai Coconut Puttu.md",
+      "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Thinai Coconut Puttu brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "thinai",
+        "coconut",
+        "green-gram",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 10,
+        "total_time_min": 25
+      },
+      "nutrition_per_serving": {
+        "calories": 429,
+        "protein_g": 17,
+        "carbs_g": 71,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "thinai-onion-uthappam",
+      "name": "Thinai Onion Uthappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Thinai Onion Uthappam.md",
+      "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Thinai Onion Uthappam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "brown-rice",
+        "urad-dal",
+        "thinai",
+        "fenugreek-seeds",
+        "onion",
+        "onion",
+        "tomato",
+        "curry-leaves",
+        "black-pepper",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 15,
+        "cook_time_min": 20,
+        "total_time_min": 35
+      },
+      "nutrition_per_serving": {
+        "calories": 509,
+        "protein_g": 16,
+        "carbs_g": 92,
+        "fat_g": 9
+      }
+    },
+    {
+      "id": "tomato-millet-bath",
+      "name": "Tomato Millet Bath",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Tomato Millet Bath.md",
+      "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Tomato Millet Bath brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "foxtail-millet",
+        "tomato",
+        "onion",
+        "carrot",
+        "ginger",
+        "green-chilli",
+        "chana-dal",
+        "urad-dal",
+        "mustard-seeds",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 12,
+        "cook_time_min": 18,
+        "total_time_min": 30
+      },
+      "nutrition_per_serving": {
+        "calories": 395,
+        "protein_g": 14,
+        "carbs_g": 66,
+        "fat_g": 8
+      }
+    },
+    {
+      "id": "ulundhu-kali-with-buttermilk",
+      "name": "Ulundhu Kali with Buttermilk",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ulundhu Kali with Buttermilk.md",
+      "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Ulundhu Kali with Buttermilk brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "urad-dal",
+        "low-fat-buttermilk",
+        "water",
+        "salt",
+        "cumin-seeds",
+        "ginger"
+      ],
+      "timing": {
+        "prep_time_min": 8,
+        "cook_time_min": 12,
+        "total_time_min": 20
+      },
+      "nutrition_per_serving": {
+        "calories": 286,
+        "protein_g": 21,
+        "carbs_g": 47,
+        "fat_g": 2
+      }
+    },
+    {
+      "id": "vegetable-kambu-kozhukattai",
+      "name": "Vegetable Kambu Kozhukattai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Vegetable Kambu Kozhukattai.md",
+      "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Vegetable Kambu Kozhukattai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "kambu",
+        "beans",
+        "coconut",
+        "green-chilli",
+        "ginger",
+        "mustard-seeds",
+        "urad-dal",
+        "curry-leaves",
+        "sesame-oil",
+        "salt",
+        "water"
+      ],
+      "timing": {
+        "prep_time_min": 14,
+        "cook_time_min": 18,
+        "total_time_min": 32
+      },
+      "nutrition_per_serving": {
+        "calories": 380,
+        "protein_g": 12,
+        "carbs_g": 60,
+        "fat_g": 11
+      }
+    },
+    {
+      "id": "vegetable-quinoa-paniyaram",
+      "name": "Vegetable Quinoa Paniyaram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Vegetable Quinoa Paniyaram.md",
+      "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Vegetable Quinoa Paniyaram brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+      "ingredient_slugs": [
+        "quinoa",
+        "carrot",
+        "onion",
+        "ginger",
+        "green-chilli",
+        "curry-leaves",
+        "sesame-oil",
+        "salt"
+      ],
+      "timing": {
+        "prep_time_min": 10,
+        "cook_time_min": 16,
+        "total_time_min": 26
+      },
+      "nutrition_per_serving": {
+        "calories": 481,
+        "protein_g": 17,
+        "carbs_g": 80,
+        "fat_g": 11
+      }
+    }
+  ]
+}

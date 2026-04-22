@@ -1,0 +1,133 @@
+{
+  "id": "broken-wheat-ven-pongal",
+  "name": "Broken Wheat Ven Pongal",
+  "category": "breakfast",
+  "category_note_path": "Resources/Hubs/Breakfast Hub",
+  "source_note": "Resources/Recipes/Breakfast/Broken Wheat Ven Pongal.md",
+  "tags": [
+    "breakfast"
+  ],
+  "ingredient_tags": [
+    "ingredient/broken-wheat",
+    "ingredient/split-moong-dal",
+    "ingredient/bottle-gourd",
+    "ingredient/ginger",
+    "ingredient/black-pepper",
+    "ingredient/cumin-seeds",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "broken-wheat",
+    "split-moong-dal",
+    "bottle-gourd",
+    "ginger",
+    "black-pepper",
+    "cumin-seeds",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "broken wheat",
+      "slug": "broken-wheat",
+      "quantity": 120,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "split moong dal",
+      "slug": "split-moong-dal",
+      "quantity": 60,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "bottle gourd",
+      "slug": "bottle-gourd",
+      "quantity": 100,
+      "unit": "g",
+      "note": "small dice"
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 12,
+      "unit": "g",
+      "note": "julienned"
+    },
+    {
+      "name": "black pepper",
+      "slug": "black-pepper",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": "crushed"
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 8,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 600,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Broken Wheat Ven Pongal brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Dry-roast the moong dal over medium-low heat for 2 minutes until it smells nutty but does not color.",
+    "Combine the grain, dal, vegetable, salt, and water in a pressure cooker or heavy pot. Cook until very soft: 4 whistles in a cooker or 22 to 25 minutes covered on low heat after boiling.",
+    "In a small pan, heat oil on medium heat, add cumin, pepper, ginger, and curry leaves, and cook for 40 seconds until fragrant.",
+    "Fold the tempering into the cooked pongal and beat vigorously with a ladle for 1 minute so the starch loosens into a creamy spoonable texture."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 10,
+    "cook_time_min": 20,
+    "total_time_min": 30
+  },
+  "nutrition_per_serving": {
+    "calories": 359,
+    "protein_g": 15,
+    "carbs_g": 68,
+    "fat_g": 5
+  },
+  "meal_prep_notes": "Pongal keeps 2 days chilled. Reheat with 60 to 80 ml hot water in a saucepan over low heat, stirring until creamy again. For batch cooking, hold the tempering separately and fold it in after reheating for a fresher spice profile.",
+  "serves": 2,
+  "related_links": [
+    "Breakfast Hub",
+    "Broken Wheat",
+    "Split Moong Dal"
+  ]
+}

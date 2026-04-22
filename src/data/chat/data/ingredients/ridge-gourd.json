@@ -1,0 +1,51 @@
+{
+  "slug": "ridge-gourd",
+  "name": "ridge gourd",
+  "count": 3,
+  "recipes": [
+    {
+      "id": "ridge-gourd-adai",
+      "name": "Ridge Gourd Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ridge Gourd Adai.md"
+    },
+    {
+      "id": "kambu-roti-with-ridge-gourd-kootu",
+      "name": "Kambu Roti with Ridge Gourd Kootu",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Kambu Roti with Ridge Gourd Kootu.md"
+    },
+    {
+      "id": "ridge-gourd-dal-kuzhambu-with-kodo-millet",
+      "name": "Ridge Gourd Dal Kuzhambu with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Ridge Gourd Dal Kuzhambu with Kodo Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "ridge-gourd-adai",
+        "name": "Ridge Gourd Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ridge Gourd Adai.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "kambu-roti-with-ridge-gourd-kootu",
+        "name": "Kambu Roti with Ridge Gourd Kootu",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Kambu Roti with Ridge Gourd Kootu.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "ridge-gourd-dal-kuzhambu-with-kodo-millet",
+        "name": "Ridge Gourd Dal Kuzhambu with Kodo Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Ridge Gourd Dal Kuzhambu with Kodo Millet.md"
+      }
+    ]
+  }
+}

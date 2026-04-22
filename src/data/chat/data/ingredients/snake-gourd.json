@@ -1,0 +1,35 @@
+{
+  "slug": "snake-gourd",
+  "name": "snake gourd",
+  "count": 2,
+  "recipes": [
+    {
+      "id": "pudalangai-paal-kootu-with-red-rice",
+      "name": "Pudalangai Paal Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Pudalangai Paal Kootu with Red Rice.md"
+    },
+    {
+      "id": "snake-gourd-poricha-kootu-with-red-rice",
+      "name": "Snake Gourd Poricha Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Snake Gourd Poricha Kootu with Red Rice.md"
+    }
+  ],
+  "recipes_by_category": {
+    "lunch": [
+      {
+        "id": "pudalangai-paal-kootu-with-red-rice",
+        "name": "Pudalangai Paal Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Pudalangai Paal Kootu with Red Rice.md"
+      },
+      {
+        "id": "snake-gourd-poricha-kootu-with-red-rice",
+        "name": "Snake Gourd Poricha Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Snake Gourd Poricha Kootu with Red Rice.md"
+      }
+    ]
+  }
+}

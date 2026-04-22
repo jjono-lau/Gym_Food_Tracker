@@ -1,0 +1,133 @@
+{
+  "id": "broken-wheat-vegetable-pongal",
+  "name": "Broken Wheat Vegetable Pongal",
+  "category": "dinner",
+  "category_note_path": "Resources/Hubs/Dinner Hub",
+  "source_note": "Resources/Recipes/Dinner/Broken Wheat Vegetable Pongal.md",
+  "tags": [
+    "dinner"
+  ],
+  "ingredient_tags": [
+    "ingredient/broken-wheat",
+    "ingredient/split-moong-dal",
+    "ingredient/beans",
+    "ingredient/ginger",
+    "ingredient/black-pepper",
+    "ingredient/cumin-seeds",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "broken-wheat",
+    "split-moong-dal",
+    "beans",
+    "ginger",
+    "black-pepper",
+    "cumin-seeds",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "broken wheat",
+      "slug": "broken-wheat",
+      "quantity": 120,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "split moong dal",
+      "slug": "split-moong-dal",
+      "quantity": 60,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "beans",
+      "slug": "beans",
+      "quantity": 140,
+      "unit": "g",
+      "note": "sliced or diced"
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 10,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "black pepper",
+      "slug": "black-pepper",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 8,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 620,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "A lighter evening recipe designed to feel comforting without becoming heavy or starch-dense. Broken Wheat Vegetable Pongal brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Dry-roast the moong dal over medium-low heat for 2 minutes.",
+    "Cook the grain, dal, salt, and water together until very soft: 4 whistles or 22 minutes on low heat after boiling.",
+    "Temper oil with cumin, pepper, ginger, and curry leaves on medium heat for 40 seconds and fold into the pongal.",
+    "Quickly saute or add the vegetable garnish as specified and serve hot."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 10,
+    "cook_time_min": 20,
+    "total_time_min": 30
+  },
+  "nutrition_per_serving": {
+    "calories": 373,
+    "protein_g": 16,
+    "carbs_g": 71,
+    "fat_g": 5
+  },
+  "meal_prep_notes": "Pongal keeps 2 days chilled. Reheat with extra hot water over low heat until creamy. Prepare side vegetables fresh for contrast.",
+  "serves": 2,
+  "related_links": [
+    "Dinner Hub",
+    "Broken Wheat",
+    "Split Moong Dal"
+  ]
+}

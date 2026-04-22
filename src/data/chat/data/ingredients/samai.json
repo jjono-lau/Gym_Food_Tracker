@@ -1,0 +1,49 @@
+{
+  "slug": "samai",
+  "name": "samai",
+  "count": 3,
+  "recipes": [
+    {
+      "id": "saamai-vegetable-kichadi",
+      "name": "Saamai Vegetable Kichadi",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Saamai Vegetable Kichadi.md"
+    },
+    {
+      "id": "samai-vegetable-pongal",
+      "name": "Samai Vegetable Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Samai Vegetable Pongal.md"
+    },
+    {
+      "id": "samai-vegetable-uttappam",
+      "name": "Samai Vegetable Uttappam",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Samai Vegetable Uttappam.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "saamai-vegetable-kichadi",
+        "name": "Saamai Vegetable Kichadi",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Saamai Vegetable Kichadi.md"
+      },
+      {
+        "id": "samai-vegetable-pongal",
+        "name": "Samai Vegetable Pongal",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Samai Vegetable Pongal.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "samai-vegetable-uttappam",
+        "name": "Samai Vegetable Uttappam",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Samai Vegetable Uttappam.md"
+      }
+    ]
+  }
+}

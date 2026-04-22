@@ -1,0 +1,47 @@
+{
+  "slug": "black-eyed-peas",
+  "name": "black eyed peas",
+  "count": 3,
+  "recipes": [
+    {
+      "id": "pumpkin-black-eyed-pea-kootu-with-brown-rice",
+      "name": "Pumpkin Black Eyed Pea Kootu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Pumpkin Black Eyed Pea Kootu with Brown Rice.md"
+    },
+    {
+      "id": "raw-mango-kuzhambu-with-little-millet",
+      "name": "Raw Mango Kuzhambu with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Raw Mango Kuzhambu with Little Millet.md"
+    },
+    {
+      "id": "sundakkai-style-kuzhambu-with-barnyard-millet",
+      "name": "Sundakkai Style Kuzhambu with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Sundakkai Style Kuzhambu with Barnyard Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "lunch": [
+      {
+        "id": "pumpkin-black-eyed-pea-kootu-with-brown-rice",
+        "name": "Pumpkin Black Eyed Pea Kootu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Pumpkin Black Eyed Pea Kootu with Brown Rice.md"
+      },
+      {
+        "id": "raw-mango-kuzhambu-with-little-millet",
+        "name": "Raw Mango Kuzhambu with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Raw Mango Kuzhambu with Little Millet.md"
+      },
+      {
+        "id": "sundakkai-style-kuzhambu-with-barnyard-millet",
+        "name": "Sundakkai Style Kuzhambu with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Sundakkai Style Kuzhambu with Barnyard Millet.md"
+      }
+    ]
+  }
+}

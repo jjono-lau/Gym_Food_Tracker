@@ -1,0 +1,15 @@
+# Shopping List
+
+## Summary
+Shopping List is the master reference for ingredients used across the recipe vault.
+
+## Key Points
+- Vegetables: [[Amaranth Leaves]], [[Ash Gourd]], [[Banana Stem]], [[Beans]], [[Beetroot]], [[Bottle Gourd]], [[Brinjal]], [[Cabbage]], [[Capsicum]], [[Carrot]], [[Cauliflower]], [[Chayote]], [[Corn]], [[Cucumber]], [[Drumstick]], [[Drumstick Leaves]], [[Green Peas]], [[Knol Khol]], [[Kovakkai]], [[Methi Leaves]], [[Mushroom]], [[Okra]], [[Onion]], [[Pumpkin]], [[Raw Banana]], [[Ridge Gourd]], [[Snake Gourd]], [[Spinach]], [[Sweet Potato]], [[Tomato]]
+- Proteins: [[Black Chana]], [[Black Eyed Peas]], [[Chana Dal]], [[Cowpea]], [[Field Beans]], [[Green Gram]], [[Horse Gram]], [[Low Fat Buttermilk]], [[Low Fat Curd]], [[Mochai]], [[Moong Dal]], [[Peanuts]], [[Split Moong Dal]], [[Toor Dal]], [[Urad Dal]]
+- Grains: [[Barnyard Millet]], [[Broken Wheat]], [[Brown Rice]], [[Foxtail Millet]], [[Jowar]], [[Kambu]], [[Kambu Flour]], [[Kodo Millet]], [[Kuthiraivali]], [[Little Millet]], [[Poha]], [[Quinoa]], [[Ragi]], [[Ragi Flour]], [[Red Rice]], [[Red Rice Flour]], [[Rolled Oats]], [[Samai]], [[Thinai]]
+- Spices: [[Asafoetida]], [[Black Pepper]], [[Chilli Powder]], [[Coriander Powder]], [[Coriander Seeds]], [[Cumin Seeds]], [[Curry Leaves]], [[Dry Red Chilli]], [[Fenugreek Seeds]], [[Green Chilli]], [[Mustard Seeds]], [[Sambar Powder]], [[Turmeric]]
+- Pantry: [[Coconut]], [[Garlic]], [[Ginger]], [[Light Coconut Milk]], [[Raw Mango]], [[Salt]], [[Sesame Oil]], [[Tamarind]], [[Water]]
+
+## Related
+- [[Ingredient Hub]]
+- [[Meal Planning Hub]]

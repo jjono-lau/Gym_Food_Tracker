@@ -1,0 +1,99 @@
+{
+  "slug": "beans",
+  "name": "beans",
+  "count": 7,
+  "recipes": [
+    {
+      "id": "little-millet-vegetable-upma",
+      "name": "Little Millet Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Little Millet Vegetable Upma.md"
+    },
+    {
+      "id": "vegetable-kambu-kozhukattai",
+      "name": "Vegetable Kambu Kozhukattai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Vegetable Kambu Kozhukattai.md"
+    },
+    {
+      "id": "broken-wheat-vegetable-pongal",
+      "name": "Broken Wheat Vegetable Pongal",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Broken Wheat Vegetable Pongal.md"
+    },
+    {
+      "id": "thinai-vegetable-kanji",
+      "name": "Thinai Vegetable Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Thinai Vegetable Kanji.md"
+    },
+    {
+      "id": "vegetable-kozhukattai-in-coconut-broth",
+      "name": "Vegetable Kozhukattai in Coconut Broth",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Kozhukattai in Coconut Broth.md"
+    },
+    {
+      "id": "avarakkai-paruppu-usili-with-red-rice",
+      "name": "Avarakkai Paruppu Usili with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Avarakkai Paruppu Usili with Red Rice.md"
+    },
+    {
+      "id": "beans-paruppu-curry-with-red-rice",
+      "name": "Beans Paruppu Curry with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Beans Paruppu Curry with Red Rice.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "little-millet-vegetable-upma",
+        "name": "Little Millet Vegetable Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Little Millet Vegetable Upma.md"
+      },
+      {
+        "id": "vegetable-kambu-kozhukattai",
+        "name": "Vegetable Kambu Kozhukattai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Vegetable Kambu Kozhukattai.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "broken-wheat-vegetable-pongal",
+        "name": "Broken Wheat Vegetable Pongal",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Broken Wheat Vegetable Pongal.md"
+      },
+      {
+        "id": "thinai-vegetable-kanji",
+        "name": "Thinai Vegetable Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Thinai Vegetable Kanji.md"
+      },
+      {
+        "id": "vegetable-kozhukattai-in-coconut-broth",
+        "name": "Vegetable Kozhukattai in Coconut Broth",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Kozhukattai in Coconut Broth.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "avarakkai-paruppu-usili-with-red-rice",
+        "name": "Avarakkai Paruppu Usili with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Avarakkai Paruppu Usili with Red Rice.md"
+      },
+      {
+        "id": "beans-paruppu-curry-with-red-rice",
+        "name": "Beans Paruppu Curry with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Beans Paruppu Curry with Red Rice.md"
+      }
+    ]
+  }
+}

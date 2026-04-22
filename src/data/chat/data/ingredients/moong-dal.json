@@ -1,0 +1,207 @@
+{
+  "slug": "moong-dal",
+  "name": "moong dal",
+  "count": 16,
+  "recipes": [
+    {
+      "id": "cabbage-moong-dal-adai",
+      "name": "Cabbage Moong Dal Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Cabbage Moong Dal Adai.md"
+    },
+    {
+      "id": "bottle-gourd-moong-stew-with-kodo-millet",
+      "name": "Bottle Gourd Moong Stew with Kodo Millet",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Bottle Gourd Moong Stew with Kodo Millet.md"
+    },
+    {
+      "id": "foxtail-millet-pidi-kozhukattai-in-pepper-broth",
+      "name": "Foxtail Millet Pidi Kozhukattai in Pepper Broth",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Foxtail Millet Pidi Kozhukattai in Pepper Broth.md"
+    },
+    {
+      "id": "kambu-roti-with-ridge-gourd-kootu",
+      "name": "Kambu Roti with Ridge Gourd Kootu",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Kambu Roti with Ridge Gourd Kootu.md"
+    },
+    {
+      "id": "little-millet-upma-kozhukattai",
+      "name": "Little Millet Upma Kozhukattai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Little Millet Upma Kozhukattai.md"
+    },
+    {
+      "id": "millet-pidi-kozhukattai-with-lentil-stew",
+      "name": "Millet Pidi Kozhukattai with Lentil Stew",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Millet Pidi Kozhukattai with Lentil Stew.md"
+    },
+    {
+      "id": "pepper-rasam-with-steamed-red-rice-dumplings",
+      "name": "Pepper Rasam with Steamed Red Rice Dumplings",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pepper Rasam with Steamed Red Rice Dumplings.md"
+    },
+    {
+      "id": "vegetable-kozhukattai-in-coconut-broth",
+      "name": "Vegetable Kozhukattai in Coconut Broth",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Kozhukattai in Coconut Broth.md"
+    },
+    {
+      "id": "beans-paruppu-curry-with-red-rice",
+      "name": "Beans Paruppu Curry with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Beans Paruppu Curry with Red Rice.md"
+    },
+    {
+      "id": "cauliflower-milagu-kootu-with-foxtail-millet",
+      "name": "Cauliflower Milagu Kootu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Cauliflower Milagu Kootu with Foxtail Millet.md"
+    },
+    {
+      "id": "keerai-kootu-with-red-rice",
+      "name": "Keerai Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Keerai Kootu with Red Rice.md"
+    },
+    {
+      "id": "pudalangai-paal-kootu-with-red-rice",
+      "name": "Pudalangai Paal Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Pudalangai Paal Kootu with Red Rice.md"
+    },
+    {
+      "id": "snake-gourd-poricha-kootu-with-red-rice",
+      "name": "Snake Gourd Poricha Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Snake Gourd Poricha Kootu with Red Rice.md"
+    },
+    {
+      "id": "sorakkai-kootu-with-brown-rice",
+      "name": "Sorakkai Kootu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Sorakkai Kootu with Brown Rice.md"
+    },
+    {
+      "id": "vazhaithandu-kootu-with-brown-rice",
+      "name": "Vazhaithandu Kootu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Vazhaithandu Kootu with Brown Rice.md"
+    },
+    {
+      "id": "white-pumpkin-kootu-with-red-rice",
+      "name": "White Pumpkin Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/White Pumpkin Kootu with Red Rice.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "cabbage-moong-dal-adai",
+        "name": "Cabbage Moong Dal Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Cabbage Moong Dal Adai.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "bottle-gourd-moong-stew-with-kodo-millet",
+        "name": "Bottle Gourd Moong Stew with Kodo Millet",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Bottle Gourd Moong Stew with Kodo Millet.md"
+      },
+      {
+        "id": "foxtail-millet-pidi-kozhukattai-in-pepper-broth",
+        "name": "Foxtail Millet Pidi Kozhukattai in Pepper Broth",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Foxtail Millet Pidi Kozhukattai in Pepper Broth.md"
+      },
+      {
+        "id": "kambu-roti-with-ridge-gourd-kootu",
+        "name": "Kambu Roti with Ridge Gourd Kootu",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Kambu Roti with Ridge Gourd Kootu.md"
+      },
+      {
+        "id": "little-millet-upma-kozhukattai",
+        "name": "Little Millet Upma Kozhukattai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Little Millet Upma Kozhukattai.md"
+      },
+      {
+        "id": "millet-pidi-kozhukattai-with-lentil-stew",
+        "name": "Millet Pidi Kozhukattai with Lentil Stew",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Millet Pidi Kozhukattai with Lentil Stew.md"
+      },
+      {
+        "id": "pepper-rasam-with-steamed-red-rice-dumplings",
+        "name": "Pepper Rasam with Steamed Red Rice Dumplings",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pepper Rasam with Steamed Red Rice Dumplings.md"
+      },
+      {
+        "id": "vegetable-kozhukattai-in-coconut-broth",
+        "name": "Vegetable Kozhukattai in Coconut Broth",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Kozhukattai in Coconut Broth.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "beans-paruppu-curry-with-red-rice",
+        "name": "Beans Paruppu Curry with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Beans Paruppu Curry with Red Rice.md"
+      },
+      {
+        "id": "cauliflower-milagu-kootu-with-foxtail-millet",
+        "name": "Cauliflower Milagu Kootu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Cauliflower Milagu Kootu with Foxtail Millet.md"
+      },
+      {
+        "id": "keerai-kootu-with-red-rice",
+        "name": "Keerai Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Keerai Kootu with Red Rice.md"
+      },
+      {
+        "id": "pudalangai-paal-kootu-with-red-rice",
+        "name": "Pudalangai Paal Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Pudalangai Paal Kootu with Red Rice.md"
+      },
+      {
+        "id": "snake-gourd-poricha-kootu-with-red-rice",
+        "name": "Snake Gourd Poricha Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Snake Gourd Poricha Kootu with Red Rice.md"
+      },
+      {
+        "id": "sorakkai-kootu-with-brown-rice",
+        "name": "Sorakkai Kootu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Sorakkai Kootu with Brown Rice.md"
+      },
+      {
+        "id": "vazhaithandu-kootu-with-brown-rice",
+        "name": "Vazhaithandu Kootu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Vazhaithandu Kootu with Brown Rice.md"
+      },
+      {
+        "id": "white-pumpkin-kootu-with-red-rice",
+        "name": "White Pumpkin Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/White Pumpkin Kootu with Red Rice.md"
+      }
+    ]
+  }
+}

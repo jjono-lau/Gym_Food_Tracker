@@ -1,0 +1,279 @@
+{
+  "slug": "carrot",
+  "name": "carrot",
+  "count": 22,
+  "recipes": [
+    {
+      "id": "aval-vegetable-upma",
+      "name": "Aval Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Aval Vegetable Upma.md"
+    },
+    {
+      "id": "barnyard-millet-kozhukattai",
+      "name": "Barnyard Millet Kozhukattai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Barnyard Millet Kozhukattai.md"
+    },
+    {
+      "id": "carrot-coconut-idli",
+      "name": "Carrot Coconut Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Carrot Coconut Idli.md"
+    },
+    {
+      "id": "little-millet-vegetable-upma",
+      "name": "Little Millet Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Little Millet Vegetable Upma.md"
+    },
+    {
+      "id": "millet-idli-upma",
+      "name": "Millet Idli Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Millet Idli Upma.md"
+    },
+    {
+      "id": "mushroom-pepper-thinai-upma",
+      "name": "Mushroom Pepper Thinai Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Mushroom Pepper Thinai Upma.md"
+    },
+    {
+      "id": "pepper-kodo-millet-upma",
+      "name": "Pepper Kodo Millet Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Pepper Kodo Millet Upma.md"
+    },
+    {
+      "id": "ragi-dosa",
+      "name": "Ragi Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ragi Dosa.md"
+    },
+    {
+      "id": "ragi-idiyappam",
+      "name": "Ragi Idiyappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ragi Idiyappam.md"
+    },
+    {
+      "id": "red-aval-vegetable-upma",
+      "name": "Red Aval Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Aval Vegetable Upma.md"
+    },
+    {
+      "id": "red-rice-aval-upma",
+      "name": "Red Rice Aval Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Rice Aval Upma.md"
+    },
+    {
+      "id": "red-rice-idli",
+      "name": "Red Rice Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Rice Idli.md"
+    },
+    {
+      "id": "saamai-vegetable-kichadi",
+      "name": "Saamai Vegetable Kichadi",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Saamai Vegetable Kichadi.md"
+    },
+    {
+      "id": "tomato-millet-bath",
+      "name": "Tomato Millet Bath",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Tomato Millet Bath.md"
+    },
+    {
+      "id": "vegetable-quinoa-paniyaram",
+      "name": "Vegetable Quinoa Paniyaram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Vegetable Quinoa Paniyaram.md"
+    },
+    {
+      "id": "adai-with-avial",
+      "name": "Adai with Avial",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Adai with Avial.md"
+    },
+    {
+      "id": "little-millet-upma-kozhukattai",
+      "name": "Little Millet Upma Kozhukattai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Little Millet Upma Kozhukattai.md"
+    },
+    {
+      "id": "ragi-semiya-upma",
+      "name": "Ragi Semiya Upma",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Ragi Semiya Upma.md"
+    },
+    {
+      "id": "red-rice-neer-dosa-with-vegetable-saagu",
+      "name": "Red Rice Neer Dosa with Vegetable Saagu",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Red Rice Neer Dosa with Vegetable Saagu.md"
+    },
+    {
+      "id": "vegetable-oats-kanji",
+      "name": "Vegetable Oats Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Oats Kanji.md"
+    },
+    {
+      "id": "carrot-peas-sambar-with-barnyard-millet",
+      "name": "Carrot Peas Sambar with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Carrot Peas Sambar with Barnyard Millet.md"
+    },
+    {
+      "id": "mixed-vegetable-sambar-sadam",
+      "name": "Mixed Vegetable Sambar Sadam",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Mixed Vegetable Sambar Sadam.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "aval-vegetable-upma",
+        "name": "Aval Vegetable Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Aval Vegetable Upma.md"
+      },
+      {
+        "id": "barnyard-millet-kozhukattai",
+        "name": "Barnyard Millet Kozhukattai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Barnyard Millet Kozhukattai.md"
+      },
+      {
+        "id": "carrot-coconut-idli",
+        "name": "Carrot Coconut Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Carrot Coconut Idli.md"
+      },
+      {
+        "id": "little-millet-vegetable-upma",
+        "name": "Little Millet Vegetable Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Little Millet Vegetable Upma.md"
+      },
+      {
+        "id": "millet-idli-upma",
+        "name": "Millet Idli Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Millet Idli Upma.md"
+      },
+      {
+        "id": "mushroom-pepper-thinai-upma",
+        "name": "Mushroom Pepper Thinai Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Mushroom Pepper Thinai Upma.md"
+      },
+      {
+        "id": "pepper-kodo-millet-upma",
+        "name": "Pepper Kodo Millet Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Pepper Kodo Millet Upma.md"
+      },
+      {
+        "id": "ragi-dosa",
+        "name": "Ragi Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ragi Dosa.md"
+      },
+      {
+        "id": "ragi-idiyappam",
+        "name": "Ragi Idiyappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ragi Idiyappam.md"
+      },
+      {
+        "id": "red-aval-vegetable-upma",
+        "name": "Red Aval Vegetable Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Red Aval Vegetable Upma.md"
+      },
+      {
+        "id": "red-rice-aval-upma",
+        "name": "Red Rice Aval Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Red Rice Aval Upma.md"
+      },
+      {
+        "id": "red-rice-idli",
+        "name": "Red Rice Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Red Rice Idli.md"
+      },
+      {
+        "id": "saamai-vegetable-kichadi",
+        "name": "Saamai Vegetable Kichadi",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Saamai Vegetable Kichadi.md"
+      },
+      {
+        "id": "tomato-millet-bath",
+        "name": "Tomato Millet Bath",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Tomato Millet Bath.md"
+      },
+      {
+        "id": "vegetable-quinoa-paniyaram",
+        "name": "Vegetable Quinoa Paniyaram",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Vegetable Quinoa Paniyaram.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "adai-with-avial",
+        "name": "Adai with Avial",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Adai with Avial.md"
+      },
+      {
+        "id": "little-millet-upma-kozhukattai",
+        "name": "Little Millet Upma Kozhukattai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Little Millet Upma Kozhukattai.md"
+      },
+      {
+        "id": "ragi-semiya-upma",
+        "name": "Ragi Semiya Upma",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Ragi Semiya Upma.md"
+      },
+      {
+        "id": "red-rice-neer-dosa-with-vegetable-saagu",
+        "name": "Red Rice Neer Dosa with Vegetable Saagu",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Red Rice Neer Dosa with Vegetable Saagu.md"
+      },
+      {
+        "id": "vegetable-oats-kanji",
+        "name": "Vegetable Oats Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Oats Kanji.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "carrot-peas-sambar-with-barnyard-millet",
+        "name": "Carrot Peas Sambar with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Carrot Peas Sambar with Barnyard Millet.md"
+      },
+      {
+        "id": "mixed-vegetable-sambar-sadam",
+        "name": "Mixed Vegetable Sambar Sadam",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Mixed Vegetable Sambar Sadam.md"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "ragi-flour",
+  "name": "ragi flour",
+  "count": 5,
+  "recipes": [
+    {
+      "id": "methi-ragi-uthappam",
+      "name": "Methi Ragi Uthappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Methi Ragi Uthappam.md"
+    },
+    {
+      "id": "ragi-dosa",
+      "name": "Ragi Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ragi Dosa.md"
+    },
+    {
+      "id": "coconut-vegetable-soup-with-ragi-string-hoppers",
+      "name": "Coconut Vegetable Soup with Ragi String Hoppers",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Coconut Vegetable Soup with Ragi String Hoppers.md"
+    },
+    {
+      "id": "ragi-mudde-with-keerai-saaru",
+      "name": "Ragi Mudde with Keerai Saaru",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Ragi Mudde with Keerai Saaru.md"
+    },
+    {
+      "id": "vegetable-kurma-with-ragi-idiyappam",
+      "name": "Vegetable Kurma with Ragi Idiyappam",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Kurma with Ragi Idiyappam.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "methi-ragi-uthappam",
+        "name": "Methi Ragi Uthappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Methi Ragi Uthappam.md"
+      },
+      {
+        "id": "ragi-dosa",
+        "name": "Ragi Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ragi Dosa.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "coconut-vegetable-soup-with-ragi-string-hoppers",
+        "name": "Coconut Vegetable Soup with Ragi String Hoppers",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Coconut Vegetable Soup with Ragi String Hoppers.md"
+      },
+      {
+        "id": "ragi-mudde-with-keerai-saaru",
+        "name": "Ragi Mudde with Keerai Saaru",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Ragi Mudde with Keerai Saaru.md"
+      },
+      {
+        "id": "vegetable-kurma-with-ragi-idiyappam",
+        "name": "Vegetable Kurma with Ragi Idiyappam",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Kurma with Ragi Idiyappam.md"
+      }
+    ]
+  }
+}

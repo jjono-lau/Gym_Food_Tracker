@@ -1,0 +1,160 @@
+{
+  "id": "drumstick-leaves-sambar-with-kodo-millet",
+  "name": "Drumstick Leaves Sambar with Kodo Millet",
+  "category": "lunch",
+  "category_note_path": "Resources/Hubs/Lunch Hub",
+  "source_note": "Resources/Recipes/Lunch/Drumstick Leaves Sambar with Kodo Millet.md",
+  "tags": [
+    "lunch"
+  ],
+  "ingredient_tags": [
+    "ingredient/kodo-millet",
+    "ingredient/toor-dal",
+    "ingredient/drumstick-leaves",
+    "ingredient/onion",
+    "ingredient/tomato",
+    "ingredient/tamarind",
+    "ingredient/sambar-powder",
+    "ingredient/turmeric",
+    "ingredient/mustard-seeds",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "kodo-millet",
+    "toor-dal",
+    "drumstick-leaves",
+    "onion",
+    "tomato",
+    "tamarind",
+    "sambar-powder",
+    "turmeric",
+    "mustard-seeds",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "kodo millet",
+      "slug": "kodo-millet",
+      "quantity": 160,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "toor dal",
+      "slug": "toor-dal",
+      "quantity": 90,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "drumstick leaves",
+      "slug": "drumstick-leaves",
+      "quantity": 200,
+      "unit": "g",
+      "note": "medium chunks"
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 70,
+      "unit": "g",
+      "note": "sliced"
+    },
+    {
+      "name": "tomato",
+      "slug": "tomato",
+      "quantity": 100,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "tamarind",
+      "slug": "tamarind",
+      "quantity": 12,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sambar powder",
+      "slug": "sambar-powder",
+      "quantity": 2,
+      "unit": "tbsp",
+      "note": null
+    },
+    {
+      "name": "turmeric",
+      "slug": "turmeric",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "mustard seeds",
+      "slug": "mustard-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 8,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.5,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 950,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Drumstick Leaves Sambar with Kodo Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat oil in a pot on medium heat. Add mustard and curry leaves; once crackling, add onion and cook 3 minutes until translucent.",
+    "Add tomato, turmeric, sambar powder, and the vegetable; cook 3 minutes until the tomato softens and the spice loses its raw edge.",
+    "Pour in tamarind water and 450 ml fresh water. Simmer on medium heat for 10 minutes until the vegetable is tender but intact.",
+    "Whisk in the cooked dal and simmer another 6 minutes on low heat until the broth thickens slightly and coats a spoon. Serve over the cooked grain."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 18,
+    "cook_time_min": 28,
+    "total_time_min": 46
+  },
+  "nutrition_per_serving": {
+    "calories": 561,
+    "protein_g": 27,
+    "carbs_g": 95,
+    "fat_g": 9
+  },
+  "meal_prep_notes": "Sambar and cooked grain keep 3 days chilled. Reheat the sambar over medium-low heat for 5 minutes, thinning with hot water if it has thickened. Batch-cook the dal and grain separately so lunch portions can be assembled without overcooking the vegetables.",
+  "serves": 2,
+  "related_links": [
+    "Lunch Hub",
+    "Kodo Millet",
+    "Toor Dal"
+  ]
+}

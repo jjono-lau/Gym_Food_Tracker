@@ -1,0 +1,169 @@
+{
+  "id": "bitter-gourd-pitlai-with-little-millet",
+  "name": "Bitter Gourd Pitlai with Little Millet",
+  "category": "lunch",
+  "category_note_path": "Resources/Hubs/Lunch Hub",
+  "source_note": "Resources/Recipes/Lunch/Bitter Gourd Pitlai with Little Millet.md",
+  "tags": [
+    "lunch"
+  ],
+  "ingredient_tags": [
+    "ingredient/little-millet",
+    "ingredient/black-chana",
+    "ingredient/okra",
+    "ingredient/toor-dal",
+    "ingredient/coconut",
+    "ingredient/coriander-seeds",
+    "ingredient/chana-dal",
+    "ingredient/dry-red-chilli",
+    "ingredient/tamarind",
+    "ingredient/mustard-seeds",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "little-millet",
+    "black-chana",
+    "okra",
+    "toor-dal",
+    "coconut",
+    "coriander-seeds",
+    "chana-dal",
+    "dry-red-chilli",
+    "tamarind",
+    "mustard-seeds",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "little millet",
+      "slug": "little-millet",
+      "quantity": 160,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "black chana",
+      "slug": "black-chana",
+      "quantity": 70,
+      "unit": "g",
+      "note": "cooked tender"
+    },
+    {
+      "name": "okra",
+      "slug": "okra",
+      "quantity": 220,
+      "unit": "g",
+      "note": "medium chunks"
+    },
+    {
+      "name": "toor dal",
+      "slug": "toor-dal",
+      "quantity": 45,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "coconut",
+      "slug": "coconut",
+      "quantity": 20,
+      "unit": "g",
+      "note": "grated"
+    },
+    {
+      "name": "coriander seeds",
+      "slug": "coriander-seeds",
+      "quantity": 1.5,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "chana dal",
+      "slug": "chana-dal",
+      "quantity": 12,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "dry red chilli",
+      "slug": "dry-red-chilli",
+      "quantity": 3,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "tamarind",
+      "slug": "tamarind",
+      "quantity": 10,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "mustard seeds",
+      "slug": "mustard-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 8,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.5,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 920,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Bitter Gourd Pitlai with Little Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Simmer the vegetable in tamarind water and 300 ml fresh water over medium heat for 10 minutes until tender.",
+    "Add the cooked toor dal, cooked pulse accent, ground spice paste, and salt. Cook on low heat for 8 minutes until the gravy thickens and the raw roast aroma disappears.",
+    "Temper mustard and curry leaves in oil and pour into the pot.",
+    "Rest 5 minutes before serving over the grain."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 20,
+    "cook_time_min": 24,
+    "total_time_min": 44
+  },
+  "nutrition_per_serving": {
+    "calories": 608,
+    "protein_g": 24,
+    "carbs_g": 103,
+    "fat_g": 14
+  },
+  "meal_prep_notes": "Pitlai keeps 3 days chilled and reheats well over low heat. It also freezes well for 1 month. Store the cooked grain separately to avoid an over-thick meal box.",
+  "serves": 2,
+  "related_links": [
+    "Lunch Hub",
+    "Little Millet",
+    "Black Chana"
+  ]
+}

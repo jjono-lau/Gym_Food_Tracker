@@ -1,0 +1,49 @@
+{
+  "slug": "ragi",
+  "name": "ragi",
+  "count": 3,
+  "recipes": [
+    {
+      "id": "coconut-milk-ragi-appam",
+      "name": "Coconut Milk Ragi Appam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Coconut Milk Ragi Appam.md"
+    },
+    {
+      "id": "ragi-idiyappam",
+      "name": "Ragi Idiyappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ragi Idiyappam.md"
+    },
+    {
+      "id": "ragi-semiya-upma",
+      "name": "Ragi Semiya Upma",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Ragi Semiya Upma.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "coconut-milk-ragi-appam",
+        "name": "Coconut Milk Ragi Appam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Coconut Milk Ragi Appam.md"
+      },
+      {
+        "id": "ragi-idiyappam",
+        "name": "Ragi Idiyappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ragi Idiyappam.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "ragi-semiya-upma",
+        "name": "Ragi Semiya Upma",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Ragi Semiya Upma.md"
+      }
+    ]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "id": "sweet-potato-kara-kuzhambu-with-barnyard-millet",
+  "name": "Sweet Potato Kara Kuzhambu with Barnyard Millet",
+  "category": "lunch",
+  "category_note_path": "Resources/Hubs/Lunch Hub",
+  "source_note": "Resources/Recipes/Lunch/Sweet Potato Kara Kuzhambu with Barnyard Millet.md",
+  "tags": [
+    "lunch"
+  ],
+  "ingredient_tags": [
+    "ingredient/barnyard-millet",
+    "ingredient/sweet-potato",
+    "ingredient/onion",
+    "ingredient/tomato",
+    "ingredient/tamarind",
+    "ingredient/cowpea",
+    "ingredient/coriander-powder",
+    "ingredient/chilli-powder",
+    "ingredient/turmeric",
+    "ingredient/mustard-seeds",
+    "ingredient/fenugreek-seeds",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "barnyard-millet",
+    "sweet-potato",
+    "onion",
+    "tomato",
+    "tamarind",
+    "cowpea",
+    "coriander-powder",
+    "chilli-powder",
+    "turmeric",
+    "mustard-seeds",
+    "fenugreek-seeds",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "barnyard millet",
+      "slug": "barnyard-millet",
+      "quantity": 160,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "sweet potato",
+      "slug": "sweet-potato",
+      "quantity": 220,
+      "unit": "g",
+      "note": "bite-size pieces"
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 70,
+      "unit": "g",
+      "note": "sliced"
+    },
+    {
+      "name": "tomato",
+      "slug": "tomato",
+      "quantity": 80,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "tamarind",
+      "slug": "tamarind",
+      "quantity": 14,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "cowpea",
+      "slug": "cowpea",
+      "quantity": 40,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "coriander powder",
+      "slug": "coriander-powder",
+      "quantity": 2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "chilli powder",
+      "slug": "chilli-powder",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "turmeric",
+      "slug": "turmeric",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "mustard seeds",
+      "slug": "mustard-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "fenugreek seeds",
+      "slug": "fenugreek-seeds",
+      "quantity": 0.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 9,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.5,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 820,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Sweet Potato Kara Kuzhambu with Barnyard Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat oil in a kadai over medium heat. Add mustard, fenugreek, and curry leaves; once aromatic, add onion and cook 4 minutes until lightly colored.",
+    "Add tomato, spice powders, and vegetable; cook 3 minutes until the tomato turns jammy and the masala coats the pieces.",
+    "Pour in tamarind extract, 350 ml water, salt, and the cooked pulse accent if using. Simmer on medium-low heat for 14 to 16 minutes until the kuzhambu reduces slightly and the oil forms a thin sheen on top.",
+    "Rest 5 minutes before serving over the grain so the acidity rounds out."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 18,
+    "cook_time_min": 26,
+    "total_time_min": 44
+  },
+  "nutrition_per_serving": {
+    "calories": 471,
+    "protein_g": 16,
+    "carbs_g": 83,
+    "fat_g": 8
+  },
+  "meal_prep_notes": "The kuzhambu holds 4 days in the fridge and often tastes better the next day. Reheat gently until just simmering. Batch-cook the base and store grain separately so servings keep their texture.",
+  "serves": 2,
+  "related_links": [
+    "Lunch Hub",
+    "Barnyard Millet",
+    "Sweet Potato"
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "cabbage-moong-dal-adai",
+  "name": "Cabbage Moong Dal Adai",
+  "category": "breakfast",
+  "category_note_path": "Resources/Hubs/Breakfast Hub",
+  "source_note": "Resources/Recipes/Breakfast/Cabbage Moong Dal Adai.md",
+  "tags": [
+    "breakfast"
+  ],
+  "ingredient_tags": [
+    "ingredient/moong-dal",
+    "ingredient/chana-dal",
+    "ingredient/toor-dal",
+    "ingredient/urad-dal",
+    "ingredient/cabbage",
+    "ingredient/onion",
+    "ingredient/ginger",
+    "ingredient/dry-red-chilli",
+    "ingredient/cumin-seeds",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "moong-dal",
+    "chana-dal",
+    "toor-dal",
+    "urad-dal",
+    "cabbage",
+    "onion",
+    "ginger",
+    "dry-red-chilli",
+    "cumin-seeds",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "moong dal",
+      "slug": "moong-dal",
+      "quantity": 70,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "chana dal",
+      "slug": "chana-dal",
+      "quantity": 45,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "toor dal",
+      "slug": "toor-dal",
+      "quantity": 35,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 20,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "cabbage",
+      "slug": "cabbage",
+      "quantity": 100,
+      "unit": "g",
+      "note": "very finely chopped"
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 70,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 12,
+      "unit": "g",
+      "note": "grated"
+    },
+    {
+      "name": "dry red chilli",
+      "slug": "dry-red-chilli",
+      "quantity": 4,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 5,
+      "unit": "g",
+      "note": "sliced"
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 10,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 320,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Cabbage Moong Dal Adai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat the tawa over medium heat. Spread 130 ml batter into a medium-thick round, keeping small gaps for steam to escape.",
+    "Drizzle 2 ml oil around the perimeter and cook on medium heat for 3 minutes until the edges look dry and the underside turns chestnut brown.",
+    "Flip and cook on medium-low heat for 2 more minutes until the center feels firm and the chopped vegetables no longer look raw.",
+    "Serve hot with tomato chutney, keeping the adai thicker than dosa so the coarse lentils stay juicy rather than brittle."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 15,
+    "cook_time_min": 18,
+    "total_time_min": 33
+  },
+  "nutrition_per_serving": {
+    "calories": 376,
+    "protein_g": 21,
+    "carbs_g": 60,
+    "fat_g": 7
+  },
+  "meal_prep_notes": "The batter keeps 2 days in the fridge and thickens slightly; loosen with 1 to 2 tbsp water before cooking again. Cooked adai reheat well in an airless skillet over low heat for 90 seconds per side. Batch-cook and cool fully before stacking between parchment.",
+  "serves": 2,
+  "related_links": [
+    "Breakfast Hub",
+    "Moong Dal",
+    "Chana Dal"
+  ]
+}

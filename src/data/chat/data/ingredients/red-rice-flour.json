@@ -1,0 +1,61 @@
+{
+  "slug": "red-rice-flour",
+  "name": "red rice flour",
+  "count": 4,
+  "recipes": [
+    {
+      "id": "brown-rice-puttu-with-green-gram",
+      "name": "Brown Rice Puttu with Green Gram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Brown Rice Puttu with Green Gram.md"
+    },
+    {
+      "id": "idiyappam-with-vegetable-ishtu",
+      "name": "Idiyappam with Vegetable Ishtu",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Idiyappam with Vegetable Ishtu.md"
+    },
+    {
+      "id": "pepper-rasam-with-steamed-red-rice-dumplings",
+      "name": "Pepper Rasam with Steamed Red Rice Dumplings",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pepper Rasam with Steamed Red Rice Dumplings.md"
+    },
+    {
+      "id": "vegetable-kozhukattai-in-coconut-broth",
+      "name": "Vegetable Kozhukattai in Coconut Broth",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Kozhukattai in Coconut Broth.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "brown-rice-puttu-with-green-gram",
+        "name": "Brown Rice Puttu with Green Gram",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Brown Rice Puttu with Green Gram.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "idiyappam-with-vegetable-ishtu",
+        "name": "Idiyappam with Vegetable Ishtu",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Idiyappam with Vegetable Ishtu.md"
+      },
+      {
+        "id": "pepper-rasam-with-steamed-red-rice-dumplings",
+        "name": "Pepper Rasam with Steamed Red Rice Dumplings",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pepper Rasam with Steamed Red Rice Dumplings.md"
+      },
+      {
+        "id": "vegetable-kozhukattai-in-coconut-broth",
+        "name": "Vegetable Kozhukattai in Coconut Broth",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Kozhukattai in Coconut Broth.md"
+      }
+    ]
+  }
+}

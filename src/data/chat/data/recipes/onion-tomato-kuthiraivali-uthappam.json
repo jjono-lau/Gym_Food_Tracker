@@ -1,0 +1,151 @@
+{
+  "id": "onion-tomato-kuthiraivali-uthappam",
+  "name": "Onion Tomato Kuthiraivali Uthappam",
+  "category": "breakfast",
+  "category_note_path": "Resources/Hubs/Breakfast Hub",
+  "source_note": "Resources/Recipes/Breakfast/Onion Tomato Kuthiraivali Uthappam.md",
+  "tags": [
+    "breakfast"
+  ],
+  "ingredient_tags": [
+    "ingredient/brown-rice",
+    "ingredient/urad-dal",
+    "ingredient/kuthiraivali",
+    "ingredient/fenugreek-seeds",
+    "ingredient/onion",
+    "ingredient/tomato",
+    "ingredient/tomato",
+    "ingredient/curry-leaves",
+    "ingredient/black-pepper",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "brown-rice",
+    "urad-dal",
+    "kuthiraivali",
+    "fenugreek-seeds",
+    "onion",
+    "tomato",
+    "tomato",
+    "curry-leaves",
+    "black-pepper",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "brown rice",
+      "slug": "brown-rice",
+      "quantity": 130,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 55,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "kuthiraivali",
+      "slug": "kuthiraivali",
+      "quantity": 50,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "fenugreek seeds",
+      "slug": "fenugreek-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 80,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "tomato",
+      "slug": "tomato",
+      "quantity": 90,
+      "unit": "g",
+      "note": "small dice"
+    },
+    {
+      "name": "tomato",
+      "slug": "tomato",
+      "quantity": 70,
+      "unit": "g",
+      "note": "small dice"
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "black pepper",
+      "slug": "black-pepper",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 10,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 430,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Onion Tomato Kuthiraivali Uthappam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Warm the tawa on medium heat for 2 minutes and grease it lightly with 1 ml oil.",
+    "Pour 140 ml batter without spreading it too thin; nudge it only enough to form a 12 to 14 cm round. Scatter one-quarter of the topping mix over it and press gently.",
+    "Drizzle 2 ml oil around the edge and cook on medium-low heat for 3 minutes until the sides look dry and the underside turns evenly golden.",
+    "Flip carefully and cook on low heat for 1 to 1.5 minutes until the vegetables soften and faint brown patches appear. Serve immediately."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 15,
+    "cook_time_min": 20,
+    "total_time_min": 35
+  },
+  "nutrition_per_serving": {
+    "calories": 488,
+    "protein_g": 16,
+    "carbs_g": 87,
+    "fat_g": 9
+  },
+  "meal_prep_notes": "Fermented batter holds for 3 days refrigerated. Reheat cooked uthappam covered on a skillet over low heat for 2 minutes to restore softness. Chop toppings fresh; pre-mixed salted vegetables will leak water overnight.",
+  "serves": 2,
+  "related_links": [
+    "Breakfast Hub",
+    "Brown Rice",
+    "Urad Dal"
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "vegetable-appam-with-stew",
+  "name": "Vegetable Appam with Stew",
+  "category": "dinner",
+  "category_note_path": "Resources/Hubs/Dinner Hub",
+  "source_note": "Resources/Recipes/Dinner/Vegetable Appam with Stew.md",
+  "tags": [
+    "dinner"
+  ],
+  "ingredient_tags": [
+    "ingredient/brown-rice",
+    "ingredient/urad-dal",
+    "ingredient/coconut",
+    "ingredient/light-coconut-milk",
+    "ingredient/pumpkin",
+    "ingredient/green-peas",
+    "ingredient/onion",
+    "ingredient/ginger",
+    "ingredient/green-chilli",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "brown-rice",
+    "urad-dal",
+    "coconut",
+    "light-coconut-milk",
+    "pumpkin",
+    "green-peas",
+    "onion",
+    "ginger",
+    "green-chilli",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "brown rice",
+      "slug": "brown-rice",
+      "quantity": 130,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 20,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "coconut",
+      "slug": "coconut",
+      "quantity": 20,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "light coconut milk",
+      "slug": "light-coconut-milk",
+      "quantity": 220,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "pumpkin",
+      "slug": "pumpkin",
+      "quantity": 220,
+      "unit": "g",
+      "note": "medium dice"
+    },
+    {
+      "name": "green peas",
+      "slug": "green-peas",
+      "quantity": 60,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 60,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 10,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "green chilli",
+      "slug": "green-chilli",
+      "quantity": 2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 7,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 620,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "A lighter evening recipe designed to feel comforting without becoming heavy or starch-dense. Vegetable Appam with Stew brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Cook the appam one at a time in an appachatti, swirling the batter for lacy edges and a thicker center.",
+    "For the stew, soften onion, ginger, chilli, and curry leaves in oil over medium heat for 2 minutes.",
+    "Add the vegetable, peas, salt, and 180 ml water; cover and cook on medium-low heat for 7 minutes until almost tender.",
+    "Add coconut milk and simmer gently on low heat for 4 minutes. Serve the stew with hot appam."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 18,
+    "cook_time_min": 20,
+    "total_time_min": 38
+  },
+  "nutrition_per_serving": {
+    "calories": 500,
+    "protein_g": 12,
+    "carbs_g": 76,
+    "fat_g": 17
+  },
+  "meal_prep_notes": "Stew keeps 2 days chilled; appam batter keeps 2 days after fermentation. Reheat the stew on low heat and cook appam fresh for best quality.",
+  "serves": 2,
+  "related_links": [
+    "Dinner Hub",
+    "Brown Rice",
+    "Urad Dal"
+  ]
+}

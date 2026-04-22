@@ -1,0 +1,151 @@
+{
+  "id": "saamai-vegetable-kichadi",
+  "name": "Saamai Vegetable Kichadi",
+  "category": "breakfast",
+  "category_note_path": "Resources/Hubs/Breakfast Hub",
+  "source_note": "Resources/Recipes/Breakfast/Saamai Vegetable Kichadi.md",
+  "tags": [
+    "breakfast"
+  ],
+  "ingredient_tags": [
+    "ingredient/samai",
+    "ingredient/split-moong-dal",
+    "ingredient/carrot",
+    "ingredient/onion",
+    "ingredient/ginger",
+    "ingredient/green-chilli",
+    "ingredient/mustard-seeds",
+    "ingredient/cumin-seeds",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "samai",
+    "split-moong-dal",
+    "carrot",
+    "onion",
+    "ginger",
+    "green-chilli",
+    "mustard-seeds",
+    "cumin-seeds",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "samai",
+      "slug": "samai",
+      "quantity": 130,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "split moong dal",
+      "slug": "split-moong-dal",
+      "quantity": 45,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "carrot",
+      "slug": "carrot",
+      "quantity": 140,
+      "unit": "g",
+      "note": "small dice"
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 60,
+      "unit": "g",
+      "note": "small dice"
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 10,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "green chilli",
+      "slug": "green-chilli",
+      "quantity": 2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "mustard seeds",
+      "slug": "mustard-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 8,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 520,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Saamai Vegetable Kichadi brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat oil in a cooker or heavy pot on medium heat. Add mustard, cumin, and curry leaves; once aromatic, add onion, ginger, chilli, and vegetables and cook 3 minutes.",
+    "Add the grain, dal, salt, and water and bring to a boil over high heat.",
+    "Pressure cook for 3 whistles or cover and cook on low heat for 18 to 20 minutes until the grain is soft and spoonable.",
+    "Rest 5 minutes, then stir briskly once to unify the starch and vegetables before serving."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 10,
+    "cook_time_min": 20,
+    "total_time_min": 30
+  },
+  "nutrition_per_serving": {
+    "calories": 382,
+    "protein_g": 13,
+    "carbs_g": 69,
+    "fat_g": 8
+  },
+  "meal_prep_notes": "Keeps 2 days refrigerated. Reheat with 3 to 4 tbsp hot water over low heat. For batch cooking, undercook by 1 minute if you know the dish will be reheated later.",
+  "serves": 2,
+  "related_links": [
+    "Breakfast Hub",
+    "Samai",
+    "Split Moong Dal"
+  ]
+}

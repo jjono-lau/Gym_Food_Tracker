@@ -1,0 +1,169 @@
+{
+  "id": "pumpkin-more-kuzhambu-with-barnyard-millet",
+  "name": "Pumpkin More Kuzhambu with Barnyard Millet",
+  "category": "lunch",
+  "category_note_path": "Resources/Hubs/Lunch Hub",
+  "source_note": "Resources/Recipes/Lunch/Pumpkin More Kuzhambu with Barnyard Millet.md",
+  "tags": [
+    "lunch"
+  ],
+  "ingredient_tags": [
+    "ingredient/barnyard-millet",
+    "ingredient/pumpkin",
+    "ingredient/low-fat-curd",
+    "ingredient/coconut",
+    "ingredient/toor-dal",
+    "ingredient/cumin-seeds",
+    "ingredient/green-chilli",
+    "ingredient/turmeric",
+    "ingredient/mustard-seeds",
+    "ingredient/fenugreek-seeds",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "barnyard-millet",
+    "pumpkin",
+    "low-fat-curd",
+    "coconut",
+    "toor-dal",
+    "cumin-seeds",
+    "green-chilli",
+    "turmeric",
+    "mustard-seeds",
+    "fenugreek-seeds",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "barnyard millet",
+      "slug": "barnyard-millet",
+      "quantity": 160,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "pumpkin",
+      "slug": "pumpkin",
+      "quantity": 220,
+      "unit": "g",
+      "note": "medium chunks"
+    },
+    {
+      "name": "low fat curd",
+      "slug": "low-fat-curd",
+      "quantity": 220,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "coconut",
+      "slug": "coconut",
+      "quantity": 20,
+      "unit": "g",
+      "note": "grated"
+    },
+    {
+      "name": "toor dal",
+      "slug": "toor-dal",
+      "quantity": 15,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "green chilli",
+      "slug": "green-chilli",
+      "quantity": 2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "turmeric",
+      "slug": "turmeric",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "mustard seeds",
+      "slug": "mustard-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "fenugreek seeds",
+      "slug": "fenugreek-seeds",
+      "quantity": 0.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 7,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 700,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Pumpkin More Kuzhambu with Barnyard Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Simmer the vegetable in 250 ml water on medium heat for 6 to 8 minutes until barely tender.",
+    "Add the ground paste and cook on low heat for 4 minutes, stirring often so the paste loses its raw edge.",
+    "Lower the heat fully and pour in the whisked curd mixture. Heat gently for 3 to 4 minutes, stirring constantly, until steam rises and tiny bubbles appear at the edge; do not boil.",
+    "Temper mustard, fenugreek, and curry leaves in oil and pour over the mor kuzhambu. Serve immediately with the cooked grain."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 18,
+    "cook_time_min": 20,
+    "total_time_min": 38
+  },
+  "nutrition_per_serving": {
+    "calories": 434,
+    "protein_g": 16,
+    "carbs_g": 63,
+    "fat_g": 12
+  },
+  "meal_prep_notes": "Best eaten fresh, though it keeps 2 days chilled. Reheat only on low heat, stirring constantly, until just warm. For meal prep, cook the vegetable and paste base ahead and add the curd only when serving.",
+  "serves": 2,
+  "related_links": [
+    "Lunch Hub",
+    "Barnyard Millet",
+    "Pumpkin"
+  ]
+}

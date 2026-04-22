@@ -1,0 +1,351 @@
+{
+  "slug": "brown-rice",
+  "name": "brown rice",
+  "count": 28,
+  "recipes": [
+    {
+      "id": "brown-rice-appam",
+      "name": "Brown Rice Appam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Brown Rice Appam.md"
+    },
+    {
+      "id": "carrot-coconut-idli",
+      "name": "Carrot Coconut Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Carrot Coconut Idli.md"
+    },
+    {
+      "id": "curry-leaf-thinai-dosa",
+      "name": "Curry Leaf Thinai Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Curry Leaf Thinai Dosa.md"
+    },
+    {
+      "id": "kambu-vegetable-dosa",
+      "name": "Kambu Vegetable Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kambu Vegetable Dosa.md"
+    },
+    {
+      "id": "masala-vegetable-oats-uttappam",
+      "name": "Masala Vegetable Oats Uttappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Masala Vegetable Oats Uttappam.md"
+    },
+    {
+      "id": "methi-ragi-uthappam",
+      "name": "Methi Ragi Uthappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Methi Ragi Uthappam.md"
+    },
+    {
+      "id": "moringa-leaf-dosa",
+      "name": "Moringa Leaf Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Moringa Leaf Dosa.md"
+    },
+    {
+      "id": "moringa-leaf-dosa",
+      "name": "Moringa Leaf Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Moringa Leaf Dosa.md"
+    },
+    {
+      "id": "onion-tomato-kuthiraivali-uthappam",
+      "name": "Onion Tomato Kuthiraivali Uthappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Onion Tomato Kuthiraivali Uthappam.md"
+    },
+    {
+      "id": "ragi-dosa",
+      "name": "Ragi Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ragi Dosa.md"
+    },
+    {
+      "id": "thinai-onion-uthappam",
+      "name": "Thinai Onion Uthappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Thinai Onion Uthappam.md"
+    },
+    {
+      "id": "brown-rice-appam-with-tomato-kurma",
+      "name": "Brown Rice Appam with Tomato Kurma",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Brown Rice Appam with Tomato Kurma.md"
+    },
+    {
+      "id": "set-dosa-with-green-pea-kurma",
+      "name": "Set Dosa with Green Pea Kurma",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Set Dosa with Green Pea Kurma.md"
+    },
+    {
+      "id": "vegetable-appam-with-stew",
+      "name": "Vegetable Appam with Stew",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Appam with Stew.md"
+    },
+    {
+      "id": "vegetable-uttappam-with-sambar",
+      "name": "Vegetable Uttappam with Sambar",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Uttappam with Sambar.md"
+    },
+    {
+      "id": "vendhaya-dosa-with-mixed-vegetable-sagu",
+      "name": "Vendhaya Dosa with Mixed Vegetable Sagu",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vendhaya Dosa with Mixed Vegetable Sagu.md"
+    },
+    {
+      "id": "amaranth-dal-with-brown-rice",
+      "name": "Amaranth Dal with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Amaranth Dal with Brown Rice.md"
+    },
+    {
+      "id": "black-chana-sundal-kuzhambu-with-brown-rice",
+      "name": "Black Chana Sundal Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Black Chana Sundal Kuzhambu with Brown Rice.md"
+    },
+    {
+      "id": "curry-leaf-thuvaiyal-rice-bowl",
+      "name": "Curry Leaf Thuvaiyal Rice Bowl",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Curry Leaf Thuvaiyal Rice Bowl.md"
+    },
+    {
+      "id": "field-bean-kuzhambu-with-brown-rice",
+      "name": "Field Bean Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Field Bean Kuzhambu with Brown Rice.md"
+    },
+    {
+      "id": "kathirikai-mochai-kuzhambu-with-brown-rice",
+      "name": "Kathirikai Mochai Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Kathirikai Mochai Kuzhambu with Brown Rice.md"
+    },
+    {
+      "id": "kovakkai-peanut-kuzhambu-with-brown-rice",
+      "name": "Kovakkai Peanut Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Kovakkai Peanut Kuzhambu with Brown Rice.md"
+    },
+    {
+      "id": "methi-kuzhambu-with-brown-rice",
+      "name": "Methi Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Methi Kuzhambu with Brown Rice.md"
+    },
+    {
+      "id": "murungakkai-sambar-with-brown-rice",
+      "name": "Murungakkai Sambar with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Murungakkai Sambar with Brown Rice.md"
+    },
+    {
+      "id": "pumpkin-black-eyed-pea-kootu-with-brown-rice",
+      "name": "Pumpkin Black Eyed Pea Kootu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Pumpkin Black Eyed Pea Kootu with Brown Rice.md"
+    },
+    {
+      "id": "sorakkai-kootu-with-brown-rice",
+      "name": "Sorakkai Kootu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Sorakkai Kootu with Brown Rice.md"
+    },
+    {
+      "id": "tomato-pepper-rasam-with-horse-gram-rice",
+      "name": "Tomato Pepper Rasam with Horse Gram Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Tomato Pepper Rasam with Horse Gram Rice.md"
+    },
+    {
+      "id": "vazhaithandu-kootu-with-brown-rice",
+      "name": "Vazhaithandu Kootu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Vazhaithandu Kootu with Brown Rice.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "brown-rice-appam",
+        "name": "Brown Rice Appam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Brown Rice Appam.md"
+      },
+      {
+        "id": "carrot-coconut-idli",
+        "name": "Carrot Coconut Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Carrot Coconut Idli.md"
+      },
+      {
+        "id": "curry-leaf-thinai-dosa",
+        "name": "Curry Leaf Thinai Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Curry Leaf Thinai Dosa.md"
+      },
+      {
+        "id": "kambu-vegetable-dosa",
+        "name": "Kambu Vegetable Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Kambu Vegetable Dosa.md"
+      },
+      {
+        "id": "masala-vegetable-oats-uttappam",
+        "name": "Masala Vegetable Oats Uttappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Masala Vegetable Oats Uttappam.md"
+      },
+      {
+        "id": "methi-ragi-uthappam",
+        "name": "Methi Ragi Uthappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Methi Ragi Uthappam.md"
+      },
+      {
+        "id": "moringa-leaf-dosa",
+        "name": "Moringa Leaf Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Moringa Leaf Dosa.md"
+      },
+      {
+        "id": "moringa-leaf-dosa",
+        "name": "Moringa Leaf Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Moringa Leaf Dosa.md"
+      },
+      {
+        "id": "onion-tomato-kuthiraivali-uthappam",
+        "name": "Onion Tomato Kuthiraivali Uthappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Onion Tomato Kuthiraivali Uthappam.md"
+      },
+      {
+        "id": "ragi-dosa",
+        "name": "Ragi Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ragi Dosa.md"
+      },
+      {
+        "id": "thinai-onion-uthappam",
+        "name": "Thinai Onion Uthappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Thinai Onion Uthappam.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "brown-rice-appam-with-tomato-kurma",
+        "name": "Brown Rice Appam with Tomato Kurma",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Brown Rice Appam with Tomato Kurma.md"
+      },
+      {
+        "id": "set-dosa-with-green-pea-kurma",
+        "name": "Set Dosa with Green Pea Kurma",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Set Dosa with Green Pea Kurma.md"
+      },
+      {
+        "id": "vegetable-appam-with-stew",
+        "name": "Vegetable Appam with Stew",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Appam with Stew.md"
+      },
+      {
+        "id": "vegetable-uttappam-with-sambar",
+        "name": "Vegetable Uttappam with Sambar",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Uttappam with Sambar.md"
+      },
+      {
+        "id": "vendhaya-dosa-with-mixed-vegetable-sagu",
+        "name": "Vendhaya Dosa with Mixed Vegetable Sagu",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vendhaya Dosa with Mixed Vegetable Sagu.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "amaranth-dal-with-brown-rice",
+        "name": "Amaranth Dal with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Amaranth Dal with Brown Rice.md"
+      },
+      {
+        "id": "black-chana-sundal-kuzhambu-with-brown-rice",
+        "name": "Black Chana Sundal Kuzhambu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Black Chana Sundal Kuzhambu with Brown Rice.md"
+      },
+      {
+        "id": "curry-leaf-thuvaiyal-rice-bowl",
+        "name": "Curry Leaf Thuvaiyal Rice Bowl",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Curry Leaf Thuvaiyal Rice Bowl.md"
+      },
+      {
+        "id": "field-bean-kuzhambu-with-brown-rice",
+        "name": "Field Bean Kuzhambu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Field Bean Kuzhambu with Brown Rice.md"
+      },
+      {
+        "id": "kathirikai-mochai-kuzhambu-with-brown-rice",
+        "name": "Kathirikai Mochai Kuzhambu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Kathirikai Mochai Kuzhambu with Brown Rice.md"
+      },
+      {
+        "id": "kovakkai-peanut-kuzhambu-with-brown-rice",
+        "name": "Kovakkai Peanut Kuzhambu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Kovakkai Peanut Kuzhambu with Brown Rice.md"
+      },
+      {
+        "id": "methi-kuzhambu-with-brown-rice",
+        "name": "Methi Kuzhambu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Methi Kuzhambu with Brown Rice.md"
+      },
+      {
+        "id": "murungakkai-sambar-with-brown-rice",
+        "name": "Murungakkai Sambar with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Murungakkai Sambar with Brown Rice.md"
+      },
+      {
+        "id": "pumpkin-black-eyed-pea-kootu-with-brown-rice",
+        "name": "Pumpkin Black Eyed Pea Kootu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Pumpkin Black Eyed Pea Kootu with Brown Rice.md"
+      },
+      {
+        "id": "sorakkai-kootu-with-brown-rice",
+        "name": "Sorakkai Kootu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Sorakkai Kootu with Brown Rice.md"
+      },
+      {
+        "id": "tomato-pepper-rasam-with-horse-gram-rice",
+        "name": "Tomato Pepper Rasam with Horse Gram Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Tomato Pepper Rasam with Horse Gram Rice.md"
+      },
+      {
+        "id": "vazhaithandu-kootu-with-brown-rice",
+        "name": "Vazhaithandu Kootu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Vazhaithandu Kootu with Brown Rice.md"
+      }
+    ]
+  }
+}

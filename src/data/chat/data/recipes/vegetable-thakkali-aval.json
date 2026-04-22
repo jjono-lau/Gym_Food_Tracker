@@ -1,0 +1,142 @@
+{
+  "id": "vegetable-thakkali-aval",
+  "name": "Vegetable Thakkali Aval",
+  "category": "dinner",
+  "category_note_path": "Resources/Hubs/Dinner Hub",
+  "source_note": "Resources/Recipes/Dinner/Vegetable Thakkali Aval.md",
+  "tags": [
+    "dinner"
+  ],
+  "ingredient_tags": [
+    "ingredient/poha",
+    "ingredient/tomato",
+    "ingredient/onion",
+    "ingredient/coconut",
+    "ingredient/mustard-seeds",
+    "ingredient/urad-dal",
+    "ingredient/green-chilli",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "poha",
+    "tomato",
+    "onion",
+    "coconut",
+    "mustard-seeds",
+    "urad-dal",
+    "green-chilli",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "poha",
+      "slug": "poha",
+      "quantity": 160,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "tomato",
+      "slug": "tomato",
+      "quantity": 100,
+      "unit": "g",
+      "note": "fine strips"
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 60,
+      "unit": "g",
+      "note": "thin slices"
+    },
+    {
+      "name": "coconut",
+      "slug": "coconut",
+      "quantity": 18,
+      "unit": "g",
+      "note": "grated"
+    },
+    {
+      "name": "mustard seeds",
+      "slug": "mustard-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 10,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "green chilli",
+      "slug": "green-chilli",
+      "quantity": 2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 8,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 260,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Vegetable Thakkali Aval brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat a wide pan on medium heat with oil. Add mustard, urad dal, curry leaves, and chilli and cook 45 seconds.",
+    "Add onion and vegetable and saute 3 minutes until just tender.",
+    "Add the sevai, salt, and 30 ml water and toss on low heat for 2 minutes.",
+    "Finish with coconut, toss once, and serve immediately."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 10,
+    "cook_time_min": 12,
+    "total_time_min": 22
+  },
+  "nutrition_per_serving": {
+    "calories": 387,
+    "protein_g": 8,
+    "carbs_g": 71,
+    "fat_g": 8
+  },
+  "meal_prep_notes": "Sevai keeps 2 days chilled. Reheat covered on low heat with 1 tbsp water. Hold the coconut separately if making ahead so the flavor stays fresh.",
+  "serves": 2,
+  "related_links": [
+    "Dinner Hub",
+    "Poha",
+    "Tomato"
+  ]
+}

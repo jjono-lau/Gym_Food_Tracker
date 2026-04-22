@@ -1,0 +1,135 @@
+{
+  "slug": "capsicum",
+  "name": "capsicum",
+  "count": 10,
+  "recipes": [
+    {
+      "id": "aval-vegetable-upma",
+      "name": "Aval Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Aval Vegetable Upma.md"
+    },
+    {
+      "id": "kambu-vegetable-dosa",
+      "name": "Kambu Vegetable Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kambu Vegetable Dosa.md"
+    },
+    {
+      "id": "masala-vegetable-oats-uttappam",
+      "name": "Masala Vegetable Oats Uttappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Masala Vegetable Oats Uttappam.md"
+    },
+    {
+      "id": "pepper-kodo-millet-upma",
+      "name": "Pepper Kodo Millet Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Pepper Kodo Millet Upma.md"
+    },
+    {
+      "id": "red-aval-vegetable-upma",
+      "name": "Red Aval Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Aval Vegetable Upma.md"
+    },
+    {
+      "id": "jowar-vegetable-kanji",
+      "name": "Jowar Vegetable Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Jowar Vegetable Kanji.md"
+    },
+    {
+      "id": "samai-vegetable-uttappam",
+      "name": "Samai Vegetable Uttappam",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Samai Vegetable Uttappam.md"
+    },
+    {
+      "id": "vegetable-uttappam-with-sambar",
+      "name": "Vegetable Uttappam with Sambar",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Uttappam with Sambar.md"
+    },
+    {
+      "id": "capsicum-kollu-kuzhambu-with-red-rice",
+      "name": "Capsicum Kollu Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Capsicum Kollu Kuzhambu with Red Rice.md"
+    },
+    {
+      "id": "puli-milagai-kuzhambu-with-kodo-millet",
+      "name": "Puli Milagai Kuzhambu with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Puli Milagai Kuzhambu with Kodo Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "aval-vegetable-upma",
+        "name": "Aval Vegetable Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Aval Vegetable Upma.md"
+      },
+      {
+        "id": "kambu-vegetable-dosa",
+        "name": "Kambu Vegetable Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Kambu Vegetable Dosa.md"
+      },
+      {
+        "id": "masala-vegetable-oats-uttappam",
+        "name": "Masala Vegetable Oats Uttappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Masala Vegetable Oats Uttappam.md"
+      },
+      {
+        "id": "pepper-kodo-millet-upma",
+        "name": "Pepper Kodo Millet Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Pepper Kodo Millet Upma.md"
+      },
+      {
+        "id": "red-aval-vegetable-upma",
+        "name": "Red Aval Vegetable Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Red Aval Vegetable Upma.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "jowar-vegetable-kanji",
+        "name": "Jowar Vegetable Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Jowar Vegetable Kanji.md"
+      },
+      {
+        "id": "samai-vegetable-uttappam",
+        "name": "Samai Vegetable Uttappam",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Samai Vegetable Uttappam.md"
+      },
+      {
+        "id": "vegetable-uttappam-with-sambar",
+        "name": "Vegetable Uttappam with Sambar",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Uttappam with Sambar.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "capsicum-kollu-kuzhambu-with-red-rice",
+        "name": "Capsicum Kollu Kuzhambu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Capsicum Kollu Kuzhambu with Red Rice.md"
+      },
+      {
+        "id": "puli-milagai-kuzhambu-with-kodo-millet",
+        "name": "Puli Milagai Kuzhambu with Kodo Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Puli Milagai Kuzhambu with Kodo Millet.md"
+      }
+    ]
+  }
+}

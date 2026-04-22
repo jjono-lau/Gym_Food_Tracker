@@ -1,0 +1,142 @@
+{
+  "id": "ridge-gourd-dal-kuzhambu-with-kodo-millet",
+  "name": "Ridge Gourd Dal Kuzhambu with Kodo Millet",
+  "category": "lunch",
+  "category_note_path": "Resources/Hubs/Lunch Hub",
+  "source_note": "Resources/Recipes/Lunch/Ridge Gourd Dal Kuzhambu with Kodo Millet.md",
+  "tags": [
+    "lunch"
+  ],
+  "ingredient_tags": [
+    "ingredient/kodo-millet",
+    "ingredient/toor-dal",
+    "ingredient/ridge-gourd",
+    "ingredient/onion",
+    "ingredient/tomato",
+    "ingredient/garlic",
+    "ingredient/cumin-seeds",
+    "ingredient/turmeric",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "kodo-millet",
+    "toor-dal",
+    "ridge-gourd",
+    "onion",
+    "tomato",
+    "garlic",
+    "cumin-seeds",
+    "turmeric",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "kodo millet",
+      "slug": "kodo-millet",
+      "quantity": 160,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "toor dal",
+      "slug": "toor-dal",
+      "quantity": 90,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "ridge gourd",
+      "slug": "ridge-gourd",
+      "quantity": 180,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 60,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "tomato",
+      "slug": "tomato",
+      "quantity": 90,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "garlic",
+      "slug": "garlic",
+      "quantity": 10,
+      "unit": "g",
+      "note": "sliced"
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "turmeric",
+      "slug": "turmeric",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 7,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 860,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Ridge Gourd Dal Kuzhambu with Kodo Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat oil in a pot over medium heat. Add cumin and garlic and cook 30 seconds until fragrant but not dark.",
+    "Add onion, tomato, turmeric, and vegetable and cook 4 minutes until the tomato softens.",
+    "Add the dal, salt, and 500 ml water. Pressure cook for 3 whistles or simmer covered on low heat for 25 minutes until the dal is soft and spoon-coating.",
+    "Whisk lightly to break some of the dal while keeping some texture, then serve with the cooked grain."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 15,
+    "cook_time_min": 24,
+    "total_time_min": 39
+  },
+  "nutrition_per_serving": {
+    "calories": 513,
+    "protein_g": 18,
+    "carbs_g": 92,
+    "fat_g": 7
+  },
+  "meal_prep_notes": "Dal keeps 3 days chilled and freezes well. Reheat over low heat with a splash of water. Cook the grain fresh if possible; if not, cool it quickly so it holds separate grains on reheating.",
+  "serves": 2,
+  "related_links": [
+    "Lunch Hub",
+    "Kodo Millet",
+    "Toor Dal"
+  ]
+}

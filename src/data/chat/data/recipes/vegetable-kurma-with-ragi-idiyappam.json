@@ -1,0 +1,142 @@
+{
+  "id": "vegetable-kurma-with-ragi-idiyappam",
+  "name": "Vegetable Kurma with Ragi Idiyappam",
+  "category": "dinner",
+  "category_note_path": "Resources/Hubs/Dinner Hub",
+  "source_note": "Resources/Recipes/Dinner/Vegetable Kurma with Ragi Idiyappam.md",
+  "tags": [
+    "dinner"
+  ],
+  "ingredient_tags": [
+    "ingredient/ragi-flour",
+    "ingredient/cauliflower",
+    "ingredient/light-coconut-milk",
+    "ingredient/green-peas",
+    "ingredient/onion",
+    "ingredient/ginger",
+    "ingredient/green-chilli",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "ragi-flour",
+    "cauliflower",
+    "light-coconut-milk",
+    "green-peas",
+    "onion",
+    "ginger",
+    "green-chilli",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "ragi flour",
+      "slug": "ragi-flour",
+      "quantity": 160,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "cauliflower",
+      "slug": "cauliflower",
+      "quantity": 200,
+      "unit": "g",
+      "note": "thin strips"
+    },
+    {
+      "name": "light coconut milk",
+      "slug": "light-coconut-milk",
+      "quantity": 220,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "green peas",
+      "slug": "green-peas",
+      "quantity": 60,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 60,
+      "unit": "g",
+      "note": "sliced"
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 10,
+      "unit": "g",
+      "note": "julienned"
+    },
+    {
+      "name": "green chilli",
+      "slug": "green-chilli",
+      "quantity": 2,
+      "unit": "tsp",
+      "note": "slit"
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 6,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 540,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "The dish uses South Indian evening-tiffin logic: quick-cooking grains, legumes, and aromatic tempering for depth without richness. Vegetable Kurma with Ragi Idiyappam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Warm a pot on medium heat with oil. Add onion, ginger, chilli, and curry leaves and soften for 2 minutes without browning.",
+    "Add the vegetable, peas, salt, and 180 ml water. Cover and cook on medium-low heat for 6 minutes until just tender.",
+    "Add coconut milk and simmer gently on low heat for 4 minutes until lightly thickened.",
+    "Serve the hot stew over the idiyappam so the strands absorb flavor but still retain shape."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 14,
+    "cook_time_min": 16,
+    "total_time_min": 30
+  },
+  "nutrition_per_serving": {
+    "calories": 451,
+    "protein_g": 11,
+    "carbs_g": 74,
+    "fat_g": 12
+  },
+  "meal_prep_notes": "Cooked idiyappam and stew keep 2 days refrigerated when stored separately. Reheat the stew on low heat and steam the idiyappam for 2 minutes. Batch-cook the string hoppers ahead and finish the stew fresh.",
+  "serves": 2,
+  "related_links": [
+    "Dinner Hub",
+    "Ragi Flour",
+    "Cauliflower"
+  ]
+}

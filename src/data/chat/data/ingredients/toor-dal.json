@@ -1,0 +1,423 @@
+{
+  "slug": "toor-dal",
+  "name": "toor dal",
+  "count": 34,
+  "recipes": [
+    {
+      "id": "beetroot-kambu-adai",
+      "name": "Beetroot Kambu Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Beetroot Kambu Adai.md"
+    },
+    {
+      "id": "cabbage-moong-dal-adai",
+      "name": "Cabbage Moong Dal Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Cabbage Moong Dal Adai.md"
+    },
+    {
+      "id": "drumstick-leaf-adai",
+      "name": "Drumstick Leaf Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Drumstick Leaf Adai.md"
+    },
+    {
+      "id": "drumstick-leaf-adai",
+      "name": "Drumstick Leaf Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Drumstick Leaf Adai.md"
+    },
+    {
+      "id": "kollu-adai",
+      "name": "Kollu Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kollu Adai.md"
+    },
+    {
+      "id": "multi-millet-adai",
+      "name": "Multi Millet Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Multi Millet Adai.md"
+    },
+    {
+      "id": "ridge-gourd-adai",
+      "name": "Ridge Gourd Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ridge Gourd Adai.md"
+    },
+    {
+      "id": "adai-with-avial",
+      "name": "Adai with Avial",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Adai with Avial.md"
+    },
+    {
+      "id": "cabbage-kothamalli-adai",
+      "name": "Cabbage Kothamalli Adai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Cabbage Kothamalli Adai.md"
+    },
+    {
+      "id": "horse-gram-adai-with-beetroot-chutney",
+      "name": "Horse Gram Adai with Beetroot Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Horse Gram Adai with Beetroot Chutney.md"
+    },
+    {
+      "id": "keerai-adai-with-garlic-chutney",
+      "name": "Keerai Adai with Garlic Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Keerai Adai with Garlic Chutney.md"
+    },
+    {
+      "id": "keerai-adai-with-garlic-chutney",
+      "name": "Keerai Adai with Garlic Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Keerai Adai with Garlic Chutney.md"
+    },
+    {
+      "id": "oats-and-red-rice-idli-with-sambar",
+      "name": "Oats and Red Rice Idli with Sambar",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Oats and Red Rice Idli with Sambar.md"
+    },
+    {
+      "id": "pearl-millet-idli-with-soppu-saaru",
+      "name": "Pearl Millet Idli with Soppu Saaru",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pearl Millet Idli with Soppu Saaru.md"
+    },
+    {
+      "id": "ragi-mudde-with-keerai-saaru",
+      "name": "Ragi Mudde with Keerai Saaru",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Ragi Mudde with Keerai Saaru.md"
+    },
+    {
+      "id": "raw-banana-adai-with-curd-dip",
+      "name": "Raw Banana Adai with Curd Dip",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Raw Banana Adai with Curd Dip.md"
+    },
+    {
+      "id": "sweet-corn-adai-with-curry-leaf-chutney",
+      "name": "Sweet Corn Adai with Curry Leaf Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Sweet Corn Adai with Curry Leaf Chutney.md"
+    },
+    {
+      "id": "amaranth-dal-with-brown-rice",
+      "name": "Amaranth Dal with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Amaranth Dal with Brown Rice.md"
+    },
+    {
+      "id": "ash-gourd-mor-kuzhambu-with-red-rice",
+      "name": "Ash Gourd Mor Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Ash Gourd Mor Kuzhambu with Red Rice.md"
+    },
+    {
+      "id": "avarakkai-paruppu-usili-with-red-rice",
+      "name": "Avarakkai Paruppu Usili with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Avarakkai Paruppu Usili with Red Rice.md"
+    },
+    {
+      "id": "banana-stem-mor-kootu-with-kodo-millet",
+      "name": "Banana Stem Mor Kootu with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Banana Stem Mor Kootu with Kodo Millet.md"
+    },
+    {
+      "id": "bitter-gourd-pitlai-with-little-millet",
+      "name": "Bitter Gourd Pitlai with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Bitter Gourd Pitlai with Little Millet.md"
+    },
+    {
+      "id": "carrot-peas-sambar-with-barnyard-millet",
+      "name": "Carrot Peas Sambar with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Carrot Peas Sambar with Barnyard Millet.md"
+    },
+    {
+      "id": "curry-leaf-pepper-rasam-with-red-rice",
+      "name": "Curry Leaf Pepper Rasam with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Curry Leaf Pepper Rasam with Red Rice.md"
+    },
+    {
+      "id": "drumstick-leaves-sambar-with-kodo-millet",
+      "name": "Drumstick Leaves Sambar with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Drumstick Leaves Sambar with Kodo Millet.md"
+    },
+    {
+      "id": "knol-khol-sambar-with-foxtail-millet",
+      "name": "Knol Khol Sambar with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Foxtail Millet.md"
+    },
+    {
+      "id": "knol-khol-sambar-with-little-millet",
+      "name": "Knol Khol Sambar with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Little Millet.md"
+    },
+    {
+      "id": "mixed-vegetable-sambar-sadam",
+      "name": "Mixed Vegetable Sambar Sadam",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Mixed Vegetable Sambar Sadam.md"
+    },
+    {
+      "id": "moringa-leaf-dal-with-barnyard-millet",
+      "name": "Moringa Leaf Dal with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Moringa Leaf Dal with Barnyard Millet.md"
+    },
+    {
+      "id": "murungakkai-sambar-with-brown-rice",
+      "name": "Murungakkai Sambar with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Murungakkai Sambar with Brown Rice.md"
+    },
+    {
+      "id": "paruppu-rasam-with-red-rice",
+      "name": "Paruppu Rasam with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Paruppu Rasam with Red Rice.md"
+    },
+    {
+      "id": "pumpkin-more-kuzhambu-with-barnyard-millet",
+      "name": "Pumpkin More Kuzhambu with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Pumpkin More Kuzhambu with Barnyard Millet.md"
+    },
+    {
+      "id": "ridge-gourd-dal-kuzhambu-with-kodo-millet",
+      "name": "Ridge Gourd Dal Kuzhambu with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Ridge Gourd Dal Kuzhambu with Kodo Millet.md"
+    },
+    {
+      "id": "thakkali-pappu-with-foxtail-millet",
+      "name": "Thakkali Pappu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Thakkali Pappu with Foxtail Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "beetroot-kambu-adai",
+        "name": "Beetroot Kambu Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Beetroot Kambu Adai.md"
+      },
+      {
+        "id": "cabbage-moong-dal-adai",
+        "name": "Cabbage Moong Dal Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Cabbage Moong Dal Adai.md"
+      },
+      {
+        "id": "drumstick-leaf-adai",
+        "name": "Drumstick Leaf Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Drumstick Leaf Adai.md"
+      },
+      {
+        "id": "drumstick-leaf-adai",
+        "name": "Drumstick Leaf Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Drumstick Leaf Adai.md"
+      },
+      {
+        "id": "kollu-adai",
+        "name": "Kollu Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Kollu Adai.md"
+      },
+      {
+        "id": "multi-millet-adai",
+        "name": "Multi Millet Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Multi Millet Adai.md"
+      },
+      {
+        "id": "ridge-gourd-adai",
+        "name": "Ridge Gourd Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ridge Gourd Adai.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "adai-with-avial",
+        "name": "Adai with Avial",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Adai with Avial.md"
+      },
+      {
+        "id": "cabbage-kothamalli-adai",
+        "name": "Cabbage Kothamalli Adai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Cabbage Kothamalli Adai.md"
+      },
+      {
+        "id": "horse-gram-adai-with-beetroot-chutney",
+        "name": "Horse Gram Adai with Beetroot Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Horse Gram Adai with Beetroot Chutney.md"
+      },
+      {
+        "id": "keerai-adai-with-garlic-chutney",
+        "name": "Keerai Adai with Garlic Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Keerai Adai with Garlic Chutney.md"
+      },
+      {
+        "id": "keerai-adai-with-garlic-chutney",
+        "name": "Keerai Adai with Garlic Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Keerai Adai with Garlic Chutney.md"
+      },
+      {
+        "id": "oats-and-red-rice-idli-with-sambar",
+        "name": "Oats and Red Rice Idli with Sambar",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Oats and Red Rice Idli with Sambar.md"
+      },
+      {
+        "id": "pearl-millet-idli-with-soppu-saaru",
+        "name": "Pearl Millet Idli with Soppu Saaru",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pearl Millet Idli with Soppu Saaru.md"
+      },
+      {
+        "id": "ragi-mudde-with-keerai-saaru",
+        "name": "Ragi Mudde with Keerai Saaru",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Ragi Mudde with Keerai Saaru.md"
+      },
+      {
+        "id": "raw-banana-adai-with-curd-dip",
+        "name": "Raw Banana Adai with Curd Dip",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Raw Banana Adai with Curd Dip.md"
+      },
+      {
+        "id": "sweet-corn-adai-with-curry-leaf-chutney",
+        "name": "Sweet Corn Adai with Curry Leaf Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Sweet Corn Adai with Curry Leaf Chutney.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "amaranth-dal-with-brown-rice",
+        "name": "Amaranth Dal with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Amaranth Dal with Brown Rice.md"
+      },
+      {
+        "id": "ash-gourd-mor-kuzhambu-with-red-rice",
+        "name": "Ash Gourd Mor Kuzhambu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Ash Gourd Mor Kuzhambu with Red Rice.md"
+      },
+      {
+        "id": "avarakkai-paruppu-usili-with-red-rice",
+        "name": "Avarakkai Paruppu Usili with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Avarakkai Paruppu Usili with Red Rice.md"
+      },
+      {
+        "id": "banana-stem-mor-kootu-with-kodo-millet",
+        "name": "Banana Stem Mor Kootu with Kodo Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Banana Stem Mor Kootu with Kodo Millet.md"
+      },
+      {
+        "id": "bitter-gourd-pitlai-with-little-millet",
+        "name": "Bitter Gourd Pitlai with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Bitter Gourd Pitlai with Little Millet.md"
+      },
+      {
+        "id": "carrot-peas-sambar-with-barnyard-millet",
+        "name": "Carrot Peas Sambar with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Carrot Peas Sambar with Barnyard Millet.md"
+      },
+      {
+        "id": "curry-leaf-pepper-rasam-with-red-rice",
+        "name": "Curry Leaf Pepper Rasam with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Curry Leaf Pepper Rasam with Red Rice.md"
+      },
+      {
+        "id": "drumstick-leaves-sambar-with-kodo-millet",
+        "name": "Drumstick Leaves Sambar with Kodo Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Drumstick Leaves Sambar with Kodo Millet.md"
+      },
+      {
+        "id": "knol-khol-sambar-with-foxtail-millet",
+        "name": "Knol Khol Sambar with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Foxtail Millet.md"
+      },
+      {
+        "id": "knol-khol-sambar-with-little-millet",
+        "name": "Knol Khol Sambar with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Little Millet.md"
+      },
+      {
+        "id": "mixed-vegetable-sambar-sadam",
+        "name": "Mixed Vegetable Sambar Sadam",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Mixed Vegetable Sambar Sadam.md"
+      },
+      {
+        "id": "moringa-leaf-dal-with-barnyard-millet",
+        "name": "Moringa Leaf Dal with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Moringa Leaf Dal with Barnyard Millet.md"
+      },
+      {
+        "id": "murungakkai-sambar-with-brown-rice",
+        "name": "Murungakkai Sambar with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Murungakkai Sambar with Brown Rice.md"
+      },
+      {
+        "id": "paruppu-rasam-with-red-rice",
+        "name": "Paruppu Rasam with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Paruppu Rasam with Red Rice.md"
+      },
+      {
+        "id": "pumpkin-more-kuzhambu-with-barnyard-millet",
+        "name": "Pumpkin More Kuzhambu with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Pumpkin More Kuzhambu with Barnyard Millet.md"
+      },
+      {
+        "id": "ridge-gourd-dal-kuzhambu-with-kodo-millet",
+        "name": "Ridge Gourd Dal Kuzhambu with Kodo Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Ridge Gourd Dal Kuzhambu with Kodo Millet.md"
+      },
+      {
+        "id": "thakkali-pappu-with-foxtail-millet",
+        "name": "Thakkali Pappu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Thakkali Pappu with Foxtail Millet.md"
+      }
+    ]
+  }
+}

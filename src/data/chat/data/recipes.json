@@ -1,0 +1,4723 @@
+[
+  {
+    "id": "aval-vegetable-upma",
+    "name": "Aval Vegetable Upma",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Aval Vegetable Upma.md",
+    "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Aval Vegetable Upma brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "poha",
+      "capsicum",
+      "onion",
+      "carrot",
+      "ginger",
+      "green-chilli",
+      "chana-dal",
+      "urad-dal",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 18,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 402,
+      "protein_g": 10,
+      "carbs_g": 78,
+      "fat_g": 6
+    }
+  },
+  {
+    "id": "barnyard-millet-kozhukattai",
+    "name": "Barnyard Millet Kozhukattai",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Barnyard Millet Kozhukattai.md",
+    "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Barnyard Millet Kozhukattai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "barnyard-millet",
+      "carrot",
+      "coconut",
+      "green-chilli",
+      "ginger",
+      "mustard-seeds",
+      "urad-dal",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 14,
+      "cook_time_min": 18,
+      "total_time_min": 32
+    },
+    "nutrition_per_serving": {
+      "calories": 345,
+      "protein_g": 11,
+      "carbs_g": 52,
+      "fat_g": 10
+    }
+  },
+  {
+    "id": "beetroot-kambu-adai",
+    "name": "Beetroot Kambu Adai",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Beetroot Kambu Adai.md",
+    "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Beetroot Kambu Adai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "kambu",
+      "chana-dal",
+      "toor-dal",
+      "urad-dal",
+      "beetroot",
+      "onion",
+      "ginger",
+      "dry-red-chilli",
+      "cumin-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 18,
+      "total_time_min": 33
+    },
+    "nutrition_per_serving": {
+      "calories": 390,
+      "protein_g": 17,
+      "carbs_g": 64,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "bottle-gourd-oats-pongal",
+    "name": "Bottle Gourd Oats Pongal",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Bottle Gourd Oats Pongal.md",
+    "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Bottle Gourd Oats Pongal brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "rolled-oats",
+      "split-moong-dal",
+      "bottle-gourd",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 387,
+      "protein_g": 18,
+      "carbs_g": 62,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "broken-wheat-ven-pongal",
+    "name": "Broken Wheat Ven Pongal",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Broken Wheat Ven Pongal.md",
+    "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Broken Wheat Ven Pongal brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "broken-wheat",
+      "split-moong-dal",
+      "bottle-gourd",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 359,
+      "protein_g": 15,
+      "carbs_g": 68,
+      "fat_g": 5
+    }
+  },
+  {
+    "id": "brown-rice-appam",
+    "name": "Brown Rice Appam",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Brown Rice Appam.md",
+    "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Brown Rice Appam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "urad-dal",
+      "coconut",
+      "light-coconut-milk",
+      "green-peas",
+      "fenugreek-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 15,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 407,
+      "protein_g": 10,
+      "carbs_g": 61,
+      "fat_g": 13
+    }
+  },
+  {
+    "id": "brown-rice-puttu-with-green-gram",
+    "name": "Brown Rice Puttu with Green Gram",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Brown Rice Puttu with Green Gram.md",
+    "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Brown Rice Puttu with Green Gram brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice-flour",
+      "coconut",
+      "green-gram",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 10,
+      "total_time_min": 25
+    },
+    "nutrition_per_serving": {
+      "calories": 436,
+      "protein_g": 14,
+      "carbs_g": 82,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "cabbage-moong-dal-adai",
+    "name": "Cabbage Moong Dal Adai",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Cabbage Moong Dal Adai.md",
+    "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Cabbage Moong Dal Adai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "moong-dal",
+      "chana-dal",
+      "toor-dal",
+      "urad-dal",
+      "cabbage",
+      "onion",
+      "ginger",
+      "dry-red-chilli",
+      "cumin-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 18,
+      "total_time_min": 33
+    },
+    "nutrition_per_serving": {
+      "calories": 376,
+      "protein_g": 21,
+      "carbs_g": 60,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "carrot-coconut-idli",
+    "name": "Carrot Coconut Idli",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Carrot Coconut Idli.md",
+    "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Carrot Coconut Idli brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "urad-dal",
+      "fenugreek-seeds",
+      "carrot",
+      "ginger",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 14,
+      "total_time_min": 29
+    },
+    "nutrition_per_serving": {
+      "calories": 376,
+      "protein_g": 13,
+      "carbs_g": 72,
+      "fat_g": 4
+    }
+  },
+  {
+    "id": "coconut-milk-ragi-appam",
+    "name": "Coconut Milk Ragi Appam",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Coconut Milk Ragi Appam.md",
+    "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Coconut Milk Ragi Appam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "ragi",
+      "urad-dal",
+      "coconut",
+      "light-coconut-milk",
+      "green-peas",
+      "fenugreek-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 15,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 387,
+      "protein_g": 10,
+      "carbs_g": 58,
+      "fat_g": 12
+    }
+  },
+  {
+    "id": "corn-cowpea-kuzhi-paniyaram",
+    "name": "Corn Cowpea Kuzhi Paniyaram",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Corn Cowpea Kuzhi Paniyaram.md",
+    "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Corn Cowpea Kuzhi Paniyaram brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "cowpea",
+      "corn",
+      "onion",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 16,
+      "total_time_min": 26
+    },
+    "nutrition_per_serving": {
+      "calories": 468,
+      "protein_g": 29,
+      "carbs_g": 80,
+      "fat_g": 6
+    }
+  },
+  {
+    "id": "cucumber-millet-kichadi",
+    "name": "Cucumber Millet Kichadi",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Cucumber Millet Kichadi.md",
+    "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Cucumber Millet Kichadi brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "barnyard-millet",
+      "split-moong-dal",
+      "cucumber",
+      "onion",
+      "ginger",
+      "green-chilli",
+      "mustard-seeds",
+      "cumin-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 342,
+      "protein_g": 14,
+      "carbs_g": 57,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "curry-leaf-pesarattu",
+    "name": "Curry Leaf Pesarattu",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Curry Leaf Pesarattu.md",
+    "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Curry Leaf Pesarattu brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "green-gram",
+      "spinach",
+      "onion",
+      "ginger",
+      "green-chilli",
+      "cumin-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 15,
+      "total_time_min": 25
+    },
+    "nutrition_per_serving": {
+      "calories": 325,
+      "protein_g": 20,
+      "carbs_g": 53,
+      "fat_g": 5
+    }
+  },
+  {
+    "id": "curry-leaf-podi-sevai",
+    "name": "Curry Leaf Podi Sevai",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Curry Leaf Podi Sevai.md",
+    "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Curry Leaf Podi Sevai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "curry-leaves",
+      "onion",
+      "coconut",
+      "ginger",
+      "green-chilli",
+      "mustard-seeds",
+      "urad-dal",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 12,
+      "total_time_min": 24
+    },
+    "nutrition_per_serving": {
+      "calories": 446,
+      "protein_g": 11,
+      "carbs_g": 78,
+      "fat_g": 10
+    }
+  },
+  {
+    "id": "curry-leaf-thinai-dosa",
+    "name": "Curry Leaf Thinai Dosa",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Curry Leaf Thinai Dosa.md",
+    "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Curry Leaf Thinai Dosa brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "urad-dal",
+      "thinai",
+      "fenugreek-seeds",
+      "onion",
+      "spinach",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 18,
+      "total_time_min": 33
+    },
+    "nutrition_per_serving": {
+      "calories": 521,
+      "protein_g": 17,
+      "carbs_g": 93,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "drumstick-leaf-adai",
+    "name": "Drumstick Leaf Adai",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Drumstick Leaf Adai.md",
+    "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Drumstick Leaf Adai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "toor-dal",
+      "chana-dal",
+      "toor-dal",
+      "urad-dal",
+      "drumstick-leaves",
+      "onion",
+      "ginger",
+      "dry-red-chilli",
+      "cumin-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 18,
+      "total_time_min": 33
+    },
+    "nutrition_per_serving": {
+      "calories": 394,
+      "protein_g": 24,
+      "carbs_g": 61,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "foxtail-millet-kanchipuram-idli",
+    "name": "Foxtail Millet Kanchipuram Idli",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Foxtail Millet Kanchipuram Idli.md",
+    "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Foxtail Millet Kanchipuram Idli brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "foxtail-millet",
+      "urad-dal",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "ginger",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 14,
+      "total_time_min": 29
+    },
+    "nutrition_per_serving": {
+      "calories": 394,
+      "protein_g": 18,
+      "carbs_g": 67,
+      "fat_g": 6
+    }
+  },
+  {
+    "id": "green-gram-pesarattu",
+    "name": "Green Gram Pesarattu",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Green Gram Pesarattu.md",
+    "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Green Gram Pesarattu brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "green-gram",
+      "spinach",
+      "onion",
+      "ginger",
+      "green-chilli",
+      "cumin-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 15,
+      "total_time_min": 25
+    },
+    "nutrition_per_serving": {
+      "calories": 325,
+      "protein_g": 20,
+      "carbs_g": 53,
+      "fat_g": 5
+    }
+  },
+  {
+    "id": "horse-gram-idli",
+    "name": "Horse Gram Idli",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Horse Gram Idli.md",
+    "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Horse Gram Idli brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "horse-gram",
+      "urad-dal",
+      "fenugreek-seeds",
+      "spinach",
+      "ginger",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 14,
+      "total_time_min": 29
+    },
+    "nutrition_per_serving": {
+      "calories": 336,
+      "protein_g": 23,
+      "carbs_g": 56,
+      "fat_g": 3
+    }
+  },
+  {
+    "id": "kambu-vegetable-dosa",
+    "name": "Kambu Vegetable Dosa",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Kambu Vegetable Dosa.md",
+    "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Kambu Vegetable Dosa brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "urad-dal",
+      "kambu-flour",
+      "fenugreek-seeds",
+      "onion",
+      "capsicum",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 18,
+      "total_time_min": 33
+    },
+    "nutrition_per_serving": {
+      "calories": 527,
+      "protein_g": 16,
+      "carbs_g": 95,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "keerai-pesarattu",
+    "name": "Keerai Pesarattu",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Keerai Pesarattu.md",
+    "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Keerai Pesarattu brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "green-gram",
+      "spinach",
+      "onion",
+      "ginger",
+      "green-chilli",
+      "cumin-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 15,
+      "total_time_min": 25
+    },
+    "nutrition_per_serving": {
+      "calories": 325,
+      "protein_g": 20,
+      "carbs_g": 53,
+      "fat_g": 5
+    }
+  },
+  {
+    "id": "kollu-adai",
+    "name": "Kollu Adai",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Kollu Adai.md",
+    "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Kollu Adai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "horse-gram",
+      "chana-dal",
+      "toor-dal",
+      "urad-dal",
+      "spinach",
+      "onion",
+      "ginger",
+      "dry-red-chilli",
+      "cumin-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 18,
+      "total_time_min": 33
+    },
+    "nutrition_per_serving": {
+      "calories": 366,
+      "protein_g": 21,
+      "carbs_g": 57,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "kuthiraivali-coconut-sevai",
+    "name": "Kuthiraivali Coconut Sevai",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Kuthiraivali Coconut Sevai.md",
+    "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Kuthiraivali Coconut Sevai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "kuthiraivali",
+      "cabbage",
+      "onion",
+      "coconut",
+      "ginger",
+      "green-chilli",
+      "mustard-seeds",
+      "urad-dal",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 12,
+      "total_time_min": 24
+    },
+    "nutrition_per_serving": {
+      "calories": 366,
+      "protein_g": 12,
+      "carbs_g": 56,
+      "fat_g": 11
+    }
+  },
+  {
+    "id": "little-millet-vegetable-upma",
+    "name": "Little Millet Vegetable Upma",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Little Millet Vegetable Upma.md",
+    "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Little Millet Vegetable Upma brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "little-millet",
+      "beans",
+      "onion",
+      "carrot",
+      "ginger",
+      "green-chilli",
+      "chana-dal",
+      "urad-dal",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 18,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 395,
+      "protein_g": 13,
+      "carbs_g": 71,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "masala-vegetable-oats-uttappam",
+    "name": "Masala Vegetable Oats Uttappam",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Masala Vegetable Oats Uttappam.md",
+    "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Masala Vegetable Oats Uttappam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "urad-dal",
+      "rolled-oats",
+      "fenugreek-seeds",
+      "onion",
+      "capsicum",
+      "tomato",
+      "curry-leaves",
+      "black-pepper",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 20,
+      "total_time_min": 35
+    },
+    "nutrition_per_serving": {
+      "calories": 514,
+      "protein_g": 18,
+      "carbs_g": 91,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "methi-ragi-uthappam",
+    "name": "Methi Ragi Uthappam",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Methi Ragi Uthappam.md",
+    "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Methi Ragi Uthappam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "urad-dal",
+      "ragi-flour",
+      "fenugreek-seeds",
+      "onion",
+      "methi-leaves",
+      "tomato",
+      "curry-leaves",
+      "black-pepper",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 20,
+      "total_time_min": 35
+    },
+    "nutrition_per_serving": {
+      "calories": 509,
+      "protein_g": 17,
+      "carbs_g": 92,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "millet-idli-upma",
+    "name": "Millet Idli Upma",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Millet Idli Upma.md",
+    "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Millet Idli Upma brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "little-millet",
+      "onion",
+      "onion",
+      "carrot",
+      "ginger",
+      "green-chilli",
+      "chana-dal",
+      "urad-dal",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 18,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 401,
+      "protein_g": 12,
+      "carbs_g": 72,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "moringa-leaf-dosa",
+    "name": "Moringa Leaf Dosa",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Moringa Leaf Dosa.md",
+    "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Moringa Leaf Dosa brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "urad-dal",
+      "brown-rice",
+      "fenugreek-seeds",
+      "onion",
+      "drumstick-leaves",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 18,
+      "total_time_min": 33
+    },
+    "nutrition_per_serving": {
+      "calories": 543,
+      "protein_g": 18,
+      "carbs_g": 99,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "multi-millet-adai",
+    "name": "Multi Millet Adai",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Multi Millet Adai.md",
+    "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Multi Millet Adai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "foxtail-millet",
+      "chana-dal",
+      "toor-dal",
+      "urad-dal",
+      "drumstick-leaves",
+      "onion",
+      "ginger",
+      "dry-red-chilli",
+      "cumin-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 18,
+      "total_time_min": 33
+    },
+    "nutrition_per_serving": {
+      "calories": 397,
+      "protein_g": 21,
+      "carbs_g": 61,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "mushroom-pepper-thinai-upma",
+    "name": "Mushroom Pepper Thinai Upma",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Mushroom Pepper Thinai Upma.md",
+    "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Mushroom Pepper Thinai Upma brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "thinai",
+      "mushroom",
+      "onion",
+      "carrot",
+      "ginger",
+      "green-chilli",
+      "chana-dal",
+      "urad-dal",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 18,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 397,
+      "protein_g": 15,
+      "carbs_g": 66,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "oats-kuzhi-paniyaram",
+    "name": "Oats Kuzhi Paniyaram",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Oats Kuzhi Paniyaram.md",
+    "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Oats Kuzhi Paniyaram brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "rolled-oats",
+      "cabbage",
+      "onion",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 16,
+      "total_time_min": 26
+    },
+    "nutrition_per_serving": {
+      "calories": 496,
+      "protein_g": 20,
+      "carbs_g": 80,
+      "fat_g": 12
+    }
+  },
+  {
+    "id": "onion-tomato-kuthiraivali-uthappam",
+    "name": "Onion Tomato Kuthiraivali Uthappam",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Onion Tomato Kuthiraivali Uthappam.md",
+    "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Onion Tomato Kuthiraivali Uthappam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "urad-dal",
+      "kuthiraivali",
+      "fenugreek-seeds",
+      "onion",
+      "tomato",
+      "tomato",
+      "curry-leaves",
+      "black-pepper",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 20,
+      "total_time_min": 35
+    },
+    "nutrition_per_serving": {
+      "calories": 488,
+      "protein_g": 16,
+      "carbs_g": 87,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "pearl-millet-puttu",
+    "name": "Pearl Millet Puttu",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Pearl Millet Puttu.md",
+    "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Pearl Millet Puttu brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "kambu-flour",
+      "coconut",
+      "green-gram",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 10,
+      "total_time_min": 25
+    },
+    "nutrition_per_serving": {
+      "calories": 437,
+      "protein_g": 17,
+      "carbs_g": 75,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "pepper-kodo-millet-upma",
+    "name": "Pepper Kodo Millet Upma",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Pepper Kodo Millet Upma.md",
+    "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Pepper Kodo Millet Upma brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "kodo-millet",
+      "capsicum",
+      "onion",
+      "carrot",
+      "ginger",
+      "green-chilli",
+      "chana-dal",
+      "urad-dal",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 18,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 404,
+      "protein_g": 11,
+      "carbs_g": 70,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "pumpkin-idli",
+    "name": "Pumpkin Idli",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Pumpkin Idli.md",
+    "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Pumpkin Idli brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "little-millet",
+      "urad-dal",
+      "fenugreek-seeds",
+      "pumpkin",
+      "ginger",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 14,
+      "total_time_min": 29
+    },
+    "nutrition_per_serving": {
+      "calories": 350,
+      "protein_g": 14,
+      "carbs_g": 64,
+      "fat_g": 6
+    }
+  },
+  {
+    "id": "quinoa-ven-pongal",
+    "name": "Quinoa Ven Pongal",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Quinoa Ven Pongal.md",
+    "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Quinoa Ven Pongal brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "quinoa",
+      "split-moong-dal",
+      "bottle-gourd",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 374,
+      "protein_g": 16,
+      "carbs_g": 61,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "ragi-dosa",
+    "name": "Ragi Dosa",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Ragi Dosa.md",
+    "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Ragi Dosa brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "urad-dal",
+      "ragi-flour",
+      "fenugreek-seeds",
+      "onion",
+      "carrot",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 18,
+      "total_time_min": 33
+    },
+    "nutrition_per_serving": {
+      "calories": 524,
+      "protein_g": 15,
+      "carbs_g": 98,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "ragi-idiyappam",
+    "name": "Ragi Idiyappam",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Ragi Idiyappam.md",
+    "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Ragi Idiyappam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "ragi",
+      "carrot",
+      "onion",
+      "coconut",
+      "ginger",
+      "green-chilli",
+      "mustard-seeds",
+      "urad-dal",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 12,
+      "total_time_min": 24
+    },
+    "nutrition_per_serving": {
+      "calories": 397,
+      "protein_g": 9,
+      "carbs_g": 71,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "red-aval-vegetable-upma",
+    "name": "Red Aval Vegetable Upma",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Red Aval Vegetable Upma.md",
+    "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Red Aval Vegetable Upma brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "poha",
+      "capsicum",
+      "onion",
+      "carrot",
+      "ginger",
+      "green-chilli",
+      "chana-dal",
+      "urad-dal",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 18,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 402,
+      "protein_g": 10,
+      "carbs_g": 78,
+      "fat_g": 6
+    }
+  },
+  {
+    "id": "red-rice-aval-upma",
+    "name": "Red Rice Aval Upma",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Red Rice Aval Upma.md",
+    "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Red Rice Aval Upma brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "poha",
+      "beetroot",
+      "onion",
+      "carrot",
+      "ginger",
+      "green-chilli",
+      "chana-dal",
+      "urad-dal",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 18,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 409,
+      "protein_g": 10,
+      "carbs_g": 80,
+      "fat_g": 6
+    }
+  },
+  {
+    "id": "red-rice-idli",
+    "name": "Red Rice Idli",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Red Rice Idli.md",
+    "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Red Rice Idli brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "urad-dal",
+      "fenugreek-seeds",
+      "carrot",
+      "ginger",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 14,
+      "total_time_min": 29
+    },
+    "nutrition_per_serving": {
+      "calories": 369,
+      "protein_g": 12,
+      "carbs_g": 71,
+      "fat_g": 4
+    }
+  },
+  {
+    "id": "ridge-gourd-adai",
+    "name": "Ridge Gourd Adai",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Ridge Gourd Adai.md",
+    "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Ridge Gourd Adai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "chana-dal",
+      "chana-dal",
+      "toor-dal",
+      "urad-dal",
+      "ridge-gourd",
+      "onion",
+      "ginger",
+      "dry-red-chilli",
+      "cumin-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 18,
+      "total_time_min": 33
+    },
+    "nutrition_per_serving": {
+      "calories": 379,
+      "protein_g": 19,
+      "carbs_g": 58,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "saamai-vegetable-kichadi",
+    "name": "Saamai Vegetable Kichadi",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Saamai Vegetable Kichadi.md",
+    "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Saamai Vegetable Kichadi brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "samai",
+      "split-moong-dal",
+      "carrot",
+      "onion",
+      "ginger",
+      "green-chilli",
+      "mustard-seeds",
+      "cumin-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 382,
+      "protein_g": 13,
+      "carbs_g": 69,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "samai-vegetable-pongal",
+    "name": "Samai Vegetable Pongal",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Samai Vegetable Pongal.md",
+    "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Samai Vegetable Pongal brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "samai",
+      "split-moong-dal",
+      "pumpkin",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 364,
+      "protein_g": 14,
+      "carbs_g": 64,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "thinai-coconut-puttu",
+    "name": "Thinai Coconut Puttu",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Thinai Coconut Puttu.md",
+    "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Thinai Coconut Puttu brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "thinai",
+      "coconut",
+      "green-gram",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 10,
+      "total_time_min": 25
+    },
+    "nutrition_per_serving": {
+      "calories": 429,
+      "protein_g": 17,
+      "carbs_g": 71,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "thinai-onion-uthappam",
+    "name": "Thinai Onion Uthappam",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Thinai Onion Uthappam.md",
+    "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Thinai Onion Uthappam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "urad-dal",
+      "thinai",
+      "fenugreek-seeds",
+      "onion",
+      "onion",
+      "tomato",
+      "curry-leaves",
+      "black-pepper",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 20,
+      "total_time_min": 35
+    },
+    "nutrition_per_serving": {
+      "calories": 509,
+      "protein_g": 16,
+      "carbs_g": 92,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "tomato-millet-bath",
+    "name": "Tomato Millet Bath",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Tomato Millet Bath.md",
+    "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Tomato Millet Bath brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "foxtail-millet",
+      "tomato",
+      "onion",
+      "carrot",
+      "ginger",
+      "green-chilli",
+      "chana-dal",
+      "urad-dal",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 18,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 395,
+      "protein_g": 14,
+      "carbs_g": 66,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "ulundhu-kali-with-buttermilk",
+    "name": "Ulundhu Kali with Buttermilk",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Ulundhu Kali with Buttermilk.md",
+    "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Ulundhu Kali with Buttermilk brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "urad-dal",
+      "low-fat-buttermilk",
+      "water",
+      "salt",
+      "cumin-seeds",
+      "ginger"
+    ],
+    "timing": {
+      "prep_time_min": 8,
+      "cook_time_min": 12,
+      "total_time_min": 20
+    },
+    "nutrition_per_serving": {
+      "calories": 286,
+      "protein_g": 21,
+      "carbs_g": 47,
+      "fat_g": 2
+    }
+  },
+  {
+    "id": "vegetable-kambu-kozhukattai",
+    "name": "Vegetable Kambu Kozhukattai",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Vegetable Kambu Kozhukattai.md",
+    "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Vegetable Kambu Kozhukattai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "kambu",
+      "beans",
+      "coconut",
+      "green-chilli",
+      "ginger",
+      "mustard-seeds",
+      "urad-dal",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 14,
+      "cook_time_min": 18,
+      "total_time_min": 32
+    },
+    "nutrition_per_serving": {
+      "calories": 380,
+      "protein_g": 12,
+      "carbs_g": 60,
+      "fat_g": 11
+    }
+  },
+  {
+    "id": "vegetable-quinoa-paniyaram",
+    "name": "Vegetable Quinoa Paniyaram",
+    "category": "breakfast",
+    "source_note": "Resources/Recipes/Breakfast/Vegetable Quinoa Paniyaram.md",
+    "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Vegetable Quinoa Paniyaram brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "quinoa",
+      "carrot",
+      "onion",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 16,
+      "total_time_min": 26
+    },
+    "nutrition_per_serving": {
+      "calories": 481,
+      "protein_g": 17,
+      "carbs_g": 80,
+      "fat_g": 11
+    }
+  },
+  {
+    "id": "adai-with-avial",
+    "name": "Adai with Avial",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Adai with Avial.md",
+    "description": "A lighter evening recipe designed to feel comforting without becoming heavy or starch-dense. Adai with Avial brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "chana-dal",
+      "chana-dal",
+      "toor-dal",
+      "urad-dal",
+      "carrot",
+      "onion",
+      "ginger",
+      "dry-red-chilli",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 16,
+      "total_time_min": 28
+    },
+    "nutrition_per_serving": {
+      "calories": 371,
+      "protein_g": 19,
+      "carbs_g": 59,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "barnyard-millet-curd-sevai",
+    "name": "Barnyard Millet Curd Sevai",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Barnyard Millet Curd Sevai.md",
+    "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Barnyard Millet Curd Sevai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "barnyard-millet",
+      "cucumber",
+      "onion",
+      "coconut",
+      "mustard-seeds",
+      "urad-dal",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 12,
+      "total_time_min": 22
+    },
+    "nutrition_per_serving": {
+      "calories": 352,
+      "protein_g": 11,
+      "carbs_g": 53,
+      "fat_g": 10
+    }
+  },
+  {
+    "id": "bottle-gourd-moong-stew-with-kodo-millet",
+    "name": "Bottle Gourd Moong Stew with Kodo Millet",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Bottle Gourd Moong Stew with Kodo Millet.md",
+    "description": "This dinner keeps the palate warm and savory while leaning on vegetables and lentils more than fat. Bottle Gourd Moong Stew with Kodo Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "bottle-gourd",
+      "moong-dal",
+      "onion",
+      "garlic",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 22,
+      "total_time_min": 34
+    },
+    "nutrition_per_serving": {
+      "calories": 189,
+      "protein_g": 10,
+      "carbs_g": 32,
+      "fat_g": 4
+    }
+  },
+  {
+    "id": "broken-wheat-vegetable-pongal",
+    "name": "Broken Wheat Vegetable Pongal",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Broken Wheat Vegetable Pongal.md",
+    "description": "A lighter evening recipe designed to feel comforting without becoming heavy or starch-dense. Broken Wheat Vegetable Pongal brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "broken-wheat",
+      "split-moong-dal",
+      "beans",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 373,
+      "protein_g": 16,
+      "carbs_g": 71,
+      "fat_g": 5
+    }
+  },
+  {
+    "id": "brown-rice-appam-with-tomato-kurma",
+    "name": "Brown Rice Appam with Tomato Kurma",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Brown Rice Appam with Tomato Kurma.md",
+    "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Brown Rice Appam with Tomato Kurma brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "urad-dal",
+      "coconut",
+      "light-coconut-milk",
+      "tomato",
+      "green-peas",
+      "onion",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 20,
+      "total_time_min": 38
+    },
+    "nutrition_per_serving": {
+      "calories": 491,
+      "protein_g": 12,
+      "carbs_g": 73,
+      "fat_g": 17
+    }
+  },
+  {
+    "id": "brown-rice-vegetable-sevai",
+    "name": "Brown Rice Vegetable Sevai",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Brown Rice Vegetable Sevai.md",
+    "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Brown Rice Vegetable Sevai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "cabbage",
+      "onion",
+      "coconut",
+      "mustard-seeds",
+      "urad-dal",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 12,
+      "total_time_min": 22
+    },
+    "nutrition_per_serving": {
+      "calories": 399,
+      "protein_g": 9,
+      "carbs_g": 71,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "cabbage-kothamalli-adai",
+    "name": "Cabbage Kothamalli Adai",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Cabbage Kothamalli Adai.md",
+    "description": "This dinner keeps the palate warm and savory while leaning on vegetables and lentils more than fat. Cabbage Kothamalli Adai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "chana-dal",
+      "chana-dal",
+      "toor-dal",
+      "urad-dal",
+      "cabbage",
+      "onion",
+      "ginger",
+      "dry-red-chilli",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 16,
+      "total_time_min": 28
+    },
+    "nutrition_per_serving": {
+      "calories": 363,
+      "protein_g": 19,
+      "carbs_g": 56,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "coconut-vegetable-soup-with-ragi-string-hoppers",
+    "name": "Coconut Vegetable Soup with Ragi String Hoppers",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Coconut Vegetable Soup with Ragi String Hoppers.md",
+    "description": "A lighter evening recipe designed to feel comforting without becoming heavy or starch-dense. Coconut Vegetable Soup with Ragi String Hoppers brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "ragi-flour",
+      "bottle-gourd",
+      "light-coconut-milk",
+      "green-peas",
+      "onion",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 14,
+      "cook_time_min": 16,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 440,
+      "protein_g": 10,
+      "carbs_g": 73,
+      "fat_g": 12
+    }
+  },
+  {
+    "id": "cucumber-buttermilk-kichadi-with-foxtail-millet",
+    "name": "Cucumber Buttermilk Kichadi with Foxtail Millet",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Cucumber Buttermilk Kichadi with Foxtail Millet.md",
+    "description": "The dish uses South Indian evening-tiffin logic: quick-cooking grains, legumes, and aromatic tempering for depth without richness. Cucumber Buttermilk Kichadi with Foxtail Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "foxtail-millet",
+      "cucumber",
+      "split-moong-dal",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "low-fat-buttermilk",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 22,
+      "total_time_min": 32
+    },
+    "nutrition_per_serving": {
+      "calories": 356,
+      "protein_g": 16,
+      "carbs_g": 58,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "drumstick-leaf-soup-with-little-millet",
+    "name": "Drumstick Leaf Soup with Little Millet",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Drumstick Leaf Soup with Little Millet.md",
+    "description": "This dinner keeps the palate warm and savory while leaning on vegetables and lentils more than fat. Drumstick Leaf Soup with Little Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "drumstick-leaves",
+      "little-millet",
+      "onion",
+      "garlic",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 22,
+      "total_time_min": 34
+    },
+    "nutrition_per_serving": {
+      "calories": 252,
+      "protein_g": 16,
+      "carbs_g": 39,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "foxtail-millet-pidi-kozhukattai-in-pepper-broth",
+    "name": "Foxtail Millet Pidi Kozhukattai in Pepper Broth",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Foxtail Millet Pidi Kozhukattai in Pepper Broth.md",
+    "description": "A lighter evening recipe designed to feel comforting without becoming heavy or starch-dense. Foxtail Millet Pidi Kozhukattai in Pepper Broth brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "foxtail-millet",
+      "cabbage",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "light-coconut-milk",
+      "moong-dal",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 16,
+      "cook_time_min": 18,
+      "total_time_min": 34
+    },
+    "nutrition_per_serving": {
+      "calories": 505,
+      "protein_g": 18,
+      "carbs_g": 74,
+      "fat_g": 15
+    }
+  },
+  {
+    "id": "horse-gram-adai-with-beetroot-chutney",
+    "name": "Horse Gram Adai with Beetroot Chutney",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Horse Gram Adai with Beetroot Chutney.md",
+    "description": "A lighter evening recipe designed to feel comforting without becoming heavy or starch-dense. Horse Gram Adai with Beetroot Chutney brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "horse-gram",
+      "chana-dal",
+      "toor-dal",
+      "urad-dal",
+      "onion",
+      "onion",
+      "ginger",
+      "dry-red-chilli",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 16,
+      "total_time_min": 28
+    },
+    "nutrition_per_serving": {
+      "calories": 355,
+      "protein_g": 19,
+      "carbs_g": 57,
+      "fat_g": 6
+    }
+  },
+  {
+    "id": "idiyappam-with-vegetable-ishtu",
+    "name": "Idiyappam with Vegetable Ishtu",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Idiyappam with Vegetable Ishtu.md",
+    "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Idiyappam with Vegetable Ishtu brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice-flour",
+      "bottle-gourd",
+      "light-coconut-milk",
+      "green-peas",
+      "onion",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 14,
+      "cook_time_min": 16,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 459,
+      "protein_g": 10,
+      "carbs_g": 76,
+      "fat_g": 13
+    }
+  },
+  {
+    "id": "jowar-vegetable-kanji",
+    "name": "Jowar Vegetable Kanji",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Jowar Vegetable Kanji.md",
+    "description": "This dinner keeps the palate warm and savory while leaning on vegetables and lentils more than fat. Jowar Vegetable Kanji brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "jowar",
+      "capsicum",
+      "split-moong-dal",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "low-fat-buttermilk",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 22,
+      "total_time_min": 32
+    },
+    "nutrition_per_serving": {
+      "calories": 352,
+      "protein_g": 15,
+      "carbs_g": 65,
+      "fat_g": 6
+    }
+  },
+  {
+    "id": "kambu-roti-with-ridge-gourd-kootu",
+    "name": "Kambu Roti with Ridge Gourd Kootu",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Kambu Roti with Ridge Gourd Kootu.md",
+    "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Kambu Roti with Ridge Gourd Kootu brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "kambu-flour",
+      "water",
+      "salt",
+      "ridge-gourd",
+      "moong-dal",
+      "coconut",
+      "cumin-seeds",
+      "green-chilli",
+      "sesame-oil",
+      "curry-leaves"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 20,
+      "total_time_min": 38
+    },
+    "nutrition_per_serving": {
+      "calories": 497,
+      "protein_g": 19,
+      "carbs_g": 83,
+      "fat_g": 11
+    }
+  },
+  {
+    "id": "keerai-adai-with-garlic-chutney",
+    "name": "Keerai Adai with Garlic Chutney",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Keerai Adai with Garlic Chutney.md",
+    "description": "The dish uses South Indian evening-tiffin logic: quick-cooking grains, legumes, and aromatic tempering for depth without richness. Keerai Adai with Garlic Chutney brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "toor-dal",
+      "chana-dal",
+      "toor-dal",
+      "urad-dal",
+      "spinach",
+      "onion",
+      "ginger",
+      "dry-red-chilli",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 16,
+      "total_time_min": 28
+    },
+    "nutrition_per_serving": {
+      "calories": 354,
+      "protein_g": 20,
+      "carbs_g": 56,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "kollu-soup-with-cabbage-thoran",
+    "name": "Kollu Soup with Cabbage Thoran",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Kollu Soup with Cabbage Thoran.md",
+    "description": "The dish uses South Indian evening-tiffin logic: quick-cooking grains, legumes, and aromatic tempering for depth without richness. Kollu Soup with Cabbage Thoran brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "cabbage",
+      "horse-gram",
+      "onion",
+      "garlic",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 22,
+      "total_time_min": 34
+    },
+    "nutrition_per_serving": {
+      "calories": 194,
+      "protein_g": 10,
+      "carbs_g": 33,
+      "fat_g": 3
+    }
+  },
+  {
+    "id": "lauki-coconut-milk-soup-with-barnyard-millet",
+    "name": "Lauki Coconut Milk Soup with Barnyard Millet",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Lauki Coconut Milk Soup with Barnyard Millet.md",
+    "description": "The dish uses South Indian evening-tiffin logic: quick-cooking grains, legumes, and aromatic tempering for depth without richness. Lauki Coconut Milk Soup with Barnyard Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "bottle-gourd",
+      "barnyard-millet",
+      "onion",
+      "garlic",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 22,
+      "total_time_min": 34
+    },
+    "nutrition_per_serving": {
+      "calories": 175,
+      "protein_g": 5,
+      "carbs_g": 29,
+      "fat_g": 5
+    }
+  },
+  {
+    "id": "little-millet-upma-kozhukattai",
+    "name": "Little Millet Upma Kozhukattai",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Little Millet Upma Kozhukattai.md",
+    "description": "A lighter evening recipe designed to feel comforting without becoming heavy or starch-dense. Little Millet Upma Kozhukattai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "little-millet",
+      "carrot",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "light-coconut-milk",
+      "moong-dal",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 16,
+      "cook_time_min": 18,
+      "total_time_min": 34
+    },
+    "nutrition_per_serving": {
+      "calories": 505,
+      "protein_g": 16,
+      "carbs_g": 79,
+      "fat_g": 15
+    }
+  },
+  {
+    "id": "methi-oats-dosa-with-capsicum-chutney",
+    "name": "Methi Oats Dosa with Capsicum Chutney",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Methi Oats Dosa with Capsicum Chutney.md",
+    "description": "A lighter evening recipe designed to feel comforting without becoming heavy or starch-dense. Methi Oats Dosa with Capsicum Chutney brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "rolled-oats",
+      "urad-dal",
+      "methi-leaves",
+      "onion",
+      "ginger",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 15,
+      "total_time_min": 27
+    },
+    "nutrition_per_serving": {
+      "calories": 450,
+      "protein_g": 21,
+      "carbs_g": 71,
+      "fat_g": 10
+    }
+  },
+  {
+    "id": "millet-pidi-kozhukattai-with-lentil-stew",
+    "name": "Millet Pidi Kozhukattai with Lentil Stew",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Millet Pidi Kozhukattai with Lentil Stew.md",
+    "description": "A lighter evening recipe designed to feel comforting without becoming heavy or starch-dense. Millet Pidi Kozhukattai with Lentil Stew brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "kodo-millet",
+      "cabbage",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "light-coconut-milk",
+      "moong-dal",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 16,
+      "cook_time_min": 18,
+      "total_time_min": 34
+    },
+    "nutrition_per_serving": {
+      "calories": 506,
+      "protein_g": 15,
+      "carbs_g": 76,
+      "fat_g": 14
+    }
+  },
+  {
+    "id": "millet-pongal-with-pepper-mushroom",
+    "name": "Millet Pongal with Pepper Mushroom",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Millet Pongal with Pepper Mushroom.md",
+    "description": "This dinner keeps the palate warm and savory while leaning on vegetables and lentils more than fat. Millet Pongal with Pepper Mushroom brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "little-millet",
+      "split-moong-dal",
+      "mushroom",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 366,
+      "protein_g": 15,
+      "carbs_g": 63,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "moong-dal-dosa-with-tomato-chutney",
+    "name": "Moong Dal Dosa with Tomato Chutney",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Moong Dal Dosa with Tomato Chutney.md",
+    "description": "The dish uses South Indian evening-tiffin logic: quick-cooking grains, legumes, and aromatic tempering for depth without richness. Moong Dal Dosa with Tomato Chutney brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "green-gram",
+      "urad-dal",
+      "onion",
+      "onion",
+      "ginger",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 15,
+      "total_time_min": 27
+    },
+    "nutrition_per_serving": {
+      "calories": 415,
+      "protein_g": 25,
+      "carbs_g": 70,
+      "fat_g": 5
+    }
+  },
+  {
+    "id": "mushroom-paniyaram-with-onion-chutney",
+    "name": "Mushroom Paniyaram with Onion Chutney",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Mushroom Paniyaram with Onion Chutney.md",
+    "description": "A lighter evening recipe designed to feel comforting without becoming heavy or starch-dense. Mushroom Paniyaram with Onion Chutney brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "little-millet",
+      "urad-dal",
+      "mushroom",
+      "onion",
+      "tomato",
+      "curry-leaves",
+      "black-pepper",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 16,
+      "total_time_min": 28
+    },
+    "nutrition_per_serving": {
+      "calories": 418,
+      "protein_g": 17,
+      "carbs_g": 73,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "oats-and-red-rice-idli-with-sambar",
+    "name": "Oats and Red Rice Idli with Sambar",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Oats and Red Rice Idli with Sambar.md",
+    "description": "The dish uses South Indian evening-tiffin logic: quick-cooking grains, legumes, and aromatic tempering for depth without richness. Oats and Red Rice Idli with Sambar brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "rolled-oats",
+      "urad-dal",
+      "fenugreek-seeds",
+      "tomato",
+      "toor-dal",
+      "tomato",
+      "garlic",
+      "cumin-seeds",
+      "black-pepper",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 22,
+      "total_time_min": 40
+    },
+    "nutrition_per_serving": {
+      "calories": 524,
+      "protein_g": 27,
+      "carbs_g": 88,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "pearl-millet-idli-with-soppu-saaru",
+    "name": "Pearl Millet Idli with Soppu Saaru",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Pearl Millet Idli with Soppu Saaru.md",
+    "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Pearl Millet Idli with Soppu Saaru brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "kambu",
+      "urad-dal",
+      "fenugreek-seeds",
+      "amaranth-leaves",
+      "toor-dal",
+      "tomato",
+      "garlic",
+      "cumin-seeds",
+      "black-pepper",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 22,
+      "total_time_min": 40
+    },
+    "nutrition_per_serving": {
+      "calories": 508,
+      "protein_g": 24,
+      "carbs_g": 88,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "pepper-jeera-thinai-kanji",
+    "name": "Pepper Jeera Thinai Kanji",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Pepper Jeera Thinai Kanji.md",
+    "description": "The dish uses South Indian evening-tiffin logic: quick-cooking grains, legumes, and aromatic tempering for depth without richness. Pepper Jeera Thinai Kanji brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "thinai",
+      "bottle-gourd",
+      "split-moong-dal",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "low-fat-buttermilk",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 22,
+      "total_time_min": 32
+    },
+    "nutrition_per_serving": {
+      "calories": 355,
+      "protein_g": 16,
+      "carbs_g": 58,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "pepper-rasam-with-steamed-red-rice-dumplings",
+    "name": "Pepper Rasam with Steamed Red Rice Dumplings",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Pepper Rasam with Steamed Red Rice Dumplings.md",
+    "description": "This dinner keeps the palate warm and savory while leaning on vegetables and lentils more than fat. Pepper Rasam with Steamed Red Rice Dumplings brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice-flour",
+      "tomato",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "light-coconut-milk",
+      "moong-dal",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 16,
+      "cook_time_min": 18,
+      "total_time_min": 34
+    },
+    "nutrition_per_serving": {
+      "calories": 508,
+      "protein_g": 15,
+      "carbs_g": 82,
+      "fat_g": 14
+    }
+  },
+  {
+    "id": "pesarattu-with-mint-chutney",
+    "name": "Pesarattu with Mint Chutney",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Pesarattu with Mint Chutney.md",
+    "description": "This dinner keeps the palate warm and savory while leaning on vegetables and lentils more than fat. Pesarattu with Mint Chutney brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "green-gram",
+      "urad-dal",
+      "onion",
+      "onion",
+      "ginger",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 15,
+      "total_time_min": 27
+    },
+    "nutrition_per_serving": {
+      "calories": 415,
+      "protein_g": 25,
+      "carbs_g": 70,
+      "fat_g": 5
+    }
+  },
+  {
+    "id": "pumpkin-soup-with-foxtail-millet-dumplings",
+    "name": "Pumpkin Soup with Foxtail Millet Dumplings",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Pumpkin Soup with Foxtail Millet Dumplings.md",
+    "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Pumpkin Soup with Foxtail Millet Dumplings brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "pumpkin",
+      "foxtail-millet",
+      "onion",
+      "garlic",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 22,
+      "total_time_min": 34
+    },
+    "nutrition_per_serving": {
+      "calories": 206,
+      "protein_g": 6,
+      "carbs_g": 36,
+      "fat_g": 5
+    }
+  },
+  {
+    "id": "quinoa-tomato-kanji",
+    "name": "Quinoa Tomato Kanji",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Quinoa Tomato Kanji.md",
+    "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Quinoa Tomato Kanji brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "quinoa",
+      "tomato",
+      "split-moong-dal",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "low-fat-buttermilk",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 22,
+      "total_time_min": 32
+    },
+    "nutrition_per_serving": {
+      "calories": 368,
+      "protein_g": 17,
+      "carbs_g": 59,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "ragi-mudde-with-keerai-saaru",
+    "name": "Ragi Mudde with Keerai Saaru",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Ragi Mudde with Keerai Saaru.md",
+    "description": "The dish uses South Indian evening-tiffin logic: quick-cooking grains, legumes, and aromatic tempering for depth without richness. Ragi Mudde with Keerai Saaru brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "ragi-flour",
+      "water",
+      "salt",
+      "spinach",
+      "toor-dal",
+      "tomato",
+      "garlic",
+      "cumin-seeds",
+      "black-pepper",
+      "sesame-oil"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 20,
+      "total_time_min": 32
+    },
+    "nutrition_per_serving": {
+      "calories": 452,
+      "protein_g": 17,
+      "carbs_g": 86,
+      "fat_g": 5
+    }
+  },
+  {
+    "id": "ragi-semiya-upma",
+    "name": "Ragi Semiya Upma",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Ragi Semiya Upma.md",
+    "description": "This dinner keeps the palate warm and savory while leaning on vegetables and lentils more than fat. Ragi Semiya Upma brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "ragi",
+      "carrot",
+      "onion",
+      "coconut",
+      "mustard-seeds",
+      "urad-dal",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 12,
+      "total_time_min": 22
+    },
+    "nutrition_per_serving": {
+      "calories": 388,
+      "protein_g": 8,
+      "carbs_g": 70,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "raw-banana-adai-with-curd-dip",
+    "name": "Raw Banana Adai with Curd Dip",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Raw Banana Adai with Curd Dip.md",
+    "description": "The dish uses South Indian evening-tiffin logic: quick-cooking grains, legumes, and aromatic tempering for depth without richness. Raw Banana Adai with Curd Dip brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "chana-dal",
+      "chana-dal",
+      "toor-dal",
+      "urad-dal",
+      "raw-banana",
+      "onion",
+      "ginger",
+      "dry-red-chilli",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 16,
+      "total_time_min": 28
+    },
+    "nutrition_per_serving": {
+      "calories": 395,
+      "protein_g": 19,
+      "carbs_g": 65,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "red-rice-neer-dosa-with-vegetable-saagu",
+    "name": "Red Rice Neer Dosa with Vegetable Saagu",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Red Rice Neer Dosa with Vegetable Saagu.md",
+    "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Red Rice Neer Dosa with Vegetable Saagu brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "urad-dal",
+      "carrot",
+      "onion",
+      "ginger",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 15,
+      "total_time_min": 27
+    },
+    "nutrition_per_serving": {
+      "calories": 425,
+      "protein_g": 13,
+      "carbs_g": 80,
+      "fat_g": 6
+    }
+  },
+  {
+    "id": "samai-vegetable-uttappam",
+    "name": "Samai Vegetable Uttappam",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Samai Vegetable Uttappam.md",
+    "description": "The dish uses South Indian evening-tiffin logic: quick-cooking grains, legumes, and aromatic tempering for depth without richness. Samai Vegetable Uttappam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "samai",
+      "urad-dal",
+      "capsicum",
+      "onion",
+      "tomato",
+      "curry-leaves",
+      "black-pepper",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 16,
+      "total_time_min": 28
+    },
+    "nutrition_per_serving": {
+      "calories": 423,
+      "protein_g": 16,
+      "carbs_g": 74,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "set-dosa-with-green-pea-kurma",
+    "name": "Set Dosa with Green Pea Kurma",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Set Dosa with Green Pea Kurma.md",
+    "description": "A lighter evening recipe designed to feel comforting without becoming heavy or starch-dense. Set Dosa with Green Pea Kurma brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "urad-dal",
+      "green-peas",
+      "onion",
+      "ginger",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 15,
+      "total_time_min": 27
+    },
+    "nutrition_per_serving": {
+      "calories": 451,
+      "protein_g": 15,
+      "carbs_g": 82,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "south-indian-sundal-salad-bowl",
+    "name": "South Indian Sundal Salad Bowl",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/South Indian Sundal Salad Bowl.md",
+    "description": "The dish uses South Indian evening-tiffin logic: quick-cooking grains, legumes, and aromatic tempering for depth without richness. South Indian Sundal Salad Bowl brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "cucumber",
+      "black-chana",
+      "onion",
+      "garlic",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 22,
+      "total_time_min": 34
+    },
+    "nutrition_per_serving": {
+      "calories": 196,
+      "protein_g": 9,
+      "carbs_g": 31,
+      "fat_g": 5
+    }
+  },
+  {
+    "id": "spinach-pesarattu-rolls",
+    "name": "Spinach Pesarattu Rolls",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Spinach Pesarattu Rolls.md",
+    "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Spinach Pesarattu Rolls brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "green-gram",
+      "urad-dal",
+      "spinach",
+      "onion",
+      "ginger",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 15,
+      "total_time_min": 27
+    },
+    "nutrition_per_serving": {
+      "calories": 407,
+      "protein_g": 26,
+      "carbs_g": 67,
+      "fat_g": 6
+    }
+  },
+  {
+    "id": "sweet-corn-adai-with-curry-leaf-chutney",
+    "name": "Sweet Corn Adai with Curry Leaf Chutney",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Sweet Corn Adai with Curry Leaf Chutney.md",
+    "description": "A lighter evening recipe designed to feel comforting without becoming heavy or starch-dense. Sweet Corn Adai with Curry Leaf Chutney brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "cowpea",
+      "chana-dal",
+      "toor-dal",
+      "urad-dal",
+      "corn",
+      "onion",
+      "ginger",
+      "dry-red-chilli",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 16,
+      "total_time_min": 28
+    },
+    "nutrition_per_serving": {
+      "calories": 383,
+      "protein_g": 21,
+      "carbs_g": 63,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "thinai-vegetable-kanji",
+    "name": "Thinai Vegetable Kanji",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Thinai Vegetable Kanji.md",
+    "description": "This dinner keeps the palate warm and savory while leaning on vegetables and lentils more than fat. Thinai Vegetable Kanji brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "thinai",
+      "beans",
+      "split-moong-dal",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "low-fat-buttermilk",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 22,
+      "total_time_min": 32
+    },
+    "nutrition_per_serving": {
+      "calories": 365,
+      "protein_g": 16,
+      "carbs_g": 60,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "tomato-millet-sevai",
+    "name": "Tomato Millet Sevai",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Tomato Millet Sevai.md",
+    "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Tomato Millet Sevai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "foxtail-millet",
+      "tomato",
+      "onion",
+      "coconut",
+      "mustard-seeds",
+      "urad-dal",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 12,
+      "total_time_min": 22
+    },
+    "nutrition_per_serving": {
+      "calories": 388,
+      "protein_g": 12,
+      "carbs_g": 60,
+      "fat_g": 11
+    }
+  },
+  {
+    "id": "tomato-oats-uttappam",
+    "name": "Tomato Oats Uttappam",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Tomato Oats Uttappam.md",
+    "description": "This dinner keeps the palate warm and savory while leaning on vegetables and lentils more than fat. Tomato Oats Uttappam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "rolled-oats",
+      "urad-dal",
+      "tomato",
+      "onion",
+      "tomato",
+      "curry-leaves",
+      "black-pepper",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 16,
+      "total_time_min": 28
+    },
+    "nutrition_per_serving": {
+      "calories": 452,
+      "protein_g": 21,
+      "carbs_g": 73,
+      "fat_g": 10
+    }
+  },
+  {
+    "id": "vegetable-appam-with-stew",
+    "name": "Vegetable Appam with Stew",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Vegetable Appam with Stew.md",
+    "description": "A lighter evening recipe designed to feel comforting without becoming heavy or starch-dense. Vegetable Appam with Stew brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "urad-dal",
+      "coconut",
+      "light-coconut-milk",
+      "pumpkin",
+      "green-peas",
+      "onion",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 20,
+      "total_time_min": 38
+    },
+    "nutrition_per_serving": {
+      "calories": 500,
+      "protein_g": 12,
+      "carbs_g": 76,
+      "fat_g": 17
+    }
+  },
+  {
+    "id": "vegetable-kozhukattai-in-coconut-broth",
+    "name": "Vegetable Kozhukattai in Coconut Broth",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Vegetable Kozhukattai in Coconut Broth.md",
+    "description": "This dinner keeps the palate warm and savory while leaning on vegetables and lentils more than fat. Vegetable Kozhukattai in Coconut Broth brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice-flour",
+      "beans",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "light-coconut-milk",
+      "moong-dal",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 16,
+      "cook_time_min": 18,
+      "total_time_min": 34
+    },
+    "nutrition_per_serving": {
+      "calories": 515,
+      "protein_g": 15,
+      "carbs_g": 84,
+      "fat_g": 14
+    }
+  },
+  {
+    "id": "vegetable-kurma-with-ragi-idiyappam",
+    "name": "Vegetable Kurma with Ragi Idiyappam",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Vegetable Kurma with Ragi Idiyappam.md",
+    "description": "The dish uses South Indian evening-tiffin logic: quick-cooking grains, legumes, and aromatic tempering for depth without richness. Vegetable Kurma with Ragi Idiyappam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "ragi-flour",
+      "cauliflower",
+      "light-coconut-milk",
+      "green-peas",
+      "onion",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 14,
+      "cook_time_min": 16,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 451,
+      "protein_g": 11,
+      "carbs_g": 74,
+      "fat_g": 12
+    }
+  },
+  {
+    "id": "vegetable-oats-kanji",
+    "name": "Vegetable Oats Kanji",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Vegetable Oats Kanji.md",
+    "description": "A lighter evening recipe designed to feel comforting without becoming heavy or starch-dense. Vegetable Oats Kanji brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "rolled-oats",
+      "carrot",
+      "split-moong-dal",
+      "ginger",
+      "black-pepper",
+      "cumin-seeds",
+      "low-fat-buttermilk",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 22,
+      "total_time_min": 32
+    },
+    "nutrition_per_serving": {
+      "calories": 394,
+      "protein_g": 19,
+      "carbs_g": 64,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "vegetable-thakkali-aval",
+    "name": "Vegetable Thakkali Aval",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Vegetable Thakkali Aval.md",
+    "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Vegetable Thakkali Aval brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "poha",
+      "tomato",
+      "onion",
+      "coconut",
+      "mustard-seeds",
+      "urad-dal",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 10,
+      "cook_time_min": 12,
+      "total_time_min": 22
+    },
+    "nutrition_per_serving": {
+      "calories": 387,
+      "protein_g": 8,
+      "carbs_g": 71,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "vegetable-uttappam-with-sambar",
+    "name": "Vegetable Uttappam with Sambar",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Vegetable Uttappam with Sambar.md",
+    "description": "This dinner keeps the palate warm and savory while leaning on vegetables and lentils more than fat. Vegetable Uttappam with Sambar brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "urad-dal",
+      "capsicum",
+      "onion",
+      "tomato",
+      "curry-leaves",
+      "black-pepper",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 16,
+      "total_time_min": 28
+    },
+    "nutrition_per_serving": {
+      "calories": 445,
+      "protein_g": 14,
+      "carbs_g": 82,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "vendhaya-dosa-with-mixed-vegetable-sagu",
+    "name": "Vendhaya Dosa with Mixed Vegetable Sagu",
+    "category": "dinner",
+    "source_note": "Resources/Recipes/Dinner/Vendhaya Dosa with Mixed Vegetable Sagu.md",
+    "description": "The dish uses South Indian evening-tiffin logic: quick-cooking grains, legumes, and aromatic tempering for depth without richness. Vendhaya Dosa with Mixed Vegetable Sagu brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "urad-dal",
+      "methi-leaves",
+      "onion",
+      "ginger",
+      "cumin-seeds",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 12,
+      "cook_time_min": 15,
+      "total_time_min": 27
+    },
+    "nutrition_per_serving": {
+      "calories": 436,
+      "protein_g": 15,
+      "carbs_g": 79,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "amaranth-dal-with-brown-rice",
+    "name": "Amaranth Dal with Brown Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Amaranth Dal with Brown Rice.md",
+    "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Amaranth Dal with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "toor-dal",
+      "amaranth-leaves",
+      "onion",
+      "tomato",
+      "garlic",
+      "cumin-seeds",
+      "turmeric",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 24,
+      "total_time_min": 39
+    },
+    "nutrition_per_serving": {
+      "calories": 530,
+      "protein_g": 20,
+      "carbs_g": 100,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "ash-gourd-mor-kuzhambu-with-red-rice",
+    "name": "Ash Gourd Mor Kuzhambu with Red Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Ash Gourd Mor Kuzhambu with Red Rice.md",
+    "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Ash Gourd Mor Kuzhambu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "ash-gourd",
+      "low-fat-curd",
+      "coconut",
+      "toor-dal",
+      "cumin-seeds",
+      "green-chilli",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 20,
+      "total_time_min": 38
+    },
+    "nutrition_per_serving": {
+      "calories": 463,
+      "protein_g": 12,
+      "carbs_g": 76,
+      "fat_g": 11
+    }
+  },
+  {
+    "id": "avarakkai-paruppu-usili-with-red-rice",
+    "name": "Avarakkai Paruppu Usili with Red Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Avarakkai Paruppu Usili with Red Rice.md",
+    "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Avarakkai Paruppu Usili with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "chana-dal",
+      "toor-dal",
+      "beans",
+      "dry-red-chilli",
+      "asafoetida",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 24,
+      "total_time_min": 42
+    },
+    "nutrition_per_serving": {
+      "calories": 537,
+      "protein_g": 19,
+      "carbs_g": 99,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "banana-stem-mor-kootu-with-kodo-millet",
+    "name": "Banana Stem Mor Kootu with Kodo Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Banana Stem Mor Kootu with Kodo Millet.md",
+    "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Banana Stem Mor Kootu with Kodo Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "kodo-millet",
+      "banana-stem",
+      "low-fat-curd",
+      "coconut",
+      "toor-dal",
+      "cumin-seeds",
+      "green-chilli",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 20,
+      "total_time_min": 38
+    },
+    "nutrition_per_serving": {
+      "calories": 472,
+      "protein_g": 14,
+      "carbs_g": 72,
+      "fat_g": 12
+    }
+  },
+  {
+    "id": "beans-paruppu-curry-with-red-rice",
+    "name": "Beans Paruppu Curry with Red Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Beans Paruppu Curry with Red Rice.md",
+    "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Beans Paruppu Curry with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "moong-dal",
+      "beans",
+      "onion",
+      "tomato",
+      "garlic",
+      "cumin-seeds",
+      "turmeric",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 24,
+      "total_time_min": 39
+    },
+    "nutrition_per_serving": {
+      "calories": 531,
+      "protein_g": 19,
+      "carbs_g": 102,
+      "fat_g": 6
+    }
+  },
+  {
+    "id": "beetroot-kootu-with-little-millet",
+    "name": "Beetroot Kootu with Little Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Beetroot Kootu with Little Millet.md",
+    "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Beetroot Kootu with Little Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "little-millet",
+      "chana-dal",
+      "beetroot",
+      "coconut",
+      "cumin-seeds",
+      "green-chilli",
+      "mustard-seeds",
+      "urad-dal",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 16,
+      "cook_time_min": 22,
+      "total_time_min": 38
+    },
+    "nutrition_per_serving": {
+      "calories": 560,
+      "protein_g": 20,
+      "carbs_g": 94,
+      "fat_g": 14
+    }
+  },
+  {
+    "id": "bitter-gourd-pitlai-with-little-millet",
+    "name": "Bitter Gourd Pitlai with Little Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Bitter Gourd Pitlai with Little Millet.md",
+    "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Bitter Gourd Pitlai with Little Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "little-millet",
+      "black-chana",
+      "okra",
+      "toor-dal",
+      "coconut",
+      "coriander-seeds",
+      "chana-dal",
+      "dry-red-chilli",
+      "tamarind",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 20,
+      "cook_time_min": 24,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 608,
+      "protein_g": 24,
+      "carbs_g": 103,
+      "fat_g": 14
+    }
+  },
+  {
+    "id": "black-chana-sundal-kuzhambu-with-brown-rice",
+    "name": "Black Chana Sundal Kuzhambu with Brown Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Black Chana Sundal Kuzhambu with Brown Rice.md",
+    "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Black Chana Sundal Kuzhambu with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "tomato",
+      "onion",
+      "tomato",
+      "tamarind",
+      "black-chana",
+      "coriander-powder",
+      "chilli-powder",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 26,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 452,
+      "protein_g": 12,
+      "carbs_g": 83,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "brinjal-gothsu-with-foxtail-millet",
+    "name": "Brinjal Gothsu with Foxtail Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Brinjal Gothsu with Foxtail Millet.md",
+    "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Brinjal Gothsu with Foxtail Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "foxtail-millet",
+      "brinjal",
+      "onion",
+      "tomato",
+      "tamarind",
+      "green-gram",
+      "coriander-powder",
+      "chilli-powder",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 26,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 441,
+      "protein_g": 17,
+      "carbs_g": 75,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "cabbage-kadalai-kootu-with-red-rice",
+    "name": "Cabbage Kadalai Kootu with Red Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Cabbage Kadalai Kootu with Red Rice.md",
+    "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Cabbage Kadalai Kootu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "chana-dal",
+      "cabbage",
+      "coconut",
+      "cumin-seeds",
+      "green-chilli",
+      "mustard-seeds",
+      "urad-dal",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 16,
+      "cook_time_min": 22,
+      "total_time_min": 38
+    },
+    "nutrition_per_serving": {
+      "calories": 554,
+      "protein_g": 18,
+      "carbs_g": 97,
+      "fat_g": 12
+    }
+  },
+  {
+    "id": "capsicum-kollu-kuzhambu-with-red-rice",
+    "name": "Capsicum Kollu Kuzhambu with Red Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Capsicum Kollu Kuzhambu with Red Rice.md",
+    "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Capsicum Kollu Kuzhambu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "capsicum",
+      "onion",
+      "tomato",
+      "tamarind",
+      "horse-gram",
+      "coriander-powder",
+      "chilli-powder",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 26,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 449,
+      "protein_g": 12,
+      "carbs_g": 84,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "carrot-peas-sambar-with-barnyard-millet",
+    "name": "Carrot Peas Sambar with Barnyard Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Carrot Peas Sambar with Barnyard Millet.md",
+    "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Carrot Peas Sambar with Barnyard Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "barnyard-millet",
+      "toor-dal",
+      "carrot",
+      "onion",
+      "tomato",
+      "tamarind",
+      "sambar-powder",
+      "turmeric",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 28,
+      "total_time_min": 46
+    },
+    "nutrition_per_serving": {
+      "calories": 501,
+      "protein_g": 21,
+      "carbs_g": 88,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "cauliflower-milagu-kootu-with-foxtail-millet",
+    "name": "Cauliflower Milagu Kootu with Foxtail Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Cauliflower Milagu Kootu with Foxtail Millet.md",
+    "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Cauliflower Milagu Kootu with Foxtail Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "foxtail-millet",
+      "moong-dal",
+      "cauliflower",
+      "coconut",
+      "cumin-seeds",
+      "green-chilli",
+      "mustard-seeds",
+      "urad-dal",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 16,
+      "cook_time_min": 22,
+      "total_time_min": 38
+    },
+    "nutrition_per_serving": {
+      "calories": 540,
+      "protein_g": 23,
+      "carbs_g": 87,
+      "fat_g": 12
+    }
+  },
+  {
+    "id": "chayote-coconut-stew-with-red-rice",
+    "name": "Chayote Coconut Stew with Red Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Chayote Coconut Stew with Red Rice.md",
+    "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Chayote Coconut Stew with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "chayote",
+      "cowpea",
+      "onion",
+      "light-coconut-milk",
+      "ginger",
+      "green-chilli",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 18,
+      "total_time_min": 33
+    },
+    "nutrition_per_serving": {
+      "calories": 561,
+      "protein_g": 17,
+      "carbs_g": 95,
+      "fat_g": 13
+    }
+  },
+  {
+    "id": "chow-chow-kootu-with-foxtail-millet",
+    "name": "Chow Chow Kootu with Foxtail Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Chow Chow Kootu with Foxtail Millet.md",
+    "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Chow Chow Kootu with Foxtail Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "foxtail-millet",
+      "chana-dal",
+      "chayote",
+      "coconut",
+      "cumin-seeds",
+      "green-chilli",
+      "mustard-seeds",
+      "urad-dal",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 16,
+      "cook_time_min": 22,
+      "total_time_min": 38
+    },
+    "nutrition_per_serving": {
+      "calories": 539,
+      "protein_g": 21,
+      "carbs_g": 85,
+      "fat_g": 13
+    }
+  },
+  {
+    "id": "curry-leaf-kuzhambu-with-red-rice",
+    "name": "Curry Leaf Kuzhambu with Red Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Curry Leaf Kuzhambu with Red Rice.md",
+    "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Curry Leaf Kuzhambu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "curry-leaves",
+      "onion",
+      "tomato",
+      "tamarind",
+      "black-chana",
+      "coriander-powder",
+      "chilli-powder",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 26,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 543,
+      "protein_g": 18,
+      "carbs_g": 99,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "curry-leaf-pepper-rasam-with-red-rice",
+    "name": "Curry Leaf Pepper Rasam with Red Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Curry Leaf Pepper Rasam with Red Rice.md",
+    "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Curry Leaf Pepper Rasam with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "toor-dal",
+      "curry-leaves",
+      "tomato",
+      "tamarind",
+      "black-pepper",
+      "cumin-seeds",
+      "garlic",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 18,
+      "total_time_min": 33
+    },
+    "nutrition_per_serving": {
+      "calories": 485,
+      "protein_g": 16,
+      "carbs_g": 92,
+      "fat_g": 6
+    }
+  },
+  {
+    "id": "curry-leaf-thuvaiyal-rice-bowl",
+    "name": "Curry Leaf Thuvaiyal Rice Bowl",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Curry Leaf Thuvaiyal Rice Bowl.md",
+    "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Curry Leaf Thuvaiyal Rice Bowl brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "curry-leaves",
+      "urad-dal",
+      "coconut",
+      "tamarind",
+      "dry-red-chilli",
+      "urad-dal",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 14,
+      "cook_time_min": 16,
+      "total_time_min": 30
+    },
+    "nutrition_per_serving": {
+      "calories": 526,
+      "protein_g": 18,
+      "carbs_g": 93,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "drumstick-leaves-sambar-with-kodo-millet",
+    "name": "Drumstick Leaves Sambar with Kodo Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Drumstick Leaves Sambar with Kodo Millet.md",
+    "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Drumstick Leaves Sambar with Kodo Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "kodo-millet",
+      "toor-dal",
+      "drumstick-leaves",
+      "onion",
+      "tomato",
+      "tamarind",
+      "sambar-powder",
+      "turmeric",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 28,
+      "total_time_min": 46
+    },
+    "nutrition_per_serving": {
+      "calories": 561,
+      "protein_g": 27,
+      "carbs_g": 95,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "field-bean-kuzhambu-with-brown-rice",
+    "name": "Field Bean Kuzhambu with Brown Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Field Bean Kuzhambu with Brown Rice.md",
+    "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Field Bean Kuzhambu with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "pumpkin",
+      "onion",
+      "tomato",
+      "tamarind",
+      "field-beans",
+      "coriander-powder",
+      "chilli-powder",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 26,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 456,
+      "protein_g": 12,
+      "carbs_g": 86,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "kathirikai-mochai-kuzhambu-with-brown-rice",
+    "name": "Kathirikai Mochai Kuzhambu with Brown Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Kathirikai Mochai Kuzhambu with Brown Rice.md",
+    "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Kathirikai Mochai Kuzhambu with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "brinjal",
+      "onion",
+      "tomato",
+      "tamarind",
+      "mochai",
+      "coriander-powder",
+      "chilli-powder",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 26,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 455,
+      "protein_g": 12,
+      "carbs_g": 85,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "keerai-kootu-with-red-rice",
+    "name": "Keerai Kootu with Red Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Keerai Kootu with Red Rice.md",
+    "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Keerai Kootu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "moong-dal",
+      "spinach",
+      "coconut",
+      "cumin-seeds",
+      "green-chilli",
+      "mustard-seeds",
+      "urad-dal",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 16,
+      "cook_time_min": 22,
+      "total_time_min": 38
+    },
+    "nutrition_per_serving": {
+      "calories": 544,
+      "protein_g": 21,
+      "carbs_g": 95,
+      "fat_g": 10
+    }
+  },
+  {
+    "id": "keerai-kuzhambu-with-thinai",
+    "name": "Keerai Kuzhambu with Thinai",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Keerai Kuzhambu with Thinai.md",
+    "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Keerai Kuzhambu with Thinai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "thinai",
+      "amaranth-leaves",
+      "onion",
+      "tomato",
+      "tamarind",
+      "field-beans",
+      "coriander-powder",
+      "chilli-powder",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 26,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 437,
+      "protein_g": 18,
+      "carbs_g": 72,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "knol-khol-sambar-with-foxtail-millet",
+    "name": "Knol Khol Sambar with Foxtail Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Foxtail Millet.md",
+    "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Knol Khol Sambar with Foxtail Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "foxtail-millet",
+      "toor-dal",
+      "knol-khol",
+      "onion",
+      "tomato",
+      "tamarind",
+      "sambar-powder",
+      "turmeric",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 28,
+      "total_time_min": 46
+    },
+    "nutrition_per_serving": {
+      "calories": 523,
+      "protein_g": 23,
+      "carbs_g": 91,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "knol-khol-sambar-with-little-millet",
+    "name": "Knol Khol Sambar with Little Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Knol Khol Sambar with Little Millet.md",
+    "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Knol Khol Sambar with Little Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "little-millet",
+      "toor-dal",
+      "knol-khol",
+      "onion",
+      "tomato",
+      "tamarind",
+      "sambar-powder",
+      "turmeric",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 28,
+      "total_time_min": 46
+    },
+    "nutrition_per_serving": {
+      "calories": 515,
+      "protein_g": 20,
+      "carbs_g": 94,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "kollu-rasam-with-millet-rice",
+    "name": "Kollu Rasam with Millet Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Kollu Rasam with Millet Rice.md",
+    "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Kollu Rasam with Millet Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "kodo-millet",
+      "horse-gram",
+      "tomato",
+      "tomato",
+      "tamarind",
+      "black-pepper",
+      "cumin-seeds",
+      "garlic",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 18,
+      "total_time_min": 33
+    },
+    "nutrition_per_serving": {
+      "calories": 420,
+      "protein_g": 14,
+      "carbs_g": 74,
+      "fat_g": 6
+    }
+  },
+  {
+    "id": "kovakkai-peanut-kuzhambu-with-brown-rice",
+    "name": "Kovakkai Peanut Kuzhambu with Brown Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Kovakkai Peanut Kuzhambu with Brown Rice.md",
+    "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Kovakkai Peanut Kuzhambu with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "kovakkai",
+      "onion",
+      "tomato",
+      "tamarind",
+      "peanuts",
+      "coriander-powder",
+      "chilli-powder",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 26,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 492,
+      "protein_g": 14,
+      "carbs_g": 74,
+      "fat_g": 17
+    }
+  },
+  {
+    "id": "manathakkali-style-kuzhambu-with-red-rice",
+    "name": "Manathakkali Style Kuzhambu with Red Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Manathakkali Style Kuzhambu with Red Rice.md",
+    "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Manathakkali Style Kuzhambu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "tomato",
+      "onion",
+      "tomato",
+      "tamarind",
+      "field-beans",
+      "coriander-powder",
+      "chilli-powder",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 26,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 439,
+      "protein_g": 12,
+      "carbs_g": 82,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "methi-kuzhambu-with-brown-rice",
+    "name": "Methi Kuzhambu with Brown Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Methi Kuzhambu with Brown Rice.md",
+    "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Methi Kuzhambu with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "methi-leaves",
+      "onion",
+      "tomato",
+      "tamarind",
+      "black-chana",
+      "coriander-powder",
+      "chilli-powder",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 26,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 486,
+      "protein_g": 16,
+      "carbs_g": 86,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "mixed-vegetable-sambar-sadam",
+    "name": "Mixed Vegetable Sambar Sadam",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Mixed Vegetable Sambar Sadam.md",
+    "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Mixed Vegetable Sambar Sadam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "foxtail-millet",
+      "toor-dal",
+      "carrot",
+      "onion",
+      "tomato",
+      "tamarind",
+      "sambar-powder",
+      "turmeric",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 28,
+      "total_time_min": 46
+    },
+    "nutrition_per_serving": {
+      "calories": 537,
+      "protein_g": 22,
+      "carbs_g": 94,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "moringa-leaf-dal-with-barnyard-millet",
+    "name": "Moringa Leaf Dal with Barnyard Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Moringa Leaf Dal with Barnyard Millet.md",
+    "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Moringa Leaf Dal with Barnyard Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "barnyard-millet",
+      "toor-dal",
+      "drumstick-leaves",
+      "onion",
+      "tomato",
+      "garlic",
+      "cumin-seeds",
+      "turmeric",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 24,
+      "total_time_min": 39
+    },
+    "nutrition_per_serving": {
+      "calories": 516,
+      "protein_g": 29,
+      "carbs_g": 86,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "murungakkai-sambar-with-brown-rice",
+    "name": "Murungakkai Sambar with Brown Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Murungakkai Sambar with Brown Rice.md",
+    "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Murungakkai Sambar with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "toor-dal",
+      "drumstick",
+      "onion",
+      "tomato",
+      "tamarind",
+      "sambar-powder",
+      "turmeric",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 28,
+      "total_time_min": 46
+    },
+    "nutrition_per_serving": {
+      "calories": 548,
+      "protein_g": 19,
+      "carbs_g": 104,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "mushroom-pepper-kuzhambu-with-foxtail-millet",
+    "name": "Mushroom Pepper Kuzhambu with Foxtail Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Mushroom Pepper Kuzhambu with Foxtail Millet.md",
+    "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Mushroom Pepper Kuzhambu with Foxtail Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "foxtail-millet",
+      "mushroom",
+      "onion",
+      "tomato",
+      "tamarind",
+      "green-gram",
+      "coriander-powder",
+      "chilli-powder",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 26,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 438,
+      "protein_g": 19,
+      "carbs_g": 72,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "paruppu-rasam-with-red-rice",
+    "name": "Paruppu Rasam with Red Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Paruppu Rasam with Red Rice.md",
+    "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Paruppu Rasam with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "toor-dal",
+      "tomato",
+      "tomato",
+      "tamarind",
+      "black-pepper",
+      "cumin-seeds",
+      "garlic",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 18,
+      "total_time_min": 33
+    },
+    "nutrition_per_serving": {
+      "calories": 431,
+      "protein_g": 13,
+      "carbs_g": 83,
+      "fat_g": 6
+    }
+  },
+  {
+    "id": "poondu-kuzhambu-with-kodo-millet",
+    "name": "Poondu Kuzhambu with Kodo Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Poondu Kuzhambu with Kodo Millet.md",
+    "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Poondu Kuzhambu with Kodo Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "kodo-millet",
+      "garlic",
+      "onion",
+      "tomato",
+      "tamarind",
+      "black-chana",
+      "coriander-powder",
+      "chilli-powder",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 26,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 582,
+      "protein_g": 19,
+      "carbs_g": 107,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "pudalangai-paal-kootu-with-red-rice",
+    "name": "Pudalangai Paal Kootu with Red Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Pudalangai Paal Kootu with Red Rice.md",
+    "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Pudalangai Paal Kootu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "moong-dal",
+      "snake-gourd",
+      "coconut",
+      "cumin-seeds",
+      "green-chilli",
+      "mustard-seeds",
+      "urad-dal",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 16,
+      "cook_time_min": 22,
+      "total_time_min": 38
+    },
+    "nutrition_per_serving": {
+      "calories": 538,
+      "protein_g": 18,
+      "carbs_g": 96,
+      "fat_g": 10
+    }
+  },
+  {
+    "id": "puli-milagai-kuzhambu-with-kodo-millet",
+    "name": "Puli Milagai Kuzhambu with Kodo Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Puli Milagai Kuzhambu with Kodo Millet.md",
+    "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Puli Milagai Kuzhambu with Kodo Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "kodo-millet",
+      "capsicum",
+      "onion",
+      "tomato",
+      "tamarind",
+      "cowpea",
+      "coriander-powder",
+      "chilli-powder",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 26,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 447,
+      "protein_g": 13,
+      "carbs_g": 77,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "pumpkin-black-eyed-pea-kootu-with-brown-rice",
+    "name": "Pumpkin Black Eyed Pea Kootu with Brown Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Pumpkin Black Eyed Pea Kootu with Brown Rice.md",
+    "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Pumpkin Black Eyed Pea Kootu with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "black-eyed-peas",
+      "pumpkin",
+      "coconut",
+      "cumin-seeds",
+      "green-chilli",
+      "mustard-seeds",
+      "urad-dal",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 16,
+      "cook_time_min": 22,
+      "total_time_min": 38
+    },
+    "nutrition_per_serving": {
+      "calories": 552,
+      "protein_g": 19,
+      "carbs_g": 98,
+      "fat_g": 10
+    }
+  },
+  {
+    "id": "pumpkin-more-kuzhambu-with-barnyard-millet",
+    "name": "Pumpkin More Kuzhambu with Barnyard Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Pumpkin More Kuzhambu with Barnyard Millet.md",
+    "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Pumpkin More Kuzhambu with Barnyard Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "barnyard-millet",
+      "pumpkin",
+      "low-fat-curd",
+      "coconut",
+      "toor-dal",
+      "cumin-seeds",
+      "green-chilli",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 20,
+      "total_time_min": 38
+    },
+    "nutrition_per_serving": {
+      "calories": 434,
+      "protein_g": 16,
+      "carbs_g": 63,
+      "fat_g": 12
+    }
+  },
+  {
+    "id": "raw-mango-kuzhambu-with-little-millet",
+    "name": "Raw Mango Kuzhambu with Little Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Raw Mango Kuzhambu with Little Millet.md",
+    "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Raw Mango Kuzhambu with Little Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "little-millet",
+      "raw-mango",
+      "onion",
+      "tomato",
+      "tamarind",
+      "black-eyed-peas",
+      "coriander-powder",
+      "chilli-powder",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 26,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 469,
+      "protein_g": 14,
+      "carbs_g": 87,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "ridge-gourd-dal-kuzhambu-with-kodo-millet",
+    "name": "Ridge Gourd Dal Kuzhambu with Kodo Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Ridge Gourd Dal Kuzhambu with Kodo Millet.md",
+    "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Ridge Gourd Dal Kuzhambu with Kodo Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "kodo-millet",
+      "toor-dal",
+      "ridge-gourd",
+      "onion",
+      "tomato",
+      "garlic",
+      "cumin-seeds",
+      "turmeric",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 24,
+      "total_time_min": 39
+    },
+    "nutrition_per_serving": {
+      "calories": 513,
+      "protein_g": 18,
+      "carbs_g": 92,
+      "fat_g": 7
+    }
+  },
+  {
+    "id": "snake-gourd-poricha-kootu-with-red-rice",
+    "name": "Snake Gourd Poricha Kootu with Red Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Snake Gourd Poricha Kootu with Red Rice.md",
+    "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Snake Gourd Poricha Kootu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "moong-dal",
+      "snake-gourd",
+      "coconut",
+      "cumin-seeds",
+      "green-chilli",
+      "mustard-seeds",
+      "urad-dal",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 16,
+      "cook_time_min": 22,
+      "total_time_min": 38
+    },
+    "nutrition_per_serving": {
+      "calories": 538,
+      "protein_g": 18,
+      "carbs_g": 96,
+      "fat_g": 10
+    }
+  },
+  {
+    "id": "sorakkai-kootu-with-brown-rice",
+    "name": "Sorakkai Kootu with Brown Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Sorakkai Kootu with Brown Rice.md",
+    "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Sorakkai Kootu with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "moong-dal",
+      "bottle-gourd",
+      "coconut",
+      "cumin-seeds",
+      "green-chilli",
+      "mustard-seeds",
+      "urad-dal",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 16,
+      "cook_time_min": 22,
+      "total_time_min": 38
+    },
+    "nutrition_per_serving": {
+      "calories": 542,
+      "protein_g": 18,
+      "carbs_g": 96,
+      "fat_g": 10
+    }
+  },
+  {
+    "id": "sundakkai-style-kuzhambu-with-barnyard-millet",
+    "name": "Sundakkai Style Kuzhambu with Barnyard Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Sundakkai Style Kuzhambu with Barnyard Millet.md",
+    "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Sundakkai Style Kuzhambu with Barnyard Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "barnyard-millet",
+      "brinjal",
+      "onion",
+      "tomato",
+      "tamarind",
+      "black-eyed-peas",
+      "coriander-powder",
+      "chilli-powder",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 26,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 403,
+      "protein_g": 16,
+      "carbs_g": 68,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "sweet-potato-kara-kuzhambu-with-barnyard-millet",
+    "name": "Sweet Potato Kara Kuzhambu with Barnyard Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Sweet Potato Kara Kuzhambu with Barnyard Millet.md",
+    "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. Sweet Potato Kara Kuzhambu with Barnyard Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "barnyard-millet",
+      "sweet-potato",
+      "onion",
+      "tomato",
+      "tamarind",
+      "cowpea",
+      "coriander-powder",
+      "chilli-powder",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 26,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 471,
+      "protein_g": 16,
+      "carbs_g": 83,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "thakkali-pappu-with-foxtail-millet",
+    "name": "Thakkali Pappu with Foxtail Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Thakkali Pappu with Foxtail Millet.md",
+    "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Thakkali Pappu with Foxtail Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "foxtail-millet",
+      "toor-dal",
+      "tomato",
+      "onion",
+      "tomato",
+      "garlic",
+      "cumin-seeds",
+      "turmeric",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 24,
+      "total_time_min": 39
+    },
+    "nutrition_per_serving": {
+      "calories": 510,
+      "protein_g": 22,
+      "carbs_g": 88,
+      "fat_g": 8
+    }
+  },
+  {
+    "id": "tomato-pepper-rasam-with-horse-gram-rice",
+    "name": "Tomato Pepper Rasam with Horse Gram Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Tomato Pepper Rasam with Horse Gram Rice.md",
+    "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Tomato Pepper Rasam with Horse Gram Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "horse-gram",
+      "tomato",
+      "tomato",
+      "tamarind",
+      "black-pepper",
+      "cumin-seeds",
+      "garlic",
+      "mustard-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 15,
+      "cook_time_min": 18,
+      "total_time_min": 33
+    },
+    "nutrition_per_serving": {
+      "calories": 434,
+      "protein_g": 13,
+      "carbs_g": 82,
+      "fat_g": 6
+    }
+  },
+  {
+    "id": "vazhaithandu-kootu-with-brown-rice",
+    "name": "Vazhaithandu Kootu with Brown Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Vazhaithandu Kootu with Brown Rice.md",
+    "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Vazhaithandu Kootu with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "brown-rice",
+      "moong-dal",
+      "banana-stem",
+      "coconut",
+      "cumin-seeds",
+      "green-chilli",
+      "mustard-seeds",
+      "urad-dal",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 16,
+      "cook_time_min": 22,
+      "total_time_min": 38
+    },
+    "nutrition_per_serving": {
+      "calories": 557,
+      "protein_g": 19,
+      "carbs_g": 99,
+      "fat_g": 10
+    }
+  },
+  {
+    "id": "vendakkai-kara-kuzhambu-with-little-millet",
+    "name": "Vendakkai Kara Kuzhambu with Little Millet",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/Vendakkai Kara Kuzhambu with Little Millet.md",
+    "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Vendakkai Kara Kuzhambu with Little Millet brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "little-millet",
+      "okra",
+      "onion",
+      "tomato",
+      "tamarind",
+      "cowpea",
+      "coriander-powder",
+      "chilli-powder",
+      "turmeric",
+      "mustard-seeds",
+      "fenugreek-seeds",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 18,
+      "cook_time_min": 26,
+      "total_time_min": 44
+    },
+    "nutrition_per_serving": {
+      "calories": 439,
+      "protein_g": 16,
+      "carbs_g": 79,
+      "fat_g": 9
+    }
+  },
+  {
+    "id": "white-pumpkin-kootu-with-red-rice",
+    "name": "White Pumpkin Kootu with Red Rice",
+    "category": "lunch",
+    "source_note": "Resources/Recipes/Lunch/White Pumpkin Kootu with Red Rice.md",
+    "description": "The dish is layered like a proper home-style lunch, with acidity, spice, and texture tuned for a satisfying but lighter plate. White Pumpkin Kootu with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+    "ingredient_slugs": [
+      "red-rice",
+      "moong-dal",
+      "ash-gourd",
+      "coconut",
+      "cumin-seeds",
+      "green-chilli",
+      "mustard-seeds",
+      "urad-dal",
+      "curry-leaves",
+      "sesame-oil",
+      "salt",
+      "water"
+    ],
+    "timing": {
+      "prep_time_min": 16,
+      "cook_time_min": 22,
+      "total_time_min": 38
+    },
+    "nutrition_per_serving": {
+      "calories": 532,
+      "protein_g": 18,
+      "carbs_g": 94,
+      "fat_g": 10
+    }
+  }
+]

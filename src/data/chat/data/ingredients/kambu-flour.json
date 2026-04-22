@@ -1,0 +1,49 @@
+{
+  "slug": "kambu-flour",
+  "name": "kambu flour",
+  "count": 3,
+  "recipes": [
+    {
+      "id": "kambu-vegetable-dosa",
+      "name": "Kambu Vegetable Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kambu Vegetable Dosa.md"
+    },
+    {
+      "id": "pearl-millet-puttu",
+      "name": "Pearl Millet Puttu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Pearl Millet Puttu.md"
+    },
+    {
+      "id": "kambu-roti-with-ridge-gourd-kootu",
+      "name": "Kambu Roti with Ridge Gourd Kootu",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Kambu Roti with Ridge Gourd Kootu.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "kambu-vegetable-dosa",
+        "name": "Kambu Vegetable Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Kambu Vegetable Dosa.md"
+      },
+      {
+        "id": "pearl-millet-puttu",
+        "name": "Pearl Millet Puttu",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Pearl Millet Puttu.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "kambu-roti-with-ridge-gourd-kootu",
+        "name": "Kambu Roti with Ridge Gourd Kootu",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Kambu Roti with Ridge Gourd Kootu.md"
+      }
+    ]
+  }
+}

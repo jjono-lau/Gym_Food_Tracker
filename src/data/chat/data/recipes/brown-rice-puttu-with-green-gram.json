@@ -1,0 +1,88 @@
+{
+  "id": "brown-rice-puttu-with-green-gram",
+  "name": "Brown Rice Puttu with Green Gram",
+  "category": "breakfast",
+  "category_note_path": "Resources/Hubs/Breakfast Hub",
+  "source_note": "Resources/Recipes/Breakfast/Brown Rice Puttu with Green Gram.md",
+  "tags": [
+    "breakfast"
+  ],
+  "ingredient_tags": [
+    "ingredient/red-rice-flour",
+    "ingredient/coconut",
+    "ingredient/green-gram",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "red-rice-flour",
+    "coconut",
+    "green-gram",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "red rice flour",
+      "slug": "red-rice-flour",
+      "quantity": 160,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "coconut",
+      "slug": "coconut",
+      "quantity": 25,
+      "unit": "g",
+      "note": "grated"
+    },
+    {
+      "name": "green gram",
+      "slug": "green-gram",
+      "quantity": 60,
+      "unit": "g",
+      "note": "cooked until tender"
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 110,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "The recipe uses gentle seasoning and controlled oil so the grain, lentil, and vegetable flavors stay clear and clean. Brown Rice Puttu with Green Gram brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Fill the puttu cylinder in alternating layers of grated coconut, damp flour, and cooked green gram, finishing with a spoon of coconut.",
+    "Steam over medium heat for 6 to 8 minutes until a strong column of steam escapes from the top and the puttu smells fully cooked.",
+    "Rest 1 minute, then push out gently onto a plate so the cylinder stays intact.",
+    "Serve warm, breaking it up lightly with a fork before eating."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 15,
+    "cook_time_min": 10,
+    "total_time_min": 25
+  },
+  "nutrition_per_serving": {
+    "calories": 436,
+    "protein_g": 14,
+    "carbs_g": 82,
+    "fat_g": 7
+  },
+  "meal_prep_notes": "Puttu is best fresh but can be refrigerated for 1 day. Reheat by steaming for 3 minutes. For batch prep, pre-moisten the flour and hold it refrigerated in an airtight box, then steam portions to order.",
+  "serves": 2,
+  "related_links": [
+    "Breakfast Hub",
+    "Red Rice Flour",
+    "Coconut"
+  ]
+}

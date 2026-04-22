@@ -1,0 +1,142 @@
+{
+  "id": "avarakkai-paruppu-usili-with-red-rice",
+  "name": "Avarakkai Paruppu Usili with Red Rice",
+  "category": "lunch",
+  "category_note_path": "Resources/Hubs/Lunch Hub",
+  "source_note": "Resources/Recipes/Lunch/Avarakkai Paruppu Usili with Red Rice.md",
+  "tags": [
+    "lunch"
+  ],
+  "ingredient_tags": [
+    "ingredient/red-rice",
+    "ingredient/chana-dal",
+    "ingredient/toor-dal",
+    "ingredient/beans",
+    "ingredient/dry-red-chilli",
+    "ingredient/asafoetida",
+    "ingredient/mustard-seeds",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "red-rice",
+    "chana-dal",
+    "toor-dal",
+    "beans",
+    "dry-red-chilli",
+    "asafoetida",
+    "mustard-seeds",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "red rice",
+      "slug": "red-rice",
+      "quantity": 160,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "chana dal",
+      "slug": "chana-dal",
+      "quantity": 60,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "toor dal",
+      "slug": "toor-dal",
+      "quantity": 40,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "beans",
+      "slug": "beans",
+      "quantity": 220,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "dry red chilli",
+      "slug": "dry-red-chilli",
+      "quantity": 3,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "asafoetida",
+      "slug": "asafoetida",
+      "quantity": 0.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "mustard seeds",
+      "slug": "mustard-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 8,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 620,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "Traditional tempering and slow simmering deepen the flavor so the meal tastes complete even with minimal oil. Avarakkai Paruppu Usili with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Steam or saute the vegetable with a splash of water on medium heat for 5 to 6 minutes until just tender.",
+    "Heat oil in a kadai, add mustard and curry leaves, then add the crumbled steamed dal mixture and cook on medium-low heat for 4 minutes until dry and grainy.",
+    "Fold in the cooked vegetable and cook 2 minutes more so the flavors combine.",
+    "Serve the usili alongside or over the cooked grain as a composed lunch bowl."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 18,
+    "cook_time_min": 24,
+    "total_time_min": 42
+  },
+  "nutrition_per_serving": {
+    "calories": 537,
+    "protein_g": 19,
+    "carbs_g": 99,
+    "fat_g": 8
+  },
+  "meal_prep_notes": "Usili keeps 3 days refrigerated and reheats well in a dry skillet over low heat. For batch prep, steam and crumble the lentil mixture ahead; finish the final saute just before serving for the best texture.",
+  "serves": 2,
+  "related_links": [
+    "Lunch Hub",
+    "Red Rice",
+    "Chana Dal"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "mochai",
+  "name": "mochai",
+  "count": 1,
+  "recipes": [
+    {
+      "id": "kathirikai-mochai-kuzhambu-with-brown-rice",
+      "name": "Kathirikai Mochai Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Kathirikai Mochai Kuzhambu with Brown Rice.md"
+    }
+  ],
+  "recipes_by_category": {
+    "lunch": [
+      {
+        "id": "kathirikai-mochai-kuzhambu-with-brown-rice",
+        "name": "Kathirikai Mochai Kuzhambu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Kathirikai Mochai Kuzhambu with Brown Rice.md"
+      }
+    ]
+  }
+}

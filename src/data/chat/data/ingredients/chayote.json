@@ -1,0 +1,35 @@
+{
+  "slug": "chayote",
+  "name": "chayote",
+  "count": 2,
+  "recipes": [
+    {
+      "id": "chayote-coconut-stew-with-red-rice",
+      "name": "Chayote Coconut Stew with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Chayote Coconut Stew with Red Rice.md"
+    },
+    {
+      "id": "chow-chow-kootu-with-foxtail-millet",
+      "name": "Chow Chow Kootu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Chow Chow Kootu with Foxtail Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "lunch": [
+      {
+        "id": "chayote-coconut-stew-with-red-rice",
+        "name": "Chayote Coconut Stew with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Chayote Coconut Stew with Red Rice.md"
+      },
+      {
+        "id": "chow-chow-kootu-with-foxtail-millet",
+        "name": "Chow Chow Kootu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Chow Chow Kootu with Foxtail Millet.md"
+      }
+    ]
+  }
+}

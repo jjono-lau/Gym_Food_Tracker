@@ -1,0 +1,133 @@
+{
+  "id": "pumpkin-soup-with-foxtail-millet-dumplings",
+  "name": "Pumpkin Soup with Foxtail Millet Dumplings",
+  "category": "dinner",
+  "category_note_path": "Resources/Hubs/Dinner Hub",
+  "source_note": "Resources/Recipes/Dinner/Pumpkin Soup with Foxtail Millet Dumplings.md",
+  "tags": [
+    "dinner"
+  ],
+  "ingredient_tags": [
+    "ingredient/pumpkin",
+    "ingredient/foxtail-millet",
+    "ingredient/onion",
+    "ingredient/garlic",
+    "ingredient/ginger",
+    "ingredient/black-pepper",
+    "ingredient/cumin-seeds",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "pumpkin",
+    "foxtail-millet",
+    "onion",
+    "garlic",
+    "ginger",
+    "black-pepper",
+    "cumin-seeds",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "pumpkin",
+      "slug": "pumpkin",
+      "quantity": 260,
+      "unit": "g",
+      "note": "small dice"
+    },
+    {
+      "name": "foxtail millet",
+      "slug": "foxtail-millet",
+      "quantity": 70,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 60,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "garlic",
+      "slug": "garlic",
+      "quantity": 10,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 8,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "black pepper",
+      "slug": "black-pepper",
+      "quantity": 0.8,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 6,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 760,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Pumpkin Soup with Foxtail Millet Dumplings brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat oil in a soup pot over medium heat. Add onion, garlic, ginger, cumin, and pepper and cook 2 minutes until fragrant.",
+    "Add the vegetable, pulse or grain accent, salt, and water. Bring to a boil, then reduce to low heat and simmer 18 minutes until the vegetables are fully tender.",
+    "Blend lightly if the soup benefits from body, or leave chunky for a brothier finish.",
+    "Adjust seasoning and serve hot as a complete light dinner."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 12,
+    "cook_time_min": 22,
+    "total_time_min": 34
+  },
+  "nutrition_per_serving": {
+    "calories": 206,
+    "protein_g": 6,
+    "carbs_g": 36,
+    "fat_g": 5
+  },
+  "meal_prep_notes": "Soup keeps 3 days chilled and freezes well. Reheat gently to a simmer. If using leafy greens, add them fresh during reheating so the color stays clean.",
+  "serves": 2,
+  "related_links": [
+    "Dinner Hub",
+    "Pumpkin",
+    "Foxtail Millet"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "spinach",
+  "name": "spinach",
+  "count": 10,
+  "recipes": [
+    {
+      "id": "curry-leaf-pesarattu",
+      "name": "Curry Leaf Pesarattu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Curry Leaf Pesarattu.md"
+    },
+    {
+      "id": "curry-leaf-thinai-dosa",
+      "name": "Curry Leaf Thinai Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Curry Leaf Thinai Dosa.md"
+    },
+    {
+      "id": "green-gram-pesarattu",
+      "name": "Green Gram Pesarattu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Green Gram Pesarattu.md"
+    },
+    {
+      "id": "horse-gram-idli",
+      "name": "Horse Gram Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Horse Gram Idli.md"
+    },
+    {
+      "id": "keerai-pesarattu",
+      "name": "Keerai Pesarattu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Keerai Pesarattu.md"
+    },
+    {
+      "id": "kollu-adai",
+      "name": "Kollu Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kollu Adai.md"
+    },
+    {
+      "id": "keerai-adai-with-garlic-chutney",
+      "name": "Keerai Adai with Garlic Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Keerai Adai with Garlic Chutney.md"
+    },
+    {
+      "id": "ragi-mudde-with-keerai-saaru",
+      "name": "Ragi Mudde with Keerai Saaru",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Ragi Mudde with Keerai Saaru.md"
+    },
+    {
+      "id": "spinach-pesarattu-rolls",
+      "name": "Spinach Pesarattu Rolls",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Spinach Pesarattu Rolls.md"
+    },
+    {
+      "id": "keerai-kootu-with-red-rice",
+      "name": "Keerai Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Keerai Kootu with Red Rice.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "curry-leaf-pesarattu",
+        "name": "Curry Leaf Pesarattu",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Curry Leaf Pesarattu.md"
+      },
+      {
+        "id": "curry-leaf-thinai-dosa",
+        "name": "Curry Leaf Thinai Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Curry Leaf Thinai Dosa.md"
+      },
+      {
+        "id": "green-gram-pesarattu",
+        "name": "Green Gram Pesarattu",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Green Gram Pesarattu.md"
+      },
+      {
+        "id": "horse-gram-idli",
+        "name": "Horse Gram Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Horse Gram Idli.md"
+      },
+      {
+        "id": "keerai-pesarattu",
+        "name": "Keerai Pesarattu",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Keerai Pesarattu.md"
+      },
+      {
+        "id": "kollu-adai",
+        "name": "Kollu Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Kollu Adai.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "keerai-adai-with-garlic-chutney",
+        "name": "Keerai Adai with Garlic Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Keerai Adai with Garlic Chutney.md"
+      },
+      {
+        "id": "ragi-mudde-with-keerai-saaru",
+        "name": "Ragi Mudde with Keerai Saaru",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Ragi Mudde with Keerai Saaru.md"
+      },
+      {
+        "id": "spinach-pesarattu-rolls",
+        "name": "Spinach Pesarattu Rolls",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Spinach Pesarattu Rolls.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "keerai-kootu-with-red-rice",
+        "name": "Keerai Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Keerai Kootu with Red Rice.md"
+      }
+    ]
+  }
+}

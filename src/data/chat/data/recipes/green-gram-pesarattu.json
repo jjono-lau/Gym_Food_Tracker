@@ -1,0 +1,133 @@
+{
+  "id": "green-gram-pesarattu",
+  "name": "Green Gram Pesarattu",
+  "category": "breakfast",
+  "category_note_path": "Resources/Hubs/Breakfast Hub",
+  "source_note": "Resources/Recipes/Breakfast/Green Gram Pesarattu.md",
+  "tags": [
+    "breakfast"
+  ],
+  "ingredient_tags": [
+    "ingredient/green-gram",
+    "ingredient/spinach",
+    "ingredient/onion",
+    "ingredient/ginger",
+    "ingredient/green-chilli",
+    "ingredient/cumin-seeds",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "green-gram",
+    "spinach",
+    "onion",
+    "ginger",
+    "green-chilli",
+    "cumin-seeds",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "green gram",
+      "slug": "green-gram",
+      "quantity": 150,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "spinach",
+      "slug": "spinach",
+      "quantity": 80,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 70,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 10,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "green chilli",
+      "slug": "green-chilli",
+      "quantity": 2,
+      "unit": "tsp",
+      "note": "finely chopped"
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": "shredded"
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 8,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 260,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Green Gram Pesarattu brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat the tawa on medium-high heat and wipe it with a thin film of oil.",
+    "Pour 120 ml batter and spread it quickly into a thin round before the surface sets. Scatter the onion mixture evenly and press lightly with the back of the ladle.",
+    "Cook on medium heat for 2.5 to 3 minutes until the edges lift easily and the base turns mottled brown. Drizzle 2 ml oil along the edge.",
+    "Flip for 45 seconds only if needed; the second side should stay soft. Serve immediately with tomato chutney."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 10,
+    "cook_time_min": 15,
+    "total_time_min": 25
+  },
+  "nutrition_per_serving": {
+    "calories": 325,
+    "protein_g": 20,
+    "carbs_g": 53,
+    "fat_g": 5
+  },
+  "meal_prep_notes": "Batter holds 24 hours refrigerated; beyond that it loses the fresh green gram flavor. Reheat cooked pesarattu on a dry skillet for 45 seconds per side. For batch prep, soak and refrigerate the drained beans a day ahead, then grind fresh.",
+  "serves": 2,
+  "related_links": [
+    "Breakfast Hub",
+    "Green Gram",
+    "Spinach"
+  ]
+}

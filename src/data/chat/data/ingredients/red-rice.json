@@ -1,0 +1,231 @@
+{
+  "slug": "red-rice",
+  "name": "red rice",
+  "count": 18,
+  "recipes": [
+    {
+      "id": "curry-leaf-podi-sevai",
+      "name": "Curry Leaf Podi Sevai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Curry Leaf Podi Sevai.md"
+    },
+    {
+      "id": "red-rice-idli",
+      "name": "Red Rice Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Rice Idli.md"
+    },
+    {
+      "id": "brown-rice-vegetable-sevai",
+      "name": "Brown Rice Vegetable Sevai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Brown Rice Vegetable Sevai.md"
+    },
+    {
+      "id": "red-rice-neer-dosa-with-vegetable-saagu",
+      "name": "Red Rice Neer Dosa with Vegetable Saagu",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Red Rice Neer Dosa with Vegetable Saagu.md"
+    },
+    {
+      "id": "ash-gourd-mor-kuzhambu-with-red-rice",
+      "name": "Ash Gourd Mor Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Ash Gourd Mor Kuzhambu with Red Rice.md"
+    },
+    {
+      "id": "avarakkai-paruppu-usili-with-red-rice",
+      "name": "Avarakkai Paruppu Usili with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Avarakkai Paruppu Usili with Red Rice.md"
+    },
+    {
+      "id": "beans-paruppu-curry-with-red-rice",
+      "name": "Beans Paruppu Curry with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Beans Paruppu Curry with Red Rice.md"
+    },
+    {
+      "id": "cabbage-kadalai-kootu-with-red-rice",
+      "name": "Cabbage Kadalai Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Cabbage Kadalai Kootu with Red Rice.md"
+    },
+    {
+      "id": "capsicum-kollu-kuzhambu-with-red-rice",
+      "name": "Capsicum Kollu Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Capsicum Kollu Kuzhambu with Red Rice.md"
+    },
+    {
+      "id": "chayote-coconut-stew-with-red-rice",
+      "name": "Chayote Coconut Stew with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Chayote Coconut Stew with Red Rice.md"
+    },
+    {
+      "id": "curry-leaf-kuzhambu-with-red-rice",
+      "name": "Curry Leaf Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Curry Leaf Kuzhambu with Red Rice.md"
+    },
+    {
+      "id": "curry-leaf-pepper-rasam-with-red-rice",
+      "name": "Curry Leaf Pepper Rasam with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Curry Leaf Pepper Rasam with Red Rice.md"
+    },
+    {
+      "id": "keerai-kootu-with-red-rice",
+      "name": "Keerai Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Keerai Kootu with Red Rice.md"
+    },
+    {
+      "id": "manathakkali-style-kuzhambu-with-red-rice",
+      "name": "Manathakkali Style Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Manathakkali Style Kuzhambu with Red Rice.md"
+    },
+    {
+      "id": "paruppu-rasam-with-red-rice",
+      "name": "Paruppu Rasam with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Paruppu Rasam with Red Rice.md"
+    },
+    {
+      "id": "pudalangai-paal-kootu-with-red-rice",
+      "name": "Pudalangai Paal Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Pudalangai Paal Kootu with Red Rice.md"
+    },
+    {
+      "id": "snake-gourd-poricha-kootu-with-red-rice",
+      "name": "Snake Gourd Poricha Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Snake Gourd Poricha Kootu with Red Rice.md"
+    },
+    {
+      "id": "white-pumpkin-kootu-with-red-rice",
+      "name": "White Pumpkin Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/White Pumpkin Kootu with Red Rice.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "curry-leaf-podi-sevai",
+        "name": "Curry Leaf Podi Sevai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Curry Leaf Podi Sevai.md"
+      },
+      {
+        "id": "red-rice-idli",
+        "name": "Red Rice Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Red Rice Idli.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "brown-rice-vegetable-sevai",
+        "name": "Brown Rice Vegetable Sevai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Brown Rice Vegetable Sevai.md"
+      },
+      {
+        "id": "red-rice-neer-dosa-with-vegetable-saagu",
+        "name": "Red Rice Neer Dosa with Vegetable Saagu",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Red Rice Neer Dosa with Vegetable Saagu.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "ash-gourd-mor-kuzhambu-with-red-rice",
+        "name": "Ash Gourd Mor Kuzhambu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Ash Gourd Mor Kuzhambu with Red Rice.md"
+      },
+      {
+        "id": "avarakkai-paruppu-usili-with-red-rice",
+        "name": "Avarakkai Paruppu Usili with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Avarakkai Paruppu Usili with Red Rice.md"
+      },
+      {
+        "id": "beans-paruppu-curry-with-red-rice",
+        "name": "Beans Paruppu Curry with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Beans Paruppu Curry with Red Rice.md"
+      },
+      {
+        "id": "cabbage-kadalai-kootu-with-red-rice",
+        "name": "Cabbage Kadalai Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Cabbage Kadalai Kootu with Red Rice.md"
+      },
+      {
+        "id": "capsicum-kollu-kuzhambu-with-red-rice",
+        "name": "Capsicum Kollu Kuzhambu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Capsicum Kollu Kuzhambu with Red Rice.md"
+      },
+      {
+        "id": "chayote-coconut-stew-with-red-rice",
+        "name": "Chayote Coconut Stew with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Chayote Coconut Stew with Red Rice.md"
+      },
+      {
+        "id": "curry-leaf-kuzhambu-with-red-rice",
+        "name": "Curry Leaf Kuzhambu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Curry Leaf Kuzhambu with Red Rice.md"
+      },
+      {
+        "id": "curry-leaf-pepper-rasam-with-red-rice",
+        "name": "Curry Leaf Pepper Rasam with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Curry Leaf Pepper Rasam with Red Rice.md"
+      },
+      {
+        "id": "keerai-kootu-with-red-rice",
+        "name": "Keerai Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Keerai Kootu with Red Rice.md"
+      },
+      {
+        "id": "manathakkali-style-kuzhambu-with-red-rice",
+        "name": "Manathakkali Style Kuzhambu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Manathakkali Style Kuzhambu with Red Rice.md"
+      },
+      {
+        "id": "paruppu-rasam-with-red-rice",
+        "name": "Paruppu Rasam with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Paruppu Rasam with Red Rice.md"
+      },
+      {
+        "id": "pudalangai-paal-kootu-with-red-rice",
+        "name": "Pudalangai Paal Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Pudalangai Paal Kootu with Red Rice.md"
+      },
+      {
+        "id": "snake-gourd-poricha-kootu-with-red-rice",
+        "name": "Snake Gourd Poricha Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Snake Gourd Poricha Kootu with Red Rice.md"
+      },
+      {
+        "id": "white-pumpkin-kootu-with-red-rice",
+        "name": "White Pumpkin Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/White Pumpkin Kootu with Red Rice.md"
+      }
+    ]
+  }
+}

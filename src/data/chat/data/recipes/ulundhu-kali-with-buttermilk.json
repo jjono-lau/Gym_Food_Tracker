@@ -1,0 +1,97 @@
+{
+  "id": "ulundhu-kali-with-buttermilk",
+  "name": "Ulundhu Kali with Buttermilk",
+  "category": "breakfast",
+  "category_note_path": "Resources/Hubs/Breakfast Hub",
+  "source_note": "Resources/Recipes/Breakfast/Ulundhu Kali with Buttermilk.md",
+  "tags": [
+    "breakfast"
+  ],
+  "ingredient_tags": [
+    "ingredient/urad-dal",
+    "ingredient/low-fat-buttermilk",
+    "ingredient/water",
+    "ingredient/salt",
+    "ingredient/cumin-seeds",
+    "ingredient/ginger"
+  ],
+  "ingredient_slugs": [
+    "urad-dal",
+    "low-fat-buttermilk",
+    "water",
+    "salt",
+    "cumin-seeds",
+    "ginger"
+  ],
+  "ingredients": [
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 140,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "low fat buttermilk",
+      "slug": "low-fat-buttermilk",
+      "quantity": 220,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 320,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 8,
+      "unit": "g",
+      "note": "grated"
+    }
+  ],
+  "description": "This morning dish leans on traditional South Indian technique but shifts the grain balance toward whole grains and lentils. Ulundhu Kali with Buttermilk brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Bring 200 ml water with salt, cumin, and ginger to a boil over medium heat.",
+    "Whisk in the slurry steadily and lower the heat. Cook for 6 to 8 minutes, stirring constantly, until the mixture thickens and leaves the sides of the pan.",
+    "Switch to low heat and beat in the warm buttermilk a little at a time until smooth and glossy.",
+    "Cook 1 final minute, then serve soft with a spoon rather than letting it set fully firm."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 8,
+    "cook_time_min": 12,
+    "total_time_min": 20
+  },
+  "nutrition_per_serving": {
+    "calories": 286,
+    "protein_g": 21,
+    "carbs_g": 47,
+    "fat_g": 2
+  },
+  "meal_prep_notes": "Kali thickens as it cools. Refrigerate up to 2 days and reheat over low heat with extra hot water or buttermilk to loosen. For make-ahead service, stop cooking when slightly looser than desired; it firms on standing.",
+  "serves": 2,
+  "related_links": [
+    "Breakfast Hub",
+    "Urad Dal",
+    "Low Fat Buttermilk"
+  ]
+}

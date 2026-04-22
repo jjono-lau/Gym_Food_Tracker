@@ -1,0 +1,171 @@
+{
+  "slug": "light-coconut-milk",
+  "name": "light coconut milk",
+  "count": 13,
+  "recipes": [
+    {
+      "id": "brown-rice-appam",
+      "name": "Brown Rice Appam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Brown Rice Appam.md"
+    },
+    {
+      "id": "coconut-milk-ragi-appam",
+      "name": "Coconut Milk Ragi Appam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Coconut Milk Ragi Appam.md"
+    },
+    {
+      "id": "brown-rice-appam-with-tomato-kurma",
+      "name": "Brown Rice Appam with Tomato Kurma",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Brown Rice Appam with Tomato Kurma.md"
+    },
+    {
+      "id": "coconut-vegetable-soup-with-ragi-string-hoppers",
+      "name": "Coconut Vegetable Soup with Ragi String Hoppers",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Coconut Vegetable Soup with Ragi String Hoppers.md"
+    },
+    {
+      "id": "foxtail-millet-pidi-kozhukattai-in-pepper-broth",
+      "name": "Foxtail Millet Pidi Kozhukattai in Pepper Broth",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Foxtail Millet Pidi Kozhukattai in Pepper Broth.md"
+    },
+    {
+      "id": "idiyappam-with-vegetable-ishtu",
+      "name": "Idiyappam with Vegetable Ishtu",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Idiyappam with Vegetable Ishtu.md"
+    },
+    {
+      "id": "little-millet-upma-kozhukattai",
+      "name": "Little Millet Upma Kozhukattai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Little Millet Upma Kozhukattai.md"
+    },
+    {
+      "id": "millet-pidi-kozhukattai-with-lentil-stew",
+      "name": "Millet Pidi Kozhukattai with Lentil Stew",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Millet Pidi Kozhukattai with Lentil Stew.md"
+    },
+    {
+      "id": "pepper-rasam-with-steamed-red-rice-dumplings",
+      "name": "Pepper Rasam with Steamed Red Rice Dumplings",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pepper Rasam with Steamed Red Rice Dumplings.md"
+    },
+    {
+      "id": "vegetable-appam-with-stew",
+      "name": "Vegetable Appam with Stew",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Appam with Stew.md"
+    },
+    {
+      "id": "vegetable-kozhukattai-in-coconut-broth",
+      "name": "Vegetable Kozhukattai in Coconut Broth",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Kozhukattai in Coconut Broth.md"
+    },
+    {
+      "id": "vegetable-kurma-with-ragi-idiyappam",
+      "name": "Vegetable Kurma with Ragi Idiyappam",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Kurma with Ragi Idiyappam.md"
+    },
+    {
+      "id": "chayote-coconut-stew-with-red-rice",
+      "name": "Chayote Coconut Stew with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Chayote Coconut Stew with Red Rice.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "brown-rice-appam",
+        "name": "Brown Rice Appam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Brown Rice Appam.md"
+      },
+      {
+        "id": "coconut-milk-ragi-appam",
+        "name": "Coconut Milk Ragi Appam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Coconut Milk Ragi Appam.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "brown-rice-appam-with-tomato-kurma",
+        "name": "Brown Rice Appam with Tomato Kurma",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Brown Rice Appam with Tomato Kurma.md"
+      },
+      {
+        "id": "coconut-vegetable-soup-with-ragi-string-hoppers",
+        "name": "Coconut Vegetable Soup with Ragi String Hoppers",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Coconut Vegetable Soup with Ragi String Hoppers.md"
+      },
+      {
+        "id": "foxtail-millet-pidi-kozhukattai-in-pepper-broth",
+        "name": "Foxtail Millet Pidi Kozhukattai in Pepper Broth",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Foxtail Millet Pidi Kozhukattai in Pepper Broth.md"
+      },
+      {
+        "id": "idiyappam-with-vegetable-ishtu",
+        "name": "Idiyappam with Vegetable Ishtu",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Idiyappam with Vegetable Ishtu.md"
+      },
+      {
+        "id": "little-millet-upma-kozhukattai",
+        "name": "Little Millet Upma Kozhukattai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Little Millet Upma Kozhukattai.md"
+      },
+      {
+        "id": "millet-pidi-kozhukattai-with-lentil-stew",
+        "name": "Millet Pidi Kozhukattai with Lentil Stew",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Millet Pidi Kozhukattai with Lentil Stew.md"
+      },
+      {
+        "id": "pepper-rasam-with-steamed-red-rice-dumplings",
+        "name": "Pepper Rasam with Steamed Red Rice Dumplings",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pepper Rasam with Steamed Red Rice Dumplings.md"
+      },
+      {
+        "id": "vegetable-appam-with-stew",
+        "name": "Vegetable Appam with Stew",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Appam with Stew.md"
+      },
+      {
+        "id": "vegetable-kozhukattai-in-coconut-broth",
+        "name": "Vegetable Kozhukattai in Coconut Broth",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Kozhukattai in Coconut Broth.md"
+      },
+      {
+        "id": "vegetable-kurma-with-ragi-idiyappam",
+        "name": "Vegetable Kurma with Ragi Idiyappam",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Kurma with Ragi Idiyappam.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "chayote-coconut-stew-with-red-rice",
+        "name": "Chayote Coconut Stew with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Chayote Coconut Stew with Red Rice.md"
+      }
+    ]
+  }
+}

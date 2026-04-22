@@ -1,0 +1,519 @@
+﻿[
+  {
+    "slug": "amaranth-leaves",
+    "name": "amaranth leaves",
+    "count": 3,
+    "path": "ingredients/amaranth-leaves.json"
+  },
+  {
+    "slug": "asafoetida",
+    "name": "asafoetida",
+    "count": 1,
+    "path": "ingredients/asafoetida.json"
+  },
+  {
+    "slug": "ash-gourd",
+    "name": "ash gourd",
+    "count": 2,
+    "path": "ingredients/ash-gourd.json"
+  },
+  {
+    "slug": "banana-stem",
+    "name": "banana stem",
+    "count": 2,
+    "path": "ingredients/banana-stem.json"
+  },
+  {
+    "slug": "barnyard-millet",
+    "name": "barnyard millet",
+    "count": 9,
+    "path": "ingredients/barnyard-millet.json"
+  },
+  {
+    "slug": "beans",
+    "name": "beans",
+    "count": 7,
+    "path": "ingredients/beans.json"
+  },
+  {
+    "slug": "beetroot",
+    "name": "beetroot",
+    "count": 3,
+    "path": "ingredients/beetroot.json"
+  },
+  {
+    "slug": "black-chana",
+    "name": "black chana",
+    "count": 6,
+    "path": "ingredients/black-chana.json"
+  },
+  {
+    "slug": "black-eyed-peas",
+    "name": "black eyed peas",
+    "count": 3,
+    "path": "ingredients/black-eyed-peas.json"
+  },
+  {
+    "slug": "black-pepper",
+    "name": "black pepper",
+    "count": 33,
+    "path": "ingredients/black-pepper.json"
+  },
+  {
+    "slug": "bottle-gourd",
+    "name": "bottle gourd",
+    "count": 9,
+    "path": "ingredients/bottle-gourd.json"
+  },
+  {
+    "slug": "brinjal",
+    "name": "brinjal",
+    "count": 3,
+    "path": "ingredients/brinjal.json"
+  },
+  {
+    "slug": "broken-wheat",
+    "name": "broken wheat",
+    "count": 2,
+    "path": "ingredients/broken-wheat.json"
+  },
+  {
+    "slug": "brown-rice",
+    "name": "brown rice",
+    "count": 28,
+    "path": "ingredients/brown-rice.json"
+  },
+  {
+    "slug": "cabbage",
+    "name": "cabbage",
+    "count": 9,
+    "path": "ingredients/cabbage.json"
+  },
+  {
+    "slug": "capsicum",
+    "name": "capsicum",
+    "count": 10,
+    "path": "ingredients/capsicum.json"
+  },
+  {
+    "slug": "carrot",
+    "name": "carrot",
+    "count": 22,
+    "path": "ingredients/carrot.json"
+  },
+  {
+    "slug": "cauliflower",
+    "name": "cauliflower",
+    "count": 2,
+    "path": "ingredients/cauliflower.json"
+  },
+  {
+    "slug": "chana-dal",
+    "name": "chana dal",
+    "count": 29,
+    "path": "ingredients/chana-dal.json"
+  },
+  {
+    "slug": "chayote",
+    "name": "chayote",
+    "count": 2,
+    "path": "ingredients/chayote.json"
+  },
+  {
+    "slug": "chilli-powder",
+    "name": "chilli powder",
+    "count": 17,
+    "path": "ingredients/chilli-powder.json"
+  },
+  {
+    "slug": "coconut",
+    "name": "coconut",
+    "count": 34,
+    "path": "ingredients/coconut.json"
+  },
+  {
+    "slug": "coriander-powder",
+    "name": "coriander powder",
+    "count": 17,
+    "path": "ingredients/coriander-powder.json"
+  },
+  {
+    "slug": "coriander-seeds",
+    "name": "coriander seeds",
+    "count": 1,
+    "path": "ingredients/coriander-seeds.json"
+  },
+  {
+    "slug": "corn",
+    "name": "corn",
+    "count": 2,
+    "path": "ingredients/corn.json"
+  },
+  {
+    "slug": "cowpea",
+    "name": "cowpea",
+    "count": 6,
+    "path": "ingredients/cowpea.json"
+  },
+  {
+    "slug": "cucumber",
+    "name": "cucumber",
+    "count": 4,
+    "path": "ingredients/cucumber.json"
+  },
+  {
+    "slug": "cumin-seeds",
+    "name": "cumin seeds",
+    "count": 70,
+    "path": "ingredients/cumin-seeds.json"
+  },
+  {
+    "slug": "curry-leaves",
+    "name": "curry leaves",
+    "count": 115,
+    "path": "ingredients/curry-leaves.json"
+  },
+  {
+    "slug": "drumstick",
+    "name": "drumstick",
+    "count": 1,
+    "path": "ingredients/drumstick.json"
+  },
+  {
+    "slug": "drumstick-leaves",
+    "name": "drumstick leaves",
+    "count": 6,
+    "path": "ingredients/drumstick-leaves.json"
+  },
+  {
+    "slug": "dry-red-chilli",
+    "name": "dry red chilli",
+    "count": 15,
+    "path": "ingredients/dry-red-chilli.json"
+  },
+  {
+    "slug": "fenugreek-seeds",
+    "name": "fenugreek seeds",
+    "count": 37,
+    "path": "ingredients/fenugreek-seeds.json"
+  },
+  {
+    "slug": "field-beans",
+    "name": "field beans",
+    "count": 3,
+    "path": "ingredients/field-beans.json"
+  },
+  {
+    "slug": "foxtail-millet",
+    "name": "foxtail millet",
+    "count": 14,
+    "path": "ingredients/foxtail-millet.json"
+  },
+  {
+    "slug": "garlic",
+    "name": "garlic",
+    "count": 19,
+    "path": "ingredients/garlic.json"
+  },
+  {
+    "slug": "ginger",
+    "name": "ginger",
+    "count": 79,
+    "path": "ingredients/ginger.json"
+  },
+  {
+    "slug": "green-chilli",
+    "name": "green chilli",
+    "count": 56,
+    "path": "ingredients/green-chilli.json"
+  },
+  {
+    "slug": "green-gram",
+    "name": "green gram",
+    "count": 11,
+    "path": "ingredients/green-gram.json"
+  },
+  {
+    "slug": "green-peas",
+    "name": "green peas",
+    "count": 8,
+    "path": "ingredients/green-peas.json"
+  },
+  {
+    "slug": "horse-gram",
+    "name": "horse gram",
+    "count": 7,
+    "path": "ingredients/horse-gram.json"
+  },
+  {
+    "slug": "jowar",
+    "name": "jowar",
+    "count": 1,
+    "path": "ingredients/jowar.json"
+  },
+  {
+    "slug": "kambu",
+    "name": "kambu",
+    "count": 3,
+    "path": "ingredients/kambu.json"
+  },
+  {
+    "slug": "kambu-flour",
+    "name": "kambu flour",
+    "count": 3,
+    "path": "ingredients/kambu-flour.json"
+  },
+  {
+    "slug": "knol-khol",
+    "name": "knol khol",
+    "count": 2,
+    "path": "ingredients/knol-khol.json"
+  },
+  {
+    "slug": "kodo-millet",
+    "name": "kodo millet",
+    "count": 8,
+    "path": "ingredients/kodo-millet.json"
+  },
+  {
+    "slug": "kovakkai",
+    "name": "kovakkai",
+    "count": 1,
+    "path": "ingredients/kovakkai.json"
+  },
+  {
+    "slug": "kuthiraivali",
+    "name": "kuthiraivali",
+    "count": 2,
+    "path": "ingredients/kuthiraivali.json"
+  },
+  {
+    "slug": "light-coconut-milk",
+    "name": "light coconut milk",
+    "count": 13,
+    "path": "ingredients/light-coconut-milk.json"
+  },
+  {
+    "slug": "little-millet",
+    "name": "little millet",
+    "count": 12,
+    "path": "ingredients/little-millet.json"
+  },
+  {
+    "slug": "low-fat-buttermilk",
+    "name": "low fat buttermilk",
+    "count": 7,
+    "path": "ingredients/low-fat-buttermilk.json"
+  },
+  {
+    "slug": "low-fat-curd",
+    "name": "low fat curd",
+    "count": 3,
+    "path": "ingredients/low-fat-curd.json"
+  },
+  {
+    "slug": "methi-leaves",
+    "name": "methi leaves",
+    "count": 4,
+    "path": "ingredients/methi-leaves.json"
+  },
+  {
+    "slug": "mochai",
+    "name": "mochai",
+    "count": 1,
+    "path": "ingredients/mochai.json"
+  },
+  {
+    "slug": "moong-dal",
+    "name": "moong dal",
+    "count": 16,
+    "path": "ingredients/moong-dal.json"
+  },
+  {
+    "slug": "mushroom",
+    "name": "mushroom",
+    "count": 4,
+    "path": "ingredients/mushroom.json"
+  },
+  {
+    "slug": "mustard-seeds",
+    "name": "mustard seeds",
+    "count": 63,
+    "path": "ingredients/mustard-seeds.json"
+  },
+  {
+    "slug": "okra",
+    "name": "okra",
+    "count": 2,
+    "path": "ingredients/okra.json"
+  },
+  {
+    "slug": "onion",
+    "name": "onion",
+    "count": 100,
+    "path": "ingredients/onion.json"
+  },
+  {
+    "slug": "peanuts",
+    "name": "peanuts",
+    "count": 1,
+    "path": "ingredients/peanuts.json"
+  },
+  {
+    "slug": "poha",
+    "name": "poha",
+    "count": 4,
+    "path": "ingredients/poha.json"
+  },
+  {
+    "slug": "pumpkin",
+    "name": "pumpkin",
+    "count": 7,
+    "path": "ingredients/pumpkin.json"
+  },
+  {
+    "slug": "quinoa",
+    "name": "quinoa",
+    "count": 3,
+    "path": "ingredients/quinoa.json"
+  },
+  {
+    "slug": "ragi",
+    "name": "ragi",
+    "count": 3,
+    "path": "ingredients/ragi.json"
+  },
+  {
+    "slug": "ragi-flour",
+    "name": "ragi flour",
+    "count": 5,
+    "path": "ingredients/ragi-flour.json"
+  },
+  {
+    "slug": "raw-banana",
+    "name": "raw banana",
+    "count": 1,
+    "path": "ingredients/raw-banana.json"
+  },
+  {
+    "slug": "raw-mango",
+    "name": "raw mango",
+    "count": 1,
+    "path": "ingredients/raw-mango.json"
+  },
+  {
+    "slug": "red-rice",
+    "name": "red rice",
+    "count": 18,
+    "path": "ingredients/red-rice.json"
+  },
+  {
+    "slug": "red-rice-flour",
+    "name": "red rice flour",
+    "count": 4,
+    "path": "ingredients/red-rice-flour.json"
+  },
+  {
+    "slug": "ridge-gourd",
+    "name": "ridge gourd",
+    "count": 3,
+    "path": "ingredients/ridge-gourd.json"
+  },
+  {
+    "slug": "rolled-oats",
+    "name": "rolled oats",
+    "count": 7,
+    "path": "ingredients/rolled-oats.json"
+  },
+  {
+    "slug": "salt",
+    "name": "salt",
+    "count": 150,
+    "path": "ingredients/salt.json"
+  },
+  {
+    "slug": "samai",
+    "name": "samai",
+    "count": 3,
+    "path": "ingredients/samai.json"
+  },
+  {
+    "slug": "sambar-powder",
+    "name": "sambar powder",
+    "count": 6,
+    "path": "ingredients/sambar-powder.json"
+  },
+  {
+    "slug": "sesame-oil",
+    "name": "sesame oil",
+    "count": 146,
+    "path": "ingredients/sesame-oil.json"
+  },
+  {
+    "slug": "snake-gourd",
+    "name": "snake gourd",
+    "count": 2,
+    "path": "ingredients/snake-gourd.json"
+  },
+  {
+    "slug": "spinach",
+    "name": "spinach",
+    "count": 10,
+    "path": "ingredients/spinach.json"
+  },
+  {
+    "slug": "split-moong-dal",
+    "name": "split moong dal",
+    "count": 14,
+    "path": "ingredients/split-moong-dal.json"
+  },
+  {
+    "slug": "sweet-potato",
+    "name": "sweet potato",
+    "count": 1,
+    "path": "ingredients/sweet-potato.json"
+  },
+  {
+    "slug": "tamarind",
+    "name": "tamarind",
+    "count": 29,
+    "path": "ingredients/tamarind.json"
+  },
+  {
+    "slug": "thinai",
+    "name": "thinai",
+    "count": 7,
+    "path": "ingredients/thinai.json"
+  },
+  {
+    "slug": "tomato",
+    "name": "tomato",
+    "count": 58,
+    "path": "ingredients/tomato.json"
+  },
+  {
+    "slug": "toor-dal",
+    "name": "toor dal",
+    "count": 34,
+    "path": "ingredients/toor-dal.json"
+  },
+  {
+    "slug": "turmeric",
+    "name": "turmeric",
+    "count": 31,
+    "path": "ingredients/turmeric.json"
+  },
+  {
+    "slug": "urad-dal",
+    "name": "urad dal",
+    "count": 74,
+    "path": "ingredients/urad-dal.json"
+  },
+  {
+    "slug": "water",
+    "name": "water",
+    "count": 147,
+    "path": "ingredients/water.json"
+  }
+]
+

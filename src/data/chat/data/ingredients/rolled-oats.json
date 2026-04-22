@@ -1,0 +1,97 @@
+{
+  "slug": "rolled-oats",
+  "name": "rolled oats",
+  "count": 7,
+  "recipes": [
+    {
+      "id": "bottle-gourd-oats-pongal",
+      "name": "Bottle Gourd Oats Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Bottle Gourd Oats Pongal.md"
+    },
+    {
+      "id": "masala-vegetable-oats-uttappam",
+      "name": "Masala Vegetable Oats Uttappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Masala Vegetable Oats Uttappam.md"
+    },
+    {
+      "id": "oats-kuzhi-paniyaram",
+      "name": "Oats Kuzhi Paniyaram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Oats Kuzhi Paniyaram.md"
+    },
+    {
+      "id": "methi-oats-dosa-with-capsicum-chutney",
+      "name": "Methi Oats Dosa with Capsicum Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Methi Oats Dosa with Capsicum Chutney.md"
+    },
+    {
+      "id": "oats-and-red-rice-idli-with-sambar",
+      "name": "Oats and Red Rice Idli with Sambar",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Oats and Red Rice Idli with Sambar.md"
+    },
+    {
+      "id": "tomato-oats-uttappam",
+      "name": "Tomato Oats Uttappam",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Tomato Oats Uttappam.md"
+    },
+    {
+      "id": "vegetable-oats-kanji",
+      "name": "Vegetable Oats Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Oats Kanji.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "bottle-gourd-oats-pongal",
+        "name": "Bottle Gourd Oats Pongal",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Bottle Gourd Oats Pongal.md"
+      },
+      {
+        "id": "masala-vegetable-oats-uttappam",
+        "name": "Masala Vegetable Oats Uttappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Masala Vegetable Oats Uttappam.md"
+      },
+      {
+        "id": "oats-kuzhi-paniyaram",
+        "name": "Oats Kuzhi Paniyaram",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Oats Kuzhi Paniyaram.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "methi-oats-dosa-with-capsicum-chutney",
+        "name": "Methi Oats Dosa with Capsicum Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Methi Oats Dosa with Capsicum Chutney.md"
+      },
+      {
+        "id": "oats-and-red-rice-idli-with-sambar",
+        "name": "Oats and Red Rice Idli with Sambar",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Oats and Red Rice Idli with Sambar.md"
+      },
+      {
+        "id": "tomato-oats-uttappam",
+        "name": "Tomato Oats Uttappam",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Tomato Oats Uttappam.md"
+      },
+      {
+        "id": "vegetable-oats-kanji",
+        "name": "Vegetable Oats Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Oats Kanji.md"
+      }
+    ]
+  }
+}

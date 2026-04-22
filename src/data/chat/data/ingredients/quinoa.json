@@ -1,0 +1,49 @@
+{
+  "slug": "quinoa",
+  "name": "quinoa",
+  "count": 3,
+  "recipes": [
+    {
+      "id": "quinoa-ven-pongal",
+      "name": "Quinoa Ven Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Quinoa Ven Pongal.md"
+    },
+    {
+      "id": "vegetable-quinoa-paniyaram",
+      "name": "Vegetable Quinoa Paniyaram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Vegetable Quinoa Paniyaram.md"
+    },
+    {
+      "id": "quinoa-tomato-kanji",
+      "name": "Quinoa Tomato Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Quinoa Tomato Kanji.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "quinoa-ven-pongal",
+        "name": "Quinoa Ven Pongal",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Quinoa Ven Pongal.md"
+      },
+      {
+        "id": "vegetable-quinoa-paniyaram",
+        "name": "Vegetable Quinoa Paniyaram",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Vegetable Quinoa Paniyaram.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "quinoa-tomato-kanji",
+        "name": "Quinoa Tomato Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Quinoa Tomato Kanji.md"
+      }
+    ]
+  }
+}

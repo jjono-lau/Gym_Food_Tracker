@@ -1,0 +1,47 @@
+{
+  "slug": "field-beans",
+  "name": "field beans",
+  "count": 3,
+  "recipes": [
+    {
+      "id": "field-bean-kuzhambu-with-brown-rice",
+      "name": "Field Bean Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Field Bean Kuzhambu with Brown Rice.md"
+    },
+    {
+      "id": "keerai-kuzhambu-with-thinai",
+      "name": "Keerai Kuzhambu with Thinai",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Keerai Kuzhambu with Thinai.md"
+    },
+    {
+      "id": "manathakkali-style-kuzhambu-with-red-rice",
+      "name": "Manathakkali Style Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Manathakkali Style Kuzhambu with Red Rice.md"
+    }
+  ],
+  "recipes_by_category": {
+    "lunch": [
+      {
+        "id": "field-bean-kuzhambu-with-brown-rice",
+        "name": "Field Bean Kuzhambu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Field Bean Kuzhambu with Brown Rice.md"
+      },
+      {
+        "id": "keerai-kuzhambu-with-thinai",
+        "name": "Keerai Kuzhambu with Thinai",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Keerai Kuzhambu with Thinai.md"
+      },
+      {
+        "id": "manathakkali-style-kuzhambu-with-red-rice",
+        "name": "Manathakkali Style Kuzhambu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Manathakkali Style Kuzhambu with Red Rice.md"
+      }
+    ]
+  }
+}

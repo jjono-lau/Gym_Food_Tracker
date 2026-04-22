@@ -1,0 +1,49 @@
+{
+  "slug": "amaranth-leaves",
+  "name": "amaranth leaves",
+  "count": 3,
+  "recipes": [
+    {
+      "id": "pearl-millet-idli-with-soppu-saaru",
+      "name": "Pearl Millet Idli with Soppu Saaru",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pearl Millet Idli with Soppu Saaru.md"
+    },
+    {
+      "id": "amaranth-dal-with-brown-rice",
+      "name": "Amaranth Dal with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Amaranth Dal with Brown Rice.md"
+    },
+    {
+      "id": "keerai-kuzhambu-with-thinai",
+      "name": "Keerai Kuzhambu with Thinai",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Keerai Kuzhambu with Thinai.md"
+    }
+  ],
+  "recipes_by_category": {
+    "dinner": [
+      {
+        "id": "pearl-millet-idli-with-soppu-saaru",
+        "name": "Pearl Millet Idli with Soppu Saaru",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pearl Millet Idli with Soppu Saaru.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "amaranth-dal-with-brown-rice",
+        "name": "Amaranth Dal with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Amaranth Dal with Brown Rice.md"
+      },
+      {
+        "id": "keerai-kuzhambu-with-thinai",
+        "name": "Keerai Kuzhambu with Thinai",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Keerai Kuzhambu with Thinai.md"
+      }
+    ]
+  }
+}

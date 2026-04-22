@@ -1,0 +1,49 @@
+{
+  "slug": "kambu",
+  "name": "kambu",
+  "count": 3,
+  "recipes": [
+    {
+      "id": "beetroot-kambu-adai",
+      "name": "Beetroot Kambu Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Beetroot Kambu Adai.md"
+    },
+    {
+      "id": "vegetable-kambu-kozhukattai",
+      "name": "Vegetable Kambu Kozhukattai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Vegetable Kambu Kozhukattai.md"
+    },
+    {
+      "id": "pearl-millet-idli-with-soppu-saaru",
+      "name": "Pearl Millet Idli with Soppu Saaru",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pearl Millet Idli with Soppu Saaru.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "beetroot-kambu-adai",
+        "name": "Beetroot Kambu Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Beetroot Kambu Adai.md"
+      },
+      {
+        "id": "vegetable-kambu-kozhukattai",
+        "name": "Vegetable Kambu Kozhukattai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Vegetable Kambu Kozhukattai.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "pearl-millet-idli-with-soppu-saaru",
+        "name": "Pearl Millet Idli with Soppu Saaru",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pearl Millet Idli with Soppu Saaru.md"
+      }
+    ]
+  }
+}

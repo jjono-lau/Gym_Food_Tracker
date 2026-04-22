@@ -1,0 +1,142 @@
+{
+  "id": "beans-paruppu-curry-with-red-rice",
+  "name": "Beans Paruppu Curry with Red Rice",
+  "category": "lunch",
+  "category_note_path": "Resources/Hubs/Lunch Hub",
+  "source_note": "Resources/Recipes/Lunch/Beans Paruppu Curry with Red Rice.md",
+  "tags": [
+    "lunch"
+  ],
+  "ingredient_tags": [
+    "ingredient/red-rice",
+    "ingredient/moong-dal",
+    "ingredient/beans",
+    "ingredient/onion",
+    "ingredient/tomato",
+    "ingredient/garlic",
+    "ingredient/cumin-seeds",
+    "ingredient/turmeric",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "red-rice",
+    "moong-dal",
+    "beans",
+    "onion",
+    "tomato",
+    "garlic",
+    "cumin-seeds",
+    "turmeric",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "red rice",
+      "slug": "red-rice",
+      "quantity": 160,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "moong dal",
+      "slug": "moong-dal",
+      "quantity": 90,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "beans",
+      "slug": "beans",
+      "quantity": 180,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 60,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "tomato",
+      "slug": "tomato",
+      "quantity": 90,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "garlic",
+      "slug": "garlic",
+      "quantity": 10,
+      "unit": "g",
+      "note": "sliced"
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "turmeric",
+      "slug": "turmeric",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 7,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 860,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "A balanced South Indian lunch bowl where legumes, vegetables, and whole grains carry the dish instead of excess fat. Beans Paruppu Curry with Red Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat oil in a pot over medium heat. Add cumin and garlic and cook 30 seconds until fragrant but not dark.",
+    "Add onion, tomato, turmeric, and vegetable and cook 4 minutes until the tomato softens.",
+    "Add the dal, salt, and 500 ml water. Pressure cook for 3 whistles or simmer covered on low heat for 25 minutes until the dal is soft and spoon-coating.",
+    "Whisk lightly to break some of the dal while keeping some texture, then serve with the cooked grain."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 15,
+    "cook_time_min": 24,
+    "total_time_min": 39
+  },
+  "nutrition_per_serving": {
+    "calories": 531,
+    "protein_g": 19,
+    "carbs_g": 102,
+    "fat_g": 6
+  },
+  "meal_prep_notes": "Dal keeps 3 days chilled and freezes well. Reheat over low heat with a splash of water. Cook the grain fresh if possible; if not, cool it quickly so it holds separate grains on reheating.",
+  "serves": 2,
+  "related_links": [
+    "Lunch Hub",
+    "Red Rice",
+    "Moong Dal"
+  ]
+}

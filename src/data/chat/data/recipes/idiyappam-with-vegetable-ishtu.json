@@ -1,0 +1,142 @@
+{
+  "id": "idiyappam-with-vegetable-ishtu",
+  "name": "Idiyappam with Vegetable Ishtu",
+  "category": "dinner",
+  "category_note_path": "Resources/Hubs/Dinner Hub",
+  "source_note": "Resources/Recipes/Dinner/Idiyappam with Vegetable Ishtu.md",
+  "tags": [
+    "dinner"
+  ],
+  "ingredient_tags": [
+    "ingredient/red-rice-flour",
+    "ingredient/bottle-gourd",
+    "ingredient/light-coconut-milk",
+    "ingredient/green-peas",
+    "ingredient/onion",
+    "ingredient/ginger",
+    "ingredient/green-chilli",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "red-rice-flour",
+    "bottle-gourd",
+    "light-coconut-milk",
+    "green-peas",
+    "onion",
+    "ginger",
+    "green-chilli",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "red rice flour",
+      "slug": "red-rice-flour",
+      "quantity": 160,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "bottle gourd",
+      "slug": "bottle-gourd",
+      "quantity": 200,
+      "unit": "g",
+      "note": "thin strips"
+    },
+    {
+      "name": "light coconut milk",
+      "slug": "light-coconut-milk",
+      "quantity": 220,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "green peas",
+      "slug": "green-peas",
+      "quantity": 60,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 60,
+      "unit": "g",
+      "note": "sliced"
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 10,
+      "unit": "g",
+      "note": "julienned"
+    },
+    {
+      "name": "green chilli",
+      "slug": "green-chilli",
+      "quantity": 2,
+      "unit": "tsp",
+      "note": "slit"
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 6,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 540,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Idiyappam with Vegetable Ishtu brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Warm a pot on medium heat with oil. Add onion, ginger, chilli, and curry leaves and soften for 2 minutes without browning.",
+    "Add the vegetable, peas, salt, and 180 ml water. Cover and cook on medium-low heat for 6 minutes until just tender.",
+    "Add coconut milk and simmer gently on low heat for 4 minutes until lightly thickened.",
+    "Serve the hot stew over the idiyappam so the strands absorb flavor but still retain shape."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 14,
+    "cook_time_min": 16,
+    "total_time_min": 30
+  },
+  "nutrition_per_serving": {
+    "calories": 459,
+    "protein_g": 10,
+    "carbs_g": 76,
+    "fat_g": 13
+  },
+  "meal_prep_notes": "Cooked idiyappam and stew keep 2 days refrigerated when stored separately. Reheat the stew on low heat and steam the idiyappam for 2 minutes. Batch-cook the string hoppers ahead and finish the stew fresh.",
+  "serves": 2,
+  "related_links": [
+    "Dinner Hub",
+    "Red Rice Flour",
+    "Bottle Gourd"
+  ]
+}

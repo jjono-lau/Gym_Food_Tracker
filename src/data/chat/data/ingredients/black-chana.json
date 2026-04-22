@@ -1,0 +1,85 @@
+{
+  "slug": "black-chana",
+  "name": "black chana",
+  "count": 6,
+  "recipes": [
+    {
+      "id": "south-indian-sundal-salad-bowl",
+      "name": "South Indian Sundal Salad Bowl",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/South Indian Sundal Salad Bowl.md"
+    },
+    {
+      "id": "bitter-gourd-pitlai-with-little-millet",
+      "name": "Bitter Gourd Pitlai with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Bitter Gourd Pitlai with Little Millet.md"
+    },
+    {
+      "id": "black-chana-sundal-kuzhambu-with-brown-rice",
+      "name": "Black Chana Sundal Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Black Chana Sundal Kuzhambu with Brown Rice.md"
+    },
+    {
+      "id": "curry-leaf-kuzhambu-with-red-rice",
+      "name": "Curry Leaf Kuzhambu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Curry Leaf Kuzhambu with Red Rice.md"
+    },
+    {
+      "id": "methi-kuzhambu-with-brown-rice",
+      "name": "Methi Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Methi Kuzhambu with Brown Rice.md"
+    },
+    {
+      "id": "poondu-kuzhambu-with-kodo-millet",
+      "name": "Poondu Kuzhambu with Kodo Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Poondu Kuzhambu with Kodo Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "dinner": [
+      {
+        "id": "south-indian-sundal-salad-bowl",
+        "name": "South Indian Sundal Salad Bowl",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/South Indian Sundal Salad Bowl.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "bitter-gourd-pitlai-with-little-millet",
+        "name": "Bitter Gourd Pitlai with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Bitter Gourd Pitlai with Little Millet.md"
+      },
+      {
+        "id": "black-chana-sundal-kuzhambu-with-brown-rice",
+        "name": "Black Chana Sundal Kuzhambu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Black Chana Sundal Kuzhambu with Brown Rice.md"
+      },
+      {
+        "id": "curry-leaf-kuzhambu-with-red-rice",
+        "name": "Curry Leaf Kuzhambu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Curry Leaf Kuzhambu with Red Rice.md"
+      },
+      {
+        "id": "methi-kuzhambu-with-brown-rice",
+        "name": "Methi Kuzhambu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Methi Kuzhambu with Brown Rice.md"
+      },
+      {
+        "id": "poondu-kuzhambu-with-kodo-millet",
+        "name": "Poondu Kuzhambu with Kodo Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Poondu Kuzhambu with Kodo Millet.md"
+      }
+    ]
+  }
+}

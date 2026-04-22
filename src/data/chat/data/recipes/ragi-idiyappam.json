@@ -1,0 +1,151 @@
+{
+  "id": "ragi-idiyappam",
+  "name": "Ragi Idiyappam",
+  "category": "breakfast",
+  "category_note_path": "Resources/Hubs/Breakfast Hub",
+  "source_note": "Resources/Recipes/Breakfast/Ragi Idiyappam.md",
+  "tags": [
+    "breakfast"
+  ],
+  "ingredient_tags": [
+    "ingredient/ragi",
+    "ingredient/carrot",
+    "ingredient/onion",
+    "ingredient/coconut",
+    "ingredient/ginger",
+    "ingredient/green-chilli",
+    "ingredient/mustard-seeds",
+    "ingredient/urad-dal",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "ragi",
+    "carrot",
+    "onion",
+    "coconut",
+    "ginger",
+    "green-chilli",
+    "mustard-seeds",
+    "urad-dal",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "ragi",
+      "slug": "ragi",
+      "quantity": 160,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "carrot",
+      "slug": "carrot",
+      "quantity": 90,
+      "unit": "g",
+      "note": "julienned"
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 60,
+      "unit": "g",
+      "note": "thinly sliced"
+    },
+    {
+      "name": "coconut",
+      "slug": "coconut",
+      "quantity": 20,
+      "unit": "g",
+      "note": "freshly grated"
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 10,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "green chilli",
+      "slug": "green-chilli",
+      "quantity": 2,
+      "unit": "tsp",
+      "note": "finely chopped"
+    },
+    {
+      "name": "mustard seeds",
+      "slug": "mustard-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 12,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 8,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 320,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "A fermented tiffin that stays light on the stomach while delivering enough fiber to keep breakfast steady. Ragi Idiyappam brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat a wide pan on medium heat, add oil, mustard seeds, urad dal, and cook 45 seconds until the dal turns pale gold.",
+    "Add curry leaves, ginger, chilli, onion, and vegetables; saute 3 to 4 minutes until just tender but still bright.",
+    "Add the sevai, salt, and 40 ml water. Toss gently on low heat for 2 minutes so the strands absorb seasoning without breaking.",
+    "Finish with grated coconut and toss once more. Rest 2 minutes before serving so the starch firms and the strands stay separate."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 12,
+    "cook_time_min": 12,
+    "total_time_min": 24
+  },
+  "nutrition_per_serving": {
+    "calories": 397,
+    "protein_g": 9,
+    "carbs_g": 71,
+    "fat_g": 9
+  },
+  "meal_prep_notes": "Cooked sevai keeps 2 days chilled. Reheat in a covered skillet over low heat with 1 tbsp water for 2 minutes. For batch prep, steam or cook the sevai base ahead and season it only just before eating.",
+  "serves": 2,
+  "related_links": [
+    "Breakfast Hub",
+    "Ragi",
+    "Carrot"
+  ]
+}

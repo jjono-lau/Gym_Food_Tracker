@@ -1,0 +1,49 @@
+{
+  "slug": "beetroot",
+  "name": "beetroot",
+  "count": 3,
+  "recipes": [
+    {
+      "id": "beetroot-kambu-adai",
+      "name": "Beetroot Kambu Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Beetroot Kambu Adai.md"
+    },
+    {
+      "id": "red-rice-aval-upma",
+      "name": "Red Rice Aval Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Rice Aval Upma.md"
+    },
+    {
+      "id": "beetroot-kootu-with-little-millet",
+      "name": "Beetroot Kootu with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Beetroot Kootu with Little Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "beetroot-kambu-adai",
+        "name": "Beetroot Kambu Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Beetroot Kambu Adai.md"
+      },
+      {
+        "id": "red-rice-aval-upma",
+        "name": "Red Rice Aval Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Red Rice Aval Upma.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "beetroot-kootu-with-little-millet",
+        "name": "Beetroot Kootu with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Beetroot Kootu with Little Millet.md"
+      }
+    ]
+  }
+}

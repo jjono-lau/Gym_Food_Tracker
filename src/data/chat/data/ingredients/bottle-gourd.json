@@ -1,0 +1,123 @@
+{
+  "slug": "bottle-gourd",
+  "name": "bottle gourd",
+  "count": 9,
+  "recipes": [
+    {
+      "id": "bottle-gourd-oats-pongal",
+      "name": "Bottle Gourd Oats Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Bottle Gourd Oats Pongal.md"
+    },
+    {
+      "id": "broken-wheat-ven-pongal",
+      "name": "Broken Wheat Ven Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Broken Wheat Ven Pongal.md"
+    },
+    {
+      "id": "quinoa-ven-pongal",
+      "name": "Quinoa Ven Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Quinoa Ven Pongal.md"
+    },
+    {
+      "id": "bottle-gourd-moong-stew-with-kodo-millet",
+      "name": "Bottle Gourd Moong Stew with Kodo Millet",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Bottle Gourd Moong Stew with Kodo Millet.md"
+    },
+    {
+      "id": "coconut-vegetable-soup-with-ragi-string-hoppers",
+      "name": "Coconut Vegetable Soup with Ragi String Hoppers",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Coconut Vegetable Soup with Ragi String Hoppers.md"
+    },
+    {
+      "id": "idiyappam-with-vegetable-ishtu",
+      "name": "Idiyappam with Vegetable Ishtu",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Idiyappam with Vegetable Ishtu.md"
+    },
+    {
+      "id": "lauki-coconut-milk-soup-with-barnyard-millet",
+      "name": "Lauki Coconut Milk Soup with Barnyard Millet",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Lauki Coconut Milk Soup with Barnyard Millet.md"
+    },
+    {
+      "id": "pepper-jeera-thinai-kanji",
+      "name": "Pepper Jeera Thinai Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pepper Jeera Thinai Kanji.md"
+    },
+    {
+      "id": "sorakkai-kootu-with-brown-rice",
+      "name": "Sorakkai Kootu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Sorakkai Kootu with Brown Rice.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "bottle-gourd-oats-pongal",
+        "name": "Bottle Gourd Oats Pongal",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Bottle Gourd Oats Pongal.md"
+      },
+      {
+        "id": "broken-wheat-ven-pongal",
+        "name": "Broken Wheat Ven Pongal",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Broken Wheat Ven Pongal.md"
+      },
+      {
+        "id": "quinoa-ven-pongal",
+        "name": "Quinoa Ven Pongal",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Quinoa Ven Pongal.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "bottle-gourd-moong-stew-with-kodo-millet",
+        "name": "Bottle Gourd Moong Stew with Kodo Millet",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Bottle Gourd Moong Stew with Kodo Millet.md"
+      },
+      {
+        "id": "coconut-vegetable-soup-with-ragi-string-hoppers",
+        "name": "Coconut Vegetable Soup with Ragi String Hoppers",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Coconut Vegetable Soup with Ragi String Hoppers.md"
+      },
+      {
+        "id": "idiyappam-with-vegetable-ishtu",
+        "name": "Idiyappam with Vegetable Ishtu",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Idiyappam with Vegetable Ishtu.md"
+      },
+      {
+        "id": "lauki-coconut-milk-soup-with-barnyard-millet",
+        "name": "Lauki Coconut Milk Soup with Barnyard Millet",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Lauki Coconut Milk Soup with Barnyard Millet.md"
+      },
+      {
+        "id": "pepper-jeera-thinai-kanji",
+        "name": "Pepper Jeera Thinai Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pepper Jeera Thinai Kanji.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "sorakkai-kootu-with-brown-rice",
+        "name": "Sorakkai Kootu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Sorakkai Kootu with Brown Rice.md"
+      }
+    ]
+  }
+}

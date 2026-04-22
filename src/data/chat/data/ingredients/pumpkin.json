@@ -1,0 +1,99 @@
+{
+  "slug": "pumpkin",
+  "name": "pumpkin",
+  "count": 7,
+  "recipes": [
+    {
+      "id": "pumpkin-idli",
+      "name": "Pumpkin Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Pumpkin Idli.md"
+    },
+    {
+      "id": "samai-vegetable-pongal",
+      "name": "Samai Vegetable Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Samai Vegetable Pongal.md"
+    },
+    {
+      "id": "pumpkin-soup-with-foxtail-millet-dumplings",
+      "name": "Pumpkin Soup with Foxtail Millet Dumplings",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pumpkin Soup with Foxtail Millet Dumplings.md"
+    },
+    {
+      "id": "vegetable-appam-with-stew",
+      "name": "Vegetable Appam with Stew",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Appam with Stew.md"
+    },
+    {
+      "id": "field-bean-kuzhambu-with-brown-rice",
+      "name": "Field Bean Kuzhambu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Field Bean Kuzhambu with Brown Rice.md"
+    },
+    {
+      "id": "pumpkin-black-eyed-pea-kootu-with-brown-rice",
+      "name": "Pumpkin Black Eyed Pea Kootu with Brown Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Pumpkin Black Eyed Pea Kootu with Brown Rice.md"
+    },
+    {
+      "id": "pumpkin-more-kuzhambu-with-barnyard-millet",
+      "name": "Pumpkin More Kuzhambu with Barnyard Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Pumpkin More Kuzhambu with Barnyard Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "pumpkin-idli",
+        "name": "Pumpkin Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Pumpkin Idli.md"
+      },
+      {
+        "id": "samai-vegetable-pongal",
+        "name": "Samai Vegetable Pongal",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Samai Vegetable Pongal.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "pumpkin-soup-with-foxtail-millet-dumplings",
+        "name": "Pumpkin Soup with Foxtail Millet Dumplings",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pumpkin Soup with Foxtail Millet Dumplings.md"
+      },
+      {
+        "id": "vegetable-appam-with-stew",
+        "name": "Vegetable Appam with Stew",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Appam with Stew.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "field-bean-kuzhambu-with-brown-rice",
+        "name": "Field Bean Kuzhambu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Field Bean Kuzhambu with Brown Rice.md"
+      },
+      {
+        "id": "pumpkin-black-eyed-pea-kootu-with-brown-rice",
+        "name": "Pumpkin Black Eyed Pea Kootu with Brown Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Pumpkin Black Eyed Pea Kootu with Brown Rice.md"
+      },
+      {
+        "id": "pumpkin-more-kuzhambu-with-barnyard-millet",
+        "name": "Pumpkin More Kuzhambu with Barnyard Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Pumpkin More Kuzhambu with Barnyard Millet.md"
+      }
+    ]
+  }
+}

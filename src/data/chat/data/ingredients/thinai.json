@@ -1,0 +1,99 @@
+{
+  "slug": "thinai",
+  "name": "thinai",
+  "count": 7,
+  "recipes": [
+    {
+      "id": "curry-leaf-thinai-dosa",
+      "name": "Curry Leaf Thinai Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Curry Leaf Thinai Dosa.md"
+    },
+    {
+      "id": "mushroom-pepper-thinai-upma",
+      "name": "Mushroom Pepper Thinai Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Mushroom Pepper Thinai Upma.md"
+    },
+    {
+      "id": "thinai-coconut-puttu",
+      "name": "Thinai Coconut Puttu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Thinai Coconut Puttu.md"
+    },
+    {
+      "id": "thinai-onion-uthappam",
+      "name": "Thinai Onion Uthappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Thinai Onion Uthappam.md"
+    },
+    {
+      "id": "pepper-jeera-thinai-kanji",
+      "name": "Pepper Jeera Thinai Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pepper Jeera Thinai Kanji.md"
+    },
+    {
+      "id": "thinai-vegetable-kanji",
+      "name": "Thinai Vegetable Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Thinai Vegetable Kanji.md"
+    },
+    {
+      "id": "keerai-kuzhambu-with-thinai",
+      "name": "Keerai Kuzhambu with Thinai",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Keerai Kuzhambu with Thinai.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "curry-leaf-thinai-dosa",
+        "name": "Curry Leaf Thinai Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Curry Leaf Thinai Dosa.md"
+      },
+      {
+        "id": "mushroom-pepper-thinai-upma",
+        "name": "Mushroom Pepper Thinai Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Mushroom Pepper Thinai Upma.md"
+      },
+      {
+        "id": "thinai-coconut-puttu",
+        "name": "Thinai Coconut Puttu",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Thinai Coconut Puttu.md"
+      },
+      {
+        "id": "thinai-onion-uthappam",
+        "name": "Thinai Onion Uthappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Thinai Onion Uthappam.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "pepper-jeera-thinai-kanji",
+        "name": "Pepper Jeera Thinai Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pepper Jeera Thinai Kanji.md"
+      },
+      {
+        "id": "thinai-vegetable-kanji",
+        "name": "Thinai Vegetable Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Thinai Vegetable Kanji.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "keerai-kuzhambu-with-thinai",
+        "name": "Keerai Kuzhambu with Thinai",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Keerai Kuzhambu with Thinai.md"
+      }
+    ]
+  }
+}

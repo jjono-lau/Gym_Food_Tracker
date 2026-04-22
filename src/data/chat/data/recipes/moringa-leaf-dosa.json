@@ -1,0 +1,151 @@
+{
+  "id": "moringa-leaf-dosa",
+  "name": "Moringa Leaf Dosa",
+  "category": "breakfast",
+  "category_note_path": "Resources/Hubs/Breakfast Hub",
+  "source_note": "Resources/Recipes/Breakfast/Moringa Leaf Dosa.md",
+  "tags": [
+    "breakfast"
+  ],
+  "ingredient_tags": [
+    "ingredient/brown-rice",
+    "ingredient/urad-dal",
+    "ingredient/brown-rice",
+    "ingredient/fenugreek-seeds",
+    "ingredient/onion",
+    "ingredient/drumstick-leaves",
+    "ingredient/ginger",
+    "ingredient/green-chilli",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "brown-rice",
+    "urad-dal",
+    "brown-rice",
+    "fenugreek-seeds",
+    "onion",
+    "drumstick-leaves",
+    "ginger",
+    "green-chilli",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "brown rice",
+      "slug": "brown-rice",
+      "quantity": 140,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 50,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "brown rice",
+      "slug": "brown-rice",
+      "quantity": 60,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "fenugreek seeds",
+      "slug": "fenugreek-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "onion",
+      "slug": "onion",
+      "quantity": 60,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "drumstick leaves",
+      "slug": "drumstick-leaves",
+      "quantity": 80,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 10,
+      "unit": "g",
+      "note": "finely grated"
+    },
+    {
+      "name": "green chilli",
+      "slug": "green-chilli",
+      "quantity": 2,
+      "unit": "tsp",
+      "note": "finely chopped"
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": "thinly sliced"
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 10,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 420,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Moringa Leaf Dosa brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat a cast-iron dosa tawa over medium heat for 3 minutes; sprinkle a few drops of water and wipe when it sizzles and vanishes immediately.",
+    "Pour 120 ml batter in the center, spread outward in a thin spiral, and drizzle 2 ml oil around the edges. Cook on medium heat for 2 to 3 minutes until the surface dries and the base turns deep golden.",
+    "Flip only if the topping looks moist; cook the second side on low heat for 45 to 60 seconds until set but not crisp.",
+    "Repeat with the remaining batter, adjusting the heat so each dosa browns gradually rather than blistering. Serve hot with tomato chutney."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 15,
+    "cook_time_min": 18,
+    "total_time_min": 33
+  },
+  "nutrition_per_serving": {
+    "calories": 543,
+    "protein_g": 18,
+    "carbs_g": 99,
+    "fat_g": 9
+  },
+  "meal_prep_notes": "The batter keeps 3 days in the fridge; stir gently before reuse. Cooked dosas reheat best on a dry pan over low heat for 1 minute per side. For batch cooking, ferment the batter in one container and portion toppings separately so later rounds stay crisp.",
+  "serves": 2,
+  "related_links": [
+    "Breakfast Hub",
+    "Brown Rice",
+    "Urad Dal"
+  ]
+}

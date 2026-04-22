@@ -1,0 +1,142 @@
+{
+  "id": "barnyard-millet-kozhukattai",
+  "name": "Barnyard Millet Kozhukattai",
+  "category": "breakfast",
+  "category_note_path": "Resources/Hubs/Breakfast Hub",
+  "source_note": "Resources/Recipes/Breakfast/Barnyard Millet Kozhukattai.md",
+  "tags": [
+    "breakfast"
+  ],
+  "ingredient_tags": [
+    "ingredient/barnyard-millet",
+    "ingredient/carrot",
+    "ingredient/coconut",
+    "ingredient/green-chilli",
+    "ingredient/ginger",
+    "ingredient/mustard-seeds",
+    "ingredient/urad-dal",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "barnyard-millet",
+    "carrot",
+    "coconut",
+    "green-chilli",
+    "ginger",
+    "mustard-seeds",
+    "urad-dal",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "barnyard millet",
+      "slug": "barnyard-millet",
+      "quantity": 150,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "carrot",
+      "slug": "carrot",
+      "quantity": 100,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "coconut",
+      "slug": "coconut",
+      "quantity": 18,
+      "unit": "g",
+      "note": "grated"
+    },
+    {
+      "name": "green chilli",
+      "slug": "green-chilli",
+      "quantity": 2,
+      "unit": "tsp",
+      "note": "finely chopped"
+    },
+    {
+      "name": "ginger",
+      "slug": "ginger",
+      "quantity": 10,
+      "unit": "g",
+      "note": "finely chopped"
+    },
+    {
+      "name": "mustard seeds",
+      "slug": "mustard-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 12,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 8,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 340,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "Built for a slower glucose rise, this breakfast keeps the familiar hotel-style texture without relying on refined starch. Barnyard Millet Kozhukattai brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Heat oil in a saute pan on medium heat. Add mustard seeds and urad dal and cook until the dal is lightly golden. Stir in curry leaves, ginger, chilli, and the vegetable; cook 2 minutes.",
+    "Pour in water and salt and bring to a full boil over high heat. Lower the heat and stir in the grain slowly until it forms a soft mass.",
+    "Cover and rest off heat for 5 minutes. When cool enough to handle, shape into small oblong dumplings with damp hands.",
+    "Steam on medium heat for 10 to 12 minutes until the surface looks matte and firm. Serve warm with chutney or a thin lentil broth."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 14,
+    "cook_time_min": 18,
+    "total_time_min": 32
+  },
+  "nutrition_per_serving": {
+    "calories": 345,
+    "protein_g": 11,
+    "carbs_g": 52,
+    "fat_g": 10
+  },
+  "meal_prep_notes": "Kozhukattai keeps 3 days refrigerated. Reheat by steaming for 4 minutes, not in a dry pan, so the interior stays soft. For batch cooking, shape and refrigerate on a tray, then steam only what you need.",
+  "serves": 2,
+  "related_links": [
+    "Breakfast Hub",
+    "Barnyard Millet",
+    "Carrot"
+  ]
+}

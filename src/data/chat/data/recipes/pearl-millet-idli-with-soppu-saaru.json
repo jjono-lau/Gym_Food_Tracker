@@ -1,0 +1,151 @@
+{
+  "id": "pearl-millet-idli-with-soppu-saaru",
+  "name": "Pearl Millet Idli with Soppu Saaru",
+  "category": "dinner",
+  "category_note_path": "Resources/Hubs/Dinner Hub",
+  "source_note": "Resources/Recipes/Dinner/Pearl Millet Idli with Soppu Saaru.md",
+  "tags": [
+    "dinner"
+  ],
+  "ingredient_tags": [
+    "ingredient/kambu",
+    "ingredient/urad-dal",
+    "ingredient/fenugreek-seeds",
+    "ingredient/amaranth-leaves",
+    "ingredient/toor-dal",
+    "ingredient/tomato",
+    "ingredient/garlic",
+    "ingredient/cumin-seeds",
+    "ingredient/black-pepper",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "kambu",
+    "urad-dal",
+    "fenugreek-seeds",
+    "amaranth-leaves",
+    "toor-dal",
+    "tomato",
+    "garlic",
+    "cumin-seeds",
+    "black-pepper",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "kambu",
+      "slug": "kambu",
+      "quantity": 140,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 55,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "fenugreek seeds",
+      "slug": "fenugreek-seeds",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "amaranth leaves",
+      "slug": "amaranth-leaves",
+      "quantity": 140,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "name": "toor dal",
+      "slug": "toor-dal",
+      "quantity": 60,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "tomato",
+      "slug": "tomato",
+      "quantity": 90,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "garlic",
+      "slug": "garlic",
+      "quantity": 10,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "black pepper",
+      "slug": "black-pepper",
+      "quantity": 0.8,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 6,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 760,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "Built for an easy night meal, the recipe focuses on soft textures, digestibility, and controlled portions of whole grains. Pearl Millet Idli with Soppu Saaru brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Steam the idlis on medium heat for 10 to 12 minutes until springy and fully set.",
+    "For the saaru, simmer dal, tomato, vegetable, garlic, cumin, pepper, salt, and 400 ml water over medium heat for 10 minutes until fragrant and lightly broth-like.",
+    "Temper with a little oil if desired and pour the hot saaru into bowls.",
+    "Serve the idlis alongside or submerged briefly so they soak up the broth."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 18,
+    "cook_time_min": 22,
+    "total_time_min": 40
+  },
+  "nutrition_per_serving": {
+    "calories": 508,
+    "protein_g": 24,
+    "carbs_g": 88,
+    "fat_g": 8
+  },
+  "meal_prep_notes": "Idlis keep 3 days chilled and freeze well. Saaru keeps 2 days. Reheat idlis by steaming and warm the broth separately before combining.",
+  "serves": 2,
+  "related_links": [
+    "Dinner Hub",
+    "Kambu",
+    "Urad Dal"
+  ]
+}

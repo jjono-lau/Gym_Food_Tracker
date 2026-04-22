@@ -1,0 +1,11 @@
+{
+  "recipe_count": 150,
+  "category_count": 3,
+  "ingredient_count": 86,
+  "paths": {
+    "recipes": "recipes.json",
+    "recipe_documents": "recipes/{id}.json",
+    "categories": "categories/{category}.json",
+    "ingredients": "ingredients/{ingredient}.json"
+  }
+}

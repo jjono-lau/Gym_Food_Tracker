@@ -1,0 +1,151 @@
+{
+  "id": "vazhaithandu-kootu-with-brown-rice",
+  "name": "Vazhaithandu Kootu with Brown Rice",
+  "category": "lunch",
+  "category_note_path": "Resources/Hubs/Lunch Hub",
+  "source_note": "Resources/Recipes/Lunch/Vazhaithandu Kootu with Brown Rice.md",
+  "tags": [
+    "lunch"
+  ],
+  "ingredient_tags": [
+    "ingredient/brown-rice",
+    "ingredient/moong-dal",
+    "ingredient/banana-stem",
+    "ingredient/coconut",
+    "ingredient/cumin-seeds",
+    "ingredient/green-chilli",
+    "ingredient/mustard-seeds",
+    "ingredient/urad-dal",
+    "ingredient/curry-leaves",
+    "ingredient/sesame-oil",
+    "ingredient/salt",
+    "ingredient/water"
+  ],
+  "ingredient_slugs": [
+    "brown-rice",
+    "moong-dal",
+    "banana-stem",
+    "coconut",
+    "cumin-seeds",
+    "green-chilli",
+    "mustard-seeds",
+    "urad-dal",
+    "curry-leaves",
+    "sesame-oil",
+    "salt",
+    "water"
+  ],
+  "ingredients": [
+    {
+      "name": "brown rice",
+      "slug": "brown-rice",
+      "quantity": 160,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "moong dal",
+      "slug": "moong-dal",
+      "quantity": 80,
+      "unit": "g",
+      "note": "washed"
+    },
+    {
+      "name": "banana stem",
+      "slug": "banana-stem",
+      "quantity": 240,
+      "unit": "g",
+      "note": "medium dice"
+    },
+    {
+      "name": "coconut",
+      "slug": "coconut",
+      "quantity": 20,
+      "unit": "g",
+      "note": "grated"
+    },
+    {
+      "name": "cumin seeds",
+      "slug": "cumin-seeds",
+      "quantity": 1.2,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "green chilli",
+      "slug": "green-chilli",
+      "quantity": 2,
+      "unit": "tsp",
+      "note": "chopped"
+    },
+    {
+      "name": "mustard seeds",
+      "slug": "mustard-seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "urad dal",
+      "slug": "urad-dal",
+      "quantity": 10,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "curry leaves",
+      "slug": "curry-leaves",
+      "quantity": 4,
+      "unit": "g",
+      "note": null
+    },
+    {
+      "name": "sesame oil",
+      "slug": "sesame-oil",
+      "quantity": 8,
+      "unit": "ml",
+      "note": null
+    },
+    {
+      "name": "salt",
+      "slug": "salt",
+      "quantity": 1.5,
+      "unit": "tsp",
+      "note": null
+    },
+    {
+      "name": "water",
+      "slug": "water",
+      "quantity": 880,
+      "unit": "ml",
+      "note": null
+    }
+  ],
+  "description": "This midday recipe uses classic Tamil and Karnataka flavor structure while keeping the meal high in fiber and moderate in protein. Vazhaithandu Kootu with Brown Rice brings a distinct structure, seasoning pattern, and grain-legume balance to the table.",
+  "preparation": "",
+  "cooking_steps": [
+    "Cook the vegetable with 250 ml water and salt over medium heat for 8 to 10 minutes until just tender.",
+    "Add the cooked legume and the coconut paste and simmer on low heat for 5 minutes, stirring often so the base does not catch.",
+    "In a small pan, heat oil on medium heat, crackle mustard and urad dal, then add curry leaves. Pour this tempering over the kootu immediately.",
+    "Fold once, rest 2 minutes for the flavors to settle, and serve with the cooked grain."
+  ],
+  "chef_techniques": "",
+  "timing": {
+    "prep_time_min": 16,
+    "cook_time_min": 22,
+    "total_time_min": 38
+  },
+  "nutrition_per_serving": {
+    "calories": 557,
+    "protein_g": 19,
+    "carbs_g": 99,
+    "fat_g": 10
+  },
+  "meal_prep_notes": "Kootu keeps 3 days refrigerated and reheats well over low heat with a splash of water. Freeze only the legume-vegetable base; add the fresh tempering after thawing for a cleaner finish.",
+  "serves": 2,
+  "related_links": [
+    "Lunch Hub",
+    "Brown Rice",
+    "Moong Dal"
+  ]
+}

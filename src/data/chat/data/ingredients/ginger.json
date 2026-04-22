@@ -1,0 +1,963 @@
+{
+  "slug": "ginger",
+  "name": "ginger",
+  "count": 79,
+  "recipes": [
+    {
+      "id": "aval-vegetable-upma",
+      "name": "Aval Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Aval Vegetable Upma.md"
+    },
+    {
+      "id": "barnyard-millet-kozhukattai",
+      "name": "Barnyard Millet Kozhukattai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Barnyard Millet Kozhukattai.md"
+    },
+    {
+      "id": "beetroot-kambu-adai",
+      "name": "Beetroot Kambu Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Beetroot Kambu Adai.md"
+    },
+    {
+      "id": "bottle-gourd-oats-pongal",
+      "name": "Bottle Gourd Oats Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Bottle Gourd Oats Pongal.md"
+    },
+    {
+      "id": "broken-wheat-ven-pongal",
+      "name": "Broken Wheat Ven Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Broken Wheat Ven Pongal.md"
+    },
+    {
+      "id": "cabbage-moong-dal-adai",
+      "name": "Cabbage Moong Dal Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Cabbage Moong Dal Adai.md"
+    },
+    {
+      "id": "carrot-coconut-idli",
+      "name": "Carrot Coconut Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Carrot Coconut Idli.md"
+    },
+    {
+      "id": "corn-cowpea-kuzhi-paniyaram",
+      "name": "Corn Cowpea Kuzhi Paniyaram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Corn Cowpea Kuzhi Paniyaram.md"
+    },
+    {
+      "id": "cucumber-millet-kichadi",
+      "name": "Cucumber Millet Kichadi",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Cucumber Millet Kichadi.md"
+    },
+    {
+      "id": "curry-leaf-pesarattu",
+      "name": "Curry Leaf Pesarattu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Curry Leaf Pesarattu.md"
+    },
+    {
+      "id": "curry-leaf-podi-sevai",
+      "name": "Curry Leaf Podi Sevai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Curry Leaf Podi Sevai.md"
+    },
+    {
+      "id": "curry-leaf-thinai-dosa",
+      "name": "Curry Leaf Thinai Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Curry Leaf Thinai Dosa.md"
+    },
+    {
+      "id": "drumstick-leaf-adai",
+      "name": "Drumstick Leaf Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Drumstick Leaf Adai.md"
+    },
+    {
+      "id": "foxtail-millet-kanchipuram-idli",
+      "name": "Foxtail Millet Kanchipuram Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Foxtail Millet Kanchipuram Idli.md"
+    },
+    {
+      "id": "green-gram-pesarattu",
+      "name": "Green Gram Pesarattu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Green Gram Pesarattu.md"
+    },
+    {
+      "id": "horse-gram-idli",
+      "name": "Horse Gram Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Horse Gram Idli.md"
+    },
+    {
+      "id": "kambu-vegetable-dosa",
+      "name": "Kambu Vegetable Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kambu Vegetable Dosa.md"
+    },
+    {
+      "id": "keerai-pesarattu",
+      "name": "Keerai Pesarattu",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Keerai Pesarattu.md"
+    },
+    {
+      "id": "kollu-adai",
+      "name": "Kollu Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kollu Adai.md"
+    },
+    {
+      "id": "kuthiraivali-coconut-sevai",
+      "name": "Kuthiraivali Coconut Sevai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kuthiraivali Coconut Sevai.md"
+    },
+    {
+      "id": "little-millet-vegetable-upma",
+      "name": "Little Millet Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Little Millet Vegetable Upma.md"
+    },
+    {
+      "id": "millet-idli-upma",
+      "name": "Millet Idli Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Millet Idli Upma.md"
+    },
+    {
+      "id": "moringa-leaf-dosa",
+      "name": "Moringa Leaf Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Moringa Leaf Dosa.md"
+    },
+    {
+      "id": "multi-millet-adai",
+      "name": "Multi Millet Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Multi Millet Adai.md"
+    },
+    {
+      "id": "mushroom-pepper-thinai-upma",
+      "name": "Mushroom Pepper Thinai Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Mushroom Pepper Thinai Upma.md"
+    },
+    {
+      "id": "oats-kuzhi-paniyaram",
+      "name": "Oats Kuzhi Paniyaram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Oats Kuzhi Paniyaram.md"
+    },
+    {
+      "id": "pepper-kodo-millet-upma",
+      "name": "Pepper Kodo Millet Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Pepper Kodo Millet Upma.md"
+    },
+    {
+      "id": "pumpkin-idli",
+      "name": "Pumpkin Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Pumpkin Idli.md"
+    },
+    {
+      "id": "quinoa-ven-pongal",
+      "name": "Quinoa Ven Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Quinoa Ven Pongal.md"
+    },
+    {
+      "id": "ragi-dosa",
+      "name": "Ragi Dosa",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ragi Dosa.md"
+    },
+    {
+      "id": "ragi-idiyappam",
+      "name": "Ragi Idiyappam",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ragi Idiyappam.md"
+    },
+    {
+      "id": "red-aval-vegetable-upma",
+      "name": "Red Aval Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Aval Vegetable Upma.md"
+    },
+    {
+      "id": "red-rice-aval-upma",
+      "name": "Red Rice Aval Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Rice Aval Upma.md"
+    },
+    {
+      "id": "red-rice-idli",
+      "name": "Red Rice Idli",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Rice Idli.md"
+    },
+    {
+      "id": "ridge-gourd-adai",
+      "name": "Ridge Gourd Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ridge Gourd Adai.md"
+    },
+    {
+      "id": "saamai-vegetable-kichadi",
+      "name": "Saamai Vegetable Kichadi",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Saamai Vegetable Kichadi.md"
+    },
+    {
+      "id": "samai-vegetable-pongal",
+      "name": "Samai Vegetable Pongal",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Samai Vegetable Pongal.md"
+    },
+    {
+      "id": "tomato-millet-bath",
+      "name": "Tomato Millet Bath",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Tomato Millet Bath.md"
+    },
+    {
+      "id": "ulundhu-kali-with-buttermilk",
+      "name": "Ulundhu Kali with Buttermilk",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ulundhu Kali with Buttermilk.md"
+    },
+    {
+      "id": "vegetable-kambu-kozhukattai",
+      "name": "Vegetable Kambu Kozhukattai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Vegetable Kambu Kozhukattai.md"
+    },
+    {
+      "id": "vegetable-quinoa-paniyaram",
+      "name": "Vegetable Quinoa Paniyaram",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Vegetable Quinoa Paniyaram.md"
+    },
+    {
+      "id": "adai-with-avial",
+      "name": "Adai with Avial",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Adai with Avial.md"
+    },
+    {
+      "id": "bottle-gourd-moong-stew-with-kodo-millet",
+      "name": "Bottle Gourd Moong Stew with Kodo Millet",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Bottle Gourd Moong Stew with Kodo Millet.md"
+    },
+    {
+      "id": "broken-wheat-vegetable-pongal",
+      "name": "Broken Wheat Vegetable Pongal",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Broken Wheat Vegetable Pongal.md"
+    },
+    {
+      "id": "brown-rice-appam-with-tomato-kurma",
+      "name": "Brown Rice Appam with Tomato Kurma",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Brown Rice Appam with Tomato Kurma.md"
+    },
+    {
+      "id": "cabbage-kothamalli-adai",
+      "name": "Cabbage Kothamalli Adai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Cabbage Kothamalli Adai.md"
+    },
+    {
+      "id": "coconut-vegetable-soup-with-ragi-string-hoppers",
+      "name": "Coconut Vegetable Soup with Ragi String Hoppers",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Coconut Vegetable Soup with Ragi String Hoppers.md"
+    },
+    {
+      "id": "cucumber-buttermilk-kichadi-with-foxtail-millet",
+      "name": "Cucumber Buttermilk Kichadi with Foxtail Millet",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Cucumber Buttermilk Kichadi with Foxtail Millet.md"
+    },
+    {
+      "id": "drumstick-leaf-soup-with-little-millet",
+      "name": "Drumstick Leaf Soup with Little Millet",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Drumstick Leaf Soup with Little Millet.md"
+    },
+    {
+      "id": "foxtail-millet-pidi-kozhukattai-in-pepper-broth",
+      "name": "Foxtail Millet Pidi Kozhukattai in Pepper Broth",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Foxtail Millet Pidi Kozhukattai in Pepper Broth.md"
+    },
+    {
+      "id": "horse-gram-adai-with-beetroot-chutney",
+      "name": "Horse Gram Adai with Beetroot Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Horse Gram Adai with Beetroot Chutney.md"
+    },
+    {
+      "id": "idiyappam-with-vegetable-ishtu",
+      "name": "Idiyappam with Vegetable Ishtu",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Idiyappam with Vegetable Ishtu.md"
+    },
+    {
+      "id": "jowar-vegetable-kanji",
+      "name": "Jowar Vegetable Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Jowar Vegetable Kanji.md"
+    },
+    {
+      "id": "keerai-adai-with-garlic-chutney",
+      "name": "Keerai Adai with Garlic Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Keerai Adai with Garlic Chutney.md"
+    },
+    {
+      "id": "kollu-soup-with-cabbage-thoran",
+      "name": "Kollu Soup with Cabbage Thoran",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Kollu Soup with Cabbage Thoran.md"
+    },
+    {
+      "id": "lauki-coconut-milk-soup-with-barnyard-millet",
+      "name": "Lauki Coconut Milk Soup with Barnyard Millet",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Lauki Coconut Milk Soup with Barnyard Millet.md"
+    },
+    {
+      "id": "little-millet-upma-kozhukattai",
+      "name": "Little Millet Upma Kozhukattai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Little Millet Upma Kozhukattai.md"
+    },
+    {
+      "id": "methi-oats-dosa-with-capsicum-chutney",
+      "name": "Methi Oats Dosa with Capsicum Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Methi Oats Dosa with Capsicum Chutney.md"
+    },
+    {
+      "id": "millet-pidi-kozhukattai-with-lentil-stew",
+      "name": "Millet Pidi Kozhukattai with Lentil Stew",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Millet Pidi Kozhukattai with Lentil Stew.md"
+    },
+    {
+      "id": "millet-pongal-with-pepper-mushroom",
+      "name": "Millet Pongal with Pepper Mushroom",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Millet Pongal with Pepper Mushroom.md"
+    },
+    {
+      "id": "moong-dal-dosa-with-tomato-chutney",
+      "name": "Moong Dal Dosa with Tomato Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Moong Dal Dosa with Tomato Chutney.md"
+    },
+    {
+      "id": "pepper-jeera-thinai-kanji",
+      "name": "Pepper Jeera Thinai Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pepper Jeera Thinai Kanji.md"
+    },
+    {
+      "id": "pepper-rasam-with-steamed-red-rice-dumplings",
+      "name": "Pepper Rasam with Steamed Red Rice Dumplings",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pepper Rasam with Steamed Red Rice Dumplings.md"
+    },
+    {
+      "id": "pesarattu-with-mint-chutney",
+      "name": "Pesarattu with Mint Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pesarattu with Mint Chutney.md"
+    },
+    {
+      "id": "pumpkin-soup-with-foxtail-millet-dumplings",
+      "name": "Pumpkin Soup with Foxtail Millet Dumplings",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Pumpkin Soup with Foxtail Millet Dumplings.md"
+    },
+    {
+      "id": "quinoa-tomato-kanji",
+      "name": "Quinoa Tomato Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Quinoa Tomato Kanji.md"
+    },
+    {
+      "id": "raw-banana-adai-with-curd-dip",
+      "name": "Raw Banana Adai with Curd Dip",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Raw Banana Adai with Curd Dip.md"
+    },
+    {
+      "id": "red-rice-neer-dosa-with-vegetable-saagu",
+      "name": "Red Rice Neer Dosa with Vegetable Saagu",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Red Rice Neer Dosa with Vegetable Saagu.md"
+    },
+    {
+      "id": "set-dosa-with-green-pea-kurma",
+      "name": "Set Dosa with Green Pea Kurma",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Set Dosa with Green Pea Kurma.md"
+    },
+    {
+      "id": "south-indian-sundal-salad-bowl",
+      "name": "South Indian Sundal Salad Bowl",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/South Indian Sundal Salad Bowl.md"
+    },
+    {
+      "id": "spinach-pesarattu-rolls",
+      "name": "Spinach Pesarattu Rolls",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Spinach Pesarattu Rolls.md"
+    },
+    {
+      "id": "sweet-corn-adai-with-curry-leaf-chutney",
+      "name": "Sweet Corn Adai with Curry Leaf Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Sweet Corn Adai with Curry Leaf Chutney.md"
+    },
+    {
+      "id": "thinai-vegetable-kanji",
+      "name": "Thinai Vegetable Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Thinai Vegetable Kanji.md"
+    },
+    {
+      "id": "vegetable-appam-with-stew",
+      "name": "Vegetable Appam with Stew",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Appam with Stew.md"
+    },
+    {
+      "id": "vegetable-kozhukattai-in-coconut-broth",
+      "name": "Vegetable Kozhukattai in Coconut Broth",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Kozhukattai in Coconut Broth.md"
+    },
+    {
+      "id": "vegetable-kurma-with-ragi-idiyappam",
+      "name": "Vegetable Kurma with Ragi Idiyappam",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Kurma with Ragi Idiyappam.md"
+    },
+    {
+      "id": "vegetable-oats-kanji",
+      "name": "Vegetable Oats Kanji",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vegetable Oats Kanji.md"
+    },
+    {
+      "id": "vendhaya-dosa-with-mixed-vegetable-sagu",
+      "name": "Vendhaya Dosa with Mixed Vegetable Sagu",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Vendhaya Dosa with Mixed Vegetable Sagu.md"
+    },
+    {
+      "id": "chayote-coconut-stew-with-red-rice",
+      "name": "Chayote Coconut Stew with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Chayote Coconut Stew with Red Rice.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "aval-vegetable-upma",
+        "name": "Aval Vegetable Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Aval Vegetable Upma.md"
+      },
+      {
+        "id": "barnyard-millet-kozhukattai",
+        "name": "Barnyard Millet Kozhukattai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Barnyard Millet Kozhukattai.md"
+      },
+      {
+        "id": "beetroot-kambu-adai",
+        "name": "Beetroot Kambu Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Beetroot Kambu Adai.md"
+      },
+      {
+        "id": "bottle-gourd-oats-pongal",
+        "name": "Bottle Gourd Oats Pongal",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Bottle Gourd Oats Pongal.md"
+      },
+      {
+        "id": "broken-wheat-ven-pongal",
+        "name": "Broken Wheat Ven Pongal",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Broken Wheat Ven Pongal.md"
+      },
+      {
+        "id": "cabbage-moong-dal-adai",
+        "name": "Cabbage Moong Dal Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Cabbage Moong Dal Adai.md"
+      },
+      {
+        "id": "carrot-coconut-idli",
+        "name": "Carrot Coconut Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Carrot Coconut Idli.md"
+      },
+      {
+        "id": "corn-cowpea-kuzhi-paniyaram",
+        "name": "Corn Cowpea Kuzhi Paniyaram",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Corn Cowpea Kuzhi Paniyaram.md"
+      },
+      {
+        "id": "cucumber-millet-kichadi",
+        "name": "Cucumber Millet Kichadi",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Cucumber Millet Kichadi.md"
+      },
+      {
+        "id": "curry-leaf-pesarattu",
+        "name": "Curry Leaf Pesarattu",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Curry Leaf Pesarattu.md"
+      },
+      {
+        "id": "curry-leaf-podi-sevai",
+        "name": "Curry Leaf Podi Sevai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Curry Leaf Podi Sevai.md"
+      },
+      {
+        "id": "curry-leaf-thinai-dosa",
+        "name": "Curry Leaf Thinai Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Curry Leaf Thinai Dosa.md"
+      },
+      {
+        "id": "drumstick-leaf-adai",
+        "name": "Drumstick Leaf Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Drumstick Leaf Adai.md"
+      },
+      {
+        "id": "foxtail-millet-kanchipuram-idli",
+        "name": "Foxtail Millet Kanchipuram Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Foxtail Millet Kanchipuram Idli.md"
+      },
+      {
+        "id": "green-gram-pesarattu",
+        "name": "Green Gram Pesarattu",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Green Gram Pesarattu.md"
+      },
+      {
+        "id": "horse-gram-idli",
+        "name": "Horse Gram Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Horse Gram Idli.md"
+      },
+      {
+        "id": "kambu-vegetable-dosa",
+        "name": "Kambu Vegetable Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Kambu Vegetable Dosa.md"
+      },
+      {
+        "id": "keerai-pesarattu",
+        "name": "Keerai Pesarattu",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Keerai Pesarattu.md"
+      },
+      {
+        "id": "kollu-adai",
+        "name": "Kollu Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Kollu Adai.md"
+      },
+      {
+        "id": "kuthiraivali-coconut-sevai",
+        "name": "Kuthiraivali Coconut Sevai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Kuthiraivali Coconut Sevai.md"
+      },
+      {
+        "id": "little-millet-vegetable-upma",
+        "name": "Little Millet Vegetable Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Little Millet Vegetable Upma.md"
+      },
+      {
+        "id": "millet-idli-upma",
+        "name": "Millet Idli Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Millet Idli Upma.md"
+      },
+      {
+        "id": "moringa-leaf-dosa",
+        "name": "Moringa Leaf Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Moringa Leaf Dosa.md"
+      },
+      {
+        "id": "multi-millet-adai",
+        "name": "Multi Millet Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Multi Millet Adai.md"
+      },
+      {
+        "id": "mushroom-pepper-thinai-upma",
+        "name": "Mushroom Pepper Thinai Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Mushroom Pepper Thinai Upma.md"
+      },
+      {
+        "id": "oats-kuzhi-paniyaram",
+        "name": "Oats Kuzhi Paniyaram",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Oats Kuzhi Paniyaram.md"
+      },
+      {
+        "id": "pepper-kodo-millet-upma",
+        "name": "Pepper Kodo Millet Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Pepper Kodo Millet Upma.md"
+      },
+      {
+        "id": "pumpkin-idli",
+        "name": "Pumpkin Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Pumpkin Idli.md"
+      },
+      {
+        "id": "quinoa-ven-pongal",
+        "name": "Quinoa Ven Pongal",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Quinoa Ven Pongal.md"
+      },
+      {
+        "id": "ragi-dosa",
+        "name": "Ragi Dosa",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ragi Dosa.md"
+      },
+      {
+        "id": "ragi-idiyappam",
+        "name": "Ragi Idiyappam",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ragi Idiyappam.md"
+      },
+      {
+        "id": "red-aval-vegetable-upma",
+        "name": "Red Aval Vegetable Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Red Aval Vegetable Upma.md"
+      },
+      {
+        "id": "red-rice-aval-upma",
+        "name": "Red Rice Aval Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Red Rice Aval Upma.md"
+      },
+      {
+        "id": "red-rice-idli",
+        "name": "Red Rice Idli",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Red Rice Idli.md"
+      },
+      {
+        "id": "ridge-gourd-adai",
+        "name": "Ridge Gourd Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ridge Gourd Adai.md"
+      },
+      {
+        "id": "saamai-vegetable-kichadi",
+        "name": "Saamai Vegetable Kichadi",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Saamai Vegetable Kichadi.md"
+      },
+      {
+        "id": "samai-vegetable-pongal",
+        "name": "Samai Vegetable Pongal",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Samai Vegetable Pongal.md"
+      },
+      {
+        "id": "tomato-millet-bath",
+        "name": "Tomato Millet Bath",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Tomato Millet Bath.md"
+      },
+      {
+        "id": "ulundhu-kali-with-buttermilk",
+        "name": "Ulundhu Kali with Buttermilk",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ulundhu Kali with Buttermilk.md"
+      },
+      {
+        "id": "vegetable-kambu-kozhukattai",
+        "name": "Vegetable Kambu Kozhukattai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Vegetable Kambu Kozhukattai.md"
+      },
+      {
+        "id": "vegetable-quinoa-paniyaram",
+        "name": "Vegetable Quinoa Paniyaram",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Vegetable Quinoa Paniyaram.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "adai-with-avial",
+        "name": "Adai with Avial",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Adai with Avial.md"
+      },
+      {
+        "id": "bottle-gourd-moong-stew-with-kodo-millet",
+        "name": "Bottle Gourd Moong Stew with Kodo Millet",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Bottle Gourd Moong Stew with Kodo Millet.md"
+      },
+      {
+        "id": "broken-wheat-vegetable-pongal",
+        "name": "Broken Wheat Vegetable Pongal",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Broken Wheat Vegetable Pongal.md"
+      },
+      {
+        "id": "brown-rice-appam-with-tomato-kurma",
+        "name": "Brown Rice Appam with Tomato Kurma",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Brown Rice Appam with Tomato Kurma.md"
+      },
+      {
+        "id": "cabbage-kothamalli-adai",
+        "name": "Cabbage Kothamalli Adai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Cabbage Kothamalli Adai.md"
+      },
+      {
+        "id": "coconut-vegetable-soup-with-ragi-string-hoppers",
+        "name": "Coconut Vegetable Soup with Ragi String Hoppers",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Coconut Vegetable Soup with Ragi String Hoppers.md"
+      },
+      {
+        "id": "cucumber-buttermilk-kichadi-with-foxtail-millet",
+        "name": "Cucumber Buttermilk Kichadi with Foxtail Millet",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Cucumber Buttermilk Kichadi with Foxtail Millet.md"
+      },
+      {
+        "id": "drumstick-leaf-soup-with-little-millet",
+        "name": "Drumstick Leaf Soup with Little Millet",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Drumstick Leaf Soup with Little Millet.md"
+      },
+      {
+        "id": "foxtail-millet-pidi-kozhukattai-in-pepper-broth",
+        "name": "Foxtail Millet Pidi Kozhukattai in Pepper Broth",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Foxtail Millet Pidi Kozhukattai in Pepper Broth.md"
+      },
+      {
+        "id": "horse-gram-adai-with-beetroot-chutney",
+        "name": "Horse Gram Adai with Beetroot Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Horse Gram Adai with Beetroot Chutney.md"
+      },
+      {
+        "id": "idiyappam-with-vegetable-ishtu",
+        "name": "Idiyappam with Vegetable Ishtu",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Idiyappam with Vegetable Ishtu.md"
+      },
+      {
+        "id": "jowar-vegetable-kanji",
+        "name": "Jowar Vegetable Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Jowar Vegetable Kanji.md"
+      },
+      {
+        "id": "keerai-adai-with-garlic-chutney",
+        "name": "Keerai Adai with Garlic Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Keerai Adai with Garlic Chutney.md"
+      },
+      {
+        "id": "kollu-soup-with-cabbage-thoran",
+        "name": "Kollu Soup with Cabbage Thoran",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Kollu Soup with Cabbage Thoran.md"
+      },
+      {
+        "id": "lauki-coconut-milk-soup-with-barnyard-millet",
+        "name": "Lauki Coconut Milk Soup with Barnyard Millet",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Lauki Coconut Milk Soup with Barnyard Millet.md"
+      },
+      {
+        "id": "little-millet-upma-kozhukattai",
+        "name": "Little Millet Upma Kozhukattai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Little Millet Upma Kozhukattai.md"
+      },
+      {
+        "id": "methi-oats-dosa-with-capsicum-chutney",
+        "name": "Methi Oats Dosa with Capsicum Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Methi Oats Dosa with Capsicum Chutney.md"
+      },
+      {
+        "id": "millet-pidi-kozhukattai-with-lentil-stew",
+        "name": "Millet Pidi Kozhukattai with Lentil Stew",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Millet Pidi Kozhukattai with Lentil Stew.md"
+      },
+      {
+        "id": "millet-pongal-with-pepper-mushroom",
+        "name": "Millet Pongal with Pepper Mushroom",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Millet Pongal with Pepper Mushroom.md"
+      },
+      {
+        "id": "moong-dal-dosa-with-tomato-chutney",
+        "name": "Moong Dal Dosa with Tomato Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Moong Dal Dosa with Tomato Chutney.md"
+      },
+      {
+        "id": "pepper-jeera-thinai-kanji",
+        "name": "Pepper Jeera Thinai Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pepper Jeera Thinai Kanji.md"
+      },
+      {
+        "id": "pepper-rasam-with-steamed-red-rice-dumplings",
+        "name": "Pepper Rasam with Steamed Red Rice Dumplings",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pepper Rasam with Steamed Red Rice Dumplings.md"
+      },
+      {
+        "id": "pesarattu-with-mint-chutney",
+        "name": "Pesarattu with Mint Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pesarattu with Mint Chutney.md"
+      },
+      {
+        "id": "pumpkin-soup-with-foxtail-millet-dumplings",
+        "name": "Pumpkin Soup with Foxtail Millet Dumplings",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Pumpkin Soup with Foxtail Millet Dumplings.md"
+      },
+      {
+        "id": "quinoa-tomato-kanji",
+        "name": "Quinoa Tomato Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Quinoa Tomato Kanji.md"
+      },
+      {
+        "id": "raw-banana-adai-with-curd-dip",
+        "name": "Raw Banana Adai with Curd Dip",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Raw Banana Adai with Curd Dip.md"
+      },
+      {
+        "id": "red-rice-neer-dosa-with-vegetable-saagu",
+        "name": "Red Rice Neer Dosa with Vegetable Saagu",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Red Rice Neer Dosa with Vegetable Saagu.md"
+      },
+      {
+        "id": "set-dosa-with-green-pea-kurma",
+        "name": "Set Dosa with Green Pea Kurma",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Set Dosa with Green Pea Kurma.md"
+      },
+      {
+        "id": "south-indian-sundal-salad-bowl",
+        "name": "South Indian Sundal Salad Bowl",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/South Indian Sundal Salad Bowl.md"
+      },
+      {
+        "id": "spinach-pesarattu-rolls",
+        "name": "Spinach Pesarattu Rolls",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Spinach Pesarattu Rolls.md"
+      },
+      {
+        "id": "sweet-corn-adai-with-curry-leaf-chutney",
+        "name": "Sweet Corn Adai with Curry Leaf Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Sweet Corn Adai with Curry Leaf Chutney.md"
+      },
+      {
+        "id": "thinai-vegetable-kanji",
+        "name": "Thinai Vegetable Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Thinai Vegetable Kanji.md"
+      },
+      {
+        "id": "vegetable-appam-with-stew",
+        "name": "Vegetable Appam with Stew",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Appam with Stew.md"
+      },
+      {
+        "id": "vegetable-kozhukattai-in-coconut-broth",
+        "name": "Vegetable Kozhukattai in Coconut Broth",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Kozhukattai in Coconut Broth.md"
+      },
+      {
+        "id": "vegetable-kurma-with-ragi-idiyappam",
+        "name": "Vegetable Kurma with Ragi Idiyappam",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Kurma with Ragi Idiyappam.md"
+      },
+      {
+        "id": "vegetable-oats-kanji",
+        "name": "Vegetable Oats Kanji",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vegetable Oats Kanji.md"
+      },
+      {
+        "id": "vendhaya-dosa-with-mixed-vegetable-sagu",
+        "name": "Vendhaya Dosa with Mixed Vegetable Sagu",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Vendhaya Dosa with Mixed Vegetable Sagu.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "chayote-coconut-stew-with-red-rice",
+        "name": "Chayote Coconut Stew with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Chayote Coconut Stew with Red Rice.md"
+      }
+    ]
+  }
+}

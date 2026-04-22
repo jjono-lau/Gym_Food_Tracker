@@ -1,0 +1,363 @@
+{
+  "slug": "chana-dal",
+  "name": "chana dal",
+  "count": 29,
+  "recipes": [
+    {
+      "id": "aval-vegetable-upma",
+      "name": "Aval Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Aval Vegetable Upma.md"
+    },
+    {
+      "id": "beetroot-kambu-adai",
+      "name": "Beetroot Kambu Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Beetroot Kambu Adai.md"
+    },
+    {
+      "id": "cabbage-moong-dal-adai",
+      "name": "Cabbage Moong Dal Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Cabbage Moong Dal Adai.md"
+    },
+    {
+      "id": "drumstick-leaf-adai",
+      "name": "Drumstick Leaf Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Drumstick Leaf Adai.md"
+    },
+    {
+      "id": "kollu-adai",
+      "name": "Kollu Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Kollu Adai.md"
+    },
+    {
+      "id": "little-millet-vegetable-upma",
+      "name": "Little Millet Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Little Millet Vegetable Upma.md"
+    },
+    {
+      "id": "millet-idli-upma",
+      "name": "Millet Idli Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Millet Idli Upma.md"
+    },
+    {
+      "id": "multi-millet-adai",
+      "name": "Multi Millet Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Multi Millet Adai.md"
+    },
+    {
+      "id": "mushroom-pepper-thinai-upma",
+      "name": "Mushroom Pepper Thinai Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Mushroom Pepper Thinai Upma.md"
+    },
+    {
+      "id": "pepper-kodo-millet-upma",
+      "name": "Pepper Kodo Millet Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Pepper Kodo Millet Upma.md"
+    },
+    {
+      "id": "red-aval-vegetable-upma",
+      "name": "Red Aval Vegetable Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Aval Vegetable Upma.md"
+    },
+    {
+      "id": "red-rice-aval-upma",
+      "name": "Red Rice Aval Upma",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Red Rice Aval Upma.md"
+    },
+    {
+      "id": "ridge-gourd-adai",
+      "name": "Ridge Gourd Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ridge Gourd Adai.md"
+    },
+    {
+      "id": "ridge-gourd-adai",
+      "name": "Ridge Gourd Adai",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Ridge Gourd Adai.md"
+    },
+    {
+      "id": "tomato-millet-bath",
+      "name": "Tomato Millet Bath",
+      "category": "breakfast",
+      "source_note": "Resources/Recipes/Breakfast/Tomato Millet Bath.md"
+    },
+    {
+      "id": "adai-with-avial",
+      "name": "Adai with Avial",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Adai with Avial.md"
+    },
+    {
+      "id": "adai-with-avial",
+      "name": "Adai with Avial",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Adai with Avial.md"
+    },
+    {
+      "id": "cabbage-kothamalli-adai",
+      "name": "Cabbage Kothamalli Adai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Cabbage Kothamalli Adai.md"
+    },
+    {
+      "id": "cabbage-kothamalli-adai",
+      "name": "Cabbage Kothamalli Adai",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Cabbage Kothamalli Adai.md"
+    },
+    {
+      "id": "horse-gram-adai-with-beetroot-chutney",
+      "name": "Horse Gram Adai with Beetroot Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Horse Gram Adai with Beetroot Chutney.md"
+    },
+    {
+      "id": "keerai-adai-with-garlic-chutney",
+      "name": "Keerai Adai with Garlic Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Keerai Adai with Garlic Chutney.md"
+    },
+    {
+      "id": "raw-banana-adai-with-curd-dip",
+      "name": "Raw Banana Adai with Curd Dip",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Raw Banana Adai with Curd Dip.md"
+    },
+    {
+      "id": "raw-banana-adai-with-curd-dip",
+      "name": "Raw Banana Adai with Curd Dip",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Raw Banana Adai with Curd Dip.md"
+    },
+    {
+      "id": "sweet-corn-adai-with-curry-leaf-chutney",
+      "name": "Sweet Corn Adai with Curry Leaf Chutney",
+      "category": "dinner",
+      "source_note": "Resources/Recipes/Dinner/Sweet Corn Adai with Curry Leaf Chutney.md"
+    },
+    {
+      "id": "avarakkai-paruppu-usili-with-red-rice",
+      "name": "Avarakkai Paruppu Usili with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Avarakkai Paruppu Usili with Red Rice.md"
+    },
+    {
+      "id": "beetroot-kootu-with-little-millet",
+      "name": "Beetroot Kootu with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Beetroot Kootu with Little Millet.md"
+    },
+    {
+      "id": "bitter-gourd-pitlai-with-little-millet",
+      "name": "Bitter Gourd Pitlai with Little Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Bitter Gourd Pitlai with Little Millet.md"
+    },
+    {
+      "id": "cabbage-kadalai-kootu-with-red-rice",
+      "name": "Cabbage Kadalai Kootu with Red Rice",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Cabbage Kadalai Kootu with Red Rice.md"
+    },
+    {
+      "id": "chow-chow-kootu-with-foxtail-millet",
+      "name": "Chow Chow Kootu with Foxtail Millet",
+      "category": "lunch",
+      "source_note": "Resources/Recipes/Lunch/Chow Chow Kootu with Foxtail Millet.md"
+    }
+  ],
+  "recipes_by_category": {
+    "breakfast": [
+      {
+        "id": "aval-vegetable-upma",
+        "name": "Aval Vegetable Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Aval Vegetable Upma.md"
+      },
+      {
+        "id": "beetroot-kambu-adai",
+        "name": "Beetroot Kambu Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Beetroot Kambu Adai.md"
+      },
+      {
+        "id": "cabbage-moong-dal-adai",
+        "name": "Cabbage Moong Dal Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Cabbage Moong Dal Adai.md"
+      },
+      {
+        "id": "drumstick-leaf-adai",
+        "name": "Drumstick Leaf Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Drumstick Leaf Adai.md"
+      },
+      {
+        "id": "kollu-adai",
+        "name": "Kollu Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Kollu Adai.md"
+      },
+      {
+        "id": "little-millet-vegetable-upma",
+        "name": "Little Millet Vegetable Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Little Millet Vegetable Upma.md"
+      },
+      {
+        "id": "millet-idli-upma",
+        "name": "Millet Idli Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Millet Idli Upma.md"
+      },
+      {
+        "id": "multi-millet-adai",
+        "name": "Multi Millet Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Multi Millet Adai.md"
+      },
+      {
+        "id": "mushroom-pepper-thinai-upma",
+        "name": "Mushroom Pepper Thinai Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Mushroom Pepper Thinai Upma.md"
+      },
+      {
+        "id": "pepper-kodo-millet-upma",
+        "name": "Pepper Kodo Millet Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Pepper Kodo Millet Upma.md"
+      },
+      {
+        "id": "red-aval-vegetable-upma",
+        "name": "Red Aval Vegetable Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Red Aval Vegetable Upma.md"
+      },
+      {
+        "id": "red-rice-aval-upma",
+        "name": "Red Rice Aval Upma",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Red Rice Aval Upma.md"
+      },
+      {
+        "id": "ridge-gourd-adai",
+        "name": "Ridge Gourd Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ridge Gourd Adai.md"
+      },
+      {
+        "id": "ridge-gourd-adai",
+        "name": "Ridge Gourd Adai",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Ridge Gourd Adai.md"
+      },
+      {
+        "id": "tomato-millet-bath",
+        "name": "Tomato Millet Bath",
+        "category": "breakfast",
+        "source_note": "Resources/Recipes/Breakfast/Tomato Millet Bath.md"
+      }
+    ],
+    "dinner": [
+      {
+        "id": "adai-with-avial",
+        "name": "Adai with Avial",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Adai with Avial.md"
+      },
+      {
+        "id": "adai-with-avial",
+        "name": "Adai with Avial",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Adai with Avial.md"
+      },
+      {
+        "id": "cabbage-kothamalli-adai",
+        "name": "Cabbage Kothamalli Adai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Cabbage Kothamalli Adai.md"
+      },
+      {
+        "id": "cabbage-kothamalli-adai",
+        "name": "Cabbage Kothamalli Adai",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Cabbage Kothamalli Adai.md"
+      },
+      {
+        "id": "horse-gram-adai-with-beetroot-chutney",
+        "name": "Horse Gram Adai with Beetroot Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Horse Gram Adai with Beetroot Chutney.md"
+      },
+      {
+        "id": "keerai-adai-with-garlic-chutney",
+        "name": "Keerai Adai with Garlic Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Keerai Adai with Garlic Chutney.md"
+      },
+      {
+        "id": "raw-banana-adai-with-curd-dip",
+        "name": "Raw Banana Adai with Curd Dip",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Raw Banana Adai with Curd Dip.md"
+      },
+      {
+        "id": "raw-banana-adai-with-curd-dip",
+        "name": "Raw Banana Adai with Curd Dip",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Raw Banana Adai with Curd Dip.md"
+      },
+      {
+        "id": "sweet-corn-adai-with-curry-leaf-chutney",
+        "name": "Sweet Corn Adai with Curry Leaf Chutney",
+        "category": "dinner",
+        "source_note": "Resources/Recipes/Dinner/Sweet Corn Adai with Curry Leaf Chutney.md"
+      }
+    ],
+    "lunch": [
+      {
+        "id": "avarakkai-paruppu-usili-with-red-rice",
+        "name": "Avarakkai Paruppu Usili with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Avarakkai Paruppu Usili with Red Rice.md"
+      },
+      {
+        "id": "beetroot-kootu-with-little-millet",
+        "name": "Beetroot Kootu with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Beetroot Kootu with Little Millet.md"
+      },
+      {
+        "id": "bitter-gourd-pitlai-with-little-millet",
+        "name": "Bitter Gourd Pitlai with Little Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Bitter Gourd Pitlai with Little Millet.md"
+      },
+      {
+        "id": "cabbage-kadalai-kootu-with-red-rice",
+        "name": "Cabbage Kadalai Kootu with Red Rice",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Cabbage Kadalai Kootu with Red Rice.md"
+      },
+      {
+        "id": "chow-chow-kootu-with-foxtail-millet",
+        "name": "Chow Chow Kootu with Foxtail Millet",
+        "category": "lunch",
+        "source_note": "Resources/Recipes/Lunch/Chow Chow Kootu with Foxtail Millet.md"
+      }
+    ]
+  }
+}
