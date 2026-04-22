@@ -1,0 +1,31 @@
+[
+  {
+    "id": "three-day-workout-plan",
+    "question_patterns": ["give me a 3 day routine", "3 day workout plan", "simple weekly workout plan"],
+    "topic": "3-day-workout",
+    "category": "plan",
+    "outline": [
+      "Day 1: lower-body machines plus short easy cardio",
+      "Day 2: upper-body machines plus short easy cardio",
+      "Day 3: cardio-focused session with one or two simple accessories"
+    ],
+    "why": "Simple plans should stay repeatable and avoid overwhelming the user with too many moving parts.",
+    "caution": "Treat the plan as a starting structure and adjust volume gradually.",
+    "source_note_ids": ["workout-help"]
+  },
+  {
+    "id": "simple-day-of-eating",
+    "question_patterns": ["simple day of eating", "give me a simple day of meals", "what should i eat today"],
+    "topic": "day-of-eating",
+    "category": "plan",
+    "outline": [
+      "Breakfast: one repeatable higher-fiber balanced option",
+      "Lunch: a whole-grain plus legumes or protein-supportive bowl",
+      "Dinner: a practical lighter evening meal",
+      "Snack: one simple filling option if needed"
+    ],
+    "why": "Day plans should give a usable shape rather than pretending there is one perfect menu.",
+    "caution": "Use the plan as a practical template and swap meals according to the user goal.",
+    "source_note_ids": ["meal-suggestions", "snack-suggestions"]
+  }
+]

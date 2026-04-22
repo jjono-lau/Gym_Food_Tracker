@@ -1,0 +1,208 @@
+[
+  {
+    "id": "breakfast-ideas",
+    "question_patterns": [
+      "what meals are for breakfast",
+      "breakfast ideas",
+      "good breakfast meals",
+      "what should i eat for breakfast"
+    ],
+    "topic": "breakfast",
+    "category": "meal",
+    "intro": "Here are some breakfast ideas that fit the vault well.",
+    "filters": {
+      "categories": ["breakfast"]
+    },
+    "why_it_fits": [
+      "Breakfast answers should suggest a small number of realistic options instead of listing everything.",
+      "Use breakfast recipes that feel repeatable and practical."
+    ],
+    "caution": "Keep the answer to a few realistic options instead of a giant breakfast list.",
+    "follow_up_suggestions": [
+      "Ask for a high-protein breakfast.",
+      "Ask for a lighter breakfast."
+    ],
+    "source_note_ids": ["meal-suggestions"]
+  },
+  {
+    "id": "dinner-ideas",
+    "question_patterns": [
+      "good meals for dinner",
+      "dinner ideas",
+      "what should i eat for dinner",
+      "good dinner meals"
+    ],
+    "topic": "dinner",
+    "category": "meal",
+    "intro": "Here are some dinner ideas that stay practical for the evening.",
+    "filters": {
+      "categories": ["dinner"]
+    },
+    "why_it_fits": [
+      "Dinner answers should stay practical and not overwhelm the user.",
+      "Use a small number of realistic options from the dinner recipes."
+    ],
+    "caution": "Keep the answer to a few realistic dinner options rather than listing the whole vault.",
+    "follow_up_suggestions": [
+      "Ask for a light dinner.",
+      "Ask for a high-protein dinner."
+    ],
+    "source_note_ids": ["meal-suggestions"]
+  },
+  {
+    "id": "high-protein-meals",
+    "question_patterns": [
+      "what meals are high protein",
+      "high protein meals",
+      "high protein meal ideas",
+      "meals with more protein"
+    ],
+    "topic": "high-protein",
+    "category": "meal",
+    "intro": "These are some of the stronger high-protein options in your vault.",
+    "filters": {
+      "min_protein_g": 18
+    },
+    "why_it_fits": [
+      "High-protein answers should favor meals with stronger protein support rather than only carb-heavy options.",
+      "Use protein-rich recipes the user could actually repeat."
+    ],
+    "caution": "Protein support should still sit inside a balanced meal, not just a single macro target.",
+    "follow_up_suggestions": [
+      "Ask for a high-protein breakfast.",
+      "Ask for a light high-protein meal."
+    ],
+    "source_note_ids": ["meal-suggestions"]
+  },
+  {
+    "id": "light-meals",
+    "question_patterns": [
+      "what meals are light",
+      "light meals",
+      "lighter meals",
+      "what should i eat if i want something light"
+    ],
+    "topic": "light-meals",
+    "category": "meal",
+    "intro": "Here are some lighter-feeling options from the vault.",
+    "filters": {
+      "max_calories": 420,
+      "prefer_title_keywords": ["kanji", "soup", "kichadi", "stew", "rasam", "idli", "paniyaram"]
+    },
+    "why_it_fits": [
+      "Lighter meal answers should prefer gentler, easier-feeling dishes rather than just the lowest calorie number.",
+      "Soft grain dishes, soups, kanji, and stews often fit this better."
+    ],
+    "caution": "A lighter meal can still change texture or fullness, so it should feel practical rather than too minimal.",
+    "follow_up_suggestions": [
+      "Ask for a light dinner.",
+      "Ask for a light meal with more protein."
+    ],
+    "source_note_ids": ["meal-suggestions"]
+  },
+  {
+    "id": "high-protein-breakfast",
+    "question_patterns": [
+      "high protein breakfast",
+      "high protein breakfast ideas",
+      "what breakfast is high protein"
+    ],
+    "topic": "high-protein-breakfast",
+    "category": "meal",
+    "intro": "These breakfast options give you better protein support.",
+    "filters": {
+      "categories": ["breakfast"],
+      "min_protein_g": 16
+    },
+    "why_it_fits": [
+      "Breakfast should support satiety and steadier energy, not just fast carbs.",
+      "Use breakfast recipes with stronger protein support."
+    ],
+    "caution": "The goal is a more balanced breakfast, not a huge list of every possible option.",
+    "follow_up_suggestions": [
+      "Ask for a PCOS-friendly breakfast.",
+      "Ask for a lighter breakfast."
+    ],
+    "source_note_ids": ["meal-suggestions", "what-should-i-eat-for-pcos-faq"]
+  },
+  {
+    "id": "light-dinner",
+    "question_patterns": [
+      "light dinner",
+      "light dinner ideas",
+      "good light dinner",
+      "what should i eat for a light dinner"
+    ],
+    "topic": "light-dinner",
+    "category": "meal",
+    "intro": "These dinner options are a better fit when you want something lighter.",
+    "filters": {
+      "categories": ["dinner"],
+      "max_calories": 420,
+      "prefer_title_keywords": ["kanji", "soup", "stew", "idli", "paniyaram", "kichadi"]
+    },
+    "why_it_fits": [
+      "Lighter dinners should feel easier in the evening without becoming unrealistic.",
+      "Soups, kanji, stews, and softer grain dishes often work well."
+    ],
+    "caution": "A light dinner should still feel like a real meal, not just a tiny snack.",
+    "follow_up_suggestions": [
+      "Ask for a high-protein dinner.",
+      "Ask for a triglyceride-friendly dinner."
+    ],
+    "source_note_ids": ["meal-suggestions"]
+  },
+  {
+    "id": "pcos-friendly-meals",
+    "question_patterns": [
+      "pcos friendly meals",
+      "good meals for pcos",
+      "what meals are good for pcos",
+      "pcos meal ideas"
+    ],
+    "topic": "pcos-meals",
+    "category": "meal",
+    "intro": "These are practical meal directions that fit a PCOS-friendly approach.",
+    "filters": {
+      "min_protein_g": 14,
+      "exclude_ingredient_slugs": ["salt", "water"],
+      "prefer_ingredient_slugs": ["green-gram", "moong-dal", "toor-dal", "horse-gram", "brown-rice", "foxtail-millet", "little-millet", "quinoa", "rolled-oats"]
+    },
+    "why_it_fits": [
+      "PCOS-focused meals should emphasize balanced meals, higher-fiber carbohydrates, and protein support.",
+      "The best follow-up is a few realistic meal suggestions rather than one perfect PCOS diet."
+    ],
+    "caution": "Use practical meal patterns instead of pretending one meal fixes PCOS by itself.",
+    "follow_up_suggestions": [
+      "Ask for a PCOS-friendly breakfast.",
+      "Ask for PCOS-friendly swaps."
+    ],
+    "source_note_ids": ["what-should-i-eat-for-pcos-faq", "meal-suggestions"]
+  },
+  {
+    "id": "triglyceride-friendly-meals",
+    "question_patterns": [
+      "good meals for high triglycerides",
+      "triglyceride friendly meals",
+      "what meals are good for triglycerides",
+      "meal ideas for high triglycerides"
+    ],
+    "topic": "triglycerides-meals",
+    "category": "meal",
+    "intro": "These are practical meal directions that fit a triglyceride-friendly approach.",
+    "filters": {
+      "min_protein_g": 14,
+      "prefer_ingredient_slugs": ["green-gram", "moong-dal", "toor-dal", "black-chana", "brown-rice", "red-rice", "foxtail-millet", "little-millet", "barnyard-millet", "quinoa"]
+    },
+    "why_it_fits": [
+      "Triglyceride-friendly meals should emphasize vegetables, legumes, whole grains, leaner patterns, and less added sugar.",
+      "A few practical food examples work better than a giant meal list."
+    ],
+    "caution": "Food quality matters more than chasing one magic ingredient, and alcohol caution still matters in triglyceride-related questions.",
+    "follow_up_suggestions": [
+      "Ask for a triglyceride-friendly dinner.",
+      "Ask for ingredient swaps for high triglycerides."
+    ],
+    "source_note_ids": ["what-should-i-eat-for-high-triglycerides-faq", "meal-suggestions"]
+  }
+]

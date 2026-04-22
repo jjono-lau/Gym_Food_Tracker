@@ -4,36 +4,16 @@ import {
   createContext,
   useContext,
   useEffect,
+  useId,
   useMemo,
+  useRef,
   useState,
 } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Sparkles, X } from "@/components/icons";
+import { buildAssistantReply, createStarterMessages } from "@/lib/chatResponder";
 
 const ChatbotContext = createContext(null);
-
-const starterMessages = [
-  {
-    id: "welcome",
-    role: "assistant",
-    text: "Hey love, I am your GlowUp guide. Later this can run on WebLLM, but for now I am here to preview the vibe.",
-  },
-  {
-    id: "prompt",
-    role: "assistant",
-    text: "Try asking about workouts, low-sugar meals, or what to focus on after a heavy lunch.",
-  },
-  {
-    id: "user-example",
-    role: "user",
-    text: "What should I do today if I want light movement and a balanced dinner?",
-  },
-  {
-    id: "assistant-example",
-    role: "assistant",
-    text: "I would suggest a gentle lower-body circuit, a 10-minute walk after your evening meal, and a ragi roti dinner with dal, paneer, and salad.",
-  },
-];
 
 export function useChatbot() {
   const value = useContext(ChatbotContext);
@@ -48,6 +28,61 @@ export function useChatbot() {
 function FloatingChatbot() {
   const { isOpen, openChat, closeChat } = useChatbot();
   const [draft, setDraft] = useState("");
+  const [messages, setMessages] = useState(() => createStarterMessages());
+  const [isResponding, setIsResponding] = useState(false);
+  const inputId = useId();
+  const latestAssistantMessageRef = useRef(null);
+
+  useEffect(() => {
+    const latestMessage = messages[messages.length - 1];
+    if (latestMessage?.role !== "assistant") return;
+
+    latestAssistantMessageRef.current?.scrollIntoView({
+      block: "start",
+      behavior: "smooth",
+    });
+  }, [messages]);
+
+  const submitMessage = () => {
+    const trimmed = draft.trim();
+    if (!trimmed || isResponding) return;
+
+    const userMessage = {
+      id: `user-${Date.now()}`,
+      role: "user",
+      text: trimmed,
+    };
+
+    const conversation = [...messages, userMessage];
+    setMessages(conversation);
+    setDraft("");
+    setIsResponding(true);
+
+    window.setTimeout(() => {
+      const reply = buildAssistantReply(trimmed, { history: conversation });
+      if (process.env.NODE_ENV !== "production") {
+        console.debug("[GlowUp chat trace]", reply.debug ?? {
+          query: trimmed,
+          intent: reply.intent,
+          answerType: reply.answerType,
+        });
+      }
+      setMessages((current) => [
+        ...current,
+        {
+          id: `assistant-${Date.now()}`,
+          role: "assistant",
+          text: reply.text,
+          intent: reply.intent,
+          answerType: reply.answerType,
+          facts: reply.facts,
+          sources: reply.sources,
+          debug: reply.debug,
+        },
+      ]);
+      setIsResponding(false);
+    }, 280);
+  };
 
   return (
     <>
@@ -89,52 +124,79 @@ function FloatingChatbot() {
                 <div className="rounded-[24px] border border-white/70 bg-cream/90 p-3">
                   <div className="mb-3 flex items-center justify-between">
                     <span className="rounded-full bg-white px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-muted">
-                      Demo conversation
+                      Local knowledge chat
                     </span>
                     <span className="text-[11px] font-medium text-muted">
-                      local-only preview
+                      pre-WebLLM mode
                     </span>
                   </div>
 
                   <div className="max-h-72 space-y-3 overflow-y-auto pr-1">
-                    {starterMessages.map((message) => (
+                    {messages.map((message) => (
                       <div
                         key={message.id}
+                        ref={
+                          message.role === "assistant" &&
+                          message.id === messages[messages.length - 1]?.id
+                            ? latestAssistantMessageRef
+                            : null
+                        }
                         className={`max-w-[88%] rounded-2xl px-4 py-3 text-sm leading-relaxed ${
                           message.role === "user"
                             ? "ml-auto bg-ink text-cream"
                             : "bg-white text-ink shadow-sm"
                         }`}
                       >
-                        {message.text}
+                        <span className="whitespace-pre-line">{message.text}</span>
                       </div>
                     ))}
+                    {isResponding ? (
+                      <div className="max-w-[88%] rounded-2xl bg-white px-4 py-3 text-sm leading-relaxed text-ink shadow-sm">
+                        Looking through your local knowledge...
+                      </div>
+                    ) : null}
                   </div>
                 </div>
 
                 <div className="rounded-[24px] border border-white/70 bg-white/90 p-3">
-                  <label htmlFor="chatbot-draft" className="sr-only">
+                  <label htmlFor={inputId} className="sr-only">
                     Message the assistant
                   </label>
                   <textarea
-                    id="chatbot-draft"
+                    id={inputId}
                     value={draft}
                     onChange={(event) => setDraft(event.target.value)}
+                    onKeyDown={(event) => {
+                      if (event.key === "Enter" && !event.shiftKey) {
+                        event.preventDefault();
+                        submitMessage();
+                      }
+                    }}
                     rows={3}
                     placeholder="Ask about workouts, meals, or healthy habits..."
                     className="w-full resize-none rounded-2xl border border-ink/10 bg-cream/70 px-4 py-3 text-sm text-ink outline-none transition placeholder:text-muted focus:border-peach"
                   />
                   <div className="mt-3 flex items-center justify-between gap-3">
                     <p className="text-xs text-muted">
-                      Placeholder UI for future in-browser model replies.
+                      Real local replies now. WebLLM can replace the reply engine later.
                     </p>
-                    <button
-                      type="button"
-                      onClick={closeChat}
-                      className="rounded-full bg-ink px-4 py-2 text-xs font-semibold text-cream transition hover:scale-[1.02]"
-                    >
-                      Hide chat
-                    </button>
+                    <div className="flex items-center gap-2">
+                      <button
+                        type="button"
+                        onClick={closeChat}
+                        className="rounded-full border border-ink/10 bg-white px-4 py-2 text-xs font-semibold text-ink transition hover:border-peach"
+                      >
+                        Hide
+                      </button>
+                      <button
+                        type="button"
+                        onClick={submitMessage}
+                        className="rounded-full bg-ink px-4 py-2 text-xs font-semibold text-cream transition hover:scale-[1.02] disabled:cursor-not-allowed disabled:opacity-60"
+                        disabled={!draft.trim() || isResponding}
+                      >
+                        Send
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "medical-red-flags",
+    "patterns": [
+      "chest pain",
+      "fainting",
+      "passed out",
+      "severe pain",
+      "pancreatitis",
+      "medication",
+      "dose",
+      "fertility",
+      "pregnan",
+      "emergency",
+      "dizziness"
+    ],
+    "response": "I can help with workouts, meals, ingredient swaps, machine setup help, and basic health education from your vault, but I should not diagnose urgent symptoms or replace clinician advice. If this is about chest pain, fainting, severe pain, pancreatitis symptoms, dizziness, medication changes, or fertility treatment decisions, please get medical guidance directly.",
+    "source_note_ids": ["chatbot-boundaries"]
+  }
+]

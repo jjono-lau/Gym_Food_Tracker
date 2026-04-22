@@ -1,0 +1,67 @@
+[
+  {
+    "id": "beginner-gym-day",
+    "question_patterns": ["give me a beginner gym day", "beginner workout", "simple gym day", "starter workout"],
+    "topic": "beginner-day",
+    "category": "workout",
+    "intro": "Here is a simple beginner gym day that stays repeatable.",
+    "filters": {
+      "difficulties": ["easy"],
+      "focuses": ["lower", "upper"]
+    },
+    "guidance": [
+      "Pick 3 to 4 movements and keep the session simple.",
+      "Use moderate sets and stop before form slips."
+    ],
+    "caution": "Consistency matters more than trying to max out in the first week.",
+    "source_note_ids": ["workout-help"]
+  },
+  {
+    "id": "upper-body-workout",
+    "question_patterns": ["upper body workout", "what should i do for upper body", "upper body gym day"],
+    "topic": "upper-body",
+    "category": "workout",
+    "intro": "These are solid upper-body picks from your current workout data.",
+    "filters": {
+      "focuses": ["upper"]
+    },
+    "guidance": [
+      "Use rows, presses, and one or two arm or core accessories.",
+      "Start with controlled sets in the 8 to 12 rep range."
+    ],
+    "caution": "If a machine setup feels wrong, fix alignment before adding load.",
+    "source_note_ids": ["workout-help", "machine-setup-help"]
+  },
+  {
+    "id": "lower-body-workout",
+    "question_patterns": ["lower body workout", "leg day", "what should i do for lower body"],
+    "topic": "lower-body",
+    "category": "workout",
+    "intro": "These are strong lower-body options from your current workout data.",
+    "filters": {
+      "focuses": ["lower"]
+    },
+    "guidance": [
+      "Build around leg press, leg curl, leg extension, and one accessory.",
+      "Use controlled reps and line your joints up well on the machine."
+    ],
+    "caution": "If your knees feel pressured, revisit setup and shorten to a controlled pain-free range.",
+    "source_note_ids": ["workout-help", "machine-troubleshooting"]
+  },
+  {
+    "id": "cardio-today",
+    "question_patterns": ["what cardio should i do today", "cardio workout today", "give me cardio ideas"],
+    "topic": "cardio",
+    "category": "workout",
+    "intro": "These are practical cardio directions you can use today.",
+    "filters": {
+      "focuses": ["fitness", "weightloss"]
+    },
+    "guidance": [
+      "Pick one repeatable machine and keep the effort steady unless the plan calls for intervals.",
+      "Walking, cycling, stepper work, and elliptical sessions all fit well."
+    ],
+    "caution": "Use cardio as a weekly habit pattern instead of one all-out session.",
+    "source_note_ids": ["workout-help", "what-exercise-helps-high-triglycerides-faq", "what-exercise-helps-pcos-faq"]
+  }
+]

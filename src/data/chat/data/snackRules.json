@@ -1,0 +1,30 @@
+[
+  {
+    "id": "general-snacks",
+    "question_patterns": ["give me a snack", "snack ideas", "good snacks", "what snack should i have"],
+    "topic": "snacks",
+    "category": "snack",
+    "suggestions": [
+      "fruit with a protein side",
+      "yogurt-based option",
+      "nuts in a moderate portion"
+    ],
+    "why": "Snack answers should give 2 to 4 realistic options instead of broad lists.",
+    "caution": "When the vault lacks a dedicated snack recipe, use ingredient-based combinations instead of inventing a full recipe.",
+    "source_note_ids": ["snack-suggestions"]
+  },
+  {
+    "id": "filling-snacks",
+    "question_patterns": ["filling snack", "snack that keeps me full", "what snack is filling"],
+    "topic": "filling-snacks",
+    "category": "snack",
+    "suggestions": [
+      "fruit with yogurt",
+      "moderate nuts portion",
+      "protein-supportive minimally processed snack"
+    ],
+    "why": "Filling snacks should combine fiber or fruit with something that gives more staying power.",
+    "caution": "The goal is satiety and practicality, not building a full extra meal.",
+    "source_note_ids": ["snack-suggestions"]
+  }
+]

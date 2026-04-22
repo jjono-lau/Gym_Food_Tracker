@@ -1,0 +1,176 @@
+[
+  {
+    "id": "brown-rice-substitutions",
+    "target": "brown rice",
+    "aliases": ["brown rice", "rice"],
+    "category": "grain",
+    "best_swaps": ["red rice", "foxtail millet", "little millet", "barnyard millet", "quinoa"],
+    "best_pick": "red rice",
+    "works_well_for": ["grain bowls", "rice-style sides", "pongal-style dishes"],
+    "changes": [
+      "red rice stays closest in chewy whole-grain feel",
+      "millets feel lighter and less chewy",
+      "quinoa cooks faster but tastes different"
+    ],
+    "caution": "Cooking time and water ratio can change even when the meal still works.",
+    "prefer_for_goals": {
+      "pcos": ["foxtail millet", "little millet", "quinoa"],
+      "high-triglycerides": ["red rice", "foxtail millet", "barnyard millet", "quinoa"]
+    },
+    "source_note_ids": ["brown-rice-substitutions", "common-ingredient-swap-pack", "ingredient-substitution-decision-guide"]
+  },
+  {
+    "id": "poha-substitutions",
+    "target": "poha",
+    "aliases": ["poha", "aval", "flattened rice"],
+    "category": "grain",
+    "best_swaps": ["red rice flakes", "soft millet breakfast", "oats breakfast"],
+    "best_pick": "red rice flakes",
+    "works_well_for": ["quick breakfast swaps", "flattened-rice style dishes"],
+    "changes": [
+      "red rice flakes stay closest to the flattened-rice idea",
+      "millet or oats breakfasts are heavier than poha",
+      "the dish may lose the soft flake texture"
+    ],
+    "caution": "If the recipe depends on the quick soft poha texture, suggest a different breakfast instead of forcing a weak swap.",
+    "prefer_for_goals": {
+      "pcos": ["oats breakfast", "soft millet breakfast"],
+      "high-triglycerides": ["oats breakfast", "soft millet breakfast", "red rice flakes"]
+    },
+    "source_note_ids": ["poha-substitutions", "grain-and-starch-substitutions", "when-not-to-swap-ingredients"]
+  },
+  {
+    "id": "moong-dal-substitutions",
+    "target": "moong dal",
+    "aliases": ["moong dal", "split moong dal", "yellow moong"],
+    "category": "legume",
+    "best_swaps": ["split moong dal", "toor dal", "chana dal"],
+    "best_pick": "split moong dal",
+    "works_well_for": ["soups", "dal-style dishes", "kootu"],
+    "changes": [
+      "split moong dal is the closest in flavor and cooking behavior",
+      "toor dal works but changes the texture slightly",
+      "chana dal stays firmer and changes the final feel"
+    ],
+    "caution": "Moong dal is milder and softer than many other dals, so swaps are not fully identical.",
+    "prefer_for_goals": {
+      "pcos": ["split moong dal", "toor dal"],
+      "high-triglycerides": ["split moong dal", "toor dal", "chana dal"]
+    },
+    "source_note_ids": ["moong-dal-substitutions", "legume-and-protein-substitutions"]
+  },
+  {
+    "id": "urad-dal-substitutions",
+    "target": "urad dal",
+    "aliases": ["urad dal", "black gram"],
+    "category": "legume",
+    "best_swaps": ["choose a different recipe", "small non-batter dal adjustment"],
+    "best_pick": "choose a different recipe",
+    "works_well_for": ["some non-batter savory dishes"],
+    "changes": [
+      "in dosa and idli batters, swapping urad dal changes fermentation, softness, and lift",
+      "other dals are not equivalent in batter-heavy recipes"
+    ],
+    "caution": "Be much more cautious with urad dal than with most other legumes. Batter-heavy recipes are the main no-swap zone.",
+    "prefer_for_goals": {
+      "pcos": ["choose a different recipe"],
+      "high-triglycerides": ["choose a different recipe"]
+    },
+    "source_note_ids": ["urad-dal-substitutions", "when-not-to-swap-ingredients", "legume-and-protein-substitutions"]
+  },
+  {
+    "id": "onion-substitutions",
+    "target": "onion",
+    "aliases": ["onion", "red onion", "white onion"],
+    "category": "aromatic",
+    "best_swaps": ["omit and increase other aromatics", "choose a recipe that does not rely heavily on onion"],
+    "best_pick": "omit and increase other aromatics",
+    "works_well_for": ["mixed vegetable dishes", "recipes with several aromatics"],
+    "changes": [
+      "onion adds sweetness, moisture, and background flavor",
+      "omission can work better than pretending there is a perfect equal substitute"
+    ],
+    "caution": "In simple dishes where onion sweetness matters, the better answer may be a different recipe.",
+    "prefer_for_goals": {
+      "pcos": ["omit and increase other aromatics"],
+      "high-triglycerides": ["omit and increase other aromatics"]
+    },
+    "source_note_ids": ["onion-substitutions", "ingredient-substitution-decision-guide"]
+  },
+  {
+    "id": "coconut-substitutions",
+    "target": "coconut",
+    "aliases": ["coconut", "fresh coconut", "grated coconut"],
+    "category": "fat",
+    "best_swaps": ["light coconut milk", "use less coconut and rely on the rest of the base"],
+    "best_pick": "light coconut milk",
+    "works_well_for": ["chutney", "stew", "curry-style dishes"],
+    "changes": [
+      "light coconut milk can preserve some coconut character while thinning richness",
+      "using less coconut reduces richness, sweetness, and mouthfeel"
+    ],
+    "caution": "If coconut is part of the identity of the dish, the result can feel like a different meal.",
+    "prefer_for_goals": {
+      "pcos": ["use less coconut and rely on the rest of the base"],
+      "high-triglycerides": ["use less coconut and rely on the rest of the base", "light coconut milk"]
+    },
+    "source_note_ids": ["coconut-substitutions", "high-triglycerides-ingredient-swap-pack"]
+  },
+  {
+    "id": "low-fat-curd-substitutions",
+    "target": "low fat curd",
+    "aliases": ["curd", "low fat curd", "yogurt", "low-fat yogurt"],
+    "category": "dairy",
+    "best_swaps": ["low fat buttermilk", "diluted curd"],
+    "best_pick": "low fat buttermilk",
+    "works_well_for": ["chutney", "stew", "cooling side dishes"],
+    "changes": [
+      "buttermilk keeps tang but makes the result thinner",
+      "thicker recipes may lose body if curd is replaced directly"
+    ],
+    "caution": "Check whether the recipe needs thickness or just tang before swapping.",
+    "prefer_for_goals": {
+      "pcos": ["low fat buttermilk", "diluted curd"],
+      "high-triglycerides": ["low fat buttermilk", "diluted curd"]
+    },
+    "source_note_ids": ["low-fat-curd-substitutions", "common-ingredient-swap-pack", "legume-and-protein-substitutions"]
+  },
+  {
+    "id": "sesame-oil-substitutions",
+    "target": "sesame oil",
+    "aliases": ["sesame oil", "gingelly oil"],
+    "category": "fat",
+    "best_swaps": ["neutral cooking oil", "omit if only a very small finishing amount is used"],
+    "best_pick": "neutral cooking oil",
+    "works_well_for": ["general cooking function", "small finishing amounts"],
+    "changes": [
+      "the biggest loss is aroma and South Indian flavor character",
+      "the dish may still cook fine but taste less distinct"
+    ],
+    "caution": "For triglyceride-focused answers, prioritize moderation and cooking method rather than pretending oil choice alone solves the problem.",
+    "prefer_for_goals": {
+      "pcos": ["neutral cooking oil"],
+      "high-triglycerides": ["neutral cooking oil", "omit if only a very small finishing amount is used"]
+    },
+    "source_note_ids": ["sesame-oil-substitutions", "high-triglycerides-ingredient-swap-pack"]
+  },
+  {
+    "id": "tamarind-substitutions",
+    "target": "tamarind",
+    "aliases": ["tamarind", "imli"],
+    "category": "souring-agent",
+    "best_swaps": ["raw mango", "reduce sourness and rely on other spices"],
+    "best_pick": "raw mango",
+    "works_well_for": ["savory dishes needing acidity"],
+    "changes": [
+      "raw mango is one of the closest in-vault souring options",
+      "tamarind has a darker deeper flavor than raw mango"
+    ],
+    "caution": "Tamarind-forward dishes may still work with a substitute, but the result can become a different style of meal.",
+    "prefer_for_goals": {
+      "pcos": ["raw mango"],
+      "high-triglycerides": ["raw mango"]
+    },
+    "source_note_ids": ["tamarind-substitutions", "when-not-to-swap-ingredients"]
+  }
+]

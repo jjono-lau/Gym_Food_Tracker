@@ -1,0 +1,184 @@
+[
+  {
+    "id": "machine-setup-general",
+    "question_patterns": ["how do i use this machine", "how to set up this machine", "machine setup help"],
+    "topic": "setup",
+    "category": "equipment",
+    "short_answer": "Start by adjusting seat height, pad position, handle position, and starting posture so your joints line up cleanly with the machine path.",
+    "steps": [
+      "Set the machine first, then check body position with feet planted and contact where expected.",
+      "Notice what each setting changes before adding more load."
+    ],
+    "caution": "Do not sound certain about a specific machine model the bot cannot see, because real gym setups differ.",
+    "source_note_ids": ["machine-setup-help"]
+  },
+  {
+    "id": "leg-curl-setup",
+    "question_patterns": ["how to use leg curl machine", "how do i use leg curl", "leg curl setup", "set up leg curl machine"],
+    "topic": "leg curl",
+    "category": "equipment",
+    "short_answer": "Set the leg curl so the pad sits just above your heels and your knees line up with the machine pivot before you start curling.",
+    "steps": [
+      "Adjust the backrest or bench so your knees sit in line with the machine hinge and your hips stay supported.",
+      "Place the pad just above the heels, brace your torso, and curl without lifting the hips off the bench."
+    ],
+    "caution": "If the pad is too high or your knees sit off the pivot, the machine can feel awkward at the knee joint.",
+    "source_note_ids": ["machine-setup-help"]
+  },
+  {
+    "id": "leg-extension-setup",
+    "question_patterns": ["how to use leg extension machine", "how do i use leg extension", "leg extension setup", "set up leg extension machine"],
+    "topic": "leg extension",
+    "category": "equipment",
+    "short_answer": "Set the seat so your knees line up with the machine pivot and the lower pad rests across the front of your lower legs, not on the feet.",
+    "steps": [
+      "Adjust the seat depth and back pad so your knees are level with the machine hinge and your thighs stay fully supported.",
+      "Place the pad on the lower shin, hold the handles, and lift with control instead of snapping into lockout."
+    ],
+    "caution": "If your knees sit too far forward or back from the pivot, the machine usually feels rougher on the joint.",
+    "source_note_ids": ["machine-setup-help"]
+  },
+  {
+    "id": "leg-press-setup",
+    "question_patterns": ["how to use leg press", "how do i use leg press machine", "leg press setup", "set up leg press"],
+    "topic": "leg press",
+    "category": "equipment",
+    "short_answer": "Start with your feet around mid-sled, back supported, and knees tracking over the feet through the press.",
+    "steps": [
+      "Set the seat so your lower back stays flat against the pad and your knees bend comfortably without folding too tightly at the bottom.",
+      "Place your feet about shoulder-width on the platform, unlock carefully, and press through mid-foot without slamming the knees straight."
+    ],
+    "caution": "If your hips roll off the pad or your knees cave inward, reduce the range or load before pushing harder.",
+    "source_note_ids": ["machine-setup-help"]
+  },
+  {
+    "id": "chest-press-setup",
+    "question_patterns": ["how to use chest press machine", "how do i use chest press", "chest press setup", "set up chest press"],
+    "topic": "chest press",
+    "category": "equipment",
+    "short_answer": "Set the seat so the handles start around mid-chest and your shoulders stay down and back against the pad.",
+    "steps": [
+      "Adjust the seat height until the handles line up around nipple to mid-chest level when you grip them.",
+      "Keep your chest tall, wrists stacked, and press forward with control instead of shrugging the shoulders up."
+    ],
+    "caution": "If the handles start too high or too low, the press often shifts stress away from the chest and into the shoulders.",
+    "source_note_ids": ["machine-setup-help"]
+  },
+  {
+    "id": "row-setup",
+    "question_patterns": ["how to use row machine", "how do i use row machine", "how do i use seated row", "row setup", "set up row machine"],
+    "topic": "row",
+    "category": "equipment",
+    "short_answer": "Set the chest pad and seat so you can pull with the elbows toward the ribs without reaching or shrugging.",
+    "steps": [
+      "Adjust the seat or chest support so the handles are reachable with a tall chest and relaxed shoulders.",
+      "Brace on the pad, plant the feet, and pull the elbows back toward the ribs instead of yanking with the hands."
+    ],
+    "caution": "If you have to round forward to reach the handles, the setup is probably too far away or too low.",
+    "source_note_ids": ["machine-setup-help"]
+  },
+  {
+    "id": "abdominal-machine-setup",
+    "question_patterns": ["how to use abdominal machine", "how do i use ab machine", "ab machine setup", "how to use ab crunch machine"],
+    "topic": "abdominal machine",
+    "category": "equipment",
+    "short_answer": "Set the machine so your ribs and hips can move toward each other while the pad contacts you where the machine expects.",
+    "steps": [
+      "Adjust the seat and chest pad so you start upright with the axis of movement matching your torso position.",
+      "Brace lightly, exhale as you curl the ribs toward the hips, and return under control instead of throwing the weight."
+    ],
+    "caution": "If you feel mostly neck strain or hip flexors, reduce load and reset the start position before continuing.",
+    "source_note_ids": ["machine-setup-help"]
+  },
+  {
+    "id": "leg-curl-troubleshooting",
+    "question_patterns": ["why does leg curl feel wrong", "leg curl hurts", "leg curl feels awkward", "leg curl in knees", "wrong muscle on leg curl"],
+    "topic": "leg curl troubleshooting",
+    "category": "equipment",
+    "short_answer": "If leg curl feels wrong, the usual issues are pad placement, knee-to-pivot alignment, or hips lifting off the bench.",
+    "steps": [
+      "Recheck that the pad sits just above the heels and your knees line up with the machine hinge before curling.",
+      "Keep the hips heavy on the bench and reduce the load if you are jerking through the squeeze."
+    ],
+    "caution": "If you keep feeling the knee joint more than the hamstrings after setup changes, stop forcing the set.",
+    "source_note_ids": ["machine-troubleshooting", "chatbot-boundaries"]
+  },
+  {
+    "id": "leg-extension-troubleshooting",
+    "question_patterns": ["why does leg extension feel wrong", "leg extension hurts", "leg extension in knees", "wrong muscle on leg extension"],
+    "topic": "leg extension troubleshooting",
+    "category": "equipment",
+    "short_answer": "Leg extension usually feels wrong when the knee does not line up with the pivot or the load is too heavy for controlled reps.",
+    "steps": [
+      "Reset the seat so the knee lines up with the hinge and the pad sits on the lower shin instead of too close to the feet.",
+      "Use a lighter load and lift smoothly instead of snapping into the top position."
+    ],
+    "caution": "If the knee joint still feels irritated after setup and load changes, do not keep pushing through it.",
+    "source_note_ids": ["machine-troubleshooting", "chatbot-boundaries"]
+  },
+  {
+    "id": "leg-press-troubleshooting",
+    "question_patterns": ["why does leg press feel wrong", "leg press hurts knees", "leg press feels awkward", "wrong muscle on leg press"],
+    "topic": "leg press troubleshooting",
+    "category": "equipment",
+    "short_answer": "Leg press problems usually come from foot placement, depth, or letting the hips and knees drift out of a strong path.",
+    "steps": [
+      "Check that your feet are around mid-sled, knees track over the feet, and your lower back stays flat on the pad.",
+      "Shorten the depth or lighten the load if your hips roll under or your knees collapse inward at the bottom."
+    ],
+    "caution": "If knee discomfort keeps building even with a shorter range and better tracking, stop the set rather than grinding through it.",
+    "source_note_ids": ["machine-troubleshooting", "chatbot-boundaries"]
+  },
+  {
+    "id": "chest-press-troubleshooting",
+    "question_patterns": ["why does chest press feel wrong", "chest press in shoulders", "wrong muscle on chest press", "chest press hurts shoulder"],
+    "topic": "chest press troubleshooting",
+    "category": "equipment",
+    "short_answer": "Chest press often feels wrong when the seat height is off and the shoulders shrug forward instead of staying packed down.",
+    "steps": [
+      "Reset the seat so the handles start around mid-chest and keep the shoulder blades back against the pad.",
+      "Lower the load if you cannot press without shrugging, flaring, or losing wrist position."
+    ],
+    "caution": "If the front of the shoulder keeps taking over even after setup changes, stop and choose a friendlier press variation.",
+    "source_note_ids": ["machine-troubleshooting", "chatbot-boundaries"]
+  },
+  {
+    "id": "row-troubleshooting",
+    "question_patterns": ["why does row machine feel wrong", "row hurts", "wrong muscle on row machine", "row in shoulders"],
+    "topic": "row troubleshooting",
+    "category": "equipment",
+    "short_answer": "The row usually feels off when you reach too far, shrug, or pull mostly with the hands instead of driving the elbows back.",
+    "steps": [
+      "Set the support so you can reach the handles with a tall chest and relaxed shoulders instead of rounding forward.",
+      "Pull the elbows toward the ribs and pause briefly instead of yanking the handle with the wrists."
+    ],
+    "caution": "If your neck and upper traps keep dominating the movement, lower the load and reset the start position.",
+    "source_note_ids": ["machine-troubleshooting", "chatbot-boundaries"]
+  },
+  {
+    "id": "abdominal-machine-troubleshooting",
+    "question_patterns": ["why does ab machine feel wrong", "ab machine in neck", "wrong muscle on ab machine", "abdominal machine hurts hips"],
+    "topic": "abdominal machine troubleshooting",
+    "category": "equipment",
+    "short_answer": "The abdominal machine usually feels wrong when the setup turns it into neck pulling or hip-flexor work instead of trunk flexion.",
+    "steps": [
+      "Reset the seat and pad so the machine meets your torso cleanly and you can curl the ribs toward the hips without reaching.",
+      "Reduce the load and exhale into the crunch instead of yanking with the neck or throwing the torso forward."
+    ],
+    "caution": "If you mainly feel neck strain or pinching through the hips, stop and reset before doing more reps.",
+    "source_note_ids": ["machine-troubleshooting", "chatbot-boundaries"]
+  },
+  {
+    "id": "machine-feels-wrong",
+    "question_patterns": ["why does this machine feel wrong", "machine feels wrong", "i feel the wrong muscle", "machine feels awkward"],
+    "topic": "troubleshooting",
+    "category": "equipment",
+    "short_answer": "If a machine feels wrong, the setup is usually the first thing to check before blaming the exercise itself.",
+    "steps": [
+      "Check seat height, pad position, handle start position, and range of motion first.",
+      "Then check body position, planted feet, and whether the target area is actually doing the work."
+    ],
+    "caution": "If the issue sounds like sharp pain, dizziness, or repeated joint pain despite correct setup, pause and seek appropriate help.",
+    "source_note_ids": ["machine-troubleshooting", "chatbot-boundaries"]
+  }
+]

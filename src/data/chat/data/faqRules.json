@@ -1,0 +1,222 @@
+[
+  {
+    "id": "what-is-pcos",
+    "question_patterns": [
+      "what is pcos",
+      "what does pcos mean",
+      "tell me about pcos",
+      "pcos meaning"
+    ],
+    "topic": "pcos",
+    "category": "health",
+    "short_answer": "PCOS is a hormonal and metabolic condition that can affect periods, ovulation, androgen levels, and insulin sensitivity.",
+    "practical_steps": [
+      "Keep the first explanation simple and practical.",
+      "If the user asks what to do next, connect them to food and exercise guidance."
+    ],
+    "caution": "Diagnosis and treatment still belong with a clinician, not the chatbot.",
+    "follow_up_suggestions": [
+      "Ask what to eat for PCOS.",
+      "Ask what exercise helps PCOS."
+    ],
+    "source_note_ids": ["what-is-pcos-faq"]
+  },
+  {
+    "id": "what-are-high-triglycerides",
+    "question_patterns": [
+      "what are high triglycerides",
+      "what is triglycerides",
+      "what are triglycerides",
+      "tell me about triglycerides"
+    ],
+    "topic": "high-triglycerides",
+    "category": "health",
+    "short_answer": "Triglycerides are a type of fat in the blood, and higher levels can raise cardiovascular risk. Very high triglycerides can also raise the risk of pancreatitis.",
+    "practical_steps": [
+      "Explain the basics clearly before giving lifestyle guidance.",
+      "If the user asks what to do, connect them to food and exercise support."
+    ],
+    "caution": "Lab interpretation, diagnosis, and medication questions should be escalated beyond chatbot-only answers.",
+    "follow_up_suggestions": [
+      "Ask what to eat for high triglycerides.",
+      "Ask what exercise helps high triglycerides."
+    ],
+    "source_note_ids": ["what-are-high-triglycerides-faq", "chatbot-boundaries"]
+  },
+  {
+    "id": "what-should-i-eat-for-pcos",
+    "question_patterns": [
+      "what should i eat for pcos",
+      "pcos diet",
+      "best foods for pcos",
+      "how should i eat for pcos"
+    ],
+    "topic": "pcos-food",
+    "category": "nutrition",
+    "short_answer": "For PCOS, aim for minimally processed foods, higher-fiber carbohydrates, protein support, and balanced meals instead of chasing one perfect diet.",
+    "practical_steps": [
+      "Reduce sugary foods and heavily refined carbohydrates first.",
+      "Build meals around fiber, protein, and repeatable meal patterns."
+    ],
+    "caution": "The best follow-up is a small number of meal suggestions or ingredient swaps, not a very long food list.",
+    "follow_up_suggestions": [
+      "Ask for a PCOS-friendly breakfast.",
+      "Ask for PCOS-friendly ingredient swaps."
+    ],
+    "source_note_ids": ["what-should-i-eat-for-pcos-faq", "pcos-ingredient-swap-pack"]
+  },
+  {
+    "id": "what-should-i-eat-for-high-triglycerides",
+    "question_patterns": [
+      "what should i eat for high triglycerides",
+      "high triglycerides diet",
+      "best foods for triglycerides",
+      "how should i eat for triglycerides"
+    ],
+    "topic": "triglycerides-food",
+    "category": "nutrition",
+    "short_answer": "For high triglycerides, emphasize vegetables, legumes, whole grains, lean proteins, less added sugar, and less heavily processed food.",
+    "practical_steps": [
+      "Start by cutting sugary drinks, desserts, and refined carbohydrates.",
+      "Use a few practical meal examples or swaps instead of a giant food list."
+    ],
+    "caution": "If the question is specifically about triglycerides, alcohol caution should be part of the answer.",
+    "follow_up_suggestions": [
+      "Ask for a triglyceride-friendly dinner.",
+      "Ask for ingredient swaps for high triglycerides."
+    ],
+    "source_note_ids": ["what-should-i-eat-for-high-triglycerides-faq", "high-triglycerides-ingredient-swap-pack"]
+  },
+  {
+    "id": "what-exercise-helps-pcos",
+    "question_patterns": [
+      "what exercise helps pcos",
+      "best workout for pcos",
+      "pcos gym routine",
+      "how should i train with pcos"
+    ],
+    "topic": "pcos-exercise",
+    "category": "workout",
+    "short_answer": "The best exercise approach for PCOS is usually regular aerobic exercise plus strength training, with consistency and recovery taking priority over extreme intensity.",
+    "practical_steps": [
+      "Walking, treadmill work, cycling, cross training, and repeatable gym strength sessions all fit well.",
+      "A simple starting structure is 3 to 4 weekly sessions built around moderate cardio and full-body resistance work."
+    ],
+    "caution": "If the user asks for an exact plan, route them into a simple routine instead of only answering in theory.",
+    "follow_up_suggestions": [
+      "Ask for a simple PCOS gym routine.",
+      "Ask for a beginner lower-body workout."
+    ],
+    "source_note_ids": ["what-exercise-helps-pcos-faq", "workout-help"]
+  },
+  {
+    "id": "what-exercise-helps-high-triglycerides",
+    "question_patterns": [
+      "what exercise helps high triglycerides",
+      "best workout for triglycerides",
+      "high triglycerides gym routine",
+      "how should i train for triglycerides"
+    ],
+    "topic": "triglycerides-exercise",
+    "category": "workout",
+    "short_answer": "For high triglycerides, regular aerobic activity supported by resistance training usually works better than occasional maximal sessions.",
+    "practical_steps": [
+      "Use treadmill work, cycling, cross trainers, stair climbers, and simple strength sessions as a weekly habit pattern.",
+      "Aim for regular weekly minutes and avoid long gaps without activity."
+    ],
+    "caution": "Very high-risk or medically complicated cases should not be treated as a normal fitness-only question.",
+    "follow_up_suggestions": [
+      "Ask for a simple triglyceride-friendly gym routine.",
+      "Ask for a cardio-focused workout."
+    ],
+    "source_note_ids": ["what-exercise-helps-high-triglycerides-faq", "workout-help", "chatbot-boundaries"]
+  },
+  {
+    "id": "simple-pcos-gym-routine",
+    "question_patterns": [
+      "give me a pcos gym routine",
+      "simple pcos gym routine",
+      "pcos workout plan",
+      "routine for pcos"
+    ],
+    "topic": "pcos-routine",
+    "category": "workout",
+    "short_answer": "A simple PCOS gym routine is 3 to 4 weekly sessions built around moderate cardio plus repeatable full-body resistance work.",
+    "practical_steps": [
+      "Session A: treadmill or cross trainer, then leg press, chest press, and seated row for 2 to 3 sets each.",
+      "Session B: upright or recumbent bike, then shoulder press, leg curl, and abdominal crunch for 2 to 3 sets each."
+    ],
+    "caution": "Keep most sets moderate, stop before form slips, and use consistency over maximal effort.",
+    "follow_up_suggestions": [
+      "Ask for a beginner gym day.",
+      "Ask how to set up one of the machines."
+    ],
+    "source_note_ids": ["workout-help"]
+  },
+  {
+    "id": "simple-triglycerides-gym-routine",
+    "question_patterns": [
+      "give me a triglycerides gym routine",
+      "simple high triglycerides gym routine",
+      "routine for high triglycerides",
+      "workout plan for high triglycerides"
+    ],
+    "topic": "triglycerides-routine",
+    "category": "workout",
+    "short_answer": "A simple high-triglycerides gym routine prioritizes regular aerobic work, steady strength training, and sustainable weekly volume.",
+    "practical_steps": [
+      "Use 25 to 35 minutes of moderate cardio on treadmill, cross trainer, or recumbent bike most days in some form.",
+      "On strength days, use leg press, chest press, seated row, and shoulder press for 2 to 3 sets each, then finish with easy cardio."
+    ],
+    "caution": "Increase total weekly minutes gradually and keep long gaps without activity as low as possible.",
+    "follow_up_suggestions": [
+      "Ask for a cardio-focused day.",
+      "Ask how to use a specific machine."
+    ],
+    "source_note_ids": ["workout-help"]
+  },
+  {
+    "id": "how-to-use-gym-machine",
+    "question_patterns": [
+      "how do i use this machine",
+      "how to use gym machine",
+      "how do i set up this machine",
+      "machine setup help"
+    ],
+    "topic": "machine-setup",
+    "category": "equipment",
+    "short_answer": "For machine setup, first adjust seat height, pad position, handle position, and starting posture so your joint line matches the machine pivot and the target muscle can move cleanly.",
+    "practical_steps": [
+      "Check what to adjust, what the setting changes, and one common setup mistake to avoid.",
+      "If it is a specific machine, connect the answer to that machine note instead of speaking too generally."
+    ],
+    "caution": "Do not sound overly certain about a machine model the chatbot cannot see, because real gym setups may differ from the vault example.",
+    "follow_up_suggestions": [
+      "Tell me which machine it is.",
+      "Ask why the machine feels wrong."
+    ],
+    "source_note_ids": ["machine-setup-help"]
+  },
+  {
+    "id": "why-does-machine-feel-wrong",
+    "question_patterns": [
+      "why does this machine feel wrong",
+      "machine feels wrong",
+      "this machine feels awkward",
+      "i feel the wrong muscle"
+    ],
+    "topic": "machine-troubleshooting",
+    "category": "equipment",
+    "short_answer": "If a machine feels wrong, the most common reason is setup rather than the machine being inherently bad.",
+    "practical_steps": [
+      "Check seat height, pad placement, handle start position, and range of motion first.",
+      "If you feel joint pressure, reduce load, shorten to a controlled pain-free range, and revisit alignment."
+    ],
+    "caution": "If the issue sounds like sharp pain, dizziness, or repeated joint pain despite correct setup, pause the exercise and seek appropriate help.",
+    "follow_up_suggestions": [
+      "Ask how to set up that machine.",
+      "Ask for a substitute movement."
+    ],
+    "source_note_ids": ["machine-troubleshooting", "chatbot-boundaries"]
+  }
+]
