@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Nunito, Poppins } from "next/font/google";
 import path from "node:path";
+import ChatbotProvider from "@/components/ChatbotProvider";
 
 const repoName =
   process.env.NEXT_PUBLIC_REPO_NAME ||
@@ -57,7 +58,9 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${heading.variable} ${body.variable} h-full`}>
-      <body className="min-h-full bg-cream text-ink antialiased">{children}</body>
+      <body className="min-h-full bg-cream text-ink antialiased">
+        <ChatbotProvider>{children}</ChatbotProvider>
+      </body>
     </html>
   );
 }
