@@ -37,6 +37,7 @@ body {
   color: var(--ink);
   font-family: var(--font-body), system-ui, -apple-system, sans-serif;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 a {
@@ -99,14 +100,39 @@ a {
   }
 
   .card-shadow {
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.04);
+  }
+
+  .soft-shadow {
+    box-shadow: 0 6px 18px rgba(244, 196, 215, 0.28);
   }
 
   .glass {
     border-radius: 24px;
+    backdrop-filter: blur(6px);
+  }
+
+  .blob {
+    filter: blur(36px);
+    opacity: 0.32;
+  }
+
+  .halo {
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 12px 32px rgba(0, 0, 0, 0.06);
   }
 }
 
 .halo {
   box-shadow: 0 0 0 18px rgba(255, 255, 255, 0.35), 0 20px 60px rgba(0, 0, 0, 0.08);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
 }

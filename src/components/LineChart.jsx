@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 export default function LineChart({ data, color = "#ffb7a2", height = 140, label }) {
   if (!data.length) {
@@ -49,7 +49,7 @@ export default function LineChart({ data, color = "#ffb7a2", height = 140, label
             points="0,0 0,100 100,100 100,0"
             opacity="0"
           />
-          <motion.polyline
+          <m.polyline
             fill="none"
             stroke={color}
             strokeWidth="2"
@@ -59,7 +59,7 @@ export default function LineChart({ data, color = "#ffb7a2", height = 140, label
             transition={{ duration: 0.8, ease: "easeOut" }}
             strokeLinecap="round"
           />
-          <motion.polygon
+          <m.polygon
             points={`${points} 100,100 0,100`}
             fill="url(#lineGradient)"
             initial={{ opacity: 0 }}

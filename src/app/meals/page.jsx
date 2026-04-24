@@ -1,12 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Navbar from "@/components/Navbar";
 import SectionHeader from "@/components/SectionHeader";
-import { meals } from "@/data/content";
+import { meals } from "@/data/pageContent";
 import useLocalStorageState from "@/hooks/useLocalStorageState";
 import useBodyScrollLock from "@/hooks/useBodyScrollLock";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 const categories = ["breakfast", "lunch", "dinner", "snacks"];
 
@@ -15,12 +15,15 @@ const pickRandom = (arr) => arr[Math.floor(Math.random() * arr.length)];
 export default function MealsPage() {
   const [plan, setPlan] = useLocalStorageState("gft-meal-plan", {});
   const [show, setShow] = useState(null);
+  const [showSearch, setShowSearch] = useState(false);
+  const [searchSlot, setSearchSlot] = useState("breakfast");
+  const [searchQuery, setSearchQuery] = useState("");
   const [tab, setTab] = useState("ingredients");
   const [mounted, setMounted] = useState(false);
 
   const displayPlan = mounted ? plan : {};
 
-  const generateDay = () => {
+  const seedDay = () => {
     const next = {};
     categories.forEach((cat) => {
       next[cat] = pickRandom(meals[cat]);
@@ -28,8 +31,16 @@ export default function MealsPage() {
     setPlan(next);
   };
 
-  const swapItem = (cat) => {
-    setPlan((prev) => ({ ...prev, [cat]: pickRandom(meals[cat]) }));
+  const openSearchFor = (cat) => {
+    setSearchSlot(cat);
+    setSearchQuery("");
+    setShowSearch(true);
+  };
+
+  const replaceMeal = (meal) => {
+    setPlan((prev) => ({ ...prev, [searchSlot]: meal }));
+    setShowSearch(false);
+    setSearchQuery("");
   };
 
   useEffect(() => {
@@ -38,13 +49,27 @@ export default function MealsPage() {
 
   useEffect(() => {
     if (mounted && Object.keys(plan).length === 0) {
-      generateDay();
+      seedDay();
     }
     // run once on mount
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mounted]);
 
-  useBodyScrollLock(!!show);
+  const searchResults = useMemo(() => {
+    const query = searchQuery.trim().toLowerCase();
+    const pool = meals[searchSlot] ?? [];
+
+    if (!query) return pool;
+
+    return pool.filter((meal) =>
+      [meal.title, ...(meal.ingredients ?? []), ...(meal.steps ?? [])]
+        .join(" ")
+        .toLowerCase()
+        .includes(query),
+    );
+  }, [searchQuery, searchSlot]);
+
+  useBodyScrollLock(!!show || showSearch);
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -57,19 +82,20 @@ export default function MealsPage() {
             subtitle="Balanced carbs, protein, and healthy fats that love your triglycerides."
           />
           <button
-            onClick={generateDay}
+            onClick={() => openSearchFor("breakfast")}
             className="rounded-full bg-gradient-to-r from-peach to-pink px-5 py-3 text-sm font-semibold text-ink shadow-lg shadow-peach/40 hover:scale-[1.02] transition"
           >
-            Generate a day ✨
+            Search meals ✨
           </button>
         </div>
 
         <div className="mt-8 grid gap-6 sm:grid-cols-2">
           {categories.map((cat) => (
-            <motion.div
+            <m.div
               key={cat}
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: categories.indexOf(cat) * 0.08, duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
               className="rounded-3xl bg-white/90 border border-white/70 card-shadow p-5 space-y-3 cursor-pointer"
               onClick={() => displayPlan[cat] && setShow(displayPlan[cat])}
             >
@@ -77,17 +103,17 @@ export default function MealsPage() {
                 <div>
                   <p className="text-xs uppercase tracking-[0.14em] font-semibold text-muted">{cat}</p>
                   <h3 className="text-lg font-semibold text-ink">
-                    {displayPlan[cat]?.title || "Tap generate to fill your plate"}
+                    {displayPlan[cat]?.title || "Tap search to choose a meal"}
                   </h3>
                 </div>
                 <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    swapItem(cat);
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    openSearchFor(cat);
                   }}
                   className="rounded-full border border-ink/10 bg-sage/70 px-4 py-2 text-xs font-semibold text-ink hover:border-peach"
                 >
-                  Swap
+                  Search
                 </button>
               </div>
               <div className="flex flex-wrap gap-2 text-[11px] uppercase tracking-wide text-muted">
@@ -99,13 +125,13 @@ export default function MealsPage() {
                 Tip: pair with <span className="font-semibold text-ink">2-3L water</span> and a{" "}
                 <span className="font-semibold text-ink">10 minute walk</span> after meals.
               </p>
-            </motion.div>
+            </m.div>
           ))}
         </div>
 
         {show && (
           <div className="fixed inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center px-4 py-8 z-40">
-            <div className="relative w-full max-w-xl rounded-3xl bg-white shadow-xl border border-white/70 p-6 space-y-4">
+            <div className="relative w-full max-w-xl max-h-[85vh] overflow-hidden rounded-3xl bg-white shadow-xl border border-white/70 p-6 space-y-4">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2 text-sm font-semibold">
                   <button
@@ -125,7 +151,7 @@ export default function MealsPage() {
                   Close
                 </button>
               </div>
-              <div className="space-y-2">
+              <div className="max-h-[60vh] space-y-2 overflow-y-auto pr-2">
                 <h3 className="text-xl font-semibold text-ink">{show.title}</h3>
                 <p className="text-sm text-muted">Low-sugar friendly • High fibre • Girly-pop approved ✨</p>
                 {tab === "ingredients" ? (
@@ -144,6 +170,84 @@ export default function MealsPage() {
                       </li>
                     ))}
                   </ol>
+                )}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {showSearch && (
+          <div className="fixed inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center px-4 py-8 z-40">
+            <div className="relative w-full max-w-2xl max-h-[85vh] overflow-hidden rounded-3xl bg-white shadow-xl border border-white/70 p-6 space-y-4">
+              <div className="flex items-center justify-between gap-4">
+                <div>
+                  <p className="text-xs uppercase tracking-[0.14em] font-semibold text-muted">
+                    Search meals
+                  </p>
+                  <h3 className="text-xl font-semibold text-ink">
+                    Replace your {searchSlot}
+                  </h3>
+                </div>
+                <button
+                  onClick={() => setShowSearch(false)}
+                  className="text-sm font-semibold text-peach"
+                >
+                  Close
+                </button>
+              </div>
+
+              <div className="flex flex-wrap gap-2">
+                {categories.map((cat) => (
+                  <button
+                    key={cat}
+                    onClick={() => setSearchSlot(cat)}
+                    className={`rounded-full px-4 py-2 text-sm font-semibold transition ${
+                      searchSlot === cat ? "bg-ink text-cream" : "bg-cream text-ink"
+                    }`}
+                  >
+                    {cat}
+                  </button>
+                ))}
+              </div>
+
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(event) => setSearchQuery(event.target.value)}
+                placeholder={`Search ${searchSlot} by meal name or ingredient`}
+                className="w-full rounded-2xl border border-ink/10 bg-cream/70 px-4 py-3 text-sm text-ink outline-none transition placeholder:text-muted focus:border-peach"
+              />
+
+              <div className="max-h-[55vh] space-y-3 overflow-y-auto pr-2">
+                {searchResults.length > 0 ? (
+                  searchResults.map((meal) => (
+                    <button
+                      key={`${searchSlot}-${meal.title}`}
+                      onClick={() => replaceMeal(meal)}
+                      className="w-full rounded-3xl border border-white/70 bg-white/90 p-4 text-left card-shadow transition hover:border-peach"
+                    >
+                      <div className="space-y-2">
+                        <div className="flex items-start justify-between gap-3">
+                          <div>
+                            <p className="text-xs uppercase tracking-[0.14em] font-semibold text-muted">
+                              {searchSlot}
+                            </p>
+                            <h4 className="text-lg font-semibold text-ink">{meal.title}</h4>
+                          </div>
+                          <span className="rounded-full bg-sage/70 px-3 py-1 text-xs font-semibold text-ink">
+                            Use this
+                          </span>
+                        </div>
+                        <p className="text-sm text-muted">
+                          {(meal.ingredients ?? []).slice(0, 4).join(" • ")}
+                        </p>
+                      </div>
+                    </button>
+                  ))
+                ) : (
+                  <div className="rounded-3xl border border-dashed border-ink/15 bg-white/70 p-6 text-sm text-muted">
+                    No meals matched that search. Try a recipe name, ingredient, or a shorter phrase.
+                  </div>
                 )}
               </div>
             </div>

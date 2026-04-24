@@ -1,4 +1,4 @@
-import { education, meals, workoutPlans } from "@/data/content";
+import { education, meals, workoutPlans } from "@/data/pageContent";
 import {
   getChatbotNotes,
   getChatbotNoteById,
@@ -88,7 +88,7 @@ const allCuratedMeals = Object.entries(meals).flatMap(([category, entries]) =>
     id: `app-meal-${category}-${index}`,
     name: meal.title,
     category,
-    source_note: "src/data/content.js",
+    source_note: "src/data/pageContent.js",
     description: firstSentence((meal.steps ?? []).join(" ")),
     ingredient_slugs: [],
     ingredient_list: meal.ingredients ?? [],
@@ -948,7 +948,7 @@ function formatWorkoutRuleReply(query) {
         type: "workout",
         id: `${move.difficulty}-${move.focus}-${move.name}`.toLowerCase().replace(/\s+/g, "-"),
         title: `${move.name} (${move.difficulty} ${move.focus})`,
-        path: "src/data/content.js",
+        path: "src/data/pageContent.js",
       })),
       ...noteSources.map((note) => ({ type: "note", id: note.id, title: note.title, path: note.path })),
     ],
@@ -1078,7 +1078,7 @@ function formatSpecificMachineReply(query) {
         type: "workout",
         id: `${move.difficulty}-${move.focus}-${move.name}`.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
         title: `${move.machine} / ${move.name}`,
-        path: "src/data/content.js",
+        path: "src/data/pageContent.js",
       },
     ],
     debug: buildDebugTrace(query, {
@@ -1187,7 +1187,7 @@ function formatWorkoutReply(query) {
       type: "workout",
       id: `${move.difficulty}-${move.focus}-${move.name}`.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
       title: `${move.name} (${move.difficulty} ${move.focus})`,
-      path: "src/data/content.js",
+      path: "src/data/pageContent.js",
     })),
     debug: buildDebugTrace(query, {
       intent: "workout",
@@ -1229,7 +1229,7 @@ function formatEducationReply(query) {
           type: "education",
           id: item.title.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
           title: item.title,
-          path: "src/data/content.js",
+          path: "src/data/pageContent.js",
         })),
         ...getChatbotNotes().slice(0, 2).map((note) => ({
           type: "note",

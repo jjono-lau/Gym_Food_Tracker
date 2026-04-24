@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { useEffect, useState, useRef, useCallback } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { m, AnimatePresence } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import PageLoader from "@/components/PageLoader";
 import SectionHeader from "@/components/SectionHeader";
@@ -13,6 +13,7 @@ const IMAGE_EXT = /\.(jpe?g|png|webp|heic|heif|gif|avif)$/i;
 const INTERVAL = 4000;
 const INTRO_DURATION = 4000;
 const MAX_IMAGE_DIMENSION = 1600;
+const MAX_UPLOAD_BYTES = 15 * 1024 * 1024;
 
 function decodeImageSource(src) {
   return new Promise((resolve) => {
@@ -118,6 +119,22 @@ function readFile(file) {
       });
     });
   });
+}
+
+function filterAcceptedImages(files) {
+  const accepted = [];
+  const rejected = [];
+
+  files.forEach((file) => {
+    if (!IMAGE_EXT.test(file.name) || file.size > MAX_UPLOAD_BYTES) {
+      rejected.push(file.name);
+      return;
+    }
+
+    accepted.push(file);
+  });
+
+  return { accepted, rejected };
 }
 
 async function pickFolder() {
@@ -306,7 +323,20 @@ export default function TransformationsPage() {
     const files = Array.from(event.target.files ?? []);
     if (!files.length) return;
 
-    const uploadedImages = (await Promise.all(files.map(readFile))).filter((image) => image.src);
+    const { accepted, rejected } = filterAcceptedImages(files);
+    if (rejected.length) {
+      window.alert(
+        `Skipped ${rejected.length} file(s). Use supported image formats under ${
+          MAX_UPLOAD_BYTES / (1024 * 1024)
+        } MB.`,
+      );
+    }
+    if (!accepted.length) {
+      event.target.value = "";
+      return;
+    }
+
+    const uploadedImages = (await Promise.all(accepted.map(readFile))).filter((image) => image.src);
     addImages(uploadedImages);
     event.target.value = "";
   };
@@ -318,7 +348,17 @@ export default function TransformationsPage() {
       const files = await pickFolder();
       if (!files?.length) return;
 
-      const uploadedImages = (await Promise.all(files.map(readFile))).filter((image) => image.src);
+       const { accepted, rejected } = filterAcceptedImages(files);
+      if (rejected.length) {
+        window.alert(
+          `Skipped ${rejected.length} file(s). Use supported image formats under ${
+            MAX_UPLOAD_BYTES / (1024 * 1024)
+          } MB.`,
+        );
+      }
+      if (!accepted.length) return;
+
+      const uploadedImages = (await Promise.all(accepted.map(readFile))).filter((image) => image.src);
       uploadedImages.sort((a, b) => {
         const ta = parseInt(a.id.split("-")[0], 10);
         const tb = parseInt(b.id.split("-")[0], 10);
@@ -459,7 +499,7 @@ export default function TransformationsPage() {
               ) : (
                 <AnimatePresence initial={false} mode="wait">
                   {displayImages.length > 0 && currentImage ? (
-                    <motion.img
+                    <m.img
                       key={currentImage.id}
                       src={currentImage.src}
                       alt={currentImage.name || "progress photo"}
@@ -467,7 +507,7 @@ export default function TransformationsPage() {
                       initial={allowEntranceAnimations ? { opacity: 0.4, x: 30 } : false}
                       animate={{ opacity: 1, x: 0 }}
                       exit={allowEntranceAnimations ? { opacity: 0, x: -30 } : undefined}
-                      transition={{ duration: 0.25 }}
+                      transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
                     />
                   ) : (
                     <div className="h-full w-full flex flex-col items-center justify-center gap-2 text-muted text-sm px-8 text-center">
@@ -525,7 +565,7 @@ export default function TransformationsPage() {
                             resetAutoAdvance();
                             setIndex(imageIndex);
                           }}
-                          className={`rounded-full transition-all duration-200 ${
+                          className={`rounded-full transition-all duration-300 ${
                             imageIndex === index
                               ? "w-4 h-2 bg-white"
                               : "w-2 h-2 bg-white/50"

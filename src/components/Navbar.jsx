@@ -5,7 +5,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { m, AnimatePresence } from "framer-motion";
 import { Menu, X } from "@/components/icons";
 import assetPath from "@/lib/assetPath";
 
@@ -50,10 +50,10 @@ export default function Navbar() {
                   className="relative rounded-full px-3 py-2 text-sm font-medium text-ink transition-colors hover:text-peach"
                 >
                   {active && (
-                    <motion.span
+                    <m.span
                       layoutId="nav-pill"
                       className="absolute inset-0 rounded-full bg-ink/10 shadow-inner"
-                      transition={{ type: "spring", stiffness: 420, damping: 42 }}
+                      transition={{ type: "spring", stiffness: 300, damping: 34 }}
                     />
                   )}
                   <span className="relative">{link.label}</span>
@@ -74,10 +74,11 @@ export default function Navbar() {
 
       <AnimatePresence>
         {open && (
-          <motion.div
+          <m.div
             initial={{ opacity: 0, y: -6 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -6 }}
+            transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
             className="md:hidden absolute left-4 right-4 mt-3 rounded-3xl bg-white shadow-xl border border-ink/10 p-5 space-y-3"
           >
             {links.map((link) => {
@@ -96,7 +97,7 @@ export default function Navbar() {
                 </Link>
               );
             })}
-          </motion.div>
+          </m.div>
         )}
       </AnimatePresence>
     </header>

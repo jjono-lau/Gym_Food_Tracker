@@ -1,11 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { motion } from "framer-motion";
-import { useEffect, useMemo, useState } from "react";
+import { m } from "framer-motion";
+import { useMemo } from "react";
 import Navbar from "@/components/Navbar";
 import SectionHeader from "@/components/SectionHeader";
 import { Dumbbell, Salad, BookOpen, Sparkles } from "@/components/icons";
+import { meals } from "@/data/pageContent";
 import useIndexedDBProgress from "@/hooks/useIndexedDBProgress";
 
 const featureCards = [
@@ -41,6 +42,21 @@ const featureCards = [
 
 const emptyProgress = { workouts: [], weight: [], habits: [] };
 
+function pickMeal(date) {
+  const hour = date.getHours();
+  const category =
+    hour >= 5 && hour <= 10 ? "breakfast" : hour > 10 && hour < 16 ? "lunch" : hour < 21 ? "dinner" : "snacks";
+  const options = meals[category] ?? [];
+  if (options.length === 0) return "Plan a meal";
+
+  const startOfYear = new Date(date.getFullYear(), 0, 0);
+  const dayOfYear = Math.floor((date - startOfYear) / 86400000);
+  const index = dayOfYear % options.length;
+  const label = category === "snacks" ? "Snack" : category[0].toUpperCase() + category.slice(1);
+
+  return `${label}: ${options[index].title}`;
+}
+
 function DashboardSkeleton() {
   return (
     <div className="mt-6 space-y-4 text-sm animate-pulse">
@@ -65,56 +81,11 @@ function DashboardSkeleton() {
 
 export default function Home() {
   const [progress, , hydrated] = useIndexedDBProgress(emptyProgress);
-  const [mealSuggestion, setMealSuggestion] = useState("Plan a meal");
-  const [mealReady, setMealReady] = useState(false);
-
-  const pickMeal = (date) => {
-    const hour = date.getHours();
-    if (hour >= 5 && hour <= 10) return "Breakfast: protein oats + berries";
-    if (hour > 10 && hour < 16) return "Lunch: millet lemon rice + paneer";
-    return "Dinner: ragi roti + dal + salad";
-  };
-
-  const formatOffset = () => {
-    const minutes = -new Date().getTimezoneOffset();
-    const sign = minutes >= 0 ? "+" : "-";
-    const abs = Math.abs(minutes);
-    const hh = String(Math.floor(abs / 60)).padStart(2, "0");
-    const mm = String(abs % 60).padStart(2, "0");
-    return `${sign}${hh}${mm}`;
-  };
-
-  useEffect(() => {
-    if (!hydrated || typeof window === "undefined") return;
-
-    let cancelled = false;
-    setMealReady(false);
-
-    const loadTime = async () => {
-      let nextMealLabel = "Plan a meal";
-
-      try {
-        const offset = formatOffset();
-        const res = await fetch(`https://aisenseapi.com/services/v1/datetime/${offset}`);
-        const data = await res.json();
-        const iso = data?.datetime;
-        nextMealLabel = iso ? pickMeal(new Date(iso)) : pickMeal(new Date());
-      } catch {
-        nextMealLabel = pickMeal(new Date());
-      } finally {
-        if (!cancelled) {
-          setMealSuggestion(nextMealLabel);
-          setMealReady(true);
-        }
-      }
-    };
-
-    loadTime();
-
-    return () => {
-      cancelled = true;
-    };
+  const mealSuggestion = useMemo(() => {
+    if (!hydrated || typeof window === "undefined") return "Plan a meal";
+    return pickMeal(new Date());
   }, [hydrated]);
+  const mealReady = hydrated;
 
   const streak = progress.workouts.length;
   const lastWorkout = useMemo(() => progress.workouts.at(-1) ?? null, [progress.workouts]);
@@ -134,22 +105,23 @@ export default function Home() {
 
         <section className="grid lg:grid-cols-2 gap-12 items-center pt-14">
           <div className="space-y-7">
-            <motion.span
+            <m.span
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.46, ease: [0.22, 1, 0.36, 1] }}
               className="inline-flex items-center gap-2 rounded-full bg-white/90 px-4 py-2 text-sm font-semibold text-ink shadow-inner shadow-pink/30 border border-white/70"
             >
               Daily calm + energy
               <span className="text-xs text-muted">built for triglyceride care</span>
-            </motion.span>
-            <motion.h1
+            </m.span>
+            <m.h1
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 }}
+              transition={{ delay: 0.12, duration: 0.58, ease: [0.22, 1, 0.36, 1] }}
               className="text-4xl sm:text-5xl font-semibold leading-tight text-ink"
             >
               Get moving, eat healthy meals and make steady progress.
-            </motion.h1>
+            </m.h1>
             <p className="text-lg text-muted max-w-2xl">
               GlowUp keeps you organised while you plan workouts, plate up yummy
               South Indian meals, and celebrate the small wins.
@@ -170,10 +142,10 @@ export default function Home() {
             </div>
           </div>
 
-          <motion.div
+          <m.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.15 }}
+            transition={{ delay: 0.18, duration: 0.62, ease: [0.22, 1, 0.36, 1] }}
             className="relative glass card-shadow rounded-[32px] p-7 sm:p-9 overflow-hidden"
           >
             <div
@@ -222,7 +194,7 @@ export default function Home() {
                 </div>
               </div>
             )}
-          </motion.div>
+          </m.div>
         </section>
 
         <section className="mt-16 space-y-10">
@@ -235,10 +207,7 @@ export default function Home() {
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {featureCards.map((card) => (
               <Link key={card.title} href={card.link} className="block group ">
-                <motion.div
-                  whileHover={{ y: -6, scale: 1.01 }}
-                  className="rounded-[28px] bg-white/90 border border-white/70 h-full card-shadow p-5 space-y-4"
-                >
+                <div className="rounded-[28px] bg-white/90 border border-white/70 h-full card-shadow p-5 space-y-4 transition-transform duration-500 ease-out sm:group-hover:-translate-y-1">
                   <div className="flex items-center justify-between">
                     <span className="rounded-full bg-ink text-cream px-3 py-1 text-xs font-semibold">
                       {card.badge}
@@ -252,7 +221,7 @@ export default function Home() {
                     <h3 className="text-lg font-semibold text-ink">{card.title}</h3>
                   </div>
                   <p className="text-sm text-muted leading-relaxed">{card.desc}</p>
-                </motion.div>
+                </div>
               </Link>
             ))}
           </div>

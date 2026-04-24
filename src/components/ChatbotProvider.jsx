@@ -8,12 +8,39 @@ import {
   useMemo,
   useRef,
   useState,
+  useSyncExternalStore,
 } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, m } from "framer-motion";
 import { Sparkles, X } from "@/components/icons";
 import { buildAssistantReply, createStarterMessages } from "@/lib/chatResponder";
 
 const ChatbotContext = createContext(null);
+const CHATBOT_STORAGE_KEY = "glowup-chatbot-open";
+const CHATBOT_CHANGE_EVENT = "glowup-chatbot-open-change";
+
+function getStoredChatbotOpen() {
+  if (typeof window === "undefined") return false;
+  return window.localStorage.getItem(CHATBOT_STORAGE_KEY) !== "false";
+}
+
+function getServerChatbotOpen() {
+  return false;
+}
+
+function subscribeToChatbotOpen(onStoreChange) {
+  window.addEventListener("storage", onStoreChange);
+  window.addEventListener(CHATBOT_CHANGE_EVENT, onStoreChange);
+
+  return () => {
+    window.removeEventListener("storage", onStoreChange);
+    window.removeEventListener(CHATBOT_CHANGE_EVENT, onStoreChange);
+  };
+}
+
+function setStoredChatbotOpen(nextOpen) {
+  window.localStorage.setItem(CHATBOT_STORAGE_KEY, String(nextOpen));
+  window.dispatchEvent(new Event(CHATBOT_CHANGE_EVENT));
+}
 
 export function useChatbot() {
   const value = useContext(ChatbotContext);
@@ -88,26 +115,26 @@ function FloatingChatbot() {
     <>
       <AnimatePresence>
         {isOpen ? (
-          <motion.aside
+          <m.aside
             initial={{ opacity: 0, y: 18, scale: 0.96 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.96 }}
-            transition={{ duration: 0.22, ease: "easeOut" }}
-            className="fixed bottom-5 right-4 z-50 w-[calc(100vw-2rem)] max-w-sm rounded-[28px] border border-white/70 bg-white/88 shadow-[0_24px_80px_rgba(43,27,45,0.18)] backdrop-blur-xl sm:bottom-6 sm:right-6"
+            transition={{ duration: 0.34, ease: [0.22, 1, 0.36, 1] }}
+            className="fixed inset-x-3 bottom-3 z-50 flex h-[calc(100dvh-1.5rem)] max-h-[40rem] rounded-[28px] border border-white/70 bg-white/88 shadow-[0_24px_80px_rgba(43,27,45,0.18)] backdrop-blur-xl sm:inset-x-auto sm:bottom-6 sm:right-6 sm:h-[40rem] sm:max-h-[calc(100dvh-3rem)] sm:w-[calc(100vw-2rem)] sm:max-w-sm"
           >
-            <div className="relative overflow-hidden rounded-[28px]">
+            <div className="relative flex min-h-0 w-full flex-col overflow-hidden rounded-[28px]">
               <div
                 className="pointer-events-none absolute inset-x-0 top-0 h-24 bg-gradient-to-r from-pink/85 via-lavender/80 to-sage/75"
                 aria-hidden
               />
-              <div className="relative flex items-start justify-between gap-4 p-5 pb-4">
+              <div className="relative flex shrink-0 items-start justify-between gap-3 p-4 pb-3 sm:gap-4 sm:p-5 sm:pb-4">
                 <div className="flex items-center gap-3">
-                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-ink text-cream shadow-lg shadow-pink/30">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-ink text-cream shadow-lg shadow-pink/30 sm:h-11 sm:w-11">
                     <Sparkles size={18} />
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <p className="text-sm font-semibold text-ink">GlowUp chat</p>
-                    <p className="text-xs text-muted">WebLLM-ready assistant shell</p>
+                    <p className="truncate text-xs text-muted">WebLLM-ready assistant shell</p>
                   </div>
                 </div>
                 <button
@@ -120,18 +147,18 @@ function FloatingChatbot() {
                 </button>
               </div>
 
-              <div className="space-y-3 px-4 pb-4">
-                <div className="rounded-[24px] border border-white/70 bg-cream/90 p-3">
-                  <div className="mb-3 flex items-center justify-between">
-                    <span className="rounded-full bg-white px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-muted">
+              <div className="flex min-h-0 flex-1 flex-col gap-3 px-3 pb-3 sm:px-4 sm:pb-4">
+                <div className="flex min-h-0 flex-1 flex-col rounded-[24px] border border-white/70 bg-cream/90 p-3">
+                  <div className="mb-3 flex shrink-0 items-center justify-between gap-2">
+                    <span className="min-w-0 truncate rounded-full bg-white px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.08em] text-muted sm:text-[11px] sm:tracking-[0.14em]">
                       Local knowledge chat
                     </span>
-                    <span className="text-[11px] font-medium text-muted">
+                    <span className="shrink-0 text-[10px] font-medium text-muted sm:text-[11px]">
                       pre-WebLLM mode
                     </span>
                   </div>
 
-                  <div className="max-h-72 space-y-3 overflow-y-auto pr-1">
+                  <div className="min-h-0 flex-1 space-y-3 overflow-y-auto pr-1">
                     {messages.map((message) => (
                       <div
                         key={message.id}
@@ -141,7 +168,7 @@ function FloatingChatbot() {
                             ? latestAssistantMessageRef
                             : null
                         }
-                        className={`max-w-[88%] rounded-2xl px-4 py-3 text-sm leading-relaxed ${
+                        className={`max-w-[92%] break-words rounded-2xl px-3 py-2.5 text-sm leading-relaxed sm:max-w-[88%] sm:px-4 sm:py-3 ${
                           message.role === "user"
                             ? "ml-auto bg-ink text-cream"
                             : "bg-white text-ink shadow-sm"
@@ -151,14 +178,14 @@ function FloatingChatbot() {
                       </div>
                     ))}
                     {isResponding ? (
-                      <div className="max-w-[88%] rounded-2xl bg-white px-4 py-3 text-sm leading-relaxed text-ink shadow-sm">
+                      <div className="max-w-[92%] rounded-2xl bg-white px-3 py-2.5 text-sm leading-relaxed text-ink shadow-sm sm:max-w-[88%] sm:px-4 sm:py-3">
                         Looking through your local knowledge...
                       </div>
                     ) : null}
                   </div>
                 </div>
 
-                <div className="rounded-[24px] border border-white/70 bg-white/90 p-3">
+                <div className="shrink-0 rounded-[24px] border border-white/70 bg-white/90 p-3">
                   <label htmlFor={inputId} className="sr-only">
                     Message the assistant
                   </label>
@@ -174,13 +201,13 @@ function FloatingChatbot() {
                     }}
                     rows={3}
                     placeholder="Ask about workouts, meals, or healthy habits..."
-                    className="w-full resize-none rounded-2xl border border-ink/10 bg-cream/70 px-4 py-3 text-sm text-ink outline-none transition placeholder:text-muted focus:border-peach"
+                    className="max-h-28 w-full resize-none rounded-2xl border border-ink/10 bg-cream/70 px-4 py-3 text-sm text-ink outline-none transition placeholder:text-muted focus:border-peach"
                   />
-                  <div className="mt-3 flex items-center justify-between gap-3">
-                    <p className="text-xs text-muted">
+                  <div className="mt-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                    <p className="text-xs text-muted sm:max-w-[12rem]">
                       Real local replies now. WebLLM can replace the reply engine later.
                     </p>
-                    <div className="flex items-center gap-2">
+                    <div className="flex shrink-0 items-center justify-end gap-2">
                       <button
                         type="button"
                         onClick={closeChat}
@@ -201,19 +228,19 @@ function FloatingChatbot() {
                 </div>
               </div>
             </div>
-          </motion.aside>
+          </m.aside>
         ) : null}
       </AnimatePresence>
         
       <AnimatePresence>
         {!isOpen ? (
-          <motion.button
+          <m.button
             type="button"
             onClick={openChat}
             initial={{ opacity: 0, y: 14, scale: 0.94 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 12, scale: 0.94 }}
-            transition={{ duration: 0.18, ease: "easeOut" }}
+            transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
             className="fixed bottom-5 right-4 z-40 flex h-14 w-14 items-center justify-center rounded-full border border-white/70 bg-white/92 text-left shadow-[0_18px_48px_rgba(43,27,45,0.14)] backdrop-blur sm:bottom-6 sm:right-6 sm:h-auto sm:w-auto sm:justify-start sm:gap-3 sm:px-4 sm:py-3"
             aria-label="Open chat"
           >
@@ -224,7 +251,7 @@ function FloatingChatbot() {
               <span className="block text-sm font-semibold text-ink">Need a nudge?</span>
               <span className="block text-xs text-muted">Open GlowUp chat</span>
             </span>
-          </motion.button>
+          </m.button>
         ) : null}
       </AnimatePresence>
     </>
@@ -232,20 +259,17 @@ function FloatingChatbot() {
 }
 
 export default function ChatbotProvider({ children }) {
-  const [isOpen, setIsOpen] = useState(() => {
-    if (typeof window === "undefined") return true;
-    return window.localStorage.getItem("glowup-chatbot-open") !== "false";
-  });
-
-  useEffect(() => {
-    window.localStorage.setItem("glowup-chatbot-open", String(isOpen));
-  }, [isOpen]);
+  const isOpen = useSyncExternalStore(
+    subscribeToChatbotOpen,
+    getStoredChatbotOpen,
+    getServerChatbotOpen,
+  );
 
   const value = useMemo(
     () => ({
       isOpen,
-      openChat: () => setIsOpen(true),
-      closeChat: () => setIsOpen(false),
+      openChat: () => setStoredChatbotOpen(true),
+      closeChat: () => setStoredChatbotOpen(false),
     }),
     [isOpen],
   );

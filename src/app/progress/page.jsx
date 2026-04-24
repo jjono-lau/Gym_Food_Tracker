@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import SectionHeader from "@/components/SectionHeader";
 import LineChart from "@/components/LineChart";
@@ -263,9 +263,10 @@ export default function ProgressPage() {
             </>
           ) : (
             <>
-              <motion.div
+              <m.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
                 className="rounded-3xl bg-white/90 border border-white/70 card-shadow p-5 space-y-4"
               >
                 <div className="flex items-center justify-between gap-3 flex-wrap">
@@ -315,11 +316,12 @@ export default function ProgressPage() {
                     showDifficulty
                   />
                 </div>
-              </motion.div>
+              </m.div>
 
-              <motion.div
+              <m.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
                 className="rounded-3xl bg-white/90 border border-white/70 card-shadow p-5 space-y-4"
               >
                 <div className="flex items-center justify-between gap-3 flex-wrap">
@@ -369,11 +371,12 @@ export default function ProgressPage() {
                     onRemove={(id) => removeEntry("habits", id)}
                   />
                 </div>
-              </motion.div>
+              </m.div>
 
-              <motion.div
+              <m.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
                 className="rounded-3xl bg-white/90 border border-white/70 card-shadow p-5 space-y-4"
               >
                 <div className="flex items-center justify-between gap-3">
@@ -421,7 +424,7 @@ export default function ProgressPage() {
                     onRemove={(id) => removeEntry("weight", id)}
                   />
                 </div>
-              </motion.div>
+              </m.div>
             </>
           )}
         </div>

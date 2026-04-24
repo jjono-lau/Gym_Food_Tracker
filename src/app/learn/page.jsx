@@ -1,11 +1,40 @@
 "use client";
 
+import { useMemo } from "react";
 import Navbar from "@/components/Navbar";
 import SectionHeader from "@/components/SectionHeader";
-import { education } from "@/data/content";
-import { motion } from "framer-motion";
+import { education } from "@/data/pageContent";
 
 export default function LearnPage() {
+  const triglyceridesCards = useMemo(
+    () => education.filter((item) => item.topic === "triglycerides"),
+    [],
+  );
+  const pcosCards = useMemo(
+    () => education.filter((item) => item.topic === "pcos"),
+    [],
+  );
+
+  const renderCards = (items, sectionKey) => (
+    <div className="grid gap-6 sm:grid-cols-2">
+      {items.map((item) => (
+        <div
+          key={`${sectionKey}-${item.title}`}
+          className="rounded-3xl bg-white/90 border border-white/70 card-shadow p-5 space-y-2 transition-transform duration-500 ease-out sm:hover:-translate-y-1"
+        >
+          <div className="flex items-center gap-3">
+            <span className="text-2xl">{item.icon}</span>
+            <h3 className="text-lg font-semibold text-ink">{item.title}</h3>
+          </div>
+          <p className="text-sm text-muted">{item.desc}</p>
+          <p className="text-sm font-semibold text-ink bg-sage/70 rounded-xl inline-block px-3 py-2">
+            {item.action}
+          </p>
+        </div>
+      ))}
+    </div>
+  );
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
@@ -13,31 +42,36 @@ export default function LearnPage() {
         <div className="pt-10">
           <SectionHeader
             eyebrow="Learn"
-            title="Healthy triglycerides in plain language"
+            title="Get that knowledge queen"
             subtitle="Short cards, cute icons, and the science made kind."
-            align="center"
+            align="left"
           />
         </div>
 
-        <div className="mt-10 grid gap-6 sm:grid-cols-2">
-          {education.map((item, idx) => (
-            <motion.div
-              key={item.title}
-              initial={{ opacity: 0, y: 12 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: idx * 0.05 }}
-              className="rounded-3xl bg-white/90 border border-white/70 card-shadow p-5 space-y-2"
-            >
-              <div className="flex items-center gap-3">
-                <span className="text-2xl">{item.icon}</span>
-                <h3 className="text-lg font-semibold text-ink">{item.title}</h3>
-              </div>
-              <p className="text-sm text-muted">{item.desc}</p>
-              <p className="text-sm font-semibold text-ink bg-sage/70 rounded-xl inline-block px-3 py-2">
-                {item.action}
+        <div className="mt-10 space-y-10">
+          <section className="space-y-4">
+            <div className="space-y-2">
+              <p className="text-xs uppercase tracking-[0.14em] font-semibold text-muted">
+                Triglycerides
               </p>
-            </motion.div>
-          ))}
+              <h2 className="text-2xl font-semibold text-ink">
+                Heart-health basics and practical food direction
+              </h2>
+            </div>
+            {renderCards(triglyceridesCards, "triglycerides")}
+          </section>
+
+          <section className="space-y-4">
+            <div className="space-y-2">
+              <p className="text-xs uppercase tracking-[0.14em] font-semibold text-muted">
+                PCOS
+              </p>
+              <h2 className="text-2xl font-semibold text-ink">
+                Steadier energy, meal balance, and training consistency
+              </h2>
+            </div>
+            {renderCards(pcosCards, "pcos")}
+          </section>
         </div>
 
         <div className="mt-12 grid gap-5 md:grid-cols-3">

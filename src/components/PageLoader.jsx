@@ -1,9 +1,7 @@
 "use client";
 
-/* eslint-disable @next/next/no-img-element */
-
 import { useEffect } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, m } from "framer-motion";
 import assetPath from "@/lib/assetPath";
 
 export default function PageLoader({
@@ -37,7 +35,7 @@ export default function PageLoader({
   return (
     <AnimatePresence>
       {show && (
-        <motion.div
+        <m.div
           className="fixed inset-0 z-50 overflow-hidden bg-[radial-gradient(circle_at_top,_rgb(250,218,221),_rgb(255,248,240)_36%,_rgb(230,214,255)_100%)]"
           initial={{ opacity: 1 }}
           exit={{ opacity: 0, transition: { duration: 0.45, ease: "easeOut" } }}
@@ -48,7 +46,7 @@ export default function PageLoader({
           <div className="absolute bottom-0 left-1/2 h-56 w-56 -translate-x-1/2 rounded-full bg-peach blur-3xl" />
 
           {petals.map((petal, index) => (
-            <motion.div
+            <m.div
               key={index}
               className="absolute text-xl text-ink/45"
               style={{ left: petal.left, top: petal.top }}
@@ -61,26 +59,26 @@ export default function PageLoader({
               }}
             >
               ✿
-            </motion.div>
+            </m.div>
           ))}
 
           <div className="relative z-10 flex min-h-screen items-center justify-center px-6">
             <div className="w-full max-w-md rounded-[36px] border border-white/85 bg-white/92 p-8 text-center shadow-[0_30px_80px_rgba(255,183,162,0.22)]">
-              <motion.div
+              <m.div
                 className="mx-auto flex h-24 w-24 items-center justify-center rounded-[28px] bg-gradient-to-br from-pink via-peach to-lavender p-3 shadow-[0_18px_40px_rgba(244,196,215,0.45)]"
                 animate={{ y: [0, -8, 0], rotate: [0, 2, -2, 0] }}
                 transition={{ duration: 2.4, repeat: Infinity, ease: "easeInOut" }}
               >
-                <motion.img
+                <m.img
                   src={assetPath(iconSrc)}
                   alt={iconAlt}
                   className="h-full w-full object-contain"
                   animate={{ scale: [0.96, 1.04, 0.96] }}
                   transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}
                 />
-              </motion.div>
+              </m.div>
 
-              <motion.div
+              <m.div
                 className="mt-6 space-y-2"
                 initial={{ opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -91,10 +89,10 @@ export default function PageLoader({
                 </p>
                 <h2 className="text-3xl font-semibold text-ink">{title}</h2>
                 <p className="text-sm text-muted">{subtitle}</p>
-              </motion.div>
+              </m.div>
 
               <div className="mt-7 rounded-full bg-white/65 p-1 shadow-inner shadow-pink/15">
-                <motion.div
+                <m.div
                   className="h-3 rounded-full bg-gradient-to-r from-peach via-pink to-lavender"
                   initial={{ width: "0%" }}
                   animate={{ width: "100%" }}
@@ -104,7 +102,7 @@ export default function PageLoader({
 
               <div className="mt-5 flex items-center justify-center gap-3 text-[11px] uppercase tracking-[0.18em] text-muted">
                 {[0, 0.18, 0.36].map((delay, index) => (
-                  <motion.span
+                  <m.span
                     key={index}
                     className="h-2.5 w-2.5 rounded-full bg-pink/70"
                     animate={{ y: [0, -6, 0], opacity: [0.35, 1, 0.35] }}
@@ -114,7 +112,7 @@ export default function PageLoader({
               </div>
             </div>
           </div>
-        </motion.div>
+        </m.div>
       )}
     </AnimatePresence>
   );

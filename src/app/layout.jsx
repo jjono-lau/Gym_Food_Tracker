@@ -2,6 +2,7 @@ import "./globals.css";
 import { Nunito, Poppins } from "next/font/google";
 import path from "node:path";
 import ChatbotProvider from "@/components/ChatbotProvider";
+import MotionProvider from "@/components/MotionProvider";
 
 const repoName =
   process.env.NEXT_PUBLIC_REPO_NAME ||
@@ -10,6 +11,21 @@ const repoName =
 
 const isProd = process.env.NODE_ENV === "production";
 const basePath = isProd ? `/${repoName}` : "";
+const scriptSrc = isProd
+  ? "script-src 'self' 'unsafe-inline'"
+  : "script-src 'self' 'unsafe-inline' 'unsafe-eval'";
+const csp = [
+  "default-src 'self'",
+  scriptSrc,
+  "style-src 'self' 'unsafe-inline'",
+  "img-src 'self' data: blob:",
+  "font-src 'self'",
+  "connect-src 'self' ws: wss:",
+  "object-src 'none'",
+  "base-uri 'self'",
+  "form-action 'self'",
+  "upgrade-insecure-requests",
+].join("; ");
 
 const heading = Poppins({
   variable: "--font-heading",
@@ -58,8 +74,14 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${heading.variable} ${body.variable} h-full`}>
+      <head>
+        <meta httpEquiv="Content-Security-Policy" content={csp} />
+        <meta name="referrer" content="strict-origin-when-cross-origin" />
+      </head>
       <body className="min-h-full bg-cream text-ink antialiased">
-        <ChatbotProvider>{children}</ChatbotProvider>
+        <MotionProvider>
+          <ChatbotProvider>{children}</ChatbotProvider>
+        </MotionProvider>
       </body>
     </html>
   );
