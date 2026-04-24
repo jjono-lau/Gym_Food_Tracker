@@ -1,6 +1,6 @@
-:HL["/Gym_Food_Tracker/_next/static/chunks/0n14c.rk5d49v.css","style"]
+:HL["/Gym_Food_Tracker/_next/static/chunks/0_2edfuk4s8pf.css","style"]
 :HL["/Gym_Food_Tracker/_next/static/media/07454f8ad8aaac57-s.p.0tqkxa-w3pk~c.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/Gym_Food_Tracker/_next/static/media/47fe1b7cd6e6ed85-s.p.0~mcdl10zdfb3.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/Gym_Food_Tracker/_next/static/media/8e6fa89aa22d24ec-s.p.0uvzar8hswo3p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/Gym_Food_Tracker/_next/static/media/e2334d715941921e-s.p.12skym0rqknxy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"UqvigQSDpZkKRQf8e95Zi"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"1mM8mqD9LW_rvGPJ2c_8z"}
