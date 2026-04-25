@@ -1,2 +1,2 @@
-:HL["/Gym_Food_Tracker/_next/static/chunks/0p5o1uuwa-v67.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"SlUVMQkISN2GBcOHSY_Jy"}
+:HL["/Gym_Food_Tracker/_next/static/chunks/0eb6xsa82~t1..css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"51YMvy6MElT02CUrqicXq"}
