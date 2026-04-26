@@ -17,7 +17,7 @@
       "Breakfast answers should suggest a small number of realistic options instead of listing everything.",
       "Use breakfast recipes that feel repeatable and practical."
     ],
-    "caution": "Keep the answer to a few realistic options instead of a giant breakfast list.",
+    "caution": "A few realistic breakfast options are more useful than listing the whole vault at once.",
     "follow_up_suggestions": [
       "Ask for a high-protein breakfast.",
       "Ask for a lighter breakfast."
@@ -42,7 +42,7 @@
       "Dinner answers should stay practical and not overwhelm the user.",
       "Use a small number of realistic options from the dinner recipes."
     ],
-    "caution": "Keep the answer to a few realistic dinner options rather than listing the whole vault.",
+    "caution": "A few realistic dinner options are more useful than listing the whole vault at once.",
     "follow_up_suggestions": [
       "Ask for a light dinner.",
       "Ask for a high-protein dinner."
@@ -67,10 +67,38 @@
       "High-protein answers should favor meals with stronger protein support rather than only carb-heavy options.",
       "Use protein-rich recipes the user could actually repeat."
     ],
-    "caution": "Protein support should still sit inside a balanced meal, not just a single macro target.",
+    "caution": "Protein support works best inside a balanced meal with fiber-rich carbohydrates and vegetables, not as a single macro target.",
     "follow_up_suggestions": [
       "Ask for a high-protein breakfast.",
       "Ask for a light high-protein meal."
+    ],
+    "source_note_ids": ["meal-suggestions"]
+  },
+  {
+    "id": "high-protein-dinner",
+    "question_patterns": [
+      "high protein dinner",
+      "high protein dinner ideas",
+      "give dinner examples with high protein",
+      "give me dinner examples with high protein",
+      "dinner with high protein",
+      "what dinner is high protein"
+    ],
+    "topic": "high-protein-dinner",
+    "category": "meal",
+    "intro": "These dinner picks have the strongest protein numbers in the vault.",
+    "filters": {
+      "categories": ["dinner"],
+      "min_protein_g": 20
+    },
+    "why_it_fits": [
+      "High-protein dinner answers should show the protein number so the user can verify why the recipe was chosen.",
+      "Use dinner recipes with listed nutrition instead of relying on the title alone."
+    ],
+    "caution": "Protein numbers are per serving from the recipe vault, so portions and ingredient changes can shift the final amount.",
+    "follow_up_suggestions": [
+      "Ask for a lighter high-protein dinner.",
+      "Ask for high-protein meals for PCOS."
     ],
     "source_note_ids": ["meal-suggestions"]
   },
@@ -93,7 +121,7 @@
       "Lighter meal answers should prefer gentler, easier-feeling dishes rather than just the lowest calorie number.",
       "Soft grain dishes, soups, kanji, and stews often fit this better."
     ],
-    "caution": "A lighter meal can still change texture or fullness, so it should feel practical rather than too minimal.",
+    "caution": "A lighter meal should still be filling enough to be useful; avoid making it so small that it turns into an unsatisfying snack.",
     "follow_up_suggestions": [
       "Ask for a light dinner.",
       "Ask for a light meal with more protein."
@@ -118,7 +146,7 @@
       "Breakfast should support satiety and steadier energy, not just fast carbs.",
       "Use breakfast recipes with stronger protein support."
     ],
-    "caution": "The goal is a more balanced breakfast, not a huge list of every possible option.",
+    "caution": "The strongest breakfast picks combine protein support with slower-digesting carbohydrates rather than relying only on a high protein number.",
     "follow_up_suggestions": [
       "Ask for a PCOS-friendly breakfast.",
       "Ask for a lighter breakfast."
@@ -145,7 +173,7 @@
       "Lighter dinners should feel easier in the evening without becoming unrealistic.",
       "Soups, kanji, stews, and softer grain dishes often work well."
     ],
-    "caution": "A light dinner should still feel like a real meal, not just a tiny snack.",
+    "caution": "A light dinner should still feel like a real meal, with enough protein, fiber, or volume to keep it practical.",
     "follow_up_suggestions": [
       "Ask for a high-protein dinner.",
       "Ask for a triglyceride-friendly dinner."
@@ -172,7 +200,7 @@
       "PCOS-focused meals should emphasize balanced meals, higher-fiber carbohydrates, and protein support.",
       "The best follow-up is a few realistic meal suggestions rather than one perfect PCOS diet."
     ],
-    "caution": "Use practical meal patterns instead of pretending one meal fixes PCOS by itself.",
+    "caution": "One meal does not fix PCOS by itself; the useful goal is a repeatable pattern with fiber, protein support, and less added sugar.",
     "follow_up_suggestions": [
       "Ask for a PCOS-friendly breakfast.",
       "Ask for PCOS-friendly swaps."
@@ -196,13 +224,220 @@
     },
     "why_it_fits": [
       "Triglyceride-friendly meals should emphasize vegetables, legumes, whole grains, leaner patterns, and less added sugar.",
-      "A few practical food examples work better than a giant meal list."
+      "A few practical food examples work better than a long meal list."
     ],
-    "caution": "Food quality matters more than chasing one magic ingredient, and alcohol caution still matters in triglyceride-related questions.",
+    "caution": "Food quality and consistency matter more than one magic ingredient; added sugar, refined carbohydrates, and alcohol are the bigger triglyceride-focused levers.",
     "follow_up_suggestions": [
       "Ask for a triglyceride-friendly dinner.",
       "Ask for ingredient swaps for high triglycerides."
     ],
     "source_note_ids": ["what-should-i-eat-for-high-triglycerides-faq", "meal-suggestions"]
+  },
+  {
+    "id": "pre-workout-meals",
+    "question_patterns": [
+      "what should i eat before gym",
+      "pre workout meal",
+      "meal before workout",
+      "what to eat before workout"
+    ],
+    "topic": "pre-workout",
+    "category": "meal",
+    "intro": "These are practical pre-workout meal directions from the vault.",
+    "filters": {
+      "prefer_title_keywords": ["upma", "pongal", "idli", "dosa", "kanji", "kichadi"],
+      "prefer_ingredient_slugs": ["rolled-oats", "broken-wheat", "foxtail-millet", "little-millet", "brown-rice", "moong-dal"]
+    },
+    "why_it_fits": [
+      "Pre-workout meals should be familiar, easy to digest, and not too heavy.",
+      "Soft grain dishes and moderate portions work better than very oily or very large meals."
+    ],
+    "caution": "Keep the portion practical and allow digestion time before training.",
+    "follow_up_suggestions": [
+      "Ask for a light breakfast.",
+      "Ask for a beginner gym day."
+    ],
+    "source_note_ids": ["meal-suggestions", "workout-help"]
+  },
+  {
+    "id": "post-workout-meals",
+    "question_patterns": [
+      "what should i eat after gym",
+      "post workout meal",
+      "meal after workout",
+      "what to eat after workout"
+    ],
+    "topic": "post-workout",
+    "category": "meal",
+    "intro": "These are practical post-workout meal directions from the vault.",
+    "filters": {
+      "min_protein_g": 14,
+      "prefer_ingredient_slugs": ["moong-dal", "toor-dal", "green-gram", "black-chana", "horse-gram", "low-fat-curd"]
+    },
+    "why_it_fits": [
+      "Post-workout meals should support recovery with protein, fiber-rich carbohydrates, and enough fluid.",
+      "Dal, legumes, curd-based sides, and balanced grain bowls fit better than a sugar-heavy snack."
+    ],
+    "caution": "A post-workout meal does not need to be extreme; a normal balanced meal is usually enough.",
+    "follow_up_suggestions": [
+      "Ask for high-protein meals.",
+      "Ask for a simple day of eating."
+    ],
+    "source_note_ids": ["meal-suggestions", "workout-help"]
+  },
+  {
+    "id": "filling-breakfast",
+    "question_patterns": [
+      "filling breakfast",
+      "breakfast that keeps me full",
+      "what breakfast is filling",
+      "satiety breakfast"
+    ],
+    "topic": "filling-breakfast",
+    "category": "meal",
+    "intro": "These breakfast options are better when you want something filling.",
+    "filters": {
+      "categories": ["breakfast"],
+      "min_protein_g": 14,
+      "prefer_ingredient_slugs": ["moong-dal", "green-gram", "horse-gram", "rolled-oats", "brown-rice", "ragi"]
+    },
+    "why_it_fits": [
+      "Filling breakfasts should combine protein support, fiber, and slower-digesting carbohydrates.",
+      "Dal, legumes, oats, ragi, and whole-grain styles usually work better than a very refined breakfast."
+    ],
+    "caution": "If appetite is low, choose a smaller portion rather than skipping protein support entirely.",
+    "follow_up_suggestions": [
+      "Ask for a PCOS-friendly breakfast.",
+      "Ask for high-protein breakfast ideas."
+    ],
+    "source_note_ids": ["meal-suggestions", "what-should-i-eat-for-pcos-faq"]
+  },
+  {
+    "id": "high-fiber-meals",
+    "question_patterns": [
+      "high fiber meals",
+      "fiber rich meals",
+      "meals with more fiber",
+      "what meals have fiber"
+    ],
+    "topic": "high-fiber",
+    "category": "meal",
+    "intro": "These are better directions when you want more fiber in the meal.",
+    "filters": {
+      "prefer_ingredient_slugs": ["green-gram", "black-chana", "horse-gram", "brown-rice", "red-rice", "foxtail-millet", "little-millet", "drumstick-leaves", "spinach"]
+    },
+    "why_it_fits": [
+      "Fiber-focused meals should lean on legumes, vegetables, greens, and whole grains or millets.",
+      "This also fits many PCOS and triglyceride-friendly meal patterns."
+    ],
+    "caution": "Increase fiber gradually if the user is not used to it, and keep fluids in the day.",
+    "follow_up_suggestions": [
+      "Ask for legume-based meals.",
+      "Ask for triglyceride-friendly meals."
+    ],
+    "source_note_ids": ["meal-suggestions", "what-should-i-eat-for-high-triglycerides-faq"]
+  },
+  {
+    "id": "legume-based-meals",
+    "question_patterns": [
+      "legume based meals",
+      "meals with dal",
+      "meals with legumes",
+      "bean meals",
+      "meals with chana"
+    ],
+    "topic": "legume-meals",
+    "category": "meal",
+    "intro": "These meal directions use dal, beans, or legumes for stronger staying power.",
+    "filters": {
+      "prefer_ingredient_slugs": ["moong-dal", "toor-dal", "green-gram", "black-chana", "black-eyed-peas", "cowpea", "horse-gram", "chana-dal"]
+    },
+    "why_it_fits": [
+      "Legume-based meals give protein support, fiber, and better satiety than a grain-only plate.",
+      "They are useful for both PCOS-friendly and triglyceride-friendly patterns when cooked practically."
+    ],
+    "caution": "Choose familiar portions if legumes cause bloating, and build up gradually.",
+    "follow_up_suggestions": [
+      "Ask for high-protein meals.",
+      "Ask for a simple day of eating."
+    ],
+    "source_note_ids": ["meal-suggestions", "legume-and-protein-substitutions"]
+  },
+  {
+    "id": "no-coconut-meals",
+    "question_patterns": [
+      "meals with no coconut",
+      "no coconut meals",
+      "coconut free meals",
+      "meals without coconut"
+    ],
+    "topic": "no-coconut",
+    "category": "meal",
+    "intro": "These are better directions when you want to avoid coconut.",
+    "filters": {
+      "hard_exclude_ingredient_slugs": ["coconut", "light-coconut-milk"],
+      "prefer_ingredient_slugs": ["moong-dal", "toor-dal", "tomato", "tamarind", "raw-mango", "brown-rice", "foxtail-millet"]
+    },
+    "why_it_fits": [
+      "No-coconut answers should prefer dal, tomato, tamarind, greens, or vegetable-led dishes over coconut-heavy stews and chutneys.",
+      "If a recipe depends on coconut for identity, a different recipe is usually cleaner than a forced swap."
+    ],
+    "caution": "Check the recipe ingredients before promising coconut-free, because coconut can appear in chutneys, stews, and kurma-style dishes.",
+    "follow_up_suggestions": [
+      "Ask for coconut substitutions.",
+      "Ask for light dinners."
+    ],
+    "source_note_ids": ["meal-suggestions", "coconut-substitutions", "when-not-to-swap-ingredients"]
+  },
+  {
+    "id": "low-added-sugar-meals",
+    "question_patterns": [
+      "low sugar meals",
+      "low added sugar meals",
+      "meals with less sugar",
+      "no sugar meal ideas"
+    ],
+    "topic": "low-added-sugar",
+    "category": "meal",
+    "intro": "These are better directions when the goal is less added sugar.",
+    "filters": {
+      "prefer_ingredient_slugs": ["green-gram", "moong-dal", "toor-dal", "black-chana", "brown-rice", "red-rice", "foxtail-millet", "little-millet", "vegetables"]
+    },
+    "why_it_fits": [
+      "Low-added-sugar meals should rely on vegetables, legumes, whole grains, millets, and savory flavors.",
+      "This fits high-triglyceride and PCOS-friendly meal patterns better than sweetened foods."
+    ],
+    "caution": "Focus on repeatable savory meals rather than treating one low-sugar meal as the whole solution.",
+    "follow_up_suggestions": [
+      "Ask for triglyceride-friendly meals.",
+      "Ask what to eat for PCOS."
+    ],
+    "source_note_ids": ["what-should-i-eat-for-high-triglycerides-faq", "what-should-i-eat-for-pcos-faq"]
+  },
+  {
+    "id": "low-appetite-meals",
+    "question_patterns": [
+      "what can i eat when not hungry",
+      "not very hungry meal",
+      "low appetite meal",
+      "something light when not hungry"
+    ],
+    "topic": "low-appetite",
+    "category": "meal",
+    "intro": "These are better directions when appetite is low but you still want something useful.",
+    "filters": {
+      "max_calories": 420,
+      "prefer_title_keywords": ["soup", "kanji", "rasam", "kichadi", "stew", "idli"]
+    },
+    "why_it_fits": [
+      "Low-appetite meals should be gentle, warm, and easy to finish.",
+      "Soup, rasam, kanji, kichadi, idli, and softer stews fit this better than heavy fried meals."
+    ],
+    "caution": "If low appetite is persistent, severe, or connected with illness symptoms, it should not be treated as only a meal-planning issue.",
+    "follow_up_suggestions": [
+      "Ask for a light dinner.",
+      "Ask for filling snacks."
+    ],
+    "source_note_ids": ["meal-suggestions", "chatbot-boundaries"]
   }
 ]

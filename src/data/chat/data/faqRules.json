@@ -11,10 +11,10 @@
     "category": "health",
     "short_answer": "PCOS is a hormonal and metabolic condition that can affect periods, ovulation, androgen levels, and insulin sensitivity.",
     "practical_steps": [
-      "Keep the first explanation simple and practical.",
-      "If the user asks what to do next, connect them to food and exercise guidance."
+      "For daily habits, balanced meals, regular movement, sleep, and recovery usually matter more than chasing a perfect plan.",
+      "Food and exercise guidance can help with steady energy and insulin sensitivity, but it should be matched to the person's symptoms and medical care."
     ],
-    "caution": "Diagnosis and treatment still belong with a clinician, not the chatbot.",
+    "caution": "A clinician is still the right person for diagnosis, lab interpretation, medication, fertility questions, or treatment decisions.",
     "follow_up_suggestions": [
       "Ask what to eat for PCOS.",
       "Ask what exercise helps PCOS."
@@ -33,10 +33,10 @@
     "category": "health",
     "short_answer": "Triglycerides are a type of fat in the blood, and higher levels can raise cardiovascular risk. Very high triglycerides can also raise the risk of pancreatitis.",
     "practical_steps": [
-      "Explain the basics clearly before giving lifestyle guidance.",
-      "If the user asks what to do, connect them to food and exercise support."
+      "The most practical next step is usually improving repeatable habits: less added sugar, fewer refined carbohydrates, more fiber-rich foods, and regular activity.",
+      "Lifestyle support fits best alongside the user's own lab results and clinician advice."
     ],
-    "caution": "Lab interpretation, diagnosis, and medication questions should be escalated beyond chatbot-only answers.",
+    "caution": "Lab interpretation, diagnosis, medication changes, and very high triglyceride results need direct medical guidance.",
     "follow_up_suggestions": [
       "Ask what to eat for high triglycerides.",
       "Ask what exercise helps high triglycerides."
@@ -56,9 +56,9 @@
     "short_answer": "For PCOS, aim for minimally processed foods, higher-fiber carbohydrates, protein support, and balanced meals instead of chasing one perfect diet.",
     "practical_steps": [
       "Reduce sugary foods and heavily refined carbohydrates first.",
-      "Build meals around fiber, protein, and repeatable meal patterns."
+      "Build meals around vegetables, legumes, whole grains or millets, and a protein-supportive side so the meal is filling and repeatable."
     ],
-    "caution": "The best follow-up is a small number of meal suggestions or ingredient swaps, not a very long food list.",
+    "caution": "There is no single perfect PCOS diet; the useful target is a pattern the user can repeat.",
     "follow_up_suggestions": [
       "Ask for a PCOS-friendly breakfast.",
       "Ask for PCOS-friendly ingredient swaps."
@@ -78,9 +78,9 @@
     "short_answer": "For high triglycerides, emphasize vegetables, legumes, whole grains, lean proteins, less added sugar, and less heavily processed food.",
     "practical_steps": [
       "Start by cutting sugary drinks, desserts, and refined carbohydrates.",
-      "Use a few practical meal examples or swaps instead of a giant food list."
+      "Use practical swaps such as whole grains or millets instead of refined grains, legumes for protein support, and lighter cooking methods where possible."
     ],
-    "caution": "If the question is specifically about triglycerides, alcohol caution should be part of the answer.",
+    "caution": "Alcohol can raise triglycerides for some people, so triglyceride-focused answers should treat alcohol as something to limit or discuss with a clinician.",
     "follow_up_suggestions": [
       "Ask for a triglyceride-friendly dinner.",
       "Ask for ingredient swaps for high triglycerides."
@@ -102,7 +102,7 @@
       "Walking, treadmill work, cycling, cross training, and repeatable gym strength sessions all fit well.",
       "A simple starting structure is 3 to 4 weekly sessions built around moderate cardio and full-body resistance work."
     ],
-    "caution": "If the user asks for an exact plan, route them into a simple routine instead of only answering in theory.",
+    "caution": "Progress works better when intensity rises gradually and recovery stays built into the week.",
     "follow_up_suggestions": [
       "Ask for a simple PCOS gym routine.",
       "Ask for a beginner lower-body workout."
@@ -124,7 +124,7 @@
       "Use treadmill work, cycling, cross trainers, stair climbers, and simple strength sessions as a weekly habit pattern.",
       "Aim for regular weekly minutes and avoid long gaps without activity."
     ],
-    "caution": "Very high-risk or medically complicated cases should not be treated as a normal fitness-only question.",
+    "caution": "People with chest pain, fainting, severe dizziness, pancreatitis symptoms, or medically complex cases should get medical guidance before treating it like a normal fitness-only question.",
     "follow_up_suggestions": [
       "Ask for a simple triglyceride-friendly gym routine.",
       "Ask for a cardio-focused workout."
@@ -187,10 +187,10 @@
     "category": "equipment",
     "short_answer": "For machine setup, first adjust seat height, pad position, handle position, and starting posture so your joint line matches the machine pivot and the target muscle can move cleanly.",
     "practical_steps": [
-      "Check what to adjust, what the setting changes, and one common setup mistake to avoid.",
-      "If it is a specific machine, connect the answer to that machine note instead of speaking too generally."
+      "Change one setting at a time: seat height, pad position, handle start, then load.",
+      "On a specific machine, use the machine's own setup cues because different models can place pads and pivots differently."
     ],
-    "caution": "Do not sound overly certain about a machine model the chatbot cannot see, because real gym setups may differ from the vault example.",
+    "caution": "Real gym machines can differ, so the setup should be checked against the actual machine in front of the user.",
     "follow_up_suggestions": [
       "Tell me which machine it is.",
       "Ask why the machine feels wrong."
@@ -218,5 +218,139 @@
       "Ask for a substitute movement."
     ],
     "source_note_ids": ["machine-troubleshooting", "chatbot-boundaries"]
+  },
+  {
+    "id": "normal-muscle-effort-vs-pain",
+    "question_patterns": [
+      "is this pain normal",
+      "normal soreness or injury",
+      "muscle burn vs pain",
+      "how do i know if pain is bad"
+    ],
+    "topic": "pain-vs-effort",
+    "category": "workout",
+    "short_answer": "Normal training effort usually feels like muscle work, fatigue, or mild next-day soreness. Sharp pain, joint pain, dizziness, chest pain, or symptoms that worsen are not something to push through.",
+    "practical_steps": [
+      "Reduce load, shorten the range, and check setup if discomfort starts during a movement.",
+      "Stop the exercise if the sensation is sharp, sudden, joint-focused, or keeps returning after setup changes."
+    ],
+    "caution": "Chest pain, fainting, severe dizziness, severe pain, or possible injury needs direct medical guidance.",
+    "follow_up_suggestions": [
+      "Ask why a machine feels wrong.",
+      "Ask for a substitute movement."
+    ],
+    "source_note_ids": ["machine-troubleshooting", "chatbot-boundaries"]
+  },
+  {
+    "id": "dizziness-during-exercise",
+    "question_patterns": [
+      "dizzy during workout",
+      "dizziness during exercise",
+      "i feel dizzy at gym",
+      "lightheaded while exercising"
+    ],
+    "topic": "dizziness",
+    "category": "safety",
+    "short_answer": "Dizziness during exercise is a stop-and-check signal, not a cue to push harder.",
+    "practical_steps": [
+      "Stop the set, sit or stand somewhere safe, sip water if appropriate, and avoid restarting hard exercise immediately.",
+      "If it is severe, recurring, paired with chest pain, fainting, shortness of breath, or unusual symptoms, get medical guidance."
+    ],
+    "caution": "Do not treat repeated or severe dizziness as a normal workout problem.",
+    "follow_up_suggestions": [
+      "Ask for a lighter workout day.",
+      "Ask how hard cardio should feel."
+    ],
+    "source_note_ids": ["chatbot-boundaries", "workout-help"]
+  },
+  {
+    "id": "can-this-cure-pcos",
+    "question_patterns": [
+      "can this cure pcos",
+      "does diet cure pcos",
+      "can exercise cure pcos",
+      "will this fix pcos"
+    ],
+    "topic": "pcos-cure-claims",
+    "category": "health",
+    "short_answer": "Food and exercise habits can support PCOS management, insulin sensitivity, energy, and long-term health, but they should not be framed as a cure.",
+    "practical_steps": [
+      "Use practical meal patterns, regular movement, strength training, sleep, and recovery as support tools.",
+      "For symptoms, diagnosis, medication, or fertility decisions, use clinician guidance."
+    ],
+    "caution": "Avoid cure claims for PCOS because treatment needs vary by person.",
+    "follow_up_suggestions": [
+      "Ask what to eat for PCOS.",
+      "Ask what exercise helps PCOS."
+    ],
+    "source_note_ids": ["what-is-pcos-faq", "chatbot-boundaries"]
+  },
+  {
+    "id": "can-this-cure-high-triglycerides",
+    "question_patterns": [
+      "can this cure high triglycerides",
+      "does diet cure triglycerides",
+      "can exercise cure triglycerides",
+      "will this fix triglycerides"
+    ],
+    "topic": "triglycerides-cure-claims",
+    "category": "health",
+    "short_answer": "Food and exercise habits can help support healthier triglyceride levels, but they should not be framed as a guaranteed cure.",
+    "practical_steps": [
+      "Focus on less added sugar, fewer refined carbohydrates, more fiber-rich foods, regular activity, and clinician-guided follow-up.",
+      "Lab results, medication decisions, and very high readings need medical guidance."
+    ],
+    "caution": "Avoid promising outcomes because triglycerides can be affected by genetics, medication, alcohol, health conditions, and overall diet.",
+    "follow_up_suggestions": [
+      "Ask what to eat for high triglycerides.",
+      "Ask what exercise helps high triglycerides."
+    ],
+    "source_note_ids": ["what-are-high-triglycerides-faq", "chatbot-boundaries"]
+  },
+  {
+    "id": "medication-or-lab-result-boundary",
+    "question_patterns": [
+      "should i change my medication",
+      "what does my lab result mean",
+      "interpret my blood test",
+      "triglyceride number",
+      "medication dose"
+    ],
+    "topic": "medical-boundary",
+    "category": "safety",
+    "short_answer": "Medication changes, dose questions, lab interpretation, and treatment decisions need direct clinician guidance.",
+    "practical_steps": [
+      "This chat can still explain general food, exercise, and habit patterns from the vault.",
+      "Use the actual lab numbers and medication history with a qualified clinician."
+    ],
+    "caution": "Do not use chatbot-only advice to change medication or interpret high-risk lab results.",
+    "follow_up_suggestions": [
+      "Ask for triglyceride-friendly meals.",
+      "Ask what exercise helps high triglycerides."
+    ],
+    "source_note_ids": ["chatbot-boundaries"]
+  },
+  {
+    "id": "pregnancy-fertility-boundary",
+    "question_patterns": [
+      "fertility treatment",
+      "trying to get pregnant",
+      "pregnant workout",
+      "pregnancy diet",
+      "pcos fertility"
+    ],
+    "topic": "pregnancy-fertility",
+    "category": "safety",
+    "short_answer": "Pregnancy, fertility treatment, and medication-related PCOS decisions need guidance from a clinician who knows the person's situation.",
+    "practical_steps": [
+      "This chat can keep answers general around balanced meals and gentle movement.",
+      "Avoid using generic workout or diet rules as treatment guidance for pregnancy or fertility care."
+    ],
+    "caution": "Fertility and pregnancy questions should not be handled as normal meal or gym planning only.",
+    "follow_up_suggestions": [
+      "Ask for general PCOS food guidance.",
+      "Ask for gentle beginner exercise ideas."
+    ],
+    "source_note_ids": ["chatbot-boundaries", "what-is-pcos-faq"]
   }
 ]

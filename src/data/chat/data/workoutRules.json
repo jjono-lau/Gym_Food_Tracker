@@ -10,10 +10,10 @@
       "focuses": ["lower", "upper"]
     },
     "guidance": [
-      "Pick 3 to 4 movements and keep the session simple.",
-      "Use moderate sets and stop before form slips."
+      "Pick 3 to 4 movements, use 2 to 3 controlled sets each, and leave the session feeling repeatable.",
+      "Use light to moderate load at first, keep reps smooth, and stop before form slips."
     ],
-    "caution": "Consistency matters more than trying to max out in the first week.",
+    "caution": "Consistency matters more than maxing out in the first week; increase load only after the setup and movement feel steady.",
     "source_note_ids": ["workout-help"]
   },
   {
@@ -26,10 +26,10 @@
       "focuses": ["upper"]
     },
     "guidance": [
-      "Use rows, presses, and one or two arm or core accessories.",
-      "Start with controlled sets in the 8 to 12 rep range."
+      "Use one row, one press, and one or two arm, shoulder, or core accessories.",
+      "Start with controlled sets in the 8 to 12 rep range and keep shoulder position relaxed instead of shrugged."
     ],
-    "caution": "If a machine setup feels wrong, fix alignment before adding load.",
+    "caution": "If a machine setup feels wrong, fix seat, pad, handle, and joint alignment before adding load.",
     "source_note_ids": ["workout-help", "machine-setup-help"]
   },
   {
@@ -42,10 +42,10 @@
       "focuses": ["lower"]
     },
     "guidance": [
-      "Build around leg press, leg curl, leg extension, and one accessory.",
-      "Use controlled reps and line your joints up well on the machine."
+      "Build around leg press, leg curl, leg extension, and one glute, calf, or core accessory.",
+      "Use controlled reps, keep the knees tracking comfortably, and line your joints up with the machine path."
     ],
-    "caution": "If your knees feel pressured, revisit setup and shorten to a controlled pain-free range.",
+    "caution": "If knees or hips feel pressured, reduce load, revisit setup, and use a controlled pain-free range.",
     "source_note_ids": ["workout-help", "machine-troubleshooting"]
   },
   {
@@ -58,10 +58,107 @@
       "focuses": ["fitness", "weightloss"]
     },
     "guidance": [
-      "Pick one repeatable machine and keep the effort steady unless the plan calls for intervals.",
-      "Walking, cycling, stepper work, and elliptical sessions all fit well."
+      "Pick one repeatable machine and keep the effort steady unless intervals are the specific goal.",
+      "Walking, cycling, stepper work, and elliptical sessions all fit well when the pace can be repeated across the week."
     ],
-    "caution": "Use cardio as a weekly habit pattern instead of one all-out session.",
+    "caution": "Cardio works best as a weekly habit pattern instead of one all-out session followed by long gaps.",
     "source_note_ids": ["workout-help", "what-exercise-helps-high-triglycerides-faq", "what-exercise-helps-pcos-faq"]
+  },
+  {
+    "id": "beginner-friendly-machines",
+    "question_patterns": ["beginner friendly machines", "best machines for beginners", "easy gym machines", "what machines should a beginner use"],
+    "topic": "beginner-machines",
+    "category": "workout",
+    "intro": "These are sensible beginner-friendly machine directions.",
+    "filters": {
+      "difficulties": ["easy"]
+    },
+    "guidance": [
+      "Start with stable machines such as leg press, chest press, seated row, leg curl, and simple cardio machines.",
+      "Practice setup and controlled reps before chasing heavier loads."
+    ],
+    "caution": "A machine is only beginner-friendly if the seat, pads, and starting position can be set comfortably.",
+    "source_note_ids": ["workout-help", "machine-setup-help"]
+  },
+  {
+    "id": "tired-day-workout",
+    "question_patterns": ["what should i do if im tired", "tired workout", "low energy workout", "workout when tired"],
+    "topic": "tired-day",
+    "category": "workout",
+    "intro": "On a tired day, use a lower-pressure session instead of forcing a maximal workout.",
+    "filters": {
+      "difficulties": ["easy"],
+      "focuses": ["fitness", "upper", "lower"]
+    },
+    "guidance": [
+      "Choose easy cardio, lighter machine work, or fewer total sets.",
+      "Keep the goal as movement quality and consistency, not personal records."
+    ],
+    "caution": "If tiredness comes with dizziness, chest pain, fainting, illness, or unusual symptoms, skip the workout and get appropriate guidance.",
+    "source_note_ids": ["workout-help", "chatbot-boundaries"]
+  },
+  {
+    "id": "increase-weight-progression",
+    "question_patterns": ["when should i increase weight", "how to progress weights", "when to add weight", "increase gym weight"],
+    "topic": "progression",
+    "category": "workout",
+    "intro": "Increase weight only after the current load feels controlled and repeatable.",
+    "filters": {
+      "difficulties": ["easy"]
+    },
+    "guidance": [
+      "Add load when you can complete the target reps with clean form, stable setup, and no joint discomfort.",
+      "Use small increases and keep one or two reps in reserve instead of jumping straight to a hard set."
+    ],
+    "caution": "If form breaks, range shortens, or joints take over, stay at the current load or reduce it.",
+    "source_note_ids": ["workout-help", "machine-troubleshooting"]
+  },
+  {
+    "id": "sets-and-reps",
+    "question_patterns": ["how many sets should i do", "how many reps should i do", "sets and reps", "what rep range should i use"],
+    "topic": "sets-reps",
+    "category": "workout",
+    "intro": "For a simple starting point, use 2 to 3 controlled sets per movement.",
+    "filters": {
+      "difficulties": ["easy"]
+    },
+    "guidance": [
+      "Most machine strength work can start around 8 to 12 controlled reps.",
+      "For beginners, clean setup and repeatable form matter more than perfect rep math."
+    ],
+    "caution": "Stop the set before form slips or joint pressure builds.",
+    "source_note_ids": ["workout-help"]
+  },
+  {
+    "id": "sore-day-training",
+    "question_patterns": ["what if im sore", "workout when sore", "should i train sore", "sore after workout"],
+    "topic": "soreness",
+    "category": "workout",
+    "intro": "Mild muscle soreness can often be handled with easier movement, but sharp pain is different.",
+    "filters": {
+      "focuses": ["fitness"]
+    },
+    "guidance": [
+      "Use light cardio, mobility, or train a less-sore area if movement feels normal.",
+      "Avoid heavy loading the same sore area if range of motion or control is clearly worse."
+    ],
+    "caution": "Sharp, worsening, one-sided, or joint-based pain should not be treated as normal soreness.",
+    "source_note_ids": ["workout-help", "chatbot-boundaries"]
+  },
+  {
+    "id": "cardio-effort",
+    "question_patterns": ["how hard should cardio feel", "cardio intensity", "what pace for cardio", "how intense should cardio be"],
+    "topic": "cardio-effort",
+    "category": "workout",
+    "intro": "Most cardio sessions should feel repeatable rather than all-out.",
+    "filters": {
+      "focuses": ["fitness", "weightloss"]
+    },
+    "guidance": [
+      "Use a pace where breathing is elevated but controlled for steady sessions.",
+      "Save harder intervals for days when recovery, joints, and energy are good."
+    ],
+    "caution": "Chest pain, fainting, severe dizziness, or unusual breathlessness needs medical guidance.",
+    "source_note_ids": ["workout-help", "chatbot-boundaries"]
   }
 ]

@@ -172,5 +172,305 @@
       "high-triglycerides": ["raw mango"]
     },
     "source_note_ids": ["tamarind-substitutions", "when-not-to-swap-ingredients"]
+  },
+  {
+    "id": "white-rice-substitutions",
+    "target": "white rice",
+    "aliases": ["white rice", "plain rice", "rice"],
+    "category": "grain",
+    "best_swaps": ["brown rice", "red rice", "foxtail millet", "little millet", "barnyard millet"],
+    "best_pick": "brown rice",
+    "works_well_for": ["rice bowls", "sambar rice style meals", "rasam rice style meals", "curd rice style meals"],
+    "changes": [
+      "brown rice and red rice keep the meal closest to a rice-based plate",
+      "millets make the meal lighter and less chewy",
+      "water ratio and cooking time usually change"
+    ],
+    "caution": "For batter-driven dishes, do not treat cooked rice swaps as equal to changing the grain in the batter.",
+    "prefer_for_goals": {
+      "pcos": ["foxtail millet", "little millet", "brown rice"],
+      "high-triglycerides": ["brown rice", "red rice", "barnyard millet", "foxtail millet"]
+    },
+    "source_note_ids": ["grain-and-starch-substitutions", "common-ingredient-swap-pack", "when-not-to-swap-ingredients"]
+  },
+  {
+    "id": "red-rice-substitutions",
+    "target": "red rice",
+    "aliases": ["red rice", "matta rice"],
+    "category": "grain",
+    "best_swaps": ["brown rice", "foxtail millet", "little millet", "barnyard millet", "quinoa"],
+    "best_pick": "brown rice",
+    "works_well_for": ["rice-style sides", "grain bowls", "lunch plates"],
+    "changes": [
+      "brown rice is closest for a chewy whole-grain feel",
+      "millets are lighter and usually cook faster",
+      "quinoa changes the flavor more than rice-to-rice swaps"
+    ],
+    "caution": "The swap changes texture and cooking time even when the plate still works.",
+    "prefer_for_goals": {
+      "pcos": ["foxtail millet", "little millet", "quinoa"],
+      "high-triglycerides": ["brown rice", "foxtail millet", "barnyard millet"]
+    },
+    "source_note_ids": ["grain-and-starch-substitutions", "common-ingredient-swap-pack"]
+  },
+  {
+    "id": "millet-substitutions",
+    "target": "millet",
+    "aliases": ["millet", "millets", "foxtail millet", "little millet", "barnyard millet", "kodo millet", "thinai", "samai", "kuthiraivali"],
+    "category": "grain",
+    "best_swaps": ["brown rice", "red rice", "quinoa", "broken wheat", "rolled oats"],
+    "best_pick": "brown rice",
+    "works_well_for": ["grain bowls", "pongal-style dishes", "upma-style dishes", "kanji"],
+    "changes": [
+      "rice swaps are usually chewier and heavier than millets",
+      "quinoa cooks fast but has a different flavor",
+      "oats work better in soft breakfasts than in rice-style plates"
+    ],
+    "caution": "Different millets absorb water differently, so cook time and softness need checking.",
+    "prefer_for_goals": {
+      "pcos": ["quinoa", "rolled oats", "brown rice"],
+      "high-triglycerides": ["brown rice", "red rice", "quinoa"]
+    },
+    "source_note_ids": ["grain-and-starch-substitutions", "ingredient-substitution-decision-guide"]
+  },
+  {
+    "id": "rolled-oats-substitutions",
+    "target": "rolled oats",
+    "aliases": ["rolled oats", "oats", "oatmeal"],
+    "category": "grain",
+    "best_swaps": ["broken wheat", "ragi", "foxtail millet", "little millet", "poha"],
+    "best_pick": "broken wheat",
+    "works_well_for": ["porridge", "kanji", "upma-style breakfasts", "soft breakfast bowls"],
+    "changes": [
+      "broken wheat keeps a soft breakfast feel with more chew",
+      "ragi gives a stronger earthy flavor",
+      "poha cooks lighter and faster but is less filling"
+    ],
+    "caution": "Oats thicken liquid strongly, so grain swaps may need less water or a different cooking method.",
+    "prefer_for_goals": {
+      "pcos": ["broken wheat", "ragi", "foxtail millet"],
+      "high-triglycerides": ["broken wheat", "ragi", "little millet"]
+    },
+    "source_note_ids": ["grain-and-starch-substitutions", "common-ingredient-swap-pack"]
+  },
+  {
+    "id": "toor-dal-substitutions",
+    "target": "toor dal",
+    "aliases": ["toor dal", "tuvar dal", "arhar dal"],
+    "category": "legume",
+    "best_swaps": ["moong dal", "split moong dal", "chana dal", "masoor dal"],
+    "best_pick": "moong dal",
+    "works_well_for": ["dal", "sambar-style dishes", "kootu", "rasam-style dal base"],
+    "changes": [
+      "moong dal cooks softer and milder",
+      "chana dal stays firmer and nuttier",
+      "the final body of sambar or dal can change"
+    ],
+    "caution": "In recipes where toor dal defines the flavor and thickness, the result will still taste different.",
+    "prefer_for_goals": {
+      "pcos": ["moong dal", "chana dal"],
+      "high-triglycerides": ["moong dal", "chana dal"]
+    },
+    "source_note_ids": ["legume-and-protein-substitutions", "ingredient-substitution-decision-guide"]
+  },
+  {
+    "id": "chana-dal-substitutions",
+    "target": "chana dal",
+    "aliases": ["chana dal", "bengal gram dal", "kadalai paruppu"],
+    "category": "legume",
+    "best_swaps": ["toor dal", "moong dal", "split moong dal", "black chana"],
+    "best_pick": "toor dal",
+    "works_well_for": ["kootu", "dal-style dishes", "sundal-style dishes", "poricha-style dishes"],
+    "changes": [
+      "toor dal becomes softer and more sambar-like",
+      "moong dal is milder and less nutty",
+      "black chana needs longer cooking and gives a firmer bite"
+    ],
+    "caution": "Chana dal gives firmness and nuttiness, so softer dals can make the dish feel less textured.",
+    "prefer_for_goals": {
+      "pcos": ["black chana", "toor dal", "moong dal"],
+      "high-triglycerides": ["black chana", "toor dal", "moong dal"]
+    },
+    "source_note_ids": ["legume-and-protein-substitutions", "common-ingredient-swap-pack"]
+  },
+  {
+    "id": "okra-substitutions",
+    "target": "okra",
+    "aliases": ["okra", "vendakkai", "ladies finger", "lady finger"],
+    "category": "vegetable",
+    "best_swaps": ["brinjal", "snake gourd", "ridge gourd", "chayote"],
+    "best_pick": "brinjal",
+    "works_well_for": ["kuzhambu", "sambar", "poriyal-style dishes"],
+    "changes": [
+      "brinjal gives body but not okra's slight thickening",
+      "gourds are lighter and more watery",
+      "the dish loses okra's slippery texture"
+    ],
+    "caution": "If okra is used to thicken the dish, the substitute may make the gravy looser.",
+    "prefer_for_goals": {
+      "pcos": ["brinjal", "ridge gourd", "chayote"],
+      "high-triglycerides": ["brinjal", "snake gourd", "ridge gourd"]
+    },
+    "source_note_ids": ["vegetable-substitutions", "ingredient-substitution-decision-guide"]
+  },
+  {
+    "id": "brinjal-substitutions",
+    "target": "brinjal",
+    "aliases": ["brinjal", "eggplant", "aubergine", "kathirikai"],
+    "category": "vegetable",
+    "best_swaps": ["okra", "ridge gourd", "pumpkin", "chayote"],
+    "best_pick": "ridge gourd",
+    "works_well_for": ["kuzhambu", "sambar", "gothsu-style dishes"],
+    "changes": [
+      "ridge gourd and chayote are lighter and less creamy",
+      "pumpkin adds sweetness",
+      "okra changes the texture and can thicken the dish"
+    ],
+    "caution": "Brinjal gives softness and body, so the substitute can make the dish feel lighter or sweeter.",
+    "prefer_for_goals": {
+      "pcos": ["ridge gourd", "chayote", "okra"],
+      "high-triglycerides": ["ridge gourd", "chayote", "okra"]
+    },
+    "source_note_ids": ["vegetable-substitutions"]
+  },
+  {
+    "id": "pumpkin-substitutions",
+    "target": "pumpkin",
+    "aliases": ["pumpkin", "parangikai"],
+    "category": "vegetable",
+    "best_swaps": ["sweet potato", "carrot", "bottle gourd", "ash gourd"],
+    "best_pick": "carrot",
+    "works_well_for": ["kootu", "sambar", "stew", "soup"],
+    "changes": [
+      "carrot keeps sweetness with a firmer bite",
+      "sweet potato is heavier and starchier",
+      "bottle gourd and ash gourd are lighter and less sweet"
+    ],
+    "caution": "Pumpkin adds sweetness and body, so watery vegetables may need a thicker dal or gravy base.",
+    "prefer_for_goals": {
+      "pcos": ["carrot", "bottle gourd", "ash gourd"],
+      "high-triglycerides": ["carrot", "bottle gourd", "ash gourd"]
+    },
+    "source_note_ids": ["vegetable-substitutions"]
+  },
+  {
+    "id": "carrot-substitutions",
+    "target": "carrot",
+    "aliases": ["carrot", "carrots"],
+    "category": "vegetable",
+    "best_swaps": ["pumpkin", "beetroot", "chayote", "beans"],
+    "best_pick": "pumpkin",
+    "works_well_for": ["sambar", "kootu", "upma", "poriyal-style dishes"],
+    "changes": [
+      "pumpkin keeps sweetness but becomes softer",
+      "beetroot changes color and earthy flavor",
+      "chayote and beans are less sweet"
+    ],
+    "caution": "Carrot is often a background vegetable, so choose the swap based on whether the dish needs sweetness, color, or crunch.",
+    "prefer_for_goals": {
+      "pcos": ["beans", "chayote", "pumpkin"],
+      "high-triglycerides": ["beans", "chayote", "pumpkin"]
+    },
+    "source_note_ids": ["vegetable-substitutions"]
+  },
+  {
+    "id": "sambar-powder-substitutions",
+    "target": "sambar powder",
+    "aliases": ["sambar powder", "sambhar powder"],
+    "category": "spice-mix",
+    "best_swaps": ["coriander powder plus chilli powder", "cumin seeds plus coriander powder", "choose a rasam-style direction"],
+    "best_pick": "coriander powder plus chilli powder",
+    "works_well_for": ["sambar-style dishes", "kuzhambu-style dishes", "dal bases"],
+    "changes": [
+      "the dish loses the full roasted spice blend",
+      "coriander and chilli cover some warmth but not the exact sambar profile",
+      "rasam-style seasoning can be better than pretending the flavor is identical"
+    ],
+    "caution": "This is a flavor workaround, not a true one-to-one replacement for sambar powder.",
+    "prefer_for_goals": {
+      "pcos": ["coriander powder plus chilli powder"],
+      "high-triglycerides": ["coriander powder plus chilli powder"]
+    },
+    "source_note_ids": ["aromatic-and-spice-substitutions", "ingredient-substitution-decision-guide"]
+  },
+  {
+    "id": "chilli-powder-substitutions",
+    "target": "chilli powder",
+    "aliases": ["chilli powder", "chili powder", "red chilli powder", "red chili powder"],
+    "category": "spice",
+    "best_swaps": ["dry red chilli", "green chilli", "black pepper"],
+    "best_pick": "dry red chilli",
+    "works_well_for": ["heat adjustment", "tempering", "chutney", "kuzhambu"],
+    "changes": [
+      "dry red chilli gives a deeper heat than green chilli",
+      "green chilli tastes fresher and sharper",
+      "black pepper gives warmth rather than chilli heat"
+    ],
+    "caution": "Adjust quantity slowly because different chilli forms do not match heat one-to-one.",
+    "prefer_for_goals": {
+      "pcos": ["dry red chilli", "green chilli"],
+      "high-triglycerides": ["dry red chilli", "green chilli"]
+    },
+    "source_note_ids": ["aromatic-and-spice-substitutions", "green-chilli-substitutions"]
+  },
+  {
+    "id": "mustard-seeds-substitutions",
+    "target": "mustard seeds",
+    "aliases": ["mustard seeds", "mustard seed", "kadugu"],
+    "category": "tempering",
+    "best_swaps": ["cumin seeds", "skip and use curry leaves", "choose a simpler tempering"],
+    "best_pick": "cumin seeds",
+    "works_well_for": ["tempering", "poriyal", "kootu", "upma"],
+    "changes": [
+      "cumin gives warmth but not mustard's sharp pop",
+      "skipping mustard makes the tempering less distinct",
+      "curry leaves can help keep aroma even without mustard"
+    ],
+    "caution": "Mustard seeds are small but distinctive, so the dish will taste simpler without them.",
+    "prefer_for_goals": {
+      "pcos": ["cumin seeds", "skip and use curry leaves"],
+      "high-triglycerides": ["cumin seeds", "skip and use curry leaves"]
+    },
+    "source_note_ids": ["aromatic-and-spice-substitutions"]
+  },
+  {
+    "id": "no-coconut-substitutions",
+    "target": "no coconut",
+    "aliases": ["without coconut", "no coconut", "coconut free", "coconut-free", "avoid coconut"],
+    "category": "fat",
+    "best_swaps": ["use less coconut and thicken with dal", "use a tomato-onion base", "choose a recipe that does not rely on coconut"],
+    "best_pick": "choose a recipe that does not rely on coconut",
+    "works_well_for": ["some curries", "some chutneys", "some stews"],
+    "changes": [
+      "dal can add body without coconut richness",
+      "tomato-onion bases taste sharper and less creamy",
+      "coconut-forward dishes may become a different meal"
+    ],
+    "caution": "If coconut is the identity of the dish, a different recipe is usually more accurate than a forced swap.",
+    "prefer_for_goals": {
+      "pcos": ["choose a recipe that does not rely on coconut", "use less coconut and thicken with dal"],
+      "high-triglycerides": ["choose a recipe that does not rely on coconut", "use less coconut and thicken with dal"]
+    },
+    "source_note_ids": ["coconut-substitutions", "high-triglycerides-ingredient-swap-pack", "when-not-to-swap-ingredients"]
+  },
+  {
+    "id": "no-curd-buttermilk-substitutions",
+    "target": "no curd or buttermilk",
+    "aliases": ["without curd", "without yogurt", "without yoghurt", "without buttermilk", "no curd", "no yogurt", "no buttermilk", "dairy free"],
+    "category": "dairy",
+    "best_swaps": ["use tamarind or raw mango for sourness", "use a dal-based gravy", "choose a non-curd recipe"],
+    "best_pick": "choose a non-curd recipe",
+    "works_well_for": ["some sour gravies", "some cooling sides", "some stews"],
+    "changes": [
+      "tamarind and raw mango add sourness but not dairy body",
+      "dal adds body but not the same tang",
+      "curd-based dishes lose their cooling character"
+    ],
+    "caution": "If curd or buttermilk is the main base, a non-curd recipe is usually better than a direct swap.",
+    "prefer_for_goals": {
+      "pcos": ["choose a non-curd recipe", "use a dal-based gravy"],
+      "high-triglycerides": ["choose a non-curd recipe", "use a dal-based gravy"]
+    },
+    "source_note_ids": ["low-fat-curd-substitutions", "dairy-coconut-and-sour-ingredient-substitutions", "when-not-to-swap-ingredients"]
   }
 ]

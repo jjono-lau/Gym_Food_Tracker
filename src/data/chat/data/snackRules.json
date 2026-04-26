@@ -10,7 +10,7 @@
       "nuts in a moderate portion"
     ],
     "why": "Snack answers should give 2 to 4 realistic options instead of broad lists.",
-    "caution": "When the vault lacks a dedicated snack recipe, use ingredient-based combinations instead of inventing a full recipe.",
+    "caution": "Simple ingredient combinations are more reliable here than inventing a full snack recipe that is not in the vault.",
     "source_note_ids": ["snack-suggestions"]
   },
   {
@@ -24,7 +24,7 @@
       "protein-supportive minimally processed snack"
     ],
     "why": "Filling snacks should combine fiber or fruit with something that gives more staying power.",
-    "caution": "The goal is satiety and practicality, not building a full extra meal.",
+    "caution": "The goal is satiety and practicality, not turning the snack into a full extra meal.",
     "source_note_ids": ["snack-suggestions"]
   }
 ]

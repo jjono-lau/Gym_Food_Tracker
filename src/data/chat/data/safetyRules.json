@@ -9,12 +9,19 @@
       "pancreatitis",
       "medication",
       "dose",
+      "dosage",
+      "blood test",
+      "lab result",
+      "test result",
+      "triglyceride number",
+      "cholesterol number",
       "fertility",
       "pregnan",
+      "trying to get pregnant",
       "emergency",
       "dizziness"
     ],
-    "response": "I can help with workouts, meals, ingredient swaps, machine setup help, and basic health education from your vault, but I should not diagnose urgent symptoms or replace clinician advice. If this is about chest pain, fainting, severe pain, pancreatitis symptoms, dizziness, medication changes, or fertility treatment decisions, please get medical guidance directly.",
+    "response": "I can help with workouts, meals, ingredient swaps, machine setup, and basic health education from your vault. For chest pain, fainting, severe pain, pancreatitis symptoms, dizziness, medication changes, or fertility treatment decisions, get medical guidance directly.",
     "source_note_ids": ["chatbot-boundaries"]
   }
 ]

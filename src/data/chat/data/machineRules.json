@@ -9,7 +9,7 @@
       "Set the machine first, then check body position with feet planted and contact where expected.",
       "Notice what each setting changes before adding more load."
     ],
-    "caution": "Do not sound certain about a specific machine model the bot cannot see, because real gym setups differ.",
+    "caution": "Real gym setups differ, so match these cues to the actual machine model in front of the user.",
     "source_note_ids": ["machine-setup-help"]
   },
   {
@@ -166,6 +166,45 @@
       "Reduce the load and exhale into the crunch instead of yanking with the neck or throwing the torso forward."
     ],
     "caution": "If you mainly feel neck strain or pinching through the hips, stop and reset before doing more reps.",
+    "source_note_ids": ["machine-troubleshooting", "chatbot-boundaries"]
+  },
+  {
+    "id": "shoulder-press-troubleshooting",
+    "question_patterns": ["why does shoulder press hurt", "shoulder press pinching", "shoulder press feels wrong", "shoulder press in neck"],
+    "topic": "shoulder press troubleshooting",
+    "category": "equipment",
+    "short_answer": "Shoulder press often feels wrong when the seat height, handle path, or shoulder position makes you shrug or press from an awkward angle.",
+    "steps": [
+      "Set the seat so the handles start around shoulder level and keep the ribs down instead of arching hard.",
+      "Use a lighter load and stop the set if you feel pinching, sharp pain, or pressure that does not improve with setup."
+    ],
+    "caution": "Shoulder pinching is not something to force through; choose a friendlier press or get help if it keeps happening.",
+    "source_note_ids": ["machine-troubleshooting", "chatbot-boundaries"]
+  },
+  {
+    "id": "treadmill-troubleshooting",
+    "question_patterns": ["treadmill hurts", "treadmill feels wrong", "treadmill knee pain", "treadmill shin pain", "treadmill dizzy"],
+    "topic": "treadmill troubleshooting",
+    "category": "equipment",
+    "short_answer": "Treadmill discomfort often comes from pace, incline, stride, footwear, or doing too much too soon.",
+    "steps": [
+      "Lower speed or incline first and use a pace where your stride stays relaxed.",
+      "If pain builds, switch to a lower-impact option like bike or cross trainer for the day."
+    ],
+    "caution": "Dizziness, chest pain, fainting, or sharp pain on the treadmill needs stopping and getting appropriate guidance.",
+    "source_note_ids": ["machine-troubleshooting", "chatbot-boundaries"]
+  },
+  {
+    "id": "cross-trainer-troubleshooting",
+    "question_patterns": ["cross trainer hurts", "cross trainer feels wrong", "elliptical feels wrong", "elliptical knee pain", "cross trainer knee pain"],
+    "topic": "cross trainer troubleshooting",
+    "category": "equipment",
+    "short_answer": "Cross trainer discomfort often comes from stride path, resistance, posture, or pushing through the toes too hard.",
+    "steps": [
+      "Lower resistance, stand tall, and keep pressure through the whole foot instead of only the toes.",
+      "If knees or hips feel awkward, shorten the stride effort or choose bike or treadmill walking instead."
+    ],
+    "caution": "If joint pain keeps repeating after reducing resistance and adjusting posture, stop forcing that machine.",
     "source_note_ids": ["machine-troubleshooting", "chatbot-boundaries"]
   },
   {

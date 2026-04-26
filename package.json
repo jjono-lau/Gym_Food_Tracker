@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "test:chatbot": "node scripts/chatResponderSmoke.mjs",
     "build:static": "next build",
     "deploy": "npm run build:static && gh-pages -d out --nojekyll"
   },

@@ -59,6 +59,7 @@ function FloatingChatbot() {
   const [isResponding, setIsResponding] = useState(false);
   const inputId = useId();
   const latestAssistantMessageRef = useRef(null);
+  const showDebugTrace = process.env.NODE_ENV !== "production";
 
   useEffect(() => {
     const latestMessage = messages[messages.length - 1];
@@ -105,7 +106,7 @@ function FloatingChatbot() {
           facts: reply.facts,
           sources: reply.sources,
           debug: reply.debug,
-        },
+        }
       ]);
       setIsResponding(false);
     }, 280);
@@ -124,40 +125,38 @@ function FloatingChatbot() {
           >
             <div className="relative flex min-h-0 w-full flex-col overflow-hidden rounded-[28px]">
               <div
-                className="pointer-events-none absolute inset-x-0 top-0 h-24 bg-gradient-to-r from-pink/85 via-lavender/80 to-sage/75"
+                className="pointer-events-none absolute inset-x-0 top-0 h-16 bg-gradient-to-r from-pink/85 via-lavender/80 to-sage/75"
                 aria-hidden
               />
-              <div className="relative flex shrink-0 items-start justify-between gap-3 p-4 pb-3 sm:gap-4 sm:p-5 sm:pb-4">
-                <div className="flex items-center gap-3">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-ink text-cream shadow-lg shadow-pink/30 sm:h-11 sm:w-11">
-                    <Sparkles size={18} />
+              <div className="relative flex shrink-0 items-center justify-between gap-3 px-4 py-3 sm:px-4 sm:py-3">
+                <div className="flex min-w-0 items-center gap-2.5">
+                  <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-ink text-cream shadow-lg shadow-pink/30">
+                    <Sparkles size={15} />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-semibold text-ink">GlowUp chat</p>
-                    <p className="truncate text-xs text-muted">WebLLM-ready assistant shell</p>
                   </div>
                 </div>
                 <button
                   type="button"
                   onClick={closeChat}
-                  className="rounded-full border border-white/70 bg-white/80 p-2 text-muted transition hover:text-ink"
+                  className="rounded-full border border-white/70 bg-white/80 p-1.5 text-muted transition hover:text-ink"
                   aria-label="Close chat"
                 >
                   <X size={16} />
                 </button>
               </div>
 
-              <div className="flex min-h-0 flex-1 flex-col gap-3 px-3 pb-3 sm:px-4 sm:pb-4">
-                <div className="flex min-h-0 flex-1 flex-col rounded-[24px] border border-white/70 bg-cream/90 p-3">
-                  <div className="mb-3 flex shrink-0 items-center justify-between gap-2">
-                    <span className="min-w-0 truncate rounded-full bg-white px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.08em] text-muted sm:text-[11px] sm:tracking-[0.14em]">
-                      Local knowledge chat
+              <div className="flex min-h-0 flex-1 flex-col gap-2.5 px-3 pb-3 sm:px-4 sm:pb-4">
+                <div className="flex min-h-0 flex-1 flex-col rounded-[20px] border border-white/70 bg-cream/90 p-2.5">
+                  <div className="mb-2 flex shrink-0 items-center justify-between gap-2">
+                    <span className="min-w-0 truncate rounded-full bg-white px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.08em] text-muted">
+                      Glow Up Girly Bot
                     </span>
-                    <span className="shrink-0 text-[10px] font-medium text-muted sm:text-[11px]">
-                      pre-WebLLM mode
+                    <span className="shrink-0 text-[10px] font-medium text-muted">
+                      Slay queen
                     </span>
                   </div>
-
                   <div className="min-h-0 flex-1 space-y-3 overflow-y-auto pr-1">
                     {messages.map((message) => (
                       <div
@@ -175,6 +174,15 @@ function FloatingChatbot() {
                         }`}
                       >
                         <span className="whitespace-pre-line">{message.text}</span>
+                        {showDebugTrace && message.role === "assistant" && message.debug ? (
+                          <span className="mt-2 block border-t border-ink/10 pt-1.5 text-[10px] leading-snug text-muted">
+                            Dev: {message.intent ?? "unknown"} / {message.answerType ?? "unknown"}
+                            {message.facts?.detailLevel ? ` / ${message.facts.detailLevel}` : ""}
+                            {message.facts?.mealRuleId ? ` / ${message.facts.mealRuleId}` : ""}
+                            {message.facts?.faqId ? ` / ${message.facts.faqId}` : ""}
+                            {message.facts?.fallbackReason ? ` / ${message.facts.fallbackReason}` : ""}
+                          </span>
+                        ) : null}
                       </div>
                     ))}
                     {isResponding ? (
@@ -185,7 +193,7 @@ function FloatingChatbot() {
                   </div>
                 </div>
 
-                <div className="shrink-0 rounded-[24px] border border-white/70 bg-white/90 p-3">
+                <div className="shrink-0 rounded-[20px] border border-white/70 bg-white/90 p-2.5">
                   <label htmlFor={inputId} className="sr-only">
                     Message the assistant
                   </label>
@@ -199,15 +207,11 @@ function FloatingChatbot() {
                         submitMessage();
                       }
                     }}
-                    rows={3}
+                    rows={2}
                     placeholder="Ask about workouts, meals, or healthy habits..."
-                    className="max-h-28 w-full resize-none rounded-2xl border border-ink/10 bg-cream/70 px-4 py-3 text-sm text-ink outline-none transition placeholder:text-muted focus:border-peach"
+                    className="max-h-24 w-full resize-none rounded-2xl border border-ink/10 bg-cream/70 px-3.5 py-2.5 text-sm text-ink outline-none transition placeholder:text-muted focus:border-peach"
                   />
-                  <div className="mt-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                    <p className="text-xs text-muted sm:max-w-[12rem]">
-                      Real local replies now. WebLLM can replace the reply engine later.
-                    </p>
-                    <div className="flex shrink-0 items-center justify-end gap-2">
+                  <div className="mt-2 flex items-center justify-end gap-2">
                       <button
                         type="button"
                         onClick={closeChat}
@@ -223,7 +227,6 @@ function FloatingChatbot() {
                       >
                         Send
                       </button>
-                    </div>
                   </div>
                 </div>
               </div>

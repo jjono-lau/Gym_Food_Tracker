@@ -5,12 +5,12 @@
     "topic": "3-day-workout",
     "category": "plan",
     "outline": [
-      "Day 1: lower-body machines plus short easy cardio",
-      "Day 2: upper-body machines plus short easy cardio",
-      "Day 3: cardio-focused session with one or two simple accessories"
+      "Day 1: lower-body machines, 2 to 3 controlled sets each, plus 10 to 15 minutes easy cardio",
+      "Day 2: upper-body machines, 2 to 3 controlled sets each, plus 10 to 15 minutes easy cardio",
+      "Day 3: 25 to 35 minutes steady cardio with one or two simple accessories"
     ],
     "why": "Simple plans should stay repeatable and avoid overwhelming the user with too many moving parts.",
-    "caution": "Treat the plan as a starting structure and adjust volume gradually.",
+    "caution": "Treat this as a starting structure; increase load, sets, or cardio minutes gradually rather than changing everything at once.",
     "source_note_ids": ["workout-help"]
   },
   {
@@ -19,13 +19,133 @@
     "topic": "day-of-eating",
     "category": "plan",
     "outline": [
-      "Breakfast: one repeatable higher-fiber balanced option",
-      "Lunch: a whole-grain plus legumes or protein-supportive bowl",
-      "Dinner: a practical lighter evening meal",
-      "Snack: one simple filling option if needed"
+      "Breakfast: a repeatable higher-fiber option with protein support",
+      "Lunch: a whole grain or millet base with legumes, dal, or another protein-supportive side",
+      "Dinner: a practical lighter evening meal with vegetables and enough volume to feel complete",
+      "Snack: one simple filling option if needed, such as fruit with yogurt or a moderate nuts portion"
     ],
     "why": "Day plans should give a usable shape rather than pretending there is one perfect menu.",
-    "caution": "Use the plan as a practical template and swap meals according to the user goal.",
+    "caution": "Use this as a template and swap meals according to the user's goal, appetite, and available recipes.",
+    "source_note_ids": ["meal-suggestions", "snack-suggestions"]
+  },
+  {
+    "id": "four-day-workout-plan",
+    "question_patterns": ["give me a 4 day routine", "4 day workout plan", "four day workout plan", "4 day gym plan"],
+    "topic": "4-day-workout",
+    "category": "plan",
+    "outline": [
+      "Day 1: lower body machines with leg press, leg curl, and leg extension",
+      "Day 2: upper body machines with chest press, seated row, and shoulder press",
+      "Day 3: steady cardio for 25 to 35 minutes plus core",
+      "Day 4: full-body repeat with lighter loads and clean technique"
+    ],
+    "why": "Four-day plans should split the week without making every session intense.",
+    "caution": "Keep at least one easier day so the week stays repeatable.",
+    "source_note_ids": ["workout-help"]
+  },
+  {
+    "id": "beginner-weekly-gym-plan",
+    "question_patterns": ["beginner weekly gym plan", "weekly gym plan for beginner", "beginner workout week", "starter weekly workout"],
+    "topic": "beginner-week",
+    "category": "plan",
+    "outline": [
+      "Session 1: full-body machines, 2 sets each, then easy cardio",
+      "Session 2: steady cardio and simple core work",
+      "Session 3: full-body machines again, using the same movements to practice setup",
+      "Optional Session 4: light walk, bike, or cross trainer only"
+    ],
+    "why": "Beginners usually improve faster when they repeat simple movements instead of changing everything daily.",
+    "caution": "Start with loads that leave clean reps in reserve and increase only after the setup feels consistent.",
+    "source_note_ids": ["workout-help", "machine-setup-help"]
+  },
+  {
+    "id": "pcos-weekly-workout-plan",
+    "question_patterns": ["pcos weekly workout plan", "weekly workout for pcos", "pcos gym week", "pcos weekly routine"],
+    "topic": "pcos-week",
+    "category": "plan",
+    "outline": [
+      "Two full-body strength days using machines and controlled sets",
+      "Two moderate cardio days using treadmill, bike, cross trainer, or walking",
+      "One optional light movement day if recovery feels good",
+      "Keep sleep, recovery, and consistency as part of the plan"
+    ],
+    "why": "PCOS-focused training should combine strength, aerobic work, and recovery rather than chasing extreme intensity.",
+    "caution": "Progress gradually and keep the plan repeatable across weeks.",
+    "source_note_ids": ["what-exercise-helps-pcos-faq", "workout-help"]
+  },
+  {
+    "id": "triglycerides-weekly-workout-plan",
+    "question_patterns": ["high triglycerides weekly workout plan", "weekly workout for triglycerides", "triglycerides gym week", "weekly cardio plan triglycerides"],
+    "topic": "triglycerides-week",
+    "category": "plan",
+    "outline": [
+      "Aim for several moderate cardio sessions across the week rather than one hard session",
+      "Use treadmill, bike, cross trainer, or stair climber at a repeatable pace",
+      "Add two simple strength sessions with leg press, chest press, seated row, and shoulder press",
+      "Keep long inactive gaps as low as practical"
+    ],
+    "why": "Triglyceride-focused exercise works best as a regular weekly habit pattern.",
+    "caution": "Chest pain, fainting, severe dizziness, or medically complex cases need medical guidance before exercise planning.",
+    "source_note_ids": ["what-exercise-helps-high-triglycerides-faq", "chatbot-boundaries"]
+  },
+  {
+    "id": "pcos-day-of-eating",
+    "question_patterns": ["pcos day of eating", "day of eating for pcos", "pcos meal plan day", "what should i eat today for pcos"],
+    "topic": "pcos-day-eating",
+    "category": "plan",
+    "outline": [
+      "Breakfast: higher-fiber breakfast with protein support, such as dal, oats, ragi, or millet-based options",
+      "Lunch: vegetables plus legumes or dal with a whole grain or millet base",
+      "Dinner: lighter balanced meal that still includes fiber and enough volume",
+      "Snack: fruit with yogurt or another filling minimally processed option if needed"
+    ],
+    "why": "PCOS day plans should focus on repeatable meal patterns, not a perfect diet.",
+    "caution": "Use this as a practical template and adjust around appetite, symptoms, and clinician advice.",
+    "source_note_ids": ["what-should-i-eat-for-pcos-faq", "meal-suggestions"]
+  },
+  {
+    "id": "triglycerides-day-of-eating",
+    "question_patterns": ["high triglycerides day of eating", "day of eating for triglycerides", "triglycerides meal plan day", "what should i eat today for triglycerides"],
+    "topic": "triglycerides-day-eating",
+    "category": "plan",
+    "outline": [
+      "Breakfast: savory higher-fiber option instead of a sugary breakfast",
+      "Lunch: vegetables, legumes or dal, and a whole grain or millet base",
+      "Dinner: lighter meal with vegetables and protein support",
+      "Snack: simple filling option without turning it into a dessert-style snack"
+    ],
+    "why": "Triglyceride-focused day plans should reduce added sugar and refined carbohydrates while keeping meals realistic.",
+    "caution": "Alcohol and medication questions need direct clinician guidance when triglycerides are the concern.",
+    "source_note_ids": ["what-should-i-eat-for-high-triglycerides-faq", "meal-suggestions", "chatbot-boundaries"]
+  },
+  {
+    "id": "light-meal-day",
+    "question_patterns": ["light meal day", "simple light day of eating", "lighter day of meals", "light food today"],
+    "topic": "light-day",
+    "category": "plan",
+    "outline": [
+      "Breakfast: soft breakfast such as idli, kanji, oats, or millet upma",
+      "Lunch: rasam, dal, kootu, or a vegetable-led bowl with a moderate grain base",
+      "Dinner: soup, stew, kichadi, or another lighter complete meal",
+      "Snack: fruit with yogurt or a small filling snack only if needed"
+    ],
+    "why": "Light day plans should feel gentle without becoming too minimal.",
+    "caution": "A light day should still include enough fluid, fiber, and protein support to be useful.",
+    "source_note_ids": ["meal-suggestions", "snack-suggestions"]
+  },
+  {
+    "id": "higher-protein-day",
+    "question_patterns": ["higher protein day", "high protein day of eating", "protein meal plan day", "day of high protein meals"],
+    "topic": "higher-protein-day",
+    "category": "plan",
+    "outline": [
+      "Breakfast: dal, pesarattu, oats, ragi, or another breakfast with stronger protein support",
+      "Lunch: legume, dal, or bean-based meal with vegetables and a whole grain or millet",
+      "Dinner: lighter protein-supportive meal instead of only a plain grain dish",
+      "Snack: yogurt, fruit with a protein side, or a moderate nuts portion if needed"
+    ],
+    "why": "Higher-protein day plans should distribute protein support across meals instead of relying on one meal.",
+    "caution": "Keep the day balanced with fiber-rich carbohydrates and vegetables, not only protein numbers.",
     "source_note_ids": ["meal-suggestions", "snack-suggestions"]
   }
 ]
